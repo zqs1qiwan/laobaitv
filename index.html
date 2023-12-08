@@ -31,9 +31,9 @@
       color: #666;
     }
     img {
-      width: 1280px; /* 设置图片宽度 */
-      height: 720px; /* 设置图片高度 */
-      object-fit: cover; /* 保持纵横比例，裁剪图片以填充指定大小的框 */
+      width: 100%; /* Adjusted width for responsiveness */
+      height: auto; /* Maintain aspect ratio */
+      object-fit: cover; /* Keep image proportions within container */
       margin-top: 10px;
     }
     .configuration img.configuration {
@@ -43,10 +43,15 @@
       margin-top: 10px;
     }
     @media (max-width: 768px) {
-      img {
-        width: 100%; /* 图片宽度占据整个屏幕 */
-        height: auto; /* 自动调整高度以保持纵横比例 */
+      body {
+        background-color: #fff; /* Adjust background color for smaller screens */
       }
+
+      img {
+        width: 100%; /* Image width should take full width on smaller screens */
+        height: auto;
+      }
+    }
   </style>
 </head>
 <body>
