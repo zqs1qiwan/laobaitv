@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -38,6 +40,7 @@
       height: auto; /* Maintain aspect ratio */
       object-fit: cover; /* Keep image proportions within container */
       margin-top: 10px;
+      cursor: pointer; /* Add cursor pointer for clickable effect */
     }
     .configuration img.configuration {
       display: block;
@@ -165,6 +168,24 @@
     </div>
     <div class="description">© 2023 老白TV版权所有
     </div>
+    <script>
+      // JavaScript to toggle fullscreen on image click
+      document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('img');
+        
+        images.forEach(img => {
+          img.addEventListener('click', function() {
+            if (!document.fullscreenElement) {
+              img.requestFullscreen();
+            } else {
+              if (document.exitFullscreen) {
+                document.exitFullscreen();
+              }
+            }
+          });
+        });
+      });
+    </script>
   </div>
 </body>
 </html>
