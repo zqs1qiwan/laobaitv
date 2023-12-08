@@ -42,21 +42,21 @@
       margin-top: 10px;
       cursor: pointer; /* Add cursor pointer for clickable effect */
     }
-    .configuration img.configuration {
-      display: block;
-      max-width: 100%;
-      height: auto;
-      margin-top: 10px;
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      justify-content: center;
+      align-items: center;
     }
-    @media (max-width: 768px) {
-      body {
-        background-color: #fff; /* Adjust background color for smaller screens */
-      }
-
-      img {
-        width: 100%; /* Image width should take full width on smaller screens */
-        height: auto;
-      }
+    .modal img {
+      width: 80%; /* Adjusted width for the modal image */
+      height: auto;
+      border-radius: 10px;
     }
   </style>
 </head>
@@ -168,21 +168,26 @@
     </div>
     <div class="description">© 2023 老白TV版权所有
     </div>
+    <div class="modal" id="imageModal">
+      <img id="modalImage">
+    </div>
+
     <script>
-      // JavaScript to toggle fullscreen on image click
       document.addEventListener('DOMContentLoaded', function() {
         const images = document.querySelectorAll('img');
-        
+
+        const modal = document.getElementById('imageModal');
+        const modalImage = document.getElementById('modalImage');
+
         images.forEach(img => {
           img.addEventListener('click', function() {
-            if (!document.fullscreenElement) {
-              img.requestFullscreen();
-            } else {
-              if (document.exitFullscreen) {
-                document.exitFullscreen();
-              }
-            }
+            modalImage.src = img.src;
+            modal.style.display = 'flex';
           });
+        });
+
+        modal.addEventListener('click', function() {
+          modal.style.display = 'none';
         });
       });
     </script>
