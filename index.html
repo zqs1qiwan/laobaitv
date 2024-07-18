@@ -10,37 +10,37 @@
       margin: 0;
       padding: 0;
     }
-    .panel {
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
       background-color: #fff;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      margin: 20px;
-      padding: 20px;
-      text-align: center; /* 让内容居中 */
-      max-width: 800px; /* Set a maximum width for the content container */
-      margin-left: auto;
-      margin-right: auto;
     }
     h1 {
       font-size: 32px;
       color: #333;
+      text-align: center;
     }
-    .big-title span {
+    .big-title {
       font-size: 48px;
       font-weight: bold;
       color: #0077b6;
+      text-align: center;
     }
-    .description {
-      margin-top: 10px;
+    .description, .configuration {
+      margin-top: 20px;
       font-size: 20px;
       color: #666;
+      line-height: 1.6;
     }
     img {
-      width: 100%; /* Adjusted width for responsiveness */
-      height: auto; /* Maintain aspect ratio */
-      object-fit: cover; /* Keep image proportions within container */
+      width: 100%;
+      height: auto;
       margin-top: 10px;
-      cursor: pointer; /* Add cursor pointer for clickable effect */
+      border-radius: 5px;
+      cursor: pointer;
     }
     .modal {
       display: none;
@@ -54,156 +54,135 @@
       align-items: center;
     }
     .modal img {
-      width: 80%; /* Adjusted width for the modal image */
+      width: 80%;
       height: auto;
       border-radius: 10px;
+    }
+    .download-links, .instructions, .steps {
+      list-style-type: none;
+      padding: 0;
+    }
+    .download-links li, .instructions li, .steps li {
+      margin-bottom: 10px;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
-  <div class="panel">
-    <h1 class="welcome">欢迎使用</h1>
-    <div class="big-title">
-      <span>老白TV</span>
-    </div>
-    <div class="description">需要的准备工作：
-      <br/>智能电视/智能机顶盒/安卓设备：Android 5.0及以上系统版本
-      <br/>IOS设备支持AppleTV及IPad/Mac：Infuse Pro
-      <br/>向安卓设备安装外部APP的介质：通过当贝市场/File Commander等投送，U盘安装等
-      <br/>
-    </div>
-    <div class="welcome-img">
-      <img src="/images/kodi/1.jpg" class="img-fluid"/>
+  <div class="container">
+    <h1>欢迎使用</h1>
+    <div class="big-title">老白TV</div>
+    <div class="description">
+      <p>需要的准备工作：</p>
+      <ul class="instructions">
+        <li>智能电视/智能机顶盒/安卓设备：Android 5.0及以上系统版本</li>
+        <li>IOS设备支持AppleTV及IPad/Mac：Infuse Pro</li>
+        <li>向安卓设备安装外部APP的介质：通过当贝市场/File Commander等投送，U盘安装等</li>
+      </ul>
     </div>
     <div class="description">
-      
-  <p>点击从老白服务器下载20.2版本KODI(19.5版本不再进行维护，仅供部分老旧机型使用) <a href="http://nasv4.laobaidajiji.com:5244/quark/%E8%80%81%E7%99%BDTV" target="_blank">老白TV网盘</a></p>
-  <p>拥有翻墙环境的同学，请直接按照此github教程进行插件安装，并开启对应的自动更新，无需看下面的安装步骤，安装完成直接跳转验证配置PLEX部分即可 <a href="https://forums.plex.tv/t/plexmod-for-kodi-18-19-20-21/481208" target="_blank">PLEX Installation</a></p>
-  <p>================无翻墙环境请按照以下安装，使用远程上传（不推荐）或是U盘安装（推荐）>================</p>
-  <p>（远程上传）需要下载的有几个关键文件。FileCommander破解版 <a href="http://nasv4.laobaidajiji.com:5244/d/quark/%E8%80%81%E7%99%BDTV/%5B%E4%BB%98%E8%B4%B9%E7%89%88%5DFile%20Commander_v8.18.48694.apk?sign=45mD1gaDUkSyLhxz-4juunuA2x3cPHnXppYMr3wAUiI=:0" target="_blank">FileCommander</a></p>
-  <p>需要下载的有几个关键文件。Plex插件ZIP （script.plexmod-版本号.zip 和 repository.dontpanic-版本号） <a href="http://nasv4.laobaidajiji.com:5244/quark/%E8%80%81%E7%99%BDTV/PLEX%E6%8F%92%E4%BB%B6KODI" target="_blank">Plex新版插件ZIP</a></p>
-  <p>如果安装完PLEX插件自动更新打不开或者无新版信息，请随时来此处查看是否有新的版本号，可以重新下载安装，直接升级</p>
+      <img src="/images/kodi/1.jpg" alt="Setup Image"/>
+      <p>点击从老白服务器下载20.2版本KODI(19.5版本不再进行维护，仅供部分老旧机型使用)</p>
+      <ul class="download-links">
+        <li><a href="http://nasv4.laobaidajiji.com:5244/quark/%E8%80%81%E7%99%BDTV" target="_blank">老白TV网盘</a></li>
+        <li><a href="https://forums.plex.tv/t/plexmod-for-kodi-18-19-20-21/481208" target="_blank">PLEX Installation</a></li>
+        <li><a href="http://nasv4.laobaidajiji.com:5244/d/quark/%E8%80%81%E7%99%BDTV/%5B%E4%BB%98%E8%B4%B9%E7%89%88%5DFile%20Commander_v8.18.48694.apk?sign=45mD1gaDUkSyLhxz-4juunuA2x3cPHnXppYMr3wAUiI=:0" target="_blank">FileCommander</a></li>
+        <li><a href="http://nasv4.laobaidajiji.com:5244/quark/%E8%80%81%E7%99%BDTV/PLEX%E6%8F%92%E4%BB%B6KODI" target="_blank">Plex新版插件ZIP</a></li>
+      </ul>
     </div>
-
-    <div class="description">==========KODI安装==========
-      <br/>【安装KODI 20.2】这个不多赘述了，查询下自己的设备怎么安装外部APK，有当贝市场什么应用市场的里面好像直接就有KODI可以搜到安装，自行完成KODI安装。
-      <br/>【准备插件，如果有翻墙环境的，看上面链接去PLEX Installation帖子学习一下，添加源，在KODI上完成安装dontpanickodi即可】
-      <br/>【如果没有U盘，靠当贝市场或者蚂蚁市场什么的无线安装的话】安装FileCommander，按照下图上传ZIP文件 （不推荐，除非完全没有U盘啥的）
-      <br/>【注意！注意！】如果有U盘，可以选择不需要安装FileCommander，把下载好的ZIP文件放到U盘中即可！U盘插电视最省事
-      <br/> =====无U盘硬折腾的这部分=====
+    <div class="description">
+      <h2>KODI安装步骤</h2>
+      <ol class="steps">
+        <li>安装KODI 20.2：查询设备如何安装外部APK。</li>
+        <li>准备插件：有翻墙环境的，参考上述链接。</li>
+        <li>无U盘安装FileCommander，通过无线上传ZIP文件。</li>
+        <li>有U盘的直接将ZIP文件放入U盘中。</li>
+      </ol>
+      <img src="/images/kodi/fc1.jpg" alt="FileCommander Setup"/>
+      <img src="/images/kodi/fc2.jpg" alt="FileCommander Setup"/>
+      <img src="/images/kodi/fc3.jpg" alt="FileCommander Setup"/>
+      <img src="/images/kodi/fc4.jpg" alt="FileCommander Setup"/>
     </div>
-    <div class="configuration">
-      <img src="/images/kodi/fc1.jpg"/>
+    <div class="description">
+      <h2>进入KODI进行配置</h2>
+      <img src="/images/kodi/2.jpg" alt="KODI Setup"/>
+      <p>进入KODI进行字体设置</p>
+      <img src="/images/kodi/3.jpg" alt="Font Settings"/>
+      <p>进入界面设置</p>
+      <img src="/images/kodi/4.jpg" alt="Interface Settings"/>
+      <p>选择字体设置，选择Arial Based</p>
+      <img src="/images/kodi/ab.webp" alt="Arial Based"/>
+      <p>选择区域设置，选择简体中文</p>
+      <img src="/images/kodi/5.jpg" alt="Simplified Chinese"/>
+      <img src="/images/kodi/cn.webp" alt="Simplified Chinese"/>
     </div>
-    <div class="configuration">
-      <img src="/images/kodi/fc2.jpg"/>
+    <div class="description">
+      <h2>给TV命名并配置PLEX</h2>
+      <img src="/images/kodi/name1.jpg" alt="Naming TV"/>
+      <img src="/images/kodi/name2.jpg" alt="Naming TV"/>
+      <img src="/images/kodi/name3.jpg" alt="Naming TV"/>
+      <p>进入设置主界面，选择插件下载</p>
+      <img src="/images/kodi/cj.jpg" alt="Plugin Download"/>
+      <p>选择从库中下载</p>
+      <img src="/images/kodi/ku.jpg" alt="Download from Repository"/>
+      <p>选择视频插件，并找到PLEX下载安装</p>
+      <img src="/images/kodi/sp.jpg" alt="PLEX Installation"/>
+      <img src="/images/kodi/p1.jpg" alt="PLEX Installation"/>
+      <img src="/images/kodi/p2.jpg" alt="PLEX Installation"/>
+      <p>删除官方库中的PLEX插件后，安装新的PLEX for KODI插件</p>
+      <img src="/images/kodi/new1.jpg" alt="New PLEX Plugin"/>
+      <img src="/images/kodi/new2.jpg" alt="New PLEX Plugin"/>
+      <img src="/images/kodi/new3.jpg" alt="New PLEX Plugin"/>
+      <img src="/images/kodi/new4.jpg" alt="New PLEX Plugin"/>
+      <img src="/images/kodi/new5.jpg" alt="New PLEX Plugin"/>
+      <img src="/images/kodi/new6.jpg" alt="New PLEX Plugin"/>
+      <p>PLEX插件安装完成，可以登录使用了</p>
+      <img src="/images/kodi/py2.jpg" alt="PLEX Plugin Installed"/>
+      <p>获得授权代码，联系老白登陆</p>
+      <img src="/images/kodi/d1.jpg" alt="Authorization Code"/>
+      <p>进入PLEX选择右上角用户名处设置Setting</p>
+      <img src="/images/kodi/newpz0.jpg" alt="PLEX Settings"/>
+      <img src="/images/kodi/newpz1.jpg" alt="PLEX Settings"/>
+      <img src="/images/kodi/newpz2.jpg" alt="PLEX Settings"/>
+      <img src="/images/kodi/newpz3.jpg" alt="PLEX Settings"/>
+      <img src="/images/kodi/newpz4.jpg" alt="PLEX Settings"/>
+      <img src="/images/kodi/newpz5.jpg" alt="PLEX Settings"/>
+      <img src="/images/kodi/newpz6.jpg" alt="PLEX Settings"/>
+      <img src="/images/kodi/newpz7.jpg" alt="PLEX Settings"/>
+      <p>如图进行PLEX配置。</p>
     </div>
-    <div class="configuration">
-      <img src="/images/kodi/fc3.jpg"/>
+    <div class="description">
+      <p>ENJOY！现在你开关KODI软件即可，PLEX会在打开KODI后自动运行加载老白TV！</p>
     </div>
-    <div class="configuration">
-      <img src="/images/kodi/fc4.jpg"/>
-    </div>
-    <div class="description">使用FileCommander上传好ZIP文件，如果是有U盘的情况，直接ZIP放U盘插电视即可。不需要这么麻烦
-    </div>
-    <div class="description">=====无U盘硬折腾的这部分完毕=====
-    </div>
-    <div class="configuration">
-      <img src="/images/kodi/2.jpg"/>
-    </div>
-    <div class="description">进入KODI进行字体设置
-    </div>
-    <img src="/images/kodi/3.jpg" class="configuration"/>
-    <div class="description">进入界面设置
-    </div>
-    <img src="/images/kodi/4.jpg" class="configuration"/>
-    <div class="description">选择字体设置，选择Arial Based
-    </div>
-    <img src="/images/kodi/ab.webp" class="configuration"/>
-    <div class="description">选择区域设置，选择简体中文
-    </div>
-    <img src="/images/kodi/5.jpg" class="configuration"/>
-    <img src="/images/kodi/cn.webp" class="configuration"/>
-    <div class="description">【我们来给自己的TV命名，方便老白后续支持！！】
-    </div>
-    <img src="/images/kodi/name1.jpg" class="configuration"/>
-    <img src="/images/kodi/name2.jpg" class="configuration"/>
-    <img src="/images/kodi/name3.jpg" class="configuration"/>
-
-    <div class="description">返回设置主界面，选择插件下载
-    </div>
-    <img src="/images/kodi/cj.jpg" class="configuration"/>
-    <div class="description">选择从库中下载
-    </div>
-    <img src="/images/kodi/ku.jpg" class="configuration"/>
-    <div class="description">选择视频插件，并找到PLEX下载安装
-      <br/>
-    </div>
-    <img src="/images/kodi/sp.jpg" class="configuration"/>
-    <img src="/images/kodi/p1.jpg" class="configuration"/>
-    <img src="/images/kodi/p2.jpg" class="configuration"/>
-    <div class="description">【请注意】我们只是利用官方库中的PLEX插件去安装其他依赖文件，但我们不能直接使用这个PLEX。所以安装成功后，点击删除插件，卸载此PLEX
-      <br/>
-    </div>
-    <div class="description">【重点来了！】利用ZIP文件安装新的PLEX for KODI，此插件由海外大佬更新维护，未来就算出现问题，也会有对应版本修复，建议使用这个
-      <br/>
-    </div>
-    <img src="/images/kodi/new1.jpg" class="configuration"/>
-    <img src="/images/kodi/new2.jpg" class="configuration"/>
-    <img src="/images/kodi/new3.jpg" class="configuration"/>
-    <img src="/images/kodi/new4.jpg" class="configuration"/>
-    <img src="/images/kodi/new5.jpg" class="configuration"/>
-    <img src="/images/kodi/new6.jpg" class="configuration"/>
-    <div class="description">【PLEX插件安装完成，可以登录使用了】
-      <br/>
-    </div>
-    
-    <img src="/images/kodi/py2.jpg" class="configuration"/>
-    <div class="description">获得授权代码，联系老白登陆
-    </div>
-    <img src="/images/kodi/d1.jpg" class="configuration"/>
-    <div class="description">进入PLEX选择右上角用户名处设置Setting
-      <br/>
-    </div>
-    <img src="/images/kodi/newpz0.jpg" class="configuration"/>
-    <img src="/images/kodi/newpz1.jpg" class="configuration"/>
-    <img src="/images/kodi/newpz2.jpg" class="configuration"/>
-    <img src="/images/kodi/newpz3.jpg" class="configuration"/>
-    <img src="/images/kodi/newpz4.jpg" class="configuration"/>
-    <img src="/images/kodi/newpz5.jpg" class="configuration"/>
-    <img src="/images/kodi/newpz6.jpg" class="configuration"/>
-    <img src="/images/kodi/newpz7.jpg" class="configuration"/>
-    <div class="description">【重要！！！】如图进行PLEX配置。
-    </div>
-
-    <div class="description">ENJOY！现在你开关KODI软件即可，PLEX会在打开KODI后自动运行加载老白TV！
-      <br/>
-    </div>
-    <div class="description">© 2023 老白TV版权所有
-    </div>
+    <div class="footer">© 2023 老白TV版权所有</div>
     <div class="modal" id="imageModal">
       <img id="modalImage">
     </div>
+  </div>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const images = document.querySelectorAll('img');
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const images = document.querySelectorAll('img');
 
-        const modal = document.getElementById('imageModal');
-        const modalImage = document.getElementById('modalImage');
+      const modal = document.getElementById('imageModal');
+      const modalImage = document.getElementById('modalImage');
 
-        images.forEach(img => {
-          img.addEventListener('click', function() {
-            modalImage.src = img.src;
-            modal.style.display = 'flex';
-          });
-        });
-
-        modal.addEventListener('click', function() {
-          modal.style.display = 'none';
+      images.forEach(img => {
+        img.addEventListener('click', function() {
+          modalImage.src = img.src;
+          modal.style.display = 'flex';
         });
       });
-    </script>
-  </div>
+
+      modal.addEventListener('click', function() {
+        modal.style.display = 'none';
+      });
+    });
+  </script>
 </body>
 </html>
