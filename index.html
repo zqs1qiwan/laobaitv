@@ -26,26 +26,83 @@
         h1 {
             color: #333333;
         }
-        a {
+        .btn {
             display: inline-block;
             margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 20px;
+            color: #ffffff;
+            background-color: #28a745;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #218838;
+        }
+        .small-btn {
+            display: inline-block;
+            margin-top: 10px;
             padding: 10px 20px;
-            font-size: 18px;
+            font-size: 16px;
             color: #ffffff;
             background-color: #007BFF;
             text-decoration: none;
             border-radius: 5px;
         }
-        a:hover {
+        .small-btn:hover {
             background-color: #0056b3;
+        }
+        .message {
+            margin-top: 10px;
+            color: green;
+            font-size: 16px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>老白TV 自用播放列表</h1>
-        <p>点击下面的链接访问播放列表：</p>
-        <a href="/bj-unicom/q-bj-unicom.m3u" download>点击这里下载播放列表</a>
+        <p>点击下面的按钮复制链接或直接下载播放列表：</p>
+
+        <!-- 大按钮用于复制链接 -->
+        <button class="btn" id="copyBtn">点击复制播放列表链接</button>
+
+        <!-- 小按钮用于下载播放列表 -->
+        <br>
+        <a class="small-btn" href="/bj-unicom/q-bj-unicom.m3u" download>下载播放列表</a>
+
+        <p id="message" class="message" style="display:none;">链接已复制到剪贴板！</p>
     </div>
+
+    <script>
+        document.getElementById('copyBtn').addEventListener('click', function() {
+            // 要复制的链接
+            var copyText = '/bj-unicom/q-bj-unicom.m3u';
+            
+            // 创建一个临时的文本区域元素
+            var tempInput = document.createElement('input');
+            tempInput.style.position = 'absolute';
+            tempInput.style.left = '-9999px';
+            tempInput.value = window.location.origin + copyText;  // 生成完整链接
+
+            // 添加到页面
+            document.body.appendChild(tempInput);
+
+            // 选择并复制文本
+            tempInput.select();
+            document.execCommand('copy');
+
+            // 删除临时元素
+            document.body.removeChild(tempInput);
+
+            // 显示复制成功的提示
+            var message = document.getElementById('message');
+            message.style.display = 'block';
+            setTimeout(function() {
+                message.style.display = 'none';
+            }, 2000);  // 2秒后隐藏提示
+        });
+    </script>
 </body>
 </html>
