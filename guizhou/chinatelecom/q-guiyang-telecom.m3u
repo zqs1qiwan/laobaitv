@@ -36,16 +36,153 @@ http://192.168.2.1:4022/rtp/238.255.2.219:5999
 http://192.168.2.1:4022/rtp/238.255.2.217:5999
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="[高清]央视",	CCTV-17农业农村(高清)	
 http://192.168.2.1:4022/rtp/238.255.2.137:5999
-
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="[高清]央视",	CCTV-5+(高清)	
 http://192.168.2.1:4022/rtp/238.255.2.185:5999
+
+#EXTINF:-1 tvg-id="27" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="[高清]卫视", 湖南卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.93:5999
+#EXTINF:-1 tvg-id="28" tvg-name="浙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png" group-title="[高清]卫视", 浙江卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.100:5999
+#EXTINF:-1 tvg-id="29" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="[高清]卫视", 江苏卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.104:5999
+#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="[高清]卫视", 北京卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.81:5999
+#EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png" group-title="[高清]卫视", 东方卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.98:5999
+#EXTINF:-1 tvg-id="32" tvg-name="安徽卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/anhui.png" group-title="[高清]卫视", 安徽卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.101:5999
+#EXTINF:-1 tvg-id="33" tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="[高清]卫视", 广东卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.59:5999
+#EXTINF:-1 tvg-id="34" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="[高清]卫视", 深圳卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.61:5999
+#EXTINF:-1 tvg-id="36" tvg-name="辽宁卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/liaoning.png" group-title="[高清]卫视", 辽宁卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.69:5999
+#EXTINF:-1 tvg-id="38" tvg-name="山东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shandong.png" group-title="[高清]卫视", 山东卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.97:5999
+#EXTINF:-1 tvg-id="39" tvg-name="天津卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/tianjin.png" group-title="[高清]卫视", 天津卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.99:5999
+#EXTINF:-1 tvg-id="40" tvg-name="重庆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/chongqing.png" group-title="[高清]卫视", 重庆卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.78:5999
+#EXTINF:-1 tvg-id="41" tvg-name="东南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="[高清]卫视", 东南卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.103:5999
+#EXTINF:-1 tvg-id="44" tvg-name="贵州卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guizhou.png" group-title="[高清]卫视", 贵州卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.1:5999
+#EXTINF:-1 tvg-id="45" tvg-name="河北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hebei.png" group-title="[高清]卫视", 河北卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.77:5999
+#EXTINF:-1 tvg-id="46" tvg-name="黑龙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/heilongjiang.png" group-title="[高清]卫视", 黑龙江卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.96:5999
+#EXTINF:-1 tvg-id="48" tvg-name="湖北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hubei.png" group-title="[高清]卫视", 湖北卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.102:5999
+#EXTINF:-1 tvg-id="50" tvg-name="江西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="[高清]卫视", 江西卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.94:5999
+#EXTINF:-1 tvg-id="51" tvg-name="吉林卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jilin.png" group-title="[高清]卫视", 吉林卫视(高清)
+http://192.168.2.1:4022/rtp/238.255.2.95:5999
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="影视",	DOX4K频道	
+http://192.168.2.1:4022/rtp/238.255.2.147:5999
+#EXTINF:-1 tvg-id="1977" tvg-name="欢笑剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/huanxiao.png" group-title="影视",	欢笑剧场4K	
+http://192.168.2.1:4022/rtp/238.255.2.215:5999
+#EXTINF:-1 tvg-id="1977" tvg-name="欢笑剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/huanxiao.png" group-title="影视",	欢笑剧场4K	
+http://192.168.2.1:4022/rtp/238.255.2.198:5999
+#EXTINF:-1 tvg-id="1963" tvg-name="新视觉" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/xinshijue.png" group-title="影视",	新视觉(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.195:5999
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",	体育赛事(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.177:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",	咪咕体育(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.163:5999
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	贵阳1新闻综合频道(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.19:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	贵阳2经济生活频道	
+http://192.168.2.1:4022/rtp/238.255.2.20:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	贵阳3法制频道	
+http://192.168.2.1:4022/rtp/238.255.2.21:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	贵阳4都市频道	
+http://192.168.2.1:4022/rtp/238.255.2.22:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	贵阳5旅游生活频道	
+http://192.168.2.1:4022/rtp/238.255.2.23:5999
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	贵州2公共频道(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.2:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	贵州3影视文艺频道(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.3:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	贵州4大众生活频道(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.4:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	贵州5法制频道(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.5:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	贵州6科教健康频道(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.6:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	贵州7经济频道(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.9:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	贵州移动电视	
+http://192.168.2.1:4022/rtp/238.255.2.117:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	黔东南1新闻综合(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.179:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	黔南1	
+http://192.168.2.1:4022/rtp/238.255.2.150:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	黔南2	
+http://192.168.2.1:4022/rtp/238.255.2.151:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	黔西南公共(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.127:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	黔西南综合(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.126:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	黔西综合频道(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.161:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	凯里频道(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.180:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	雷山综合(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.128:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	六盘水1	
+http://192.168.2.1:4022/rtp/238.255.2.115:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	六盘水2	
+http://192.168.2.1:4022/rtp/238.255.2.116:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	魅力观山湖	
+http://192.168.2.1:4022/rtp/238.255.2.183:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	画廊六枝	
+http://192.168.2.1:4022/rtp/238.255.2.159:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	思南综合频道(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.218:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	毕节1(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.131:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	毕节2(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.132:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	安顺1新闻频道(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.157:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	安顺2公共频道(高清)	
+http://192.168.2.1:4022/rtp/238.255.2.158:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	天河潭慢直播	
+http://192.168.2.1:4022/rtp/238.255.2.163:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	桐梓综合	
+http://192.168.2.1:4022/rtp/238.255.2.162:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	铜仁1新闻综合频道	
+http://192.168.2.1:4022/rtp/238.255.2.31:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	铜仁2公共频道	
+http://192.168.2.1:4022/rtp/238.255.2.87:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	瓮安高清	
+http://192.168.2.1:4022/rtp/238.255.2.216:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	瓮安县直播频道	
+http://192.168.2.1:4022/rtp/238.255.2.201:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="China",	GTV自制	
+http://192.168.2.1:4022/rtp/238.255.2.202:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	云岩区轮播频道	
+http://192.168.2.1:4022/rtp/238.255.2.200:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	智慧花果园电信	
+http://192.168.2.1:4022/rtp/238.255.2.149:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	遵义都市	
+http://192.168.2.1:4022/rtp/238.255.2.154:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	遵义公共	
+http://192.168.2.1:4022/rtp/238.255.2.152:5999
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方",	遵义综合	
+http://192.168.2.1:4022/rtp/238.255.2.153:5999
+
+
+
 
 #EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="[高清]央视",	CCTV-4中文国际美洲(高清)	
 http://192.168.2.1:4022/rtp/238.255.2.214:5999
 #EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="[高清]央视",	CCTV-4中文国际欧洲(高清)	
 http://192.168.2.1:4022/rtp/238.255.2.213:5999
-
-
 
 #EXTINF:-1 tvg-id="6563" tvg-name="兵器科技" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE8.jpg" group-title="[高清]央视",	CCTV兵器科技(高清)	
 http://192.168.2.1:4022/rtp/238.255.2.34:5999
