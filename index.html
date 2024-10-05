@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            background: linear-gradient(to right, #f4f4f9, #e2e2e9);
             margin: 0;
             padding: 0;
             display: flex;
@@ -18,45 +18,49 @@
         }
         .container {
             text-align: center;
-            padding: 20px;
+            padding: 30px;
             background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
         }
         h1 {
             color: #333333;
+            font-size: 24px;
         }
-        .btn {
+        .btn, .small-btn {
             display: inline-block;
             margin-top: 20px;
             padding: 15px 30px;
-            font-size: 20px;
+            font-size: 18px;
             color: #ffffff;
-            background-color: #28a745;
             text-decoration: none;
             border-radius: 5px;
             cursor: pointer;
+            transition: transform 0.1s;
+        }
+        .btn {
+            background-color: #28a745;
+        }
+        .small-btn {
+            background-color: #007BFF;
         }
         .btn:hover {
             background-color: #218838;
         }
-        .small-btn {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 10px 20px;
-            font-size: 16px;
-            color: #ffffff;
-            background-color: #007BFF;
-            text-decoration: none;
-            border-radius: 5px;
-        }
         .small-btn:hover {
             background-color: #0056b3;
+        }
+        .btn:active, .small-btn:active {
+            transform: scale(0.98);
         }
         .message {
             margin-top: 10px;
             color: green;
             font-size: 16px;
+        }
+        .section {
+            margin-bottom: 40px;
         }
     </style>
 </head>
@@ -65,43 +69,64 @@
         <h1>老白TV 自用播放列表</h1>
         <p>点击下面的按钮复制链接或直接下载播放列表：</p>
 
-        <!-- 大按钮用于复制链接 -->
-        <button class="btn" id="copyBtn">点击复制播放列表链接</button>
+        <!-- 北京联通 -->
+        <div class="section">
+            <h2>北京联通</h2>
+            <!-- 大按钮用于复制链接 -->
+            <button class="btn" id="copyBtnBeijing">点击复制播放列表链接</button>
 
-        <!-- 小按钮用于下载播放列表 -->
-        <br>
-        <a class="small-btn" href="/bj-unicom/q-bj-unicom.m3u" download>下载播放列表</a>
+            <!-- 小按钮用于下载播放列表 -->
+            <br>
+            <a class="small-btn" href="/beijing/chinaunicom/q-beijing-unicom.m3u" download>下载播放列表</a>
 
-        <p id="message" class="message" style="display:none;">链接已复制到剪贴板！</p>
+            <p id="messageBeijing" class="message" style="display:none;">北京联通链接已复制到剪贴板！</p>
+        </div>
+
+        <!-- 贵州电信 -->
+        <div class="section">
+            <h2>贵州电信</h2>
+            <!-- 大按钮用于复制链接 -->
+            <button class="btn" id="copyBtnGuizhou">点击复制播放列表链接</button>
+
+            <!-- 小按钮用于下载播放列表 -->
+            <br>
+            <a class="small-btn" href="/guizhou/chinatelecom/q-guiyang-telecom.m3u" download>下载播放列表</a>
+
+            <p id="messageGuizhou" class="message" style="display:none;">贵州电信链接已复制到剪贴板！</p>
+        </div>
     </div>
 
     <script>
-        document.getElementById('copyBtn').addEventListener('click', function() {
-            // 要复制的链接
-            var copyText = '/bj-unicom/q-bj-unicom.m3u';
-            
-            // 创建一个临时的文本区域元素
-            var tempInput = document.createElement('input');
-            tempInput.style.position = 'absolute';
-            tempInput.style.left = '-9999px';
-            tempInput.value = window.location.origin + copyText;  // 生成完整链接
+        // 复制北京联通链接
+        document.getElementById('copyBtnBeijing').addEventListener('click', function() {
+            var copyText = '/beijing/chinaunicom/q-beijing-unicom.m3u';
+            navigator.clipboard.writeText(window.location.origin + copyText)
+            .then(function() {
+                var message = document.getElementById('messageBeijing');
+                message.style.display = 'block';
+                setTimeout(function() {
+                    message.style.display = 'none';
+                }, 2000);
+            })
+            .catch(function(err) {
+                console.error('复制失败:', err);
+            });
+        });
 
-            // 添加到页面
-            document.body.appendChild(tempInput);
-
-            // 选择并复制文本
-            tempInput.select();
-            document.execCommand('copy');
-
-            // 删除临时元素
-            document.body.removeChild(tempInput);
-
-            // 显示复制成功的提示
-            var message = document.getElementById('message');
-            message.style.display = 'block';
-            setTimeout(function() {
-                message.style.display = 'none';
-            }, 2000);  // 2秒后隐藏提示
+        // 复制贵州电信链接
+        document.getElementById('copyBtnGuizhou').addEventListener('click', function() {
+            var copyText = '/guizhou/chinatelecom/q-guiyang-telecom.m3u';
+            navigator.clipboard.writeText(window.location.origin + copyText)
+            .then(function() {
+                var message = document.getElementById('messageGuizhou');
+                message.style.display = 'block';
+                setTimeout(function() {
+                    message.style.display = 'none';
+                }, 2000);
+            })
+            .catch(function(err) {
+                console.error('复制失败:', err);
+            });
         });
     </script>
 </body>
