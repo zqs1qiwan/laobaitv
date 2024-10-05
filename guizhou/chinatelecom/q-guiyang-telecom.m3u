@@ -30,10 +30,15 @@ http://192.168.2.1:4022/udp/238.255.2.16:5999
 http://192.168.2.1:4022/udp/238.255.2.17:5999
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视",CCTV-15
 http://192.168.2.1:4022/udp/238.255.2.18:5999
+#EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="央视",CCTV-16奥林匹克	
+http://192.168.2.1:4022/rtp/238.255.2.163:5999
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视",CCTV-17
 http://192.168.2.1:4022/udp/238.255.2.137:5999
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视",CCTV-5+
 http://192.168.2.1:4022/udp/238.255.2.185:5999
+#EXTINF:-1 tvg-id="106" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视",CCTV-4K
+http://192.168.2.1:4022/rtp/238.255.2.139:5999
+
 
 #EXTINF:-1 tvg-id="27" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="卫视",湖南卫视
 http://192.168.2.1:4022/udp/238.255.2.93:5999
@@ -144,6 +149,8 @@ https://live.laobaitv.net/douyu/6668627
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://ir.douyu.com/images/LOGO.jpg" group-title="互联网直播频道",斗鱼 RunningMan轮播[高清]
 https://live.laobaitv.net/douyu/131977
 
+#EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijingjishi.png" group-title="北京",	北京纪实
+http://192.168.2.1:4022/rtp/238.255.2.107:5999
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州",贵阳1新闻综合频道(高清)
 http://192.168.2.1:4022/rtp/238.255.2.19:5999
@@ -229,7 +236,7 @@ http://192.168.2.1:4022/rtp/238.255.2.152:5999
 http://192.168.2.1:4022/rtp/238.255.2.153:5999
 
 
-#EXTINF:-1 tvg-id="69" tvg-name="金鹰卡通" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jinyingkatong.png" group-title="其他",金鹰卡通
+#EXTINF:-1 tvg-id="69" tvg-name="金鹰卡通" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jinyingkatong.png" group-title="湖南",金鹰卡通
 http://192.168.2.1:4022/udp/238.255.2.55:5999
 #EXTINF:-1 tvg-id="62" tvg-name="哈哈炫动" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/xuandong.png" group-title="其他",哈哈炫动
 http://192.168.2.1:4022/udp/238.255.2.56:5999
@@ -268,7 +275,7 @@ http://192.168.2.1:4022/udp/238.255.2.186:5999
 http://192.168.2.1:4022/udp/238.255.2.106:5999
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",纪实科教
 http://192.168.2.1:4022/udp/238.255.2.107:5999
-#EXTINF:-1 tvg-id="2025" tvg-name="金鹰纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jinyingjishi.png" group-title="其他",金鹰纪实
+#EXTINF:-1 tvg-id="2025" tvg-name="金鹰纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jinyingjishi.png" group-title="湖南",金鹰纪实
 http://192.168.2.1:4022/udp/238.255.2.108:5999
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他",法治天地
 http://192.168.2.1:4022/udp/238.255.2.190:5999
