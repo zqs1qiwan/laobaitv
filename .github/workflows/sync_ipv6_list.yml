@@ -33,11 +33,31 @@ jobs:
           exit 1
         fi
 
+    - name: Insert additional content from stream.m3u
+      run: |
+        TARGET_M3U_FILE='public/target.m3u'
+        STREAM_FILE='stream/stream.m3u'
+
+        if [ -f "$TARGET_M3U_FILE" ] && [ -f "$STREAM_FILE" ]; then
+          echo "Inserting content from $STREAM_FILE into $TARGET_M3U_FILE"
+          # Create a temporary file
+          TEMP_FILE=$(mktemp)
+
+          # Use sed to insert content before the specified line
+          sed "/^#EXTINF:-1 tvg-name=\"中国教育1台\"/e cat $STREAM_FILE" "$TARGET_M3U_FILE" > "$TEMP_FILE"
+
+          # Replace the original file with the updated file
+          mv "$TEMP_FILE" "$TARGET_M3U_FILE"
+        else
+          echo "One of the files does not exist: $TARGET_M3U_FILE or $STREAM_FILE"
+          exit 1
+        fi
+
     - name: Commit and push changes
       run: |
         git config user.name "GitHub Action"
         git config user.email "actions@github.com"
         git add public/*
-        git commit -m "Sync files from URLs in target.txt"
+        git commit -m "Sync files from URLs in target.txt and insert stream content"
         git push
       if: success()
