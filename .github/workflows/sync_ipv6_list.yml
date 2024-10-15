@@ -19,7 +19,6 @@ jobs:
 
     - name: Read URLs from target.txt and download files
       run: |
-        set -e
         TARGET_FILE='public/target.txt'
         if [ -f "$TARGET_FILE" ]; then
           while IFS= read -r url; do
@@ -27,22 +26,6 @@ jobs:
               filename=$(basename "$url")
               echo "Downloading $url to /public/$filename"
               curl -L "$url" -o "public/$filename"
-
-              # Update the M3U file with stream content if applicable
-              if [[ "$filename" == *.m3u ]]; then
-                STREAM_FILE='stream/stream.m3u'
-                if [ -f "$STREAM_FILE" ]; then
-                  START_LINE=$(grep -n '###### online stream ######' "public/$filename" | cut -d: -f1)
-                  END_LINE=$(grep -n '###### online stream end ######' "public/$filename" | cut -d: -f1)
-                  if [ -n "$START_LINE" ] && [ -n "$END_LINE" ]; then
-                    echo "Updating online stream section in $filename"
-                    head -n "$START_LINE" "public/$filename" > temp.m3u
-                    cat "$STREAM_FILE" >> temp.m3u
-                    tail -n +"$((END_LINE + 1))" "public/$filename" >> temp.m3u
-                    mv temp.m3u "public/$filename"
-                  fi
-                fi
-              fi
             fi
           done < "$TARGET_FILE"
         else
@@ -57,6 +40,4 @@ jobs:
         git add public/*
         git commit -m "Sync files from URLs in target.txt"
         git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       if: success()
