@@ -1,0 +1,43 @@
+name: Sync Files from URLs
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Every six hours
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  sync-files:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Read URLs from target.txt and download files
+      run: |
+        TARGET_FILE='public/target.txt'
+        if [ -f "$TARGET_FILE" ]; then
+          while IFS= read -r url; do
+            if [[ "$url" =~ ^https?:// ]]; then
+              filename=$(basename "$url")
+              echo "Downloading $url to /public/$filename"
+              curl -L "$url" -o "public/$filename"
+            fi
+          done < "$TARGET_FILE"
+        else
+          echo "target.txt not found"
+          exit 1
+        fi
+
+    - name: Commit and push changes
+      run: |
+        git config user.name "GitHub Action"
+        git config user.email "actions@github.com"
+        git add public/*
+        git commit -m "Sync files from URLs in target.txt"
+        git push
+      if: success()
