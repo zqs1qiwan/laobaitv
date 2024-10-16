@@ -55,11 +55,15 @@ jobs:
           exit 1
         fi
 
-    - name: Commit and push changes
+    - name: Commit and push changes if any
       run: |
         git config user.name "GitHub Action"
         git config user.email "actions@github.com"
-        git add public/*
-        git commit -m "Sync files from URLs in target.txt and insert stream content"
-        git push
+        # Check if there are any changes
+        if [ -n "$(git status --porcelain)" ]; then
+          git add public/*
+          git commit -m "Sync files from URLs in target.txt and insert stream content"
+          git push
+        else
+          echo "No changes to commit"
       if: success()
