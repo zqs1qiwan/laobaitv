@@ -1,0 +1,75 @@
+name: Sync Stream to Telecom Files
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Every six hours
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  sync-files:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Update main.m3u files with stream content
+      run: |
+        STREAM_FILE='stream/stream.m3u'
+
+        # Check if stream file exists
+        if [ ! -f "$STREAM_FILE" ]; then
+          echo "Error: $STREAM_FILE not found."
+          exit 1
+        fi
+
+        # Loop through all main.m3u files in the target directories
+        for TELECOM in chinatelecom chinaunicom chinamobile; do
+          for REGION_DIR in "$TELECOM"/*; do
+            MAIN_FILE="$REGION_DIR/main.m3u"
+            
+            if [ -f "$MAIN_FILE" ]; then
+              echo "Updating $MAIN_FILE with content from $STREAM_FILE"
+
+              # Extract content before the start marker and after the end marker
+              BEFORE_CONTENT=$(sed -n '1, /######互联网直播频道######/p' "$MAIN_FILE" | sed '$d')
+              AFTER_CONTENT=$(sed -n '/######互联网直播频道end######/,$p' "$MAIN_FILE" | sed '1d')
+
+              # Combine the content with the updated stream segment
+              {
+                echo "$BEFORE_CONTENT"
+                echo "######互联网直播频道######"
+                cat "$STREAM_FILE"
+                echo "######互联网直播频道end######"
+                echo "$AFTER_CONTENT"
+              } > "$MAIN_FILE.updated"
+
+              # Replace original file if there are changes
+              if ! cmp -s "$MAIN_FILE" "$MAIN_FILE.updated"; then
+                mv "$MAIN_FILE.updated" "$MAIN_FILE"
+                echo "Updated $MAIN_FILE"
+              else
+                echo "No changes detected for $MAIN_FILE"
+                rm "$MAIN_FILE.updated"
+              fi
+            fi
+          done
+        done
+
+    - name: Commit and push changes if any
+      run: |
+        git config user.name "GitHub Action"
+        git config user.email "actions@github.com"
+        # Check if there are any changes
+        if [ -n "$(git status --porcelain)" ]; then
+          git add .
+          git commit -m "Sync stream content to main.m3u files"
+          git push
+        else
+          echo "No changes to commit"
+        fi
+      if: success()
