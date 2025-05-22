@@ -28,7 +28,7 @@ jobs:
         fi
 
         # Loop through all main.m3u files in the target directories
-        for TELECOM in chinatelecom chinaunicom chinamobile test; do
+        for TELECOM in chinatelecom chinaunicom chinamobile test allinone; do
           for REGION_DIR in "$TELECOM"/*; do
             MAIN_FILE="$REGION_DIR/main.m3u"
             
