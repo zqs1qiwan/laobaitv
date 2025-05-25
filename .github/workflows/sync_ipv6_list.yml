@@ -1,8 +1,8 @@
-name: Fetch ipv6 stream list from URLs
+name: Fetch and merge Public TV stream lists
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Every six hours
+    - cron: '0 */6 * * *' # 每 6 小时运行一次
   workflow_dispatch:
 
 defaults:
@@ -17,54 +17,47 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Read URLs from target.txt and download files
+    - name: Download and merge remote M3U files into tv.m3u
       run: |
         TARGET_FILE='public/target.txt'
         if [ -f "$TARGET_FILE" ]; then
+          # 清空旧文件并初始化 tv.m3u
+          > public/tv.m3u
           while IFS= read -r url; do
             if [[ "$url" =~ ^https?:// ]]; then
-              filename=$(basename "$url")
-              echo "Downloading $url to /public/$filename"
-              curl -L "$url" -o "public/$filename"
+              echo "Downloading $url"
+              # 追加远程文件内容到 tv.m3u
+              curl -L --fail "$url" >> public/tv.m3u || echo "Failed to download $url"
             fi
           done < "$TARGET_FILE"
         else
-          echo "target.txt not found"
+          echo "Error: target.txt not found"
           exit 1
         fi
 
-    - name: Insert additional content from stream.m3u into target .m3u files
+    - name: Merge with local stream.m3u to create main.m3u
       run: |
         STREAM_FILE='stream/stream.m3u'
+        OUTPUT_FILE='public/main.m3u'
         if [ -f "$STREAM_FILE" ]; then
-          for TARGET_M3U_FILE in public/*.m3u; do
-            if [ -f "$TARGET_M3U_FILE" ]; then
-              echo "Inserting content from $STREAM_FILE into $TARGET_M3U_FILE"
-              # Create a temporary file
-              TEMP_FILE=$(mktemp)
-
-              # Use sed to insert content before the specified line
-              sed "/^#EXTINF:-1 tvg-name=\"中国教育1台\"/e cat $STREAM_FILE" "$TARGET_M3U_FILE" > "$TEMP_FILE"
-
-              # Replace the original file with the updated file
-              mv "$TEMP_FILE" "$TARGET_M3U_FILE"
-            fi
-          done
+          echo "Merging tv.m3u and stream.m3u"
+          # 合并文件并去重（可选）
+          cat public/tv.m3u "$STREAM_FILE" | sort -u > "$OUTPUT_FILE"
         else
-          echo "stream.m3u not found"
+          echo "Error: stream.m3u not found"
           exit 1
         fi
 
-    - name: Commit and push changes if any
+    - name: Commit and push changes
       run: |
-        git config user.name "GitHub Action"
-        git config user.email "actions@github.com"
-        # Check if there are any changes
-        if [ -n "$(git status --porcelain)" ]; then
-          git add public/*
-          git commit -m "Sync files from URLs in target.txt and insert stream content"
+        git config user.name "GitHub Actions Bot"
+        git config user.email "actions-bot@github.com"
+        # 仅当 main.m3u 发生变化时提交
+        if [ -n "$(git status --porcelain public/main.m3u)" ]; then
+          git add public/main.m3u
+          git commit -m "Auto-update: Merged stream lists at $(date +'%Y-%m-%d %H:%M')"
           git push
         else
-          echo "No changes to commit"
+          echo "No changes detected in main.m3u"
         fi
       if: success()
