@@ -14,45 +14,47 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout repo
       uses: actions/checkout@v3
 
-    - name: Build tv.m3u from remote sources
+    - name: Build raw tv.m3u
       run: |
-        # 初始化带标准头的tv.m3u
-        echo -e "#EXTM3U\n" > public/tv.m3u
-        
-        # 遍历target.txt中的URL
+        # 创建临时目录存放原始文件
+        mkdir -p tmp
+
+        # 下载并保留所有原始文件
         while IFS= read -r url; do
           if [[ "$url" =~ ^https?:// ]]; then
-            echo "正在获取：$url"
-            # 直接追加远程内容（保留原始格式）
-            curl -L --fail "$url" | 
-              sed -e '/^#EXTM3U/d' -e '/^$/d' >> public/tv.m3u
-            echo -e "\n" >> public/tv.m3u  # 添加换行分隔
+            echo "下载原始文件：$url"
+            curl -L --fail "$url" -o "tmp/$(basename "$url").raw"
           fi
         done < public/target.txt
 
-    - name: Merge into main.m3u
+        # 合并原始文件（完全保留字节内容）
+        echo -n > public/tv.m3u  # 清空旧文件
+        find tmp -name '*.raw' -exec cat {} + >> public/tv.m3u
+
+    - name: Create main.m3u
       run: |
-        # 保留tv.m3u完整内容
+        # 完全复制tv.m3u内容
         cp public/tv.m3u public/main.m3u
-        
-        # 追加stream.m3u内容（保留原始格式）
+
+        # 追加stream.m3u的完整内容（包含所有特殊标记）
         if [ -f stream/stream.m3u ]; then
-          echo -e "\n" >> public/main.m3u  # 添加分隔空行
-          sed -e '/^#EXTM3U/d' -e '/^$/d' stream/stream.m3u >> public/main.m3u
+          echo -en "\n" >> public/main.m3u  # 添加换行符
+          cat stream/stream.m3u >> public/main.m3u
         fi
 
-        # 确保文件末尾有空行
-        echo >> public/main.m3u
+        # 保留原始换行符（LF/CRLF混合模式）
+        dos2unix -q public/main.m3u  # 统一为LF
+        unix2dos -q public/main.m3u   # 还原CRLF（如果有）
 
-    - name: Commit changes
+    - name: Commit raw changes
       run: |
-        git config user.name "Auto Updater"
-        git config user.email "auto@updater.com"
+        git config user.name "Raw Merger"
+        git config user.email "raw@merger.com"
         git add public/main.m3u
-        if [ -n "$(git status --porcelain public/main.m3u)" ]; then
-          git commit -m "自动合并播放列表 $(date +'%Y-%m-%d %H:%M')"
+        if [ -n "$(git diff --public/main.m3u)" ]; then
+          git commit -m "原始格式合并 $(date +'%s')"
           git push
         fi
