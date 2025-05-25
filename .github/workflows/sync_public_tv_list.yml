@@ -17,12 +17,12 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v3
 
+    - name: Install dos2unix
+      run: sudo apt-get install -y dos2unix
+
     - name: Build raw tv.m3u
       run: |
-        # 创建临时目录存放原始文件
         mkdir -p tmp
-
-        # 下载并保留所有原始文件
         while IFS= read -r url; do
           if [[ "$url" =~ ^https?:// ]]; then
             echo "下载原始文件：$url"
@@ -30,31 +30,28 @@ jobs:
           fi
         done < public/target.txt
 
-        # 合并原始文件（完全保留字节内容）
-        echo -n > public/tv.m3u  # 清空旧文件
+        echo -n > public/tv.m3u
         find tmp -name '*.raw' -exec cat {} + >> public/tv.m3u
 
     - name: Create main.m3u
       run: |
-        # 完全复制tv.m3u内容
         cp public/tv.m3u public/main.m3u
 
-        # 追加stream.m3u的完整内容（包含所有特殊标记）
         if [ -f stream/stream.m3u ]; then
-          echo -en "\n" >> public/main.m3u  # 添加换行符
+          echo -en "\n" >> public/main.m3u
           cat stream/stream.m3u >> public/main.m3u
         fi
 
-        # 保留原始换行符（LF/CRLF混合模式）
-        dos2unix -q public/main.m3u  # 统一为LF
-        unix2dos -q public/main.m3u   # 还原CRLF（如果有）
+        # 保留原始换行符（自动处理CRLF/LF混合）
+        dos2unix public/main.m3u  # 转换为LF
+        unix2dos public/main.m3u  # 转换回CRLF
 
-    - name: Commit raw changes
+    - name: Commit changes
       run: |
         git config user.name "Raw Merger"
         git config user.email "raw@merger.com"
         git add public/main.m3u
-        if [ -n "$(git diff --public/main.m3u)" ]; then
-          git commit -m "原始格式合并 $(date +'%s')"
+        if [ -n "$(git status --porcelain public/main.m3u)" ]; then
+          git commit -m "原始格式合并 $(date +'%Y%m%d-%H%M%S')"
           git push
         fi
