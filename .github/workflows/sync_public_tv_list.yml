@@ -1,8 +1,8 @@
-name: Fetch and merge Public TV stream lists
+name: fetch/merge public tv m3u
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # 每 6 小时运行一次
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 defaults:
@@ -17,47 +17,42 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Download and merge remote M3U files into tv.m3u
+    - name: Build tv.m3u from remote sources
       run: |
-        TARGET_FILE='public/target.txt'
-        if [ -f "$TARGET_FILE" ]; then
-          # 清空旧文件并初始化 tv.m3u
-          > public/tv.m3u
-          while IFS= read -r url; do
-            if [[ "$url" =~ ^https?:// ]]; then
-              echo "Downloading $url"
-              # 追加远程文件内容到 tv.m3u
-              curl -L --fail "$url" >> public/tv.m3u || echo "Failed to download $url"
-            fi
-          done < "$TARGET_FILE"
-        else
-          echo "Error: target.txt not found"
-          exit 1
+        # 初始化带标准头的tv.m3u
+        echo -e "#EXTM3U\n" > public/tv.m3u
+        
+        # 遍历target.txt中的URL
+        while IFS= read -r url; do
+          if [[ "$url" =~ ^https?:// ]]; then
+            echo "正在获取：$url"
+            # 直接追加远程内容（保留原始格式）
+            curl -L --fail "$url" | 
+              sed -e '/^#EXTM3U/d' -e '/^$/d' >> public/tv.m3u
+            echo -e "\n" >> public/tv.m3u  # 添加换行分隔
+          fi
+        done < public/target.txt
+
+    - name: Merge into main.m3u
+      run: |
+        # 保留tv.m3u完整内容
+        cp public/tv.m3u public/main.m3u
+        
+        # 追加stream.m3u内容（保留原始格式）
+        if [ -f stream/stream.m3u ]; then
+          echo -e "\n" >> public/main.m3u  # 添加分隔空行
+          sed -e '/^#EXTM3U/d' -e '/^$/d' stream/stream.m3u >> public/main.m3u
         fi
 
-    - name: Merge with local stream.m3u to create main.m3u
-      run: |
-        STREAM_FILE='stream/stream.m3u'
-        OUTPUT_FILE='public/main.m3u'
-        if [ -f "$STREAM_FILE" ]; then
-          echo "Merging tv.m3u and stream.m3u"
-          # 合并文件并去重（可选）
-          cat public/tv.m3u "$STREAM_FILE" | sort -u > "$OUTPUT_FILE"
-        else
-          echo "Error: stream.m3u not found"
-          exit 1
-        fi
+        # 确保文件末尾有空行
+        echo >> public/main.m3u
 
-    - name: Commit and push changes
+    - name: Commit changes
       run: |
-        git config user.name "GitHub Actions Bot"
-        git config user.email "actions-bot@github.com"
-        # 仅当 main.m3u 发生变化时提交
+        git config user.name "Auto Updater"
+        git config user.email "auto@updater.com"
+        git add public/main.m3u
         if [ -n "$(git status --porcelain public/main.m3u)" ]; then
-          git add public/main.m3u
-          git commit -m "Auto-update: Merged stream lists at $(date +'%Y-%m-%d %H:%M')"
+          git commit -m "自动合并播放列表 $(date +'%Y-%m-%d %H:%M')"
           git push
-        else
-          echo "No changes detected in main.m3u"
         fi
-      if: success()
