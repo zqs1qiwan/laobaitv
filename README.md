@@ -8,7 +8,7 @@
 
 如想获得某个具体地点的播放列表也可以在例如：/chinaunicom/beijing 等路径找到main.m3u
 
-如无匹配的本地组播播放列表，将会默认引用到fanmingming的公网IPv6直播源
+如无匹配的本地组播播放列表，将会默认引用到肥羊的公网IPv6直播源，通过live.laobaitv.net部署
 
 如果本地的ip及端口有区别，请使用?ip=****&port=****参数自定义
 例如  http://iptv.laobaitv.net/?ip=192.168.8.1&port=10086
