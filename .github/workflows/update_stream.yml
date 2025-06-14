@@ -12,20 +12,26 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          path: 'repo'  # 明确指定检出路径
 
       - name: Setup working directory
         run: |
           # 确保stream目录存在
-          mkdir -p stream
-          # 确保必要文件存在
-          touch stream/target.txt
-          touch stream/stream-laobai.m3u
-          touch stream/stream.m3u
+          mkdir -p repo/stream
+          
+          # 确保必要文件存在（但不覆盖已有内容）
+          touch repo/stream/target.txt
+          [ ! -f repo/stream/stream-laobai.m3u ] && touch repo/stream/stream-laobai.m3u
+          touch repo/stream/stream.m3u
+          
+          # 列出目录内容用于调试
+          echo "目录内容:"
+          ls -la repo/stream/
 
       - name: Process target URLs
-        working-directory: ./stream
+        working-directory: ./repo/stream
         run: |
-          # 清理旧自动文件（即使target为空也执行）
+          # 清理旧自动文件（保留老白文件）
           rm -f stream-*.m3u temp_*.m3u
           
           # 处理非空target
@@ -59,12 +65,16 @@ jobs:
           rm -f temp_*.m3u
 
       - name: Merge playlists
-        working-directory: ./stream
+        working-directory: ./repo/stream
         run: |
-          # 确保老白文件存在
+          # 列出目录内容用于调试
+          echo "合并前目录内容:"
+          ls -la
+          
+          # 确保老白文件存在且不被覆盖
           if [ ! -f "stream-laobai.m3u" ]; then
-            echo "⚠️ stream-laobai.m3u not found! Creating empty file."
-            touch stream-laobai.m3u
+            echo "::error::❌ stream-laobai.m3u not found! This file must exist."
+            exit 1
           fi
           
           # 创建空合并文件（不要任何头）
@@ -91,6 +101,10 @@ jobs:
             mv merged.tmp stream.m3u
             echo "🔄 Playlist updated!"
           fi
+          
+          # 列出最终文件大小
+          echo "最终文件大小:"
+          du -sh stream-laobai.m3u stream.m3u
 
       - name: Commit changes
         if: success()
@@ -101,6 +115,9 @@ jobs:
           # 添加所有可能变化的文件
           git add stream/stream-*.m3u
           git add stream/stream.m3u
+          
+          # 永远不要提交老白文件的更改
+          git restore --staged stream/stream-laobai.m3u || true
           
           if git diff --staged --quiet; then
             echo "⏩ No changes to commit"
