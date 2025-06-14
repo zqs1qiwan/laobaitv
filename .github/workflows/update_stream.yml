@@ -14,15 +14,16 @@ jobs:
           fetch-depth: 0
 
       - name: Setup working directory
-        working-directory: stream
         run: |
+          # 确保stream目录存在
+          mkdir -p stream
           # 确保必要文件存在
-          touch target.txt
-          touch stream-laobai.m3u
-          touch stream.m3u
+          touch stream/target.txt
+          touch stream/stream-laobai.m3u
+          touch stream/stream.m3u
 
       - name: Process target URLs
-        working-directory: stream
+        working-directory: ./stream
         run: |
           # 清理旧自动文件（即使target为空也执行）
           rm -f stream-*.m3u temp_*.m3u
@@ -58,8 +59,14 @@ jobs:
           rm -f temp_*.m3u
 
       - name: Merge playlists
-        working-directory: stream
+        working-directory: ./stream
         run: |
+          # 确保老白文件存在
+          if [ ! -f "stream-laobai.m3u" ]; then
+            echo "⚠️ stream-laobai.m3u not found! Creating empty file."
+            touch stream-laobai.m3u
+          fi
+          
           # 创建空合并文件（不要任何头）
           > merged.tmp
           
@@ -72,17 +79,17 @@ jobs:
           ' stream-laobai.m3u >> merged.tmp
           
           # 添加自动列表（已过滤）
-          for f in $(ls -v stream-*.m3u 2>/dev/null); do
+          for f in $(ls -v stream-*.m3u 2>/dev/null | sort -V); do
             cat "$f" >> merged.tmp
           done
           
           # 智能更新检测
-          if ! cmp -s merged.tmp stream.m3u; then
-            mv merged.tmp stream.m3u
-            echo "🔄 Playlist updated!"
-          else
+          if [ -f stream.m3u ] && cmp -s merged.tmp stream.m3u; then
             rm merged.tmp
             echo "✅ No changes detected"
+          else
+            mv merged.tmp stream.m3u
+            echo "🔄 Playlist updated!"
           fi
 
       - name: Commit changes
