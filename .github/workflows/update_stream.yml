@@ -14,7 +14,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup working directory
-        working-directory: ./stream
+        working-directory: stream
         run: |
           # 确保必要文件存在
           touch target.txt
@@ -22,7 +22,7 @@ jobs:
           touch stream.m3u
 
       - name: Process target URLs
-        working-directory: ./stream
+        working-directory: stream
         run: |
           # 清理旧自动文件（即使target为空也执行）
           rm -f stream-*.m3u temp_*.m3u
@@ -58,7 +58,7 @@ jobs:
           rm -f temp_*.m3u
 
       - name: Merge playlists
-        working-directory: ./stream
+        working-directory: stream
         run: |
           # 创建空合并文件（不要任何头）
           > merged.tmp
