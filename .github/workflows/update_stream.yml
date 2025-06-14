@@ -28,7 +28,7 @@ jobs:
       - name: Process target URLs
         working-directory: ./repo/stream
         run: |
-          # 只删除自动生成的 stream-*.m3u 文件，保留老白文件
+          # 只删除自动生成的 stream-*.m3u 文件，保留老白文件和最终文件
           find . -maxdepth 1 -name 'stream-[0-9]*.m3u' -delete
           rm -f temp_*.m3u
           
@@ -69,6 +69,9 @@ jobs:
       - name: Merge playlists
         working-directory: ./repo/stream
         run: |
+          echo "合并前目录内容:"
+          ls -la
+          
           # 创建空合并文件（不要任何头）
           > merged.tmp
           
@@ -81,9 +84,10 @@ jobs:
             { print }
           ' stream-laobai.m3u >> merged.tmp
           
-          # 添加自动列表（已过滤）
+          # 添加自动列表（已过滤）- 只添加 stream-数字.m3u 文件
           echo "添加自动生成的列表..."
-          for f in $(ls -v stream-*.m3u 2>/dev/null | sort -V); do
+          # 使用正则确保只匹配数字编号的文件
+          for f in $(ls -v stream-[0-9]*.m3u 2>/dev/null | sort -V); do
             echo "添加文件: $f"
             cat "$f" >> merged.tmp
           done
@@ -101,6 +105,10 @@ jobs:
           echo "最终文件大小:"
           du -sh stream-laobai.m3u
           du -sh stream.m3u
+          
+          # 显示内容行数用于调试
+          echo "stream-laobai.m3u 行数: $(wc -l < stream-laobai.m3u)"
+          echo "stream.m3u 行数: $(wc -l < stream.m3u)"
 
       - name: Commit changes
         if: success()
@@ -110,7 +118,7 @@ jobs:
           git config user.email "actions@github.com"
           
           # 添加自动生成的文件
-          git add stream/stream-*.m3u
+          git add stream/stream-[0-9]*.m3u  # 只添加数字编号文件
           git add stream/stream.m3u
           
           # 永远不要提交老白文件的更改
