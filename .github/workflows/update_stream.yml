@@ -1,0 +1,104 @@
+name: Update Stream Playlist
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # 每5分钟运行一次
+  workflow_dispatch:        # 允许手动触发
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup working directory
+        working-directory: ./stream
+        run: |
+          # 确保必要文件存在
+          touch target.txt
+          touch stream-laobai.m3u
+          touch stream.m3u
+
+      - name: Process target URLs
+        working-directory: ./stream
+        run: |
+          # 清理旧自动文件（即使target为空也执行）
+          rm -f stream-*.m3u temp_*.m3u
+          
+          # 处理非空target
+          if [ -s target.txt ]; then
+            index=1
+            while IFS= read -r url; do
+              # 清理URL格式
+              url=$(echo "$url" | tr -d '\r' | xargs)
+              [ -z "$url" ] && continue
+              
+              # 下载M3U
+              if curl -sS --max-time 10 --retry 2 -o "temp_$index.m3u" "$url"; then
+                # 双重过滤：移除EXTM3U头 + 广告频道
+                awk '
+                  /^#EXTM3U/ { next }
+                  /测试/ && /^#EXTINF/ { skip=1; next }
+                  skip { skip=0; next }
+                  { print }
+                ' "temp_$index.m3u" > "stream-$index.m3u"
+              else
+                echo "⚠️ Failed to download: $url"
+              fi
+              
+              index=$((index + 1))
+            done < target.txt
+          else
+            echo "ℹ️ target.txt is empty, skipping downloads"
+          fi
+          
+          # 清理临时文件
+          rm -f temp_*.m3u
+
+      - name: Merge playlists
+        working-directory: ./stream
+        run: |
+          # 创建空合并文件（不要任何头）
+          > merged.tmp
+          
+          # 添加老白内容（过滤掉EXTM3U和广告）
+          awk '
+            /^#EXTM3U/ { next }
+            /测试/ && /^#EXTINF/ { skip=1; next }
+            skip { skip=0; next }
+            { print }
+          ' stream-laobai.m3u >> merged.tmp
+          
+          # 添加自动列表（已过滤）
+          for f in $(ls -v stream-*.m3u 2>/dev/null); do
+            cat "$f" >> merged.tmp
+          done
+          
+          # 智能更新检测
+          if ! cmp -s merged.tmp stream.m3u; then
+            mv merged.tmp stream.m3u
+            echo "🔄 Playlist updated!"
+          else
+            rm merged.tmp
+            echo "✅ No changes detected"
+          fi
+
+      - name: Commit changes
+        if: success()
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          
+          # 添加所有可能变化的文件
+          git add stream/stream-*.m3u
+          git add stream/stream.m3u
+          
+          if git diff --staged --quiet; then
+            echo "⏩ No changes to commit"
+          else
+            git commit -m "🔄 Auto-update stream playlist"
+            git push
+            echo "🚀 Changes committed!"
+          fi
