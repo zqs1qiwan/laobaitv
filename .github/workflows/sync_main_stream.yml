@@ -2,7 +2,7 @@ name: Sync stream to all IPTV main files
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Every six hours
+    - cron: '*/6 * * * *'  # 每5分钟运行一次
   workflow_dispatch:
 
 defaults:
