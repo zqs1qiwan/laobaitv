@@ -12,27 +12,25 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          path: 'repo'  # 明确指定检出路径
+          path: 'repo'
 
-      - name: Setup working directory
+      - name: Verify laobai file
         run: |
-          # 确保stream目录存在
-          mkdir -p repo/stream
-          
-          # 确保必要文件存在（但不覆盖已有内容）
-          touch repo/stream/target.txt
-          [ ! -f repo/stream/stream-laobai.m3u ] && touch repo/stream/stream-laobai.m3u
-          touch repo/stream/stream.m3u
-          
-          # 列出目录内容用于调试
-          echo "目录内容:"
-          ls -la repo/stream/
+          if [ ! -f repo/stream/stream-laobai.m3u ]; then
+            echo "::error::❌ 关键错误：repo/stream/stream-laobai.m3u 文件不存在！"
+            echo "请创建此文件并提交到仓库"
+            exit 1
+          else
+            echo "✅ 找到 stream-laobai.m3u 文件"
+            ls -la repo/stream/stream-laobai.m3u
+          fi
 
       - name: Process target URLs
         working-directory: ./repo/stream
         run: |
-          # 清理旧自动文件（保留老白文件）
-          rm -f stream-*.m3u temp_*.m3u
+          # 只删除自动生成的 stream-*.m3u 文件，保留老白文件
+          find . -maxdepth 1 -name 'stream-[0-9]*.m3u' -delete
+          rm -f temp_*.m3u
           
           # 处理非空target
           if [ -s target.txt ]; then
@@ -63,24 +61,19 @@ jobs:
           
           # 清理临时文件
           rm -f temp_*.m3u
+          
+          # 列出处理后的文件
+          echo "处理后的文件列表:"
+          ls -la
 
       - name: Merge playlists
         working-directory: ./repo/stream
         run: |
-          # 列出目录内容用于调试
-          echo "合并前目录内容:"
-          ls -la
-          
-          # 确保老白文件存在且不被覆盖
-          if [ ! -f "stream-laobai.m3u" ]; then
-            echo "::error::❌ stream-laobai.m3u not found! This file must exist."
-            exit 1
-          fi
-          
           # 创建空合并文件（不要任何头）
           > merged.tmp
           
           # 添加老白内容（过滤掉EXTM3U和广告）
+          echo "添加老白列表内容..."
           awk '
             /^#EXTM3U/ { next }
             /测试/ && /^#EXTINF/ { skip=1; next }
@@ -89,40 +82,44 @@ jobs:
           ' stream-laobai.m3u >> merged.tmp
           
           # 添加自动列表（已过滤）
+          echo "添加自动生成的列表..."
           for f in $(ls -v stream-*.m3u 2>/dev/null | sort -V); do
+            echo "添加文件: $f"
             cat "$f" >> merged.tmp
           done
           
           # 智能更新检测
           if [ -f stream.m3u ] && cmp -s merged.tmp stream.m3u; then
             rm merged.tmp
-            echo "✅ No changes detected"
+            echo "✅ 无变更"
           else
             mv merged.tmp stream.m3u
-            echo "🔄 Playlist updated!"
+            echo "🔄 播放列表已更新"
           fi
           
-          # 列出最终文件大小
+          # 显示最终文件大小
           echo "最终文件大小:"
-          du -sh stream-laobai.m3u stream.m3u
+          du -sh stream-laobai.m3u
+          du -sh stream.m3u
 
       - name: Commit changes
         if: success()
         run: |
+          cd repo
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           
-          # 添加所有可能变化的文件
+          # 添加自动生成的文件
           git add stream/stream-*.m3u
           git add stream/stream.m3u
           
           # 永远不要提交老白文件的更改
-          git restore --staged stream/stream-laobai.m3u || true
+          git restore --staged stream/stream-laobai.m3u 2>/dev/null || true
           
-          if git diff --staged --quiet; then
-            echo "⏩ No changes to commit"
+          if git diff --cached --quiet; then
+            echo "⏩ 无变更可提交"
           else
-            git commit -m "🔄 Auto-update stream playlist"
+            git commit -m "🔄 自动更新播放列表"
             git push
-            echo "🚀 Changes committed!"
+            echo "🚀 变更已提交!"
           fi
