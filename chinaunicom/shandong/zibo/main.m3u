@@ -40,6 +40,8 @@ http://192.168.2.1:4022/udp/239.253.252.181:8000
 ######央视频道end######
 
 ######卫视频道######
+#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="卫视",北京卫视4K HD
+http://192.168.2.1:4022/udp/239.253.252.200:8000
 #EXTINF:-1 tvg-id="28" tvg-name="浙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png" group-title="卫视",浙江卫视 HD
 http://192.168.2.1:4022/udp/239.253.252.84:8000
 #EXTINF:-1 tvg-id="27" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="卫视",湖南卫视 HD
@@ -271,15 +273,31 @@ https://www.freetv.top/migu/955271406.m3u8?migutoken=f4b32cc40d3fb50cf9dbb7d6b07
 https://www.freetv.top/migu/955238210.m3u8?migutoken=ee6ad2dbbaf909c7c353d773c4585f73c0e7f2f4cff51352549117ac8b978221d840d879b844d37713d51e47696ff29ea60eed32f8849c103de9cc7ac914d925c64101f9ac3c4970213689562c
 ######互联网直播频道end######
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="山东",QTV1 720P
-http://192.168.2.1:4022/udp/239.253.252.249:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="山东",QTV动画
+http://192.168.2.1:4022/udp/239.253.252.229:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="山东",QTV足球
+http://192.168.2.1:4022/udp/239.253.252.204:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="山东",QTV影视1
+http://192.168.2.1:4022/udp/239.253.252.210:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="山东",QTV影视1
+http://192.168.2.1:4022/udp/239.253.252.212:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="山东",QTV影视1
+http://192.168.2.1:4022/udp/239.253.252.216:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="山东",QTV影视1
+http://192.168.2.1:4022/udp/239.253.252.218:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="山东",QTV影视2
+http://192.168.2.1:4022/udp/239.253.252.220:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="山东",QTV影视3
+http://192.168.2.1:4022/udp/239.253.252.221:8000
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="山东",QTV2 720P
 http://192.168.2.1:4022/udp/239.253.252.250:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="山东",QTV3 720P
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="淄博",张店
 http://192.168.2.1:4022/udp/239.253.252.251:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="山东",QTV4 720P
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="淄博",淄博民生
 http://192.168.2.1:4022/udp/239.253.252.252:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="山东",QTV5
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="淄博",淄博影视
+http://192.168.2.1:4022/udp/239.253.252.241:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="淄博",淄博新闻综合
 http://192.168.2.1:4022/udp/239.253.252.253:8000
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="山东",QTV6
 http://192.168.2.1:4022/udp/239.253.252.254:8000
