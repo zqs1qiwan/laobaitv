@@ -34,13 +34,13 @@ http://192.168.2.1:4022/rtp/239.3.1.65:8132
 http://192.168.2.1:4022/rtp/239.3.1.153:8136
 #EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="央视频道",CCTV-16奥林匹克频道
 http://192.168.2.1:4022/rtp/239.3.1.184:8001
-#EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="央视频道",CCTV-16奥林匹克频道[HDR]
-http://192.168.2.1:4022/rtp/239.3.1.183:8001
+##EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="央视频道",CCTV-16奥林匹克频道[HDR]
+##http://192.168.2.1:4022/rtp/239.3.1.183:8001
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视频道",CCTV-17农业农村
 http://192.168.2.1:4022/rtp/239.3.1.151:8144
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视频道",CCTV5+
 http://192.168.2.1:4022/rtp/239.3.1.130:8004
-#EXTINF:-1 tvg-id="106" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视频道",CCTV-4K[HDR]
+#EXTINF:-1 tvg-id="106" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视频道",CCTV-4K
 http://192.168.2.1:4022/rtp/239.3.1.245:2000
 #EXTINF:-1 tvg-name="CCTV8K测试" tvg-logo="https://epg.112114.xyz/logo/CCTV8K.png" group-title="央视频道",CCTV8K测试
 http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw1981574683_-2118700426/ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8?icpid=3&RTS=1659435610&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3
@@ -123,7 +123,7 @@ http://58.144.154.93/qctv.fengshows.cn/live/0701pin72.m3u8
 http://58.144.154.93/qctv.fengshows.cn/live/0701phk72.m3u8
 
 #EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="北京频道;卫视频道",BRTV北京卫视
-http://192.168.2.1:4022/rtp/239.3.1.241:8000
+http://192.168.2.1:4022/rtp/239.3.1.118:8001
 #EXTINF:-1 tvg-id="1880" tvg-name="BTV新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV新闻.png" group-title="北京频道",BRTV新闻
 http://192.168.2.1:4022/rtp/239.3.1.159:8000
 #EXTINF:-1 tvg-id="1873" tvg-name="BTV文艺" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV文艺.png" group-title="北京频道",BRTV文艺
