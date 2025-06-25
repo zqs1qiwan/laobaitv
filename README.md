@@ -14,8 +14,16 @@
 
 如无匹配的本地组播播放列表，将会默认引用到肥羊的公网IPv6直播源，通过live.laobaitv.net部署
 
-如果本地的ip及端口有区别，请使用?ip=****&port=****参数自定义
-例如  http://iptv.laobaitv.net/?ip=192.168.8.1&port=10086
+如果本地的ip及端口有区别，如果自动识别的地区及宽带有误，请使用参数自定义
+支持的自定义参数
+- **本地组播路由IP：** `ip`
+- **本地组播路由Port：** `port`
+- **iptv宽带提供商ISP：** `isp`
+- **iptv宽带地区（省份）：** `region`
+- **iptv宽带城市：** `city`
+
+例如 https://iptv.laobaitv.net/?isp=chinaunicom&region=shandong&city=zibo&ip=192.168.100.1&port=4200
+即是 中国联通 山东 淄博 udpxy所在端ip 192.168.100.1 udpxy端口 4200
 
 
 ## 如直接使用此组播源需将组播环境IP按如下配置
