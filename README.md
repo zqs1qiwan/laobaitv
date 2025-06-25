@@ -22,8 +22,8 @@
 - **iptv宽带地区（省份）：** `region`
 - **iptv宽带城市：** `city`
 
-```例如 https://iptv.laobaitv.net/?isp=chinaunicom&region=shandong&city=zibo&ip=192.168.100.1&port=4200
-即是 中国联通 山东 淄博 udpxy所在端ip 192.168.100.1 udpxy端口 4200```
+- 例如 `https://iptv.laobaitv.net/?isp=chinaunicom&region=shandong&city=zibo&ip=192.168.100.1&port=4200`
+- 即是 `中国联通` `山东` `淄博` `udpxy所在端ip 192.168.100.1` `udpxy端口 4200`
 
 
 ## 如直接使用此组播源需将组播环境IP按如下配置
