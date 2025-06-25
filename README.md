@@ -7,8 +7,8 @@
 会自动按照来源IP的省份和运营商信息匹配对应的组播播放列表。
 
 - 2025.06.25 完全参数支持，例如`https://iptv.laobaitv.net/?isp=chinaunicom&region=shandong&city=zibo&ip=192.168.100.1&port=4200`
-- 2025.06.16 部分地区组播信息是城市区分并非省份区分，增加对山东联通城市支持，因为CF-ipcity的信息不准确，请手动使用参数?city=zibo
-- 2025.05.15 添加debug信息，自动匹配地理位置不对的时候可以检查是否是cf识别有误，电脑浏览器网页访问iptv.laobaitv.net在第一行会显示识别到的来源ip的地理位置和isp信息等debug info
+- 2025.06.16 部分地区组播信息是城市区分并非省份区分，增加对山东联通城市支持，因为`CF-ipcity`的信息不准确，请手动使用参数`?city=zibo`
+- 2025.05.15 添加debug信息，自动匹配地理位置不对的时候可以检查是否是cf识别有误，电脑浏览器网页访问`iptv.laobaitv.net`在第一行会显示识别到的来源ip的地理位置和isp信息等debug info
 
 如想获得某个具体地点的播放列表也可以在例如：/chinaunicom/beijing 等路径找到main.m3u
 
@@ -39,10 +39,41 @@
 ```bash
 /usr/bin/udpxy -T -v -S -a br-lan -p 4022 -m eth0 -c 20
 
--T：启用线程模式
--v：输出详细信息
--S：禁用源地址检测
--a：用户侧接口（默认 br-lan）
--p：指定端口（默认 4022）
--m：IPTV组播信号侧接口（默认 eth0）
--c：设置最大客户端数量（默认 20）
+-v
+# 启用详细输出[default = disabled ]。
+
+-S
+# 启用客户端统计信息[default = disabled ]。
+
+-T
+# 不要作为守护进程运行[default = daemon if root ]。
+
+-a <listenaddr>
+# 要侦听的IPv4地址/接口[default = 0.0.0.0 ]。
+
+-m <mcast_ifc_addr>
+# （组播）源的IPv4地址/接口[默认= 0.0.0.0 ]。
+
+-c <clients>
+# 要接受的最大客户端数[default = 3，max = 5000 ]。
+
+-l <logfile>
+# 将输出记录到文件[default = stderr ]。
+
+-B <sizeK>
+# 入站（多播）数据的缓冲区大小（65536,32Kb，1Mb）[默认= 2048字节 ]。
+
+-R <msgs>
+# 要缓冲的最大消息数（-1 = 全部）[default = 1 ]。
+
+-H <sec>
+# 在缓冲区中保存数据的最长时间（以秒为单位）（- 1 = 无限制）[默认值= 1 ]。
+
+-n <nice_incr>
+# 好的值增量[default = 0 ]。
+
+-M <sec>
+# 每M秒更新一次多播订阅（如果为0则跳过）[default = 0 ]。
+
+-p <port>
+# 端口。
