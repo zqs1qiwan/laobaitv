@@ -6,7 +6,7 @@
 
 会自动按照来源IP的省份和运营商信息匹配对应的组播播放列表。
 
-- 2025.06.25 完全参数支持，例如https://iptv.laobaitv.net/?isp=chinaunicom&region=shandong&city=zibo&ip=192.168.100.1&port=4200
+- 2025.06.25 完全参数支持，例如`https://iptv.laobaitv.net/?isp=chinaunicom&region=shandong&city=zibo&ip=192.168.100.1&port=4200`
 - 2025.06.16 部分地区组播信息是城市区分并非省份区分，增加对山东联通城市支持，因为CF-ipcity的信息不准确，请手动使用参数?city=zibo
 - 2025.05.15 添加debug信息，自动匹配地理位置不对的时候可以检查是否是cf识别有误，电脑浏览器网页访问iptv.laobaitv.net在第一行会显示识别到的来源ip的地理位置和isp信息等debug info
 
@@ -22,8 +22,8 @@
 - **iptv宽带地区（省份）：** `region`
 - **iptv宽带城市：** `city`
 
-例如 https://iptv.laobaitv.net/?isp=chinaunicom&region=shandong&city=zibo&ip=192.168.100.1&port=4200
-即是 中国联通 山东 淄博 udpxy所在端ip 192.168.100.1 udpxy端口 4200
+```例如 https://iptv.laobaitv.net/?isp=chinaunicom&region=shandong&city=zibo&ip=192.168.100.1&port=4200
+即是 中国联通 山东 淄博 udpxy所在端ip 192.168.100.1 udpxy端口 4200```
 
 
 ## 如直接使用此组播源需将组播环境IP按如下配置
