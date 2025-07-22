@@ -44,10 +44,6 @@ http://192.168.2.1:4022/udp/239.253.7.50:52237
 http://192.168.2.1:4022/udp/239.253.7.225:51097
 #EXTINF:-1 tvg-id="1427" tvg-name="山东齐鲁" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/sd_qilu.png" group-title="山东",山东齐鲁
 http://192.168.2.1:4022/udp/239.253.7.185:51057
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="济南",济南新闻综合
-http://192.168.2.1:4022/udp/239.253.7.194:51066
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="济南",济南都市
-http://192.168.2.1:4022/udp/239.253.7.195:51067
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="山东",山东文旅 HD
 http://192.168.2.1:4022/udp/239.253.7.41:53235
 #EXTINF:-1 tvg-id="1434" tvg-name="山东生活" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/sd_shenghuo.png" group-title="山东",山东生活 HD
@@ -66,6 +62,20 @@ http://192.168.2.1:4022/udp/239.253.7.239:52239
 http://192.168.2.1:4022/udp/239.253.7.131:51100
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="山东",山东教育卫视 HD
 http://192.168.2.1:4022/udp/239.253.7.48:53002
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="淄博",淄博新闻
+http://192.168.2.1:4022/rtp/239.253.7.220:51092
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="淄博",淄博都市
+http://192.168.2.1:4022/rtp/239.253.7.219:51091
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="淄博",淄博生活
+http://192.168.2.1:4022/rtp/239.253.7.138:51173
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="淄博",淄博科教
+http://192.168.2.1:4022/rtp/239.253.7.139:51174
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="淄博",淄博影视
+http://192.168.2.1:4022/rtp/239.253.7.245:52038
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="济南",济南新闻综合
+http://192.168.2.1:4022/udp/239.253.7.194:51066
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="济南",济南都市
+http://192.168.2.1:4022/udp/239.253.7.195:51067
 ######本地频道end######
 
 ######卫视频道######
