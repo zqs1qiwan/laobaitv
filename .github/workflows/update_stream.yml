@@ -1,7 +1,7 @@
 name: Update Stream Playlist
 on:
   schedule:
-    - cron: '*/30 * * * *'  # 每30分钟运行一次
+    - cron: '0 */3 * * *'  # 每 3 小时在整点运行（UTC 时间）
   workflow_dispatch:        # 允许手动触发
 
 jobs:
