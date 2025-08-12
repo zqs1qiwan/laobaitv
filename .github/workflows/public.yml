@@ -1,0 +1,31 @@
+name: Update Public Playlist
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时整点执行
+  workflow_dispatch:     # 允许手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Read target URL
+      id: target
+      run: |
+        TARGET_URL=$(cat public/default/target.txt)
+        echo "target_url=$TARGET_URL" >> $GITHUB_OUTPUT
+
+    - name: Download and process playlist
+      run: |
+        curl -sL "${{ steps.target.outputs.target_url }}" | 
+        sed 's|https://mursor\.ottiptv\.cc|https://test.chinacert.cftest5.cn|g' > public/default/main.m3u
+
+    - name: Commit changes
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git add public/default/main.m3u
+        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update playlist from ${{ steps.target.outputs.target_url }}"
+        git push
