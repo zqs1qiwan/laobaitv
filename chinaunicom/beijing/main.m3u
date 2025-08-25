@@ -63,14 +63,14 @@ http://192.168.2.1:4022/rtp/239.3.1.211:8064
 http://192.168.2.1:4022/rtp/239.3.1.138:8044
 #EXTINF:-1 tvg-id="41" tvg-name="东南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="卫视频道",东南卫视
 http://192.168.2.1:4022/rtp/239.3.1.156:8148
-#EXTINF:-1 tvg-id="33" tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="卫视频道",广东卫视
-http://192.168.2.1:4022/rtp/239.3.1.142:8048
+#EXTINF:-1 tvg-id="33" tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="卫视频道",广东卫视 4K
+http://192.168.2.1:4022/rtp/239.3.1.203:2000
 #EXTINF:-1 tvg-id="36" tvg-name="辽宁卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/liaoning.png" group-title="卫视频道",辽宁卫视
 http://192.168.2.1:4022/rtp/239.3.1.210:8056
 #EXTINF:-1 tvg-id="46" tvg-name="黑龙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/heilongjiang.png" group-title="卫视频道",黑龙江卫视
 http://192.168.2.1:4022/rtp/239.3.1.133:8016
-#EXTINF:-1 tvg-id="34" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视频道",深圳卫视
-http://192.168.2.1:4022/rtp/239.3.1.134:8020
+#EXTINF:-1 tvg-id="34" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视频道",深圳卫视 4K
+http://192.168.2.1:4022/rtp/239.3.1.202:2000
 #EXTINF:-1 tvg-id="44" tvg-name="贵州卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guizhou.png" group-title="卫视频道",贵州卫视
 http://192.168.2.1:4022/rtp/239.3.1.149:8076
 #EXTINF:-1 tvg-id="39" tvg-name="天津卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/tianjin.png" group-title="卫视频道",天津卫视
@@ -122,7 +122,7 @@ http://58.144.154.93/qctv.fengshows.cn/live/0701pin72.m3u8
 #EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视香港台.png" group-title="卫视频道",凤凰香港
 http://58.144.154.93/qctv.fengshows.cn/live/0701phk72.m3u8
 
-#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="北京频道;卫视频道",BRTV北京卫视
+#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="北京频道;卫视频道",BRTV北京卫视 4K
 http://192.168.2.1:4022/rtp/239.3.1.118:8001
 #EXTINF:-1 tvg-id="1880" tvg-name="BTV新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV新闻.png" group-title="北京频道",BRTV新闻
 http://192.168.2.1:4022/rtp/239.3.1.159:8000
@@ -132,8 +132,12 @@ http://192.168.2.1:4022/rtp/239.3.1.242:8000
 http://192.168.2.1:4022/rtp/239.3.1.158:8000
 #EXTINF:-1 tvg-id=""  tvg-name="BTRV体育休闲" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV体育.png" group-title="北京频道",BRTV体育休闲
 http://192.168.2.1:4022/rtp/239.3.1.243:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV体育.png" group-title="北京频道",BRTV睛彩竞技
+http://192.168.2.1:4022/rtp/239.3.1.125:8001
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV体育.png" group-title="北京频道",BRTV睛彩篮球
-http://192.168.2.1:4022/rtp/239.3.1.97:8001
+http://192.168.2.1:4022/rtp/239.3.1.126:8001
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV体育.png" group-title="北京频道",BRTV睛彩青少
+http://192.168.2.1:4022/rtp/239.3.1.127:8001
 #EXTINF:-1 tvg-id=""  tvg-name="BRTV纪实科教"  tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV科教.png"  group-title="北京频道",BRTV纪实科教
 http://192.168.2.1:4022/rtp/239.3.1.115:8000
 #EXTINF:-1 tvg-id=""  tvg-name="BRTV财经"  tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV财经.png"  group-title="北京频道",BRTV财经
@@ -379,3 +383,4 @@ http://192.168.2.1:4022/rtp/239.3.1.186:8001
 http://192.168.2.1:4022/rtp/239.3.1.187:8001
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京频道",聚鲨国际
 http://192.168.2.1:4022/rtp/239.3.1.188:8001
+
