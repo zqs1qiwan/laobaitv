@@ -2,7 +2,7 @@ name: Update Public Playlist
 on:
   schedule:
     - cron: '0 * * * *'  # 每小时整点执行
-  workflow_dispatch:     # 允许手动触发
+  workflow_dispatch:      # 允许手动触发
 
 jobs:
   update:
@@ -17,15 +17,25 @@ jobs:
         TARGET_URL=$(cat public/default/target.txt)
         echo "target_url=$TARGET_URL" >> $GITHUB_OUTPUT
 
-    - name: Download and process playlist
+    # --- Start of MODIFIED Block ---
+    - name: Download, process, and append playlist
       run: |
-        curl -sL "${{ steps.target.outputs.target_url }}" | 
+        # 步骤 1: 下载并替换域名，将结果覆盖写入 main.m3u
+        curl -sL "${{ steps.target.outputs.target_url }}" | \
         sed 's|https://mursor\.ottiptv\.cc|https://test.chinacert.cftest5.cn|g' > public/default/main.m3u
+
+        # 步骤 2: 在 main.m3u 文件末尾追加一个空行
+        echo "" >> public/default/main.m3u
+
+        # 步骤 3: 将 stream/stream.m3u 的内容追加到 main.m3u 的末尾
+        cat stream/stream.m3u >> public/default/main.m3u
+    # --- End of MODIFIED Block ---
 
     - name: Commit changes
       run: |
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
         git add public/default/main.m3u
+        # 下面的命令只有在文件实际发生变化时才会执行 commit 和 push
         git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update playlist from ${{ steps.target.outputs.target_url }}"
         git push
