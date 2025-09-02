@@ -40,6 +40,6 @@
 "logo":"https://laobaitv.net/wp-content/uploads/2024/09/laobailogo1-nobg-293x300.png",
 //"logo":"https://laobaitv.net/wp-content/uploads/2024/09/laobailogo1-nobg-293x300.png",
 "lives":[
-{"name":"老白IPTV","type":0,"url":"https://lbzs.laobaitv.net","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://11.112114.xyz/logo/{name}.png","ua": "okHttp/laobaitv-tvbox"}
+{"name":"老白IPTV","type":0,"url":"https://lbzs.laobaitv.net","playerType":2,"epg":"http://epg.51zmt.top:8000/e.xml","logo":"https://11.112114.xyz/logo/{name}.png","ua": "okHttp/laobaitv-tvbox"}
 ]
 }
