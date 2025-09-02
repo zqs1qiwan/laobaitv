@@ -40,9 +40,6 @@
 "logo":"https://laobaitv.net/wp-content/uploads/2024/09/laobailogo1-nobg-293x300.png",
 //"logo":"https://laobaitv.net/wp-content/uploads/2024/09/laobailogo1-nobg-293x300.png",
 "lives":[
-{"name":"V4-mursor（卡顿请换源）","type":0,"url":"https://sub.ottiptv.cc/iptv.m3u","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://11.112114.xyz/logo/{name}.png","ua": "okHttp/Mod-1.0.1"},
-{"name":"V6-范明明（需开启V6网络）","type":0,"url":"https://scrm-community.oss-cn-shenzhen.aliyuncs.com/miniso-vendor/20250425-868403-298462cec53c48439a5765ceaca3c67f.m3u","playerType":2,"logo":"https://11.112114.xyz/logo/{name}.png"},
-{"name":"牛播一","type":0,"url":"http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://11.112114.xyz/logo/{name}.png"},
-{"name":"平台直播","type":0,"url":"http://tv.iill.top/m3u/Live","ua": "okhttp/3.15","playerType":2 }
+{"name":"老白IPTV","type":0,"url":"https://lbzs.laobaitv.net","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://11.112114.xyz/logo/{name}.png","ua": "okHttp/laobaitv-tvbox"}
 ]
 }
