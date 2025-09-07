@@ -138,11 +138,13 @@ http://192.168.2.1:4022/rtp/239.3.1.115:8000
 http://192.168.2.1:4022/rtp/239.3.1.116:8000
 #EXTINF:-1  tvg-id=""  tvg-name="BRTV生活"  tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV生活.png"  group-title="北京频道",BRTV生活
 http://192.168.2.1:4022/rtp/239.3.1.117:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京频道;4K",IPTV5＋高清
+http://192.168.2.1:4022/rtp/239.3.1.237:4120
 #EXTINF:-1 tvg-id="67" tvg-name="卡酷动画" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/kaku.png" group-title="北京频道;少儿频道",BRTV卡酷动画
 http://192.168.2.1:4022/rtp/239.3.1.189:8000
 #EXTINF:-1 tvg-id="7244" tvg-name="爱上4K" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/aishang4k.png" group-title="北京频道;4K",爱上4K[4K]
 http://192.168.2.1:4022/rtp/239.3.1.236:2000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京频道;4K",北京IPTV 4K超清[4K]
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京频道;4K",北京IPTV 4K超清 4K
 http://192.168.2.1:4022/rtp/239.3.1.249:8001
 ######卫视频道end######
 ######互联网直播频道######
@@ -418,6 +420,7 @@ http://192.168.2.1:4022/rtp/239.3.1.186:8001
 http://192.168.2.1:4022/rtp/239.3.1.187:8001
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京频道",聚鲨国际
 http://192.168.2.1:4022/rtp/239.3.1.188:8001
+
 
 
 
