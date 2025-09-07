@@ -129,7 +129,7 @@ http://192.168.2.1:4022/rtp/239.3.1.243:8000
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV体育.png" group-title="北京频道",BRTV睛彩竞技
 http://192.168.2.1:4022/rtp/239.3.1.125:8001
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV体育.png" group-title="北京频道",BRTV睛彩篮球
-http://192.168.2.1:4022/rtp/239.3.1.126:8001
+http://192.168.2.1:4022/udp/239.3.1.126:8001
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV体育.png" group-title="北京频道",BRTV睛彩青少
 http://192.168.2.1:4022/rtp/239.3.1.127:8001
 #EXTINF:-1 tvg-id=""  tvg-name="BRTV纪实科教"  tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV科教.png"  group-title="北京频道",BRTV纪实科教
@@ -418,6 +418,7 @@ http://192.168.2.1:4022/rtp/239.3.1.186:8001
 http://192.168.2.1:4022/rtp/239.3.1.187:8001
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京频道",聚鲨国际
 http://192.168.2.1:4022/rtp/239.3.1.188:8001
+
 
 
 
