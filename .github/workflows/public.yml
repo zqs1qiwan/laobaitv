@@ -20,9 +20,12 @@ jobs:
     # --- Start of MODIFIED Block ---
     - name: Download, process, and append playlist
       run: |
-        # 步骤 1: 下载并替换域名，将结果覆盖写入 main.m3u
+        # 步骤 1: 下载并执行两次域名替换，将最终结果覆盖写入 main.m3u
+        # 第一个 sed 替换 mursor.ottiptv.cc
+        # 第二个 sed 在第一个的结果上，继续替换 mgtv.ottiptv.cc
         curl -sL "${{ steps.target.outputs.target_url }}" | \
-        sed 's|https://mursor\.ottiptv\.cc|https://test.chinacert.cftest5.cn|g' > public/default/main.m3u
+        sed 's|https://mursor\.ottiptv\.cc|https://test.chinacert.cftest5.cn|g' | \
+        sed 's|https://mgtv\.ottiptv\.cc|https://mg.chinacert.cftest5.cn|g' > public/default/main.m3u
 
         # 步骤 2: 在 main.m3u 文件末尾追加一个空行
         echo "" >> public/default/main.m3u
