@@ -1,352 +1,462 @@
-#EXTM3U x-tvg-url="https://11.112114.xyz/pp.xml"
-#EXTINF:-1 tvg-name="重温经典" tvg-logo="https://11.112114.xyz/logo/重温经典.png" group-title="其他",重温经典
-https://gdcucc.v1.mk/gdcucc/cwjd.m3u8
-#EXTINF:-1 tvg-name="五星体育" tvg-logo="https://11.112114.xyz/logo/五星体育.png" group-title="其他",五星体育
-https://gdcucc.v1.mk/gdcucc/wxty.m3u8
-#EXTINF:-1 tvg-name="CCTV1综合" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2201/057/821/202204010054_1626677502161_H169_1080.jpg" group-title="央视", CCTV1综合
-https://mg.chinacert.cftest5.cn/mg/608807420.m3u8?userid=1999482075&sign=f6fca30c056e3e356158bf5a9ad5ae05f6043f2c92f383733a73f5d8258ccf38dc385f7847b83f193e98af86667f4e57791c60a4fc6574a180f05ae82148a61e747a8f7e8b288e71df57a54576d8440f56&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV2财经" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/346/945/202205311432_1653977575541_H169_1080.jpg" group-title="央视", CCTV2财经
-https://mg.chinacert.cftest5.cn/mg/631780532.m3u8?userid=1999482075&sign=12a285bf603a70fcbfeb00a6db410e83d9c7e359c435e2df23048fabfe7ea59d85b743a58487b8744d19e4e30360efb9c6f87e6fea21ba7f54ec06c88651e881a77c657a3875c85a1e351db0d2e024cddd&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV3综艺" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/212/864/202204010055_1626679292691_H169_1080.jpg" group-title="央视", CCTV3综艺
-https://mg.chinacert.cftest5.cn/mg/624878271.m3u8?userid=1999482075&sign=9e62f957292fbed262b760ef5a715c540c90669f2d7359f5a63a5ef7cce1f7c3145977d76d1b2f3678089a4f52abe70db171cd82acc9025e7f680dea631c26872947a57984297453d3c9a85ed4d1113f7c&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV4中文国际" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/346/947/202204010054_1626679457281_H169_1080.jpg" group-title="央视", CCTV4中文国际
-https://mg.chinacert.cftest5.cn/mg/631780421.m3u8?userid=1999482075&sign=cc9173cd78aff954f439528d6ded9c272b64f190ee3e26c876bd6fa2db842460d1a1a4645d18ac5dae91313101374602a662aba87d861c5d192be82d29b87b47bbeeef61b9c3639104b467003788606ae4&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV5体育" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/516/171/202204010048_1626679645474_H169_1080.jpg" group-title="央视", CCTV5体育
-https://mg.chinacert.cftest5.cn/mg/641886683.m3u8?userid=1999482075&sign=ca2d5ef5af2e75a5e30f0e738a77160c2ecbb6d76844bfbf57c2b8a4576803160503e7a449c3d93bbb0f3bde021c724a68d7b42a12662bc16a4698e95666aed06d122b0972cf9482318500d756f9b24856&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV5+体育赛事" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/516/288/202204010048_1626679726956_H169_1080.jpg" group-title="央视", CCTV5+体育赛事
-https://mg.chinacert.cftest5.cn/mg/641886773.m3u8?userid=1999482075&sign=362d6bcfd1fdeae06e00ad756a7d33294d0d4b2cfc3f9f1b63559beefa1fda1e167a895dbf0b4a6e702be274f0389c123fd61f1fff3f38f4e3c5fc66dd0010d42a66e7933890eeb3dce4581216ced6fa53&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV6电影" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/212/872/202204010054_1626679942827_H169_1080.jpg" group-title="央视", CCTV6电影
-https://mg.chinacert.cftest5.cn/mg/624878396.m3u8?userid=1999482075&sign=1d2d63e7102124f14ff5bb86013818874ceb6fb6c557acda6ec6d189bdda7e2d33932abe0be7eb78dd0af188c4dfc6e43e771ae2b5741488c801557eee842cd7c03f8dbd39fd32fcd2b3f06d5e1016714a&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV7国防军事" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5501/083/622/202204010054_1626680072401_H169_1080.jpg" group-title="央视", CCTV7国防军事
-https://mg.chinacert.cftest5.cn/mg/673168121.m3u8?userid=1999482075&sign=c2d0902791f28f302e3c7f20738499c7ed3b1d8c8d53658b35c5017b1e7305a064a16cff2e90da07fa5a06337c3f948e2f48a09c0689b64785c5d58aa9d0734385b7c06941547da91b176ba1eee2893c29&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV8电视剧" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/212/868/202204010049_1626677144094_H169_1080.jpg" group-title="央视", CCTV8电视剧
-https://mg.chinacert.cftest5.cn/mg/624878356.m3u8?userid=1999482075&sign=e96ded46d6b489e56b6b941cfc5e91b48267603727c26a256eede807ba397a7b6713fbb618484abfeda316bc4188afbfb1a546bd6ec2ff047f5f1c0d964b9ec34dbfdd34311ec9af483eae22b05aac1669&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV9纪录" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5501/083/624/202204010054_1626677492322_H169_1080.jpg" group-title="央视", CCTV9纪录
-https://mg.chinacert.cftest5.cn/mg/673168140.m3u8?userid=1999482075&sign=274ba76bf082043e5159c050cbe1c846af7e8735971684cfd590d6f2b8a7f96829113f9def8a874c2b56190111f474ed7eb5946e6ffc8c9cb4c3069b36135efd95fbb8274fbb9bee93f82ee80d9fef0d1a&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV10科教" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/212/874/202204010054_1626677759168_H169_1080.jpg" group-title="央视", CCTV10科教
-https://mg.chinacert.cftest5.cn/mg/624878405.m3u8?userid=1999482075&sign=737bff5b3b5b4806b0c16b8a2ea020b591b199b91615a4ed011d6fa7366a6386e3033ca8f02a0ba500578fe7a154aa03864780d4bc9855f10f1d0a8baf2bc5afb2807d054d9c3383c3e09e9a816b8d4577&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV11戏曲" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/988/610/202204010054_1626677917611_H169_1080.jpg" group-title="央视", CCTV11戏曲
-https://mg.chinacert.cftest5.cn/mg/667987558.m3u8?userid=1999482075&sign=71a17624ac71d2b49b6d6ba4f055ff160c1c8d5a761ecbe246bac8abe4cdc4b8d75bb465084842a513165815e14c071d65264e315ab249977ee76e0438f4ae5b6fadecf8eba89ead8496b7a7503d7c596c&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV12社会与法" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5501/083/627/202204010053_1626678104342_H169_1080.jpg" group-title="央视", CCTV12社会与法
-https://mg.chinacert.cftest5.cn/mg/673168185.m3u8?userid=1999482075&sign=e3196fbb371499153d383cb257265a50ed24ba8649febc1f2ba55a6076b380175cbbfb38329271f75950c245dd12592db3f2ef2086a6f10a345af8dd3d62735d4fe80c7ce055d8b4898062cab6ab3bef27&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV13新闻" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2202/208/864/202204010051_2202208864_H169_1080.jpg" group-title="央视", CCTV13新闻
-https://mg.chinacert.cftest5.cn/mg/608807423.m3u8?userid=1999482075&sign=3181b5a56f00a0087d53b4815b5a21c390c9c2f8ef712e876602de0a34c14cd105c4d5e57d9b2d06a4f3d40688809fd672e5e5487760cd98a9a84d8579968ab94a378d03ac999a96b7314cc46644c24015&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV14少儿" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/212/875/202204010054_1626678143105_H169_1080.jpg" group-title="央视", CCTV14少儿
-https://mg.chinacert.cftest5.cn/mg/624878440.m3u8?userid=1999482075&sign=2836f72b44c1cbe58bf117e12ec821682d619cd0f1f366c95fc1879e02c72a9129b0e6257b79ad7f76948f705e9cb3f783592aac2206764bc90f38c75951f769bffa3257c8b67fcb5261ac0ced0f680a97&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV15音乐" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5501/083/628/202204010054_1626678239769_H169_1080.jpg" group-title="央视", CCTV15音乐
-https://mg.chinacert.cftest5.cn/mg/673168223.m3u8?userid=1999482075&sign=990e567ff25f97d9d93e6f655abdc4ead47abf3de983088c109c2b5e4f242a6dd2718caf43b0d0ff016b8fde662dea50b38d8ca9ba802a83309d78d29b3ea4f422644a1e1ae89441a25e065b34e2f44f6d&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV17农业农村" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5501/083/631/202204010052_1626678423944_H169_1080.jpg" group-title="央视", CCTV17农业农村
-https://mg.chinacert.cftest5.cn/mg/673168256.m3u8?userid=1999482075&sign=fd8eb342108d5f50f6681c18f2d149643470fd9ba8ffd28fb9bc882a70ff90022fcd578e4612db91365605de98f3742afcbfaa94da952d379e192555788942dd8ee2a532def42f39f4665d8d3d86233049&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV4欧洲" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/179/315/202204010055_1626831001078_H169_1080.jpg" group-title="央视", CCTV4欧洲
-https://mg.chinacert.cftest5.cn/mg/608807419.m3u8?userid=1999482075&sign=c7472333ca06387ea771c798ba08d2ea9c010c750b7a08280349285d415e000748ed4aa61bfff751b38420bde823852b20f87550d64da13b1a8b87387a384c3573d70853a65a9e2497e4cb0987ac38f1c9&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CCTV4美洲" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/179/344/202204010055_1626830735444_H169_1080.jpg" group-title="央视", CCTV4美洲
-https://mg.chinacert.cftest5.cn/mg/608807416.m3u8?userid=1999482075&sign=36d6ab8848f5fbc69895a00ddfd4bed875dfc04aa8ff276de13923fae5e5908c9f8437edc65e6324c2917cfa6104cddf0b5a5ee152b46d619c6be21065d2ff4bfa0f98081daed559e26773574080ae7420&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CGTN外语纪录" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/179/356/202502251602_1740470533820_H169_1080.jpg" group-title="央视", CGTN外语纪录
-https://mg.chinacert.cftest5.cn/mg/609006487.m3u8?userid=1999482075&sign=928b24071adcf9420585fa95347cfa22cade2ec64a2f7ee269096763c6da1f8ff51ae5e1ddaefd7211cb18a4331acf584b14e84e4baa9a4874b83e92a15051582026e4477d31d266754f192cf151cba884&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CGTN阿拉伯语" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/179/303/202502251557_1740470224929_H169_1080.jpg" group-title="央视", CGTN阿拉伯语
-https://mg.chinacert.cftest5.cn/mg/609154345.m3u8?userid=1999482075&sign=4850854ca8eb2f211043e135161b9646fb90ee927ce5baa4597e7f05789f666c4780eac81749ff539eae697d7a0b62b023c0b41e86af1b19581c1d0b5ab6190eb80585d02f2052d454d0066f02cc38fcfc&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CGTN西班牙语" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/179/337/202502251600_1740470429939_H169_1080.jpg" group-title="央视", CGTN西班牙语
-https://mg.chinacert.cftest5.cn/mg/609006450.m3u8?userid=1999482075&sign=004c56766e21de8a10ebe81ac99d6982dd76d41a3586bf7a9d4596aa05235438ca35ae8ff60c2eed9da6d8e3e8c709fbe3ae9893a0b71acb18781e4b21fdea58c12b5359350711f35f2917ef73c6e19588&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CGTN法语" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/179/324/202502251559_1740470364968_H169_1080.jpg" group-title="央视", CGTN法语
-https://mg.chinacert.cftest5.cn/mg/609006476.m3u8?userid=1999482075&sign=948dd1c82fe0f294d7b9fd7f771312b0031991207121436a25bdd15108386ac64909ad4fc53895fdf43520110764b3d7e7bc8f323f6d2e3cc68dde7a84c65457582658a4f44fd5fc1160730a89a4870676&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CGTN俄语" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/179/332/202502251558_1740470310039_H169_1080.jpg" group-title="央视", CGTN俄语
-https://mg.chinacert.cftest5.cn/mg/609006446.m3u8?userid=1999482075&sign=edec2cd177c81ebd03f0ec518e55156154acc33764f6575729d56edea8dbc7457c75731ddf2d8c6efbc2716eb25902fde906bc999e924ca566c0240ef71124f2a4a4b143d16af223423b67ffdb9ee1bf59&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="中学生" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/019/355/202405081702_1715158104256_H169_1080.jpg" group-title="央视", 中学生
-https://mg.chinacert.cftest5.cn/mg/708869532.m3u8?userid=1999482075&sign=8babce5dc43dc21fbb96e5e03637e9b24c8893c67bc9e1c49d2079c86ada0595d37ed1acabcb97a46096afeaa41b7f1a7f448f211c5402a02a2b23a18ea188907c07e92a66ed34146d8beca2cc63905961&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2202/196/407/202204010052_1642124762081_H169_1080.jpg" group-title="央视", CGTN
-https://mg.chinacert.cftest5.cn/mg/609017205.m3u8?userid=1999482075&sign=b3d7368a0300b55b228c30f0cbf313b376979b84f1babb397e7fff2da678a02f327e520a25f3987aee6dfff9686a6efb2df480c20dad8d6c0fe192edc1a9d151ab467c733981b425fa544c8cbe8c4d5d23&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/v1/image/5910/022/185/202508040856_5100043384_H169_1080.jpg" group-title="卫视", 东方卫视
-https://mg.chinacert.cftest5.cn/mg/651632648.m3u8?userid=1999482075&sign=88cb2030e5ae4b5cda023b99e4c600c158187b3c887d3006c23def506ceaf2f7b946b0847f207e15dee12e3d012439d88bbde624dbd420891d9b9514c1c762ed84db4644d0485fdca8a57229dc557d484d&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/199/408/202104022140_5100156802_H169_1080.jpg" group-title="卫视", 江苏卫视
-https://mg.chinacert.cftest5.cn/mg/623899368.m3u8?userid=1999482075&sign=c81a905a78d41f41c2c4c35ffb6b3871579c0f3e491e8bdee3f2bf0d3062e0f17cf16a1b3f3dcdf818d8f9066793d20cc056b7e65477613f7b5fc9bbdd4c3b2f430d3e58b0cc55350375e09110b1c4345e&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2202/428/795/202107191524_2202428795_H169_1080.jpg" group-title="卫视", 广东卫视
-https://mg.chinacert.cftest5.cn/mg/608831231.m3u8?userid=1999482075&sign=dedd12f03d73ed0edf9da6eddd18efb513a1bbabeaa3972d94a976bed5422fea741663d41a774c4db501c90142d51f7c38bcea1a1f87ba6400fe4cdfa2f2a233f94ee2c306b1227c2cd0bd464020720648&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/021/492/202303201551_1658134112236_H169_1080.jpg" group-title="卫视", 江西卫视
-https://mg.chinacert.cftest5.cn/mg/783847495.m3u8?userid=1999482075&sign=4d5811d73273a16642d2fe0c4bddba4c77f26e04b876f22e5886a6dd66d05fdf81b645909af1300b9f3e0d3fc349e54f4bd062d395670fc3bdb5331b611d6abd8315463cf97f766a8f0e5aa45fbe0859b3&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/021/585/202304031400_1679994685582_H169_1080.jpg" group-title="卫视", 河南卫视
-https://mg.chinacert.cftest5.cn/mg/790187291.m3u8?userid=1999482075&sign=e90147c076c12662c0476968ebed702e6bf53c01e6356690c89195f5fabe6b4e9ba09f5c76de749745dbd23141f97c749a9b664585f1a3faa1b618f4c76a7f9340238e2c29b789735925690bec480cc602&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/020/475/202207191732_1658131375175_H169_1080.jpg" group-title="卫视", 陕西卫视
-https://mg.chinacert.cftest5.cn/mg/738910838.m3u8?userid=1999482075&sign=7af171451590a78ee16c666aa7b7d769d07e72d77517da44f15321130169e89d84642ad1410f7f48390ff25f47c9c2415dfcfcd7aad86894fb0fa83a9dc2638a9ee20cb8fce05e5d1b2b5ba57633175f72&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="大湾区卫视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/322/852/202304081513_1677570732561_H169_1080.jpg" group-title="卫视", 大湾区卫视
-https://mg.chinacert.cftest5.cn/mg/608917627.m3u8?userid=1999482075&sign=5966ffb21946c8b70dee573a910090617835974c739131c59671e1ec37205ef3330cba7f279408b69933f4afb9c7b4dee253aa2352f45aa8a14b6225adbf4295070ebc819e0ee433bae8d10e40bc338081&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/022/163/202501231715_1658138621263_H169_1080.jpg" group-title="卫视", 湖北卫视
-https://mg.chinacert.cftest5.cn/mg/947472496.m3u8?userid=1999482075&sign=0bc13da7db5673da65996fd07b7ab87bc4b73d68efd0fc398f39304f38cb21d56d1ac771e5f2712d8b620af0207c576d4a4fbaf5ee5d4b3b7f2b536717e88b3e06221527b2d1972f65410d1438e2450467&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/022/164/202501231715_1658138745288_H169_1080.jpg" group-title="卫视", 吉林卫视
-https://mg.chinacert.cftest5.cn/mg/947472500.m3u8?userid=1999482075&sign=bb1fc7671fe637d61d47c1dbb8aed82a0033280fa61e40c60d83118c08942284aac1793280c93436c54829ebb500b155e4b64bdfc4dd95897944b0674ff24eff8cff957e1756eb1966b1dbf8c65f8442f7&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/022/166/202501231715_1658138568499_H169_1080.jpg" group-title="卫视", 青海卫视
-https://mg.chinacert.cftest5.cn/mg/947472506.m3u8?userid=1999482075&sign=9b180f8d0c342cd71e76550a422c240e0f90fd7a4c68d87841e22e72ccbbfbe4770b4465995a06944465699e6b7e986691905f052728de97ed8c7c3c1349b9485f6673d7d2cd43532e2326e02248d619d1&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/v1/image/5910/022/182/202507151427_1744624877831_H169_1080.jpg" group-title="卫视", 东南卫视
-https://mg.chinacert.cftest5.cn/mg/849116810.m3u8?userid=1999482075&sign=646df5f74b9efd060d11c3b30ed2a6e1bac5b5f95dbaf6ccdbc7eb0258660b8eab4c35b33bd348a8315a5749c752f6fd1efd0533632184733cd1035a588554335f00e113132dfa4707e98985eb52601043&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/022/165/202501231715_1658138887282_H169_1080.jpg" group-title="卫视", 海南卫视
-https://mg.chinacert.cftest5.cn/mg/947472502.m3u8?userid=1999482075&sign=7d3025ee4d82a9ce85c9b7a73035d453f200ff8dc7f5008295a895e82f7780abd5e5c545cb6285d97fbff4997001e29f9be02f3420e423651ccfa60bb61c84095204ec75dac7ad256705927d179670e59c&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="海峡卫视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/v1/image/5910/022/183/202507151427_1690875414853_H169_1080.jpg" group-title="卫视", 海峡卫视
-https://mg.chinacert.cftest5.cn/mg/849119120.m3u8?userid=1999482075&sign=f8a2c59d0753975b88db2fcbcebad8710d050be20f5191a5b5c05cea9aaf997751595352a2cc7b8243bb27e420af1056276c2def9c86fa4186188ca6d90a72745f719973f2cdedc8a9fddb44200a0c82ba&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="中国农林卫视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/v1/image/5910/022/186/202508051621_1754370268870_H169_1080.jpg" group-title="卫视", 中国农林卫视
-https://mg.chinacert.cftest5.cn/mg/956904896.m3u8?userid=1999482075&sign=5c55d9b6ae519b1b464de78b48ca05471dce0247c443d8da45edbeae6bb5bf573477a376f5375d113e09df6d7c88d1e532c19a52e48e6040f1590250ece0d8cc279496cf62b036fbe1cd364cb61f12919d&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/v1/image/5910/022/192/202508061552_1754385897430_H169_1080.jpg" group-title="卫视", 兵团卫视
-https://mg.chinacert.cftest5.cn/mg/956923145.m3u8?userid=1999482075&sign=9a7cd9ad0ab4385aa5ee055dcc88e7bf4bcc4e48e1981112a675306e299648c05225c9612f8c92e0c81e38c0f00b17e7bcd659a8bb1233c8f85fe5bf8d0904255a33376300fa03acd64c8eb7df8bd7548c&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="上海新闻综合" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/002/275/202107191641_5100001716_H169_1080.jpg" group-title="地方", 上海新闻综合
-https://mg.chinacert.cftest5.cn/mg/651632657.m3u8?userid=1999482075&sign=5904b8dafba9c6f427b567154f3dd9b81b5c85792bec09e33b84331026037120bd8de889733b0fd07eb2912b5e37f1ab68bf9e97aee43c85ddee3139bad729e6d805e98af7788d4daf8a17c75a97f25972&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="上视东方影视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/002/274/202105271333_5100001715_2_HSJ720H.jpg" group-title="地方", 上视东方影视
-https://mg.chinacert.cftest5.cn/mg/617290047.m3u8?userid=1999482075&sign=c2b734c4dd355a3fdb724f6316ff552c918e9b059f588eead53a8ae278e4931c50f5db2dc9b96d3849a29e29708a07e8d402c1e7c8dc43bc593a796b6d62cacd23061da9e6913640809c11d75a1cc811c5&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="上海第一财经" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2201/008/312/202209271630_2201008312_H169_1080.jpg" group-title="地方", 上海第一财经
-https://mg.chinacert.cftest5.cn/mg/608780988.m3u8?userid=1999482075&sign=2329f77413828dc0bdd0f664c57ed848cc5f25f49e48ae0b2bd1b14c8c0b228bcc0ecb4cc7c8e7581aa25fe188ab9ec0abed76a2f885e9849b69f96b0847bba583a15384866ed1636d05a57517a7c51e26&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="南京新闻综合频道" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/021/863/202307121521_1689144286039_H169_1080.jpg" group-title="地方", 南京新闻综合频道
-https://mg.chinacert.cftest5.cn/mg/838109047.m3u8?userid=1999482075&sign=8d6baed6fb2b6310144e4ed87e6e161600d582c67275488b0cec5e4438170873a087032ef822b860b359bcee8ea7a5848a07fb517d423e9940a4cfac6ee74a490c193948260d618998bd4fea49b4a019bf&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="南京教科频道" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/021/865/202307121700_1689146721503_H169_1080.jpg" group-title="地方", 南京教科频道
-https://mg.chinacert.cftest5.cn/mg/838153729.m3u8?userid=1999482075&sign=29f950db9c861123784c4c87b7b28255fabd09140cc611fb7fb487e05b5fb33cccb3693acdaa33601d3441ef42f00d4fc3eb2c6dfbd0fa39dcf966d8f3acadfdc99dd63b0d55746aedae20c30e6814064e&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="南京十八频道" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/021/864/202307121658_1689146982273_H169_1080.jpg" group-title="地方", 南京十八频道
-https://mg.chinacert.cftest5.cn/mg/838151753.m3u8?userid=1999482075&sign=8ebff18160697ccf1469f9d07e7d24b8c5f39c2f9ef1b38eefb97e51177a36bfa9e5171a7fa64d8f24de15e2e06d911e42fae4ebcc230f60bb22e9c766d945625d23f462ddd65d90211ab5a121809acf19&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="体育休闲频道" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/260/554/202104022139_5100186459_H169_1080.jpg" group-title="地方", 体育休闲频道
-https://mg.chinacert.cftest5.cn/mg/626064707.m3u8?userid=1999482075&sign=8bad1bda7e0202948dc9c81ca19d97b4af6846559fd03ce53439d5d73efc2586e5e45229ddb5e2bbcd59bec365561919560437e106e41dd7a3f9857e84366b12f37f5631439cc95622cb944471d2fa7d39&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="江苏城市频道" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/260/508/202104022138_5100186409_H169_1080.jpg" group-title="地方", 江苏城市频道
-https://mg.chinacert.cftest5.cn/mg/626064714.m3u8?userid=1999482075&sign=dae4b857cfc7fcbaef1bc001e466242d4f22baa2012e6809358d9ec4989fb5c0944add3fd91a884e60e09a2b763b40bc7295820bd14643ac7596d74846923db33d8321d9c1c0a017fd4e88be1932257bdc&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="江苏国际" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/260/577/202104022139_5100186482_HSJ720H.jpg" group-title="地方", 江苏国际
-https://mg.chinacert.cftest5.cn/mg/626064674.m3u8?userid=1999482075&sign=814432c06572bc39143a6e1e43ff76885c03ac029bb0977b710afc8574164bf811f8fdc3df6e9e6f30348911f38fc20b2c856b93d2d0c5f527dab5ffa7e1c07e7756cfc0055ec6cfa9a37e7bb2ada37ece&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="江苏教育" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/287/493/202104022139_5101012819_HSJ720H.jpg" group-title="地方", 江苏教育
-https://mg.chinacert.cftest5.cn/mg/628008321.m3u8?userid=1999482075&sign=3adabe52ac7e2298cf8963263477150add84d2480a3c441f3c2357fe7c2edb66f89cd582b299a335ad1a4b78c1a5cc5f1ca0baa2e04304d7ad4c48c9ed8a1f3753d89651d1d6088c9afb0e40b3dce9c17f&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="江苏影视频道" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/260/517/202104022138_5100186424_H169_1080.jpg" group-title="地方", 江苏影视频道
-https://mg.chinacert.cftest5.cn/mg/626064697.m3u8?userid=1999482075&sign=280d796f64bbbe69439bd065616cd9ec018d1d6ff53f1605c3fc28b231bff2282d407e1bd78d1a74b5c530492e2d4c6fcb407dbfb20e2be0b20b8d1354390579daa2201bc0da94726e218b22050cfdaaae&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="江苏综艺频道" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/260/513/202104022039_5100186420_H169_1080.jpg" group-title="地方", 江苏综艺频道
-https://mg.chinacert.cftest5.cn/mg/626065193.m3u8?userid=1999482075&sign=fd78e4af13538a6e7b7088d3dccbb829ff2abc0fe1542b1ca68109a75b16c0ba70681ef89be68c6a2b8c41b55f1ee5a60b081eed65d99c09b7b80ff7427015008e35effb61f98f089f499efeb5e33f0245&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="公共新闻频道" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/260/520/202104022138_5100186429_H169_1080.jpg" group-title="地方", 公共新闻频道
-https://mg.chinacert.cftest5.cn/mg/626064693.m3u8?userid=1999482075&sign=31597e914a0268f8832ece23590dc60cc7e5abc16384a8a3481f3225ffc8c705e6813cfd8f75016e3f46802f80d4a73911bd3fc39c092bcd7d7b97fa1ef435c3e9aa0c481725d588c5b110637dd6cd3de4&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="盐城新闻综合" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/469/360/202212301654_5102012617_H169_1080.jpg" group-title="地方", 盐城新闻综合
-https://mg.chinacert.cftest5.cn/mg/639731825.m3u8?userid=1999482075&sign=954d6118374dd9d414f126f3ff3286b41396c4c93b5666b33063840a49bf30eba502a3cd521d38ae9bacd6d0dcd238d4895a41a62ca27641eba9d0492f24d312cfe547e0de04fa626d801386a7c75cb5bd&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="淮安新闻综合" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/469/363/202104022141_5102012618_H169_1080.jpg" group-title="地方", 淮安新闻综合
-https://mg.chinacert.cftest5.cn/mg/639731826.m3u8?userid=1999482075&sign=c3439b55cc985259e04d69f8cf42588613eb7542028f403c2dc05821c5483506916aed8bc594bd3cd809cf07701e0b65c5b73a735575f03b2cd9eae08c2ddadb2c31ec5da20c1e1c5ce5e8311977fd2ce6&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="泰州新闻综合" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/469/354/202104071213_5102012615_H169_1080.jpg" group-title="地方", 泰州新闻综合
-https://mg.chinacert.cftest5.cn/mg/639731818.m3u8?userid=1999482075&sign=66855945e1137b220bdd9d342d252e9dd8671c11d1e3fa0936f5a6be801c6bc4cc18e2c351ac441853905a257ccbe3b2dbf7402c87fc8340fb87745207ad0bf7bba621f0e7fe39bef5c52ecd86511d4512&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="连云港新闻综合" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/469/369/202104022140_5102012621_H169_1080.jpg" group-title="地方", 连云港新闻综合
-https://mg.chinacert.cftest5.cn/mg/639731715.m3u8?userid=1999482075&sign=485413edf80d316deeadc3a1628174566c42ac4e50d5d872ec6cefd7f11354e3699cfd377ca50e06ee47a965709b7eb587b6579e8711d00d6175ff69580ad330e0e84a2841543a324a2affed64270251df&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="宿迁新闻综合" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/469/357/202104022141_5102012616_H169_1080.jpg" group-title="地方", 宿迁新闻综合
-https://mg.chinacert.cftest5.cn/mg/639731832.m3u8?userid=1999482075&sign=bd09d6a99a6b71f2739726a0b5ea03e45e2bccc61ba79fbbbb21b6ef84a46167e46c2b3f24c9625263c9a949cd0a0c579c597c67290cf435322823a6ec4790099ea983cb4db328398c2a6fd2d956960e1e&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="徐州新闻综合" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/469/368/202104022141_5102012620_H169_1080.jpg" group-title="地方", 徐州新闻综合
-https://mg.chinacert.cftest5.cn/mg/639731747.m3u8?userid=1999482075&sign=431ea5d1e15442592bb786e671b136f919a24ef0ce9bfb0d6942944c4edf07af5133485c2046aab52d7d4dd99b609cc6caf99a15900e00c8854c569e0455d2c39a68eea758e4714bf232ffc5fac28fd779&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="优漫卡通频道" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/260/553/202104022139_5100186455_H169_1080.jpg" group-title="地方", 优漫卡通频道
-https://mg.chinacert.cftest5.cn/mg/626064703.m3u8?userid=1999482075&sign=1371839573129780bfc6f2c11692980d7785c3b122e4a535b59f720a7e625d842110d4431443e110faf59a174c7738f3bc52584fae02c214960a7ab9d2ba0578cb62b96b40d9a686cf09dc31075d3a9829&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="江阴新闻综合" tvg-logo="https://wapx.cmvideo.cn/publish/poms/v1/image/5910/022/177/202506121842_1749616924879_H169_1080.jpg" group-title="地方", 江阴新闻综合
-https://mg.chinacert.cftest5.cn/mg/955227979.m3u8?userid=1999482075&sign=bec1ef05b7672c3aaee05adf9c3ed098cbed1ad09a588a9cad9e9340bdec8b466ebc3bf8d7103c35d5c3127ba3661615d70f2759b8ad004e9e9760800bea15dd0d0e54912c2394bcdd810a175a8cd06ef1&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="南通新闻综合" tvg-logo="https://wapx.cmvideo.cn/publish/poms/v1/image/5910/022/178/202506121842_1749617021865_H169_1080.jpg" group-title="地方", 南通新闻综合
-https://mg.chinacert.cftest5.cn/mg/955227985.m3u8?userid=1999482075&sign=5a71269cfdf40d60b560b248b7f5332b23c74a129c69238cfa6478e271fd61318642656b1d5e4a8c2649b0f589ce67d4f96b56ed91d40b3bcc7e79a8a506911864582a3ea5fcb72926f5042f1e6f7d3788&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="宜兴新闻综合" tvg-logo="https://wapx.cmvideo.cn/publish/poms/v1/image/5910/022/179/202506121843_1749617115515_H169_1080.jpg" group-title="地方", 宜兴新闻综合
-https://mg.chinacert.cftest5.cn/mg/955227996.m3u8?userid=1999482075&sign=dc9c8c4d372466729c3ec0200397a95c1f846808ea40b3b45d2c492ab04627d1ffb589c8855129a0ecbd0c60bd009b462a675428111d770f8e3493d154f09efa7b921cc917c9e7bcea9ac50828e9e14157&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="溧水新闻综合" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/469/349/202506201638_1750408508110_H169_1080.jpg" group-title="地方", 溧水新闻综合
-https://mg.chinacert.cftest5.cn/mg/639737327.m3u8?userid=1999482075&sign=15448195e94eaaf90c3a14c944f59c4109d353e75f63b1b8ef9190e1e6a9e7790fc4995790b382273762e8cedb93bbfef05cacc693b1cdcb8e98b7ebc7d9f3d51937de9ae444bb2ce4a05a49908e068432&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="陕西银龄频道" tvg-logo="https://wapx.cmvideo.cn/publish/poms/v1/image/5910/022/191/202508051746_1754371391139_H169_1080.jpg" group-title="地方", 陕西银龄频道
-https://mg.chinacert.cftest5.cn/mg/956909362.m3u8?userid=1999482075&sign=cef765866a3455ec77c1642be34ca8b9d8ca4d0993f06ce6d0690f67df738f9605931e7e27552fcba929f0df04639804e08facff59cd1a946ad3f5d3d8e0032b736e0ddbaa1eb0eb9f5d2294451df98487&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="陕西都市青春频道" tvg-logo="https://wapx.cmvideo.cn/publish/poms/v1/image/5910/022/190/202508051746_1754371281201_H169_1080.jpg" group-title="地方", 陕西都市青春频道
-https://mg.chinacert.cftest5.cn/mg/956909358.m3u8?userid=1999482075&sign=ccc76ab1ea8d710d08ca4fb7e50a8a2aa5fa02676e6f45207f8481d57325291b4ab6d00ba553a42c7a61817fa63c08cd1822d7d17ab6843211abb13e6fef666b987cea131d6cc0568ff68a1ac9b8b05bab&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="陕西体育休闲频道" tvg-logo="https://wapx.cmvideo.cn/publish/poms/v1/image/5910/022/189/202508051745_1754370651700_H169_1080.jpg" group-title="地方", 陕西体育休闲频道
-https://mg.chinacert.cftest5.cn/mg/956909356.m3u8?userid=1999482075&sign=8d8421b6ff96a1758f1ed43db10cb633644fda338ba9e28820040c8b3c27f83a3e834222bab7b31b64f1b1b13eaa792a29a13893685f59c599bb874c78585e520a17df0ec20097a688355c67bf5c2464ed&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="陕西秦腔频道" tvg-logo="https://wapx.cmvideo.cn/publish/poms/v1/image/5910/022/188/202508051741_1754370551778_H169_1080.jpg" group-title="地方", 陕西秦腔频道
-https://mg.chinacert.cftest5.cn/mg/956909303.m3u8?userid=1999482075&sign=7b579df7a45bec495af3718bf34eda2afd26387a64da181b0e108011f8fca02529cf97df0c47c2bc3a4709e8c169f20c5564728c4e0110834d47b5ea2958022cbec28a78a174f4d171b9f926e118231589&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="陕西新闻资讯频道" tvg-logo="https://wapx.cmvideo.cn/publish/poms/v1/image/5910/022/187/202508051740_1754370413748_H169_1080.jpg" group-title="地方", 陕西新闻资讯频道
-https://mg.chinacert.cftest5.cn/mg/956909289.m3u8?userid=1999482075&sign=d3cb4d39567bfd19d935e0db83934ad2eb63f161ca6a8485c5c01d83a748705ea55990bb96863456109ae48531ccad7026e974f6b3e2d4c3300159f20dd10e70350452b6fbbdd219fd47a3f6852970f0d4&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="财富天下" tvg-logo="https://wapx.cmvideo.cn/publish/poms/v1/image/5910/022/193/202508061552_1754385775557_H169_1080.jpg" group-title="地方", 财富天下
-https://mg.chinacert.cftest5.cn/mg/956923159.m3u8?userid=1999482075&sign=941174d9fc3919fee55dbfffea7bd35b4654f3be68c07944e5e5d9f074d94a70a77444bed3e79b1ca13e8275e35bbd4acaae32e86b8f994b96951b47d3dfefd1a57bf159b38cf71db966c69bb75b1d004e&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="经典香港电影" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/242/089/202508211805_1755769495190_H169_1080.jpg" group-title="影视", 经典香港电影
-https://mg.chinacert.cftest5.cn/mg/625703337.m3u8?userid=1999482075&sign=0ae0bfe1b120d96d89e9330c8bbc4f7481bba2a5c7f758629276242b128d557fefb2ac9885c5a554824ff15cc800b8bab083d78061d74714fc25976d10f60c2d6474c7e896407650c99eaf273f59455d4b&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="高能悬疑 推理时刻" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/230/666/202507181733_1752831177769_H169_1080.jpg" group-title="影视", 高能悬疑 推理时刻
-https://mg.chinacert.cftest5.cn/mg/625133682.m3u8?userid=1999482075&sign=3eb4a9ed28cf203d408e36f1536894617de4165d9d089f78c689a9622707541ebf08be9cfbe19ab5d7b5f6faac5dfb32c52fcbd6209d9f27f630e9ece170c60a38f201bf0b8558503254b4186b689ec1c3&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="抗战经典影片" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/002/717/202507241513_1753340542329_H169_1080.jpg" group-title="影视", 抗战经典影片
-https://mg.chinacert.cftest5.cn/mg/617432318.m3u8?userid=1999482075&sign=a6d9e14edc45c3f5032dca888d9118392ef99cf3119f8b7df39bb9d01ba37d81478595b67a9081346d42a9561612324cc93fed4685c06381a0dd50a8941f398dca14f2477a7559432b033ee6dfb052f333&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="新片放映厅" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/035/175/202405061742_1714988181593_H169_1080.jpg" group-title="影视", 新片放映厅
-https://mg.chinacert.cftest5.cn/mg/619495952.m3u8?userid=1999482075&sign=a14488bca365bc1140ea600f135d1a13139fc6762c3c04d2d5bb4d5b1a66fe6060a05a650c9a65fbe468a4a62f192ef4f442615ae3d1762f9c03284b21ed59fc58bfdb4d8b3f19a2279810cb792be009dd&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/022/176/202504161629_1744788994468_H169_1080.jpg" group-title="影视", CHC影迷电影
-https://mg.chinacert.cftest5.cn/mg/952383261.m3u8?userid=1999482075&sign=5a277d55eed9923673f14b131d45244e323320d2f5c1b0537581c36d61bbbbcf91790ed113a4c4b62258af2ee573ff4e5c65bb2733bf159cf63e00db19a3fad8805ea134850f5ea7dafa11abfb4326757a&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/554/795/202308221159_1692676692674_H169_1080.jpg" group-title="影视", CHC动作电影
-https://mg.chinacert.cftest5.cn/mg/644368714.m3u8?userid=1999482075&sign=e8d05e81358edbd2ca9d0f193189bb9db0679fac5f63af4c0c914d149bfb7aa988be20c5f895b5ce1dd9635de0748d4b13a1fb66690820fd3b9c8471e420ac11537a44ae1b206d89f00ff054eddd0a6b0e&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/554/911/202308221200_1692676825616_H169_1080.jpg" group-title="影视", CHC家庭影院
-https://mg.chinacert.cftest5.cn/mg/644368373.m3u8?userid=1999482075&sign=1ac69a787534cb173a5c5c9754e170b19c5b8b0239cce03a7c9b410e2e0c290724a6668cc494766dc61573ed1bef33d8546e4bc9fa483ee684aa0432f1f350f12cb060370ddf409cfd790d23a1f28f21b6&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="和美乡途轮播台" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/019/525/202504151721_1744708803016_H169_1080.jpg" group-title="影视", 和美乡途轮播台
-https://mg.chinacert.cftest5.cn/mg/713591450.m3u8?userid=1999482075&sign=9c7f31dc92fbe4a20b8036d4cdc3292528e2c1daf2fd6f477d550309d663832a65a84be31d18db2c38a0a11abfa293887960421cfaa503d9f0a238fcebabcc95115402590aef167741ce00686426055e6a&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="高清大片" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/315/684/202204010048_5101034200_H169_1080.jpg" group-title="影视", 高清大片
-https://mg.chinacert.cftest5.cn/mg/629943678.m3u8?userid=1999482075&sign=6c428c1ecbbfd7be7483cd0db62e7b13fb24de0dbffa669f9198a9a593ef66ea5c659d693951c3d196737c5e0eb62133dd7a7e8e16009c06d4f80b462a6e7943e51080723a2ae7feb3204401e0779d51a4&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="南方影视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2206/173/738/202304081513_2206173738_HSJ720H.jpg" group-title="影视", 南方影视
-https://mg.chinacert.cftest5.cn/mg/614961829.m3u8?userid=1999482075&sign=3881a18399587ef2a5f8dc5ae1e75aedfe944949bd2be6cd91eae674fbfea94b711e70ce4cd5d77325ccf4592d6c8b17a0b25850c4ea2f6428c2427cd0529931edca54c65982a707e2a1d0da347d8d7df6&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="血色山河·抗日战争影像志" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/019/527/202506181115_1750216473927_H169_1080.jpg" group-title="影视", 血色山河·抗日战争影像志
-https://mg.chinacert.cftest5.cn/mg/713600957.m3u8?userid=1999482075&sign=d9aa393ae1cf4d306c9dd4de4d88ec5e9b08cd0df74cd04962ecfd580676898f5e2ff05a19222906f420f4b6e340281e3e55a0bd3ba2780942a0eb4fcb4c540d095086b55892e2634c7aca32a32d0efeed&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="熊猫频道01高清" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2202/634/723/202206081044_1654656251447_H169_1080.jpg" group-title="熊猫", 熊猫频道01高清
-https://mg.chinacert.cftest5.cn/mg/609158151.m3u8?userid=1999482075&sign=dceb25032857465561f7cb6fc5f5598997c508cdcf8b8847ae448754ea179b9461d1375013150e363fd80b7b512f6e05e7ab0b96e3f25391e2f5d11bf022f8e0a8c98c38f54c7016f4afdfacaaec92f703&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="熊猫频道1" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/200/699/202209211759_2200200699_H169_1080.jpg" group-title="熊猫", 熊猫频道1
-https://mg.chinacert.cftest5.cn/mg/608933610.m3u8?userid=1999482075&sign=642dc9f027e3894d745dac84d9a6bda952b626ad3ab578632cdcd001b62ac176fc768c3a3bf9e081a41241e7d599730deb39e9ba0549b185a1a5b05cf6496ae0ed9515391ebf67470c10bd349c9ddaed5b&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="熊猫频道2" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/200/717/202209211759_2200200717_H169_1080.jpg" group-title="熊猫", 熊猫频道2
-https://mg.chinacert.cftest5.cn/mg/608933640.m3u8?userid=1999482075&sign=68efd316c620942eb699000673f39a9da2e00736ca038c248e937a4c1d6fc881605bd48b60a777e09c2ca1e2c6a52aa8d1e6eb5fb2395ce9c699771a7295ff6fe5319c274178b1ff0890a1e5b7b6d644a6&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="熊猫频道3" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/200/738/202209211759_2200200738_H169_1080.jpg" group-title="熊猫", 熊猫频道3
-https://mg.chinacert.cftest5.cn/mg/608934619.m3u8?userid=1999482075&sign=a05eeb2841a8abb005117044986e711d62dcb1d6006513787b211c670f3eb0c9ba5d2da7685ae6acc5c19766bd99c3156b2b37135e202f1f4d7919ee4218d241daba0e0da9636d3bc8e0cd6d034c745ddd&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="熊猫频道4" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/200/771/202209211800_2200200771_H169_1080.jpg" group-title="熊猫", 熊猫频道4
-https://mg.chinacert.cftest5.cn/mg/608934721.m3u8?userid=1999482075&sign=4d71179c3893557651ca80bc5518940c0dff4c40a3492538b4081b547b5c5300bab47c4a333069e028639bebcf497f7cd49e69ca4b9d3fb07b3973cf18d7b3d484bcbf4f09e3ac013eed56f2d69fb1fc3b&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="熊猫频道5" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/200/791/202209211800_2200200791_H169_1080.jpg" group-title="熊猫", 熊猫频道5
-https://mg.chinacert.cftest5.cn/mg/608935104.m3u8?userid=1999482075&sign=78a020eb81a6a22aa63103626d4b54fc62067184cc077b281340e6debd4f2589d33483c12f9974043689a14fe5b7fdb44c4d71dc7fecbe5aef4eaec77a5b0bd37a8b4fb6661d5505b9d9ca34e96df085db&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="熊猫频道6" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/200/817/202209211800_2200200817_H169_1080.jpg" group-title="熊猫", 熊猫频道6
-https://mg.chinacert.cftest5.cn/mg/608935797.m3u8?userid=1999482075&sign=30c3cea53d8b66047175c4b14d1768af67735e8897b8030b026a3c665f0f2c6f83c0fea141c6d6c01109154f6ab1f2044481e19a305569a6c2398fa3c231542ee7924d225f82f8e2c9238dd3c3dc4a9007&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="熊猫频道7" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/192/831/202209211800_2200192831_H169_1080.jpg" group-title="熊猫", 熊猫频道7
-https://mg.chinacert.cftest5.cn/mg/609169286.m3u8?userid=1999482075&sign=c5af98d32b4c78f55c09ccae2a3f2b6ec61d13d8ef7a9911d343c546c7da5d10392430f9a419a4605b63167cbf26dec46e32882d721691b6966dbab61c6c5c3586cf70d15f5bce848e1575cdf5b63db785&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="熊猫频道8" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/192/881/202209211800_2200192881_H169_1080.jpg" group-title="熊猫", 熊猫频道8
-https://mg.chinacert.cftest5.cn/mg/609169287.m3u8?userid=1999482075&sign=493f3ef12eb9df034c96a558cf533167c7447eb27da7286af6e73d25e6cbf22ab6791d108188fdb87969605e90c436e0daa54d352de8f35ebb527f8c28b86452238b0ec381157e75d414c3f00e6e6bf3f3&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="熊猫频道9" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/192/899/202209211800_2200192899_H169_1080.jpg" group-title="熊猫", 熊猫频道9
-https://mg.chinacert.cftest5.cn/mg/609169226.m3u8?userid=1999482075&sign=a0b486a2a314c8ae9a6a02ef67af5311570b81538ed4e1e52818bd93d035235f790a40692d8bb1899770d625292c14c5b88fe0913200f054fa53806216c8025c905bb2ed6fa14a0c373c2f871daf66c0d2&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="熊猫频道10" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/192/937/202209211800_2200192937_H169_1080.jpg" group-title="熊猫", 熊猫频道10
-https://mg.chinacert.cftest5.cn/mg/609169285.m3u8?userid=1999482075&sign=7b60df641fa08c5247cbd293958390dbe254c772becf775315156a1177126f95a27f6a7fe3f914adf541251440403d6d73af9db5c51c716cf0c4d11343cf4e5aac3fad0e50f54cc76a2203a1d71bcc0099&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="最强综艺趴" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/315/654/202204010047_5101034202_H169_1080.jpg" group-title="综艺", 最强综艺趴
-https://mg.chinacert.cftest5.cn/mg/629942228.m3u8?userid=1999482075&sign=bf55ac7eb9df8cab4404e31b05ba6e09e8f1a4f05a9161499e5645b942a6cf8453bea6dc6d376b44cb2338d5fe8d26ba8c132d715df91c7c1abbf686a9c48e584580c9890242e21f97b24cc06812a34bd4&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="嘉佳卡通" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2206/172/388/202304101530_2206172388_H169_1080.jpg" group-title="少儿", 嘉佳卡通
-https://mg.chinacert.cftest5.cn/mg/614952364.m3u8?userid=1999482075&sign=eb5c6e72b42ccb95bf85df18f58a3ce236a72d0ce2eee270ba3cdd8867330705669e1581956cfeb400760b6fffacc79162f3702d1a108d7db79fbf596eb27f682b22ee496d3a93f23ec89c091d028f7685&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="经典动画大集合" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/315/652/202204010055_5101034205_H169_1080.jpg" group-title="少儿", 经典动画大集合
-https://mg.chinacert.cftest5.cn/mg/629942219.m3u8?userid=1999482075&sign=5a2fd42156ba83436c13ff334bd13d0fd34f9c13d2bcc5e68310e05ae08c07c7273f9b237f39d7a82bc72693a91cc9fef9f3b2e0b487427e31ce154818aa5e778ead42c7f2a1860d8027ccfc33e4f360ee&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="新动力量创一流" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/019/523/202506060000_1749138932995_H169_1080.jpg" group-title="纪实", 新动力量创一流
-https://mg.chinacert.cftest5.cn/mg/713589837.m3u8?userid=1999482075&sign=315172df9446f51af0ca7b153a34e16276d44f12956791859d580bfac2c120f7e7df3a7451ae9b7ac41f5dd31d48129b172b4368fd2dd212589dde8717aabfbeb471119e1123f6ee4e906cc26872463f1d&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="钱塘江" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/613/479/202210281603_5102115888_HSJ720H.jpg" group-title="印象天下", 钱塘江
-https://mg.chinacert.cftest5.cn/mg/647370520.m3u8?userid=1999482075&sign=bb05e1dc53cdeb6dd0ac583b534b87ab5064212094464d304d90ba2681c9e2f863f3ca74999ec846a1037f58094226f3940d2c782bba3623f15f308ef0f1cca4e0ebf4108a1d210ec947d52186f38d69ef&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="五环传奇" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/462/658/202506201045_1750387453057_H169_1080.jpg" group-title="体育", 五环传奇
-https://mg.chinacert.cftest5.cn/mg/707671890.m3u8?userid=1999482075&sign=32d6450480c13d64fadabfffba6c8c51e224e96d709f311c8412ebbf890e5918044b1b3f632451a08b19fab44117f3bf1153ac592b2b7fb592404b54fbf1a3dee128af43c2aad61f3a966b4449d4f5851e&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="赛事最经典" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/592/947/202204010047_5101034296_H169_1080.jpg" group-title="体育", 赛事最经典
-https://mg.chinacert.cftest5.cn/mg/646596895.m3u8?userid=1999482075&sign=c158edf0922cfd7c25264212dd1d82a9ac3c196abd7c91e3eada0687343c286f343fe4959802519aae919376fcf1d58a225356b11e6f3afe1ddc04132d5271f20d96bf1afae010821bcabff79b5bf9ef12&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="掼蛋精英赛" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/341/085/202308221004_1692669748086_H169_1080.jpg" group-title="体育", 掼蛋精英赛
-https://mg.chinacert.cftest5.cn/mg/631354620.m3u8?userid=1999482075&sign=9996f31693999287c118d572cd4e521b8c27ae86948bc59691430478adc70b5ff9908222b953a0516fad0418b0852529eac1bfd97996dc2b687152e4ab4ab0b08da9d49a15de6fde5d6364639017da7833&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="体坛名栏汇" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/315/687/202204010048_5101034219_H169_1080.jpg" group-title="体育", 体坛名栏汇
-https://mg.chinacert.cftest5.cn/mg/629943305.m3u8?userid=1999482075&sign=3e84b2a8a19b05748f090a06a7e3030c9edc24fc5b182ccea5be1cce830d8682012c0c6f7b9cdaa464eda5f1de23842968703ade7e1a0b7a12d99aeefa356017569a82414a9c1651ffe3d963d2f9b02db4&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="四海钓鱼" tvg-logo="https://wapx.cmvideo.cn/publish/poms/v1/image/5910/022/184/202508040856_5100132656_H169_1080.jpg" group-title="体育", 四海钓鱼
-https://mg.chinacert.cftest5.cn/mg/637444975.m3u8?userid=1999482075&sign=e93aa8e732c5449a0ef0baf81ac8c893231038fb64143efd0140edba57d409752de3877ad84bc22fcc56004207d31739cf6af087db4f65683d5a1407b26110780fb47f93be3df11d9c1423f6996d390207&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="咪咕24小时体育台" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/751/211/202106111236_5102223687_201903181136295010914_HSJ720H.jpg" group-title="体育", 咪咕24小时体育台
-https://mg.chinacert.cftest5.cn/mg/654102378.m3u8?userid=1999482075&sign=3ca7de31d5431d902413e03c3844ebe23ba016d3421fb50cf8cf50b83b3eecdd477270b39aa27a14efe004d138dd19c7e0bb22d7063b6f33ef6dc82ca39c5351b002ebb072e8286abe4b095cf77e0f5f3c&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CETV1" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/022/150/202407181432_1721283643483_H169_1080.jpg" group-title="教育", CETV1
-https://mg.chinacert.cftest5.cn/mg/923287154.m3u8?userid=1999482075&sign=eee2b8ea66ee644c6cf97962d25c5be0a6ad4a89fd229b8afc37af0be7d0651c36958d96a134363e6273d3d8059b87281fc7a9e0535ea82ff5eb104b9f60c70777576d6263ac83a0ed599e50cbd3e2618d&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CETV2" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/022/152/202407181432_1721283773509_H169_1080.jpg" group-title="教育", CETV2
-https://mg.chinacert.cftest5.cn/mg/923287211.m3u8?userid=1999482075&sign=effd0ee5e48f40fe080a2f9105cfe6048571a44dae68fc7869e7307537d128fa0be0d115a53b8bc6b42a597029b5ecd8d75c7bd65e23eee06b6b176bd9177ef34219b88776a1efff80b92c63f2a9bac4eb&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CETV4" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/022/154/202407181433_1721283860085_H169_1080.jpg" group-title="教育", CETV4
-https://mg.chinacert.cftest5.cn/mg/923287339.m3u8?userid=1999482075&sign=5729e18668f14a306d7704f9b89a32a467543adef91081a1b13a194ee201a5d51e2e2e4994ad5862cc44aefcc8ea21a363f95312fb58c6d0ee8fc2b698af666d211719363af063f1733c24485059926bb1&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv1" tvg-logo="https://11.112114.xyz/logo/cctv1.png" group-title="央视",cctv1-MCP
-https://live.ottiptv.cc/mcp/cctv1.m3u8?userid=1999482075&sign=00894d1bf9f6528e865ba56a46762d12cd6597618506f8211ca39572ab61878436f1a30729ff6899a29105cb18587d9d7fd1371819ab7afdcffc9bf0a712ed22f7f46497f4ea4798962df74946&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv2" tvg-logo="https://11.112114.xyz/logo/cctv2.png" group-title="央视",cctv2-MCP
-https://live.ottiptv.cc/mcp/cctv2.m3u8?userid=1999482075&sign=30373ad1fa75b54b09faf6336a42553af75b0ab41bc24f99d4a8a5a979567d3d0a3d50f8b6c4b083f3c5c77853a0fcfc3e00782352626ec4a3ff59498d171b4dc6fe2ef49eaf20382dbe2741c7&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv3" tvg-logo="https://11.112114.xyz/logo/cctv3.png" group-title="央视",cctv3-MCP
-https://live.ottiptv.cc/mcp/cctv3.m3u8?userid=1999482075&sign=5654b4eca4d217d1b745eece2463c504f488663e36b9e77d835ed171226ca134bedb7622a3825e5198d072871cee2b13ee5ca41878f8bf63226eef03e054aeff1f3310cda3718468e726d21688&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv4" tvg-logo="https://11.112114.xyz/logo/cctv4.png" group-title="央视",cctv4-MCP
-https://live.ottiptv.cc/mcp/cctv4.m3u8?userid=1999482075&sign=2db192f1058fbb6bc5d7c4cfdb2d321396bab85f3224d9a4b553c660658796fc6a0c7b7c374a8cfa9deaf3a608daf9e8569bae54a9073a905f4a3b69d4af65ce93aba26531930f0af793b3a461&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv5" tvg-logo="https://11.112114.xyz/logo/cctv5.png" group-title="央视",cctv5-MCP
-https://live.ottiptv.cc/mcp/cctv5.m3u8?userid=1999482075&sign=1d7f7f333d1f6781c79af5358609023bbc9bdb2b096c46d0cb91d5f432279339e96a7f932d1914c29a634188766e24ea7ddbd892967827c13e3cf8abd8462a4350130c3a5cc1d3b1891c4c082e&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv5p" tvg-logo="https://11.112114.xyz/logo/cctv5p.png" group-title="央视",cctv5p-MCP
-https://live.ottiptv.cc/mcp/cctv5p.m3u8?userid=1999482075&sign=2f9748584b585a7732aba2a044a090f69ad9354ca459a8641c8ff180e4d6e8f75a178205c0739a24169a86c5bf812719ff72915ce2b1963b63b81298ce624ddf014a9d1f522e12fc71272166d7cf&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv6" tvg-logo="https://11.112114.xyz/logo/cctv6.png" group-title="央视",cctv6-MCP
-https://live.ottiptv.cc/mcp/cctv6.m3u8?userid=1999482075&sign=9e513163bcb47ea5a1ce0d2e669393256566295415330023aa0dfb7b93c5512c969ac10dba740261ffb1f8e728b929537b2ee2cf61042940ed1a84e2af72ff77b19ce519831845938ffc264e1a&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv7" tvg-logo="https://11.112114.xyz/logo/cctv7.png" group-title="央视",cctv7-MCP
-https://live.ottiptv.cc/mcp/cctv7.m3u8?userid=1999482075&sign=fdedf19b2135589fb8d57e4280a1b55cec8b170c56aa1bf9e2552ce8f976e1a6aa811243dc5ff31fe37b91c1ac0e7cd0c803a382fdba2c5becc1ae01860662c7e497f2824db37cf849a8c6c2dd&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv8" tvg-logo="https://11.112114.xyz/logo/cctv8.png" group-title="央视",cctv8-MCP
-https://live.ottiptv.cc/mcp/cctv8.m3u8?userid=1999482075&sign=09059ab841790a5e95068858e16633623bb54a97d1fc5bb42d004870115f43444c738051935315d0712ccd7cca068d032349b33c6cbc2842feb38ee798dab13663a3ce193d99853e75ffc9b1dd&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv9" tvg-logo="https://11.112114.xyz/logo/cctv9.png" group-title="央视",cctv9-MCP
-https://live.ottiptv.cc/mcp/cctv9.m3u8?userid=1999482075&sign=876b6bb1fca4e092c16efa738568a216a9c38dbe893afd649f010dfe91042539e9f22636aa6f2c18342f1fe5ae92d840c1d9ab2a79646cfedddf0e3f5d98f47c9410e2db50f3d001201cac8779&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv10" tvg-logo="https://11.112114.xyz/logo/cctv10.png" group-title="央视",cctv10-MCP
-https://live.ottiptv.cc/mcp/cctv10.m3u8?userid=1999482075&sign=5df87e285f0cf9af4d9a9266387f7a29ef0867ac25e1056966660107b265d1db220b5a0cad8b40d9dbf3f89e10a0d1b05e385a2e6ad838d22b473658448f12c2bf0a36c08da591bd836c39a42e28&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv11" tvg-logo="https://11.112114.xyz/logo/cctv11.png" group-title="央视",cctv11-MCP
-https://live.ottiptv.cc/mcp/cctv11.m3u8?userid=1999482075&sign=8aec0e6b8c8869cdf113c0fa341471c39e8cb8bbb76e97034685ae93fab7d375fa980aaecad4f3b6dd51a1e73926b880a88880725fa9d663081e47a7ec5c01533181f08ede6b23f38e305884bda9&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv12" tvg-logo="https://11.112114.xyz/logo/cctv12.png" group-title="央视",cctv12-MCP
-https://live.ottiptv.cc/mcp/cctv12.m3u8?userid=1999482075&sign=a96c26a1c58766988ace829a30a6ea096372fcc6ddf27daac1b02c9c60619f9f12bd5d92a9599c7da552afc5f31b6d051c513a911b4ab4b24c7d80d4af4da06c493cecd17df837cbe964130ffff6&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv13" tvg-logo="https://11.112114.xyz/logo/cctv13.png" group-title="央视",cctv13-MCP
-https://live.ottiptv.cc/mcp/cctv13.m3u8?userid=1999482075&sign=68b89b122683898d470e0887152a26a82dba96decfe10651d4e9574708b6203698985b6cc05da0ab7719ba08266864f814695466de776dd55b9dcb90c3233521b1f3202740fd08fa51b6b8629e46&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv14" tvg-logo="https://11.112114.xyz/logo/cctv14.png" group-title="央视",cctv14-MCP
-https://live.ottiptv.cc/mcp/cctv14.m3u8?userid=1999482075&sign=bab7408c70e9edad1c2dbf138673cf7d30705fc4a439a8e3b9319a325d5c0244ddcf96577767395762980ab8b470ad5e0a3e9586269883e1ab6977831fafbbd294425b6d0dddb44c0f5cb8e3eb1d&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv15" tvg-logo="https://11.112114.xyz/logo/cctv15.png" group-title="央视",cctv15-MCP
-https://live.ottiptv.cc/mcp/cctv15.m3u8?userid=1999482075&sign=93ec4814f79031e114f5117b98ba9ee7e96a292657b06dfbe4e9d95af44b22783630124741053ad782166c5d1cce2019c1e35067036538a86f879df54304210225635fe7cd8be3f5b332f8330e02&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv16" tvg-logo="https://11.112114.xyz/logo/cctv16.png" group-title="央视",cctv16-MCP
-https://live.ottiptv.cc/mcp/cctv16.m3u8?userid=1999482075&sign=03891602b435d26f7f2e7f09e13e0dd266f2cf5b0ed4d6ff2187cd8522de69395adb0180cdc61014bbd145a7ccf8f177fe2b97f50f8abd5c0894561a38a686075607a503a439ca1513bd07e9f027&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv16" tvg-logo="https://11.112114.xyz/logo/cctv16.png" group-title="央视",cctv16-MST
-https://live.ottiptv.cc/mst/cctv16-2.m3u8?userid=1999482075&sign=780756f0e6ad04d53125e040a9dd07ebfe63522818da40dd320627f962d581cb2f21a25bde2ec7e04441f246a276d686d35d796241f991a33b60f7aefb94384d78eeb2467b7bf0910af75641a517b619&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv17" tvg-logo="https://11.112114.xyz/logo/cctv17.png" group-title="央视",cctv17-MCP
-https://live.ottiptv.cc/mcp/cctv17.m3u8?userid=1999482075&sign=a03848e7b7d1078965e2388820610d729d86d5034c14823356fd286fbada298f301748bcf522b78602be84cad73a8d0af84219cb57bb682f92724874fd8bd6b1246b82b482eb303be752cec1aab3&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv4k" tvg-logo="https://11.112114.xyz/logo/cctv4k.png" group-title="央视",cctv4k-MCP
-https://live.ottiptv.cc/mcp/cctv4k.m3u8?userid=1999482075&sign=6655fc2b415df55881fb7101d5d250f9c4110daf293128bd2d2147c6434204bac39bd029f902484a114835d7570d937290e8b301da2c31abcd4ac9c116a9e99dfc0bed759202847fbb018fe55bfd&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv4k" tvg-logo="https://11.112114.xyz/logo/cctv4k.png" group-title="央视",cctv4k-MXW
-https://live.ottiptv.cc/mxw/cctv4k-2.m3u8?userid=1999482075&sign=cfb9295b410a3e16d355fdd44ee7b9cdf5d211000a4d8b7bbeae43a16e1dde51e4638ac7607f23d91e96c3d11a33b2590eb85c0eaf7f26f8455ef0a8e0ee3d3477a325aec3418add4bc6ffd870bc374c&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cctv8k" tvg-logo="https://11.112114.xyz/logo/cctv8k.png" group-title="央视",cctv8k-MCP
-https://live.ottiptv.cc/mcp/cctv8k.m3u8?userid=1999482075&sign=98d620d41dae387bbf8e8270b6ba7c69fd8d6ed13cb9000ec298d422c20899709fdd1f69810d817e12eedd432728aef264327c1d5d07673d3f6795dbb9efedffa5992b4008ca9cbef4d64138797c&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="第一剧场" tvg-logo="https://11.112114.xyz/logo/第一剧场.png" group-title="央视",第一剧场-MCP
-https://live.ottiptv.cc/mcp/dyjc.m3u8?userid=1999482075&sign=40692e3ed3b641e47682f8fde3d425221d170dc9fa888eeddf22dbfc33a2c5d8ff1de1f8d42a0d72bfbb3b1a7d3aa8d49f29c4f80bfbb588d0c2f298d336d1f75ceb3181f602e58cc8a6a304&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="风云剧场" tvg-logo="https://11.112114.xyz/logo/风云剧场.png" group-title="央视",风云剧场-MCP
-https://live.ottiptv.cc/mcp/fyjc.m3u8?userid=1999482075&sign=3d60bd21dda35305b17f7d0c6b1d5247c9f179ee9c6d9c515d13808afb45b01881ffc73f5639d61369111ad930dbad6f359b4b36d568e57a5b07744bb9ad6352ffa63901d19d7e845bf49733&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="怀旧剧场" tvg-logo="https://11.112114.xyz/logo/怀旧剧场.png" group-title="央视",怀旧剧场-MCP
-https://live.ottiptv.cc/mcp/hjjc.m3u8?userid=1999482075&sign=5d0bd21b11658129682ea9c2f0d94c5afc737a69c45ab02984fa11479774832d893b1fbead9a57594a4373b57e40a916dd5a00db802ae67b86c9da0dc3f2384f5bef6fc7d6b5fd5f7838aed8&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CGTNALBY" tvg-logo="https://11.112114.xyz/logo/CGTNALBY.png" group-title="央视",cgtnar-MCP
-https://live.ottiptv.cc/mcp/cgtnar.m3u8?userid=1999482075&sign=44a0613bf48362779d2f5e87232e008288bc16f496362eb603912870182c00d9a2827036e98d1ff083d93557f07ea42c9398c54de66791c4262f749506040cf10b2347d997aca7eb487d32c054b0&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cgtndocumentary" tvg-logo="https://11.112114.xyz/logo/cgtndocumentary.png" group-title="央视",cgtndoc-MCP
-https://live.ottiptv.cc/mcp/cgtndoc.m3u8?userid=1999482075&sign=2cfeb1c67b241d502e7276e0252639b573a1affd9ea233f087e79c3a6e64d706489756cce3d90aafe638fa17db470db0cfc6b48260bd8853198778826de1f08ce3eddc23b0eb3ae9f1eff7f23aae42&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="CGTNEN" tvg-logo="https://11.112114.xyz/logo/CGTN.png" group-title="央视",cgtn-MCP
-https://live.ottiptv.cc/mcp/cgtn.m3u8?userid=1999482075&sign=b73d55ec99bd71d0a9e56040054bba551995e0d28f90790e41e731cb49e95710d724475c0750ec4ed4a9bc51db022a31c008e0d2d00b1b367f3edd3c510bd03f62165bfde8328652506c68b4&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cgtnfrench" tvg-logo="https://11.112114.xyz/logo/cgtnfrench.png" group-title="央视",cgtnfr-MCP
-https://live.ottiptv.cc/mcp/cgtnfr.m3u8?userid=1999482075&sign=dd7847a25b5eda9839ee5025b7bb065913c7fd5675aad6f2ace258a2c34fc64253131b680adbc38ecd40c3f00332331710b9f56000f8af670817f85392c9b73e5e552e2f0c6f26808e322b0390d1&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cgtnru" tvg-logo="https://11.112114.xyz/logo/CGTN1.png" group-title="央视",cgtnru-MCP
-https://live.ottiptv.cc/mcp/cgtnru.m3u8?userid=1999482075&sign=4cf0b7b8052ab1f7b9589dcc6b861706c41e4968fcbfb54f41a49216f10052cf9787b2e9eeb2b0c8fdabcd9630b42c1af16f79c98dbbf0ff40ac96fdad177e7778b710c0f92598b1739389c240d9&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="cgtnsp" tvg-logo="https://11.112114.xyz/logo/CGTN1.png" group-title="央视",cgtnsp-MCP
-https://live.ottiptv.cc/mcp/cgtnsp.m3u8?userid=1999482075&sign=1c7098dd9008ade3dec6e7150c6ef2757408d0157e310de1bc10b5ef356abdf85c384cf011b1795d7b83c1bdd8f57f9c15b883205076cb3d17d72741114342f15373cdc30a56ecfdfac9ba54f0ce&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="中国教育1台" tvg-logo="https://11.112114.xyz/logo/中国教育1台.png" group-title="其他",中国教育电视台-MCP
-https://live.ottiptv.cc/mcp/cetv1.m3u8?userid=1999482075&sign=a0c4a67df3756444c1cf0199c9db7236374bbfe181682767b731e4b23503608a4155e45644352e0fa2f0ba468ed11d110bcc9f7b1adb3dfdd017b3a304fda6f6f341244b12e9175643f3546408&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://11.112114.xyz/logo/北京卫视.png" group-title="卫视",北京卫视-MCP
-https://live.ottiptv.cc/mcp/beijing.m3u8?userid=1999482075&sign=f995236180e1cff2ada91951ca184ccb7a3e6000e0602fd822e264bfa0a56242884a726cefaeb3ab75a80094cc194d0f06c48c1187ee7b7b36bda7577bde9777d268d5e504cd39e6d5f1dfa7b07131&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://11.112114.xyz/logo/湖南卫视.png" group-title="卫视",湖南卫视-MCP
-https://live.ottiptv.cc/mcp/hunan.m3u8?userid=1999482075&sign=63e46fb388733efcec1b19e1c56eb9485384233fbe11c25fe9a6e4eb3b5a9b52cc810a05651d62db61688c9cfa4dd63d18f752b4024a952fdde31159f004537f8d092f8fc9f98a638036cdfa2d&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://11.112114.xyz/logo/江苏卫视.png" group-title="卫视",江苏卫视-MCP
-https://live.ottiptv.cc/mcp/jiangsu.m3u8?userid=1999482075&sign=35b52f3705ebd8d228c146c709a3c798e8761533fbcde3d01b6a2fd2601c7b8dcd07115f3b359b204d578529649c9d5217d7eb92f91b4604e4dede70e3054f53ca6257a262c3c9e75e357f83bd375a&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://11.112114.xyz/logo/东方卫视.png" group-title="卫视",东方卫视-MCP
-https://live.ottiptv.cc/mcp/dongfang.m3u8?userid=1999482075&sign=910ea2b4e73934fc6c0b2880554d34150250e766a45497356e11c61f0f0103a23cda45eab9b6a850d86403c89149b2a882e411c451e0a23137118287089b6461cd5dc03deff3bae036e5db574f36ed49&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://11.112114.xyz/logo/浙江卫视.png" group-title="卫视",浙江卫视-MCP
-https://live.ottiptv.cc/mcp/zhejiang.m3u8?userid=1999482075&sign=81dddfe1b6bfe3deb2356722ffbbb546b45e9a15ce91e8a50e76d32960ff10de86f65f5a93c0b8648ab67dc53f96af666755e00903de8fd3f921531459b6ed8cd280e20ff5a3609dd299b64b98f4aebf&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://11.112114.xyz/logo/湖北卫视.png" group-title="卫视",湖北卫视-MCP
-https://live.ottiptv.cc/mcp/hubei.m3u8?userid=1999482075&sign=329c919289560ce82e324ef76de5db5b17281a3ae2eb86ad2954bcc9258e7077af8229e956385104cd7f0901fd22539ce70bd81b650c36de8165734dea9a619263d28017c6fec24bd9d8b4eb51&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://11.112114.xyz/logo/天津卫视.png" group-title="卫视",天津卫视-MCP
-https://live.ottiptv.cc/mcp/tianjing.m3u8?userid=1999482075&sign=3e3c75d941a479208bd0641fd334e2ca1c24a418280c2db497e7e4565b4f7e994a2d69ba3f4ffa5bdad5d4033108043a22a248d8bb34ae52e2cbce1b588faec30218ee652a9887cefab0ce2b07df217f&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://11.112114.xyz/logo/山东卫视.png" group-title="卫视",山东卫视-MCP
-https://live.ottiptv.cc/mcp/shandong.m3u8?userid=1999482075&sign=2fff7c98d2f5a46b8190d47308e070479dc2c094beed3d43e09df2fed3dab88eb0654997ad22a1550c32f6d8d1d41fd81bd8b0f5a43e2fa464b4c5e43ccc025e5ab832ce1efe713a0d2fdd35a004c1cb&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://11.112114.xyz/logo/辽宁卫视.png" group-title="卫视",辽宁卫视-MCP
-https://live.ottiptv.cc/mcp/liaoning.m3u8?userid=1999482075&sign=3f465b83d423bb3a09018eb9e269f1c27d3c478998ef4e318659528180ef1719e1ec59d127045114092860fab252d50705f701ba921db6822f32f6e640016b73318cdac3d06f513379c5d1c9348a48fc&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://11.112114.xyz/logo/安徽卫视.png" group-title="卫视",安徽卫视-MCP
-https://live.ottiptv.cc/mcp/anhui.m3u8?userid=1999482075&sign=b104986ffbfeb343ffa2424e55fe6db9967528acd673462cd610216418690d4ddc7ce2d9c48045a54aa0c5059d0affef6e66c24dcbfa7ea06c83d8395ff5de19499c3ce1615f363750f6ad4bdc&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://11.112114.xyz/logo/黑龙江卫视.png" group-title="卫视",黑龙江卫视-MCP
-https://live.ottiptv.cc/mcp/heilongjiang.m3u8?userid=1999482075&sign=551cf14976e0760e36d673591a49cdc39d6e7347e4230b1b2c455ebc14adb01c631e8cfdacbcb7521a77248fd849c7683db9a21e629e1ed4edf5c993a1207ccb5f24bf325a5922f906af7c6eb986e2367b18aa67&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://11.112114.xyz/logo/贵州卫视.png" group-title="卫视",贵州卫视-MCP
-https://live.ottiptv.cc/mcp/guizhou.m3u8?userid=1999482075&sign=433f5b515619129d6c161c76a6e641bdfe796539ab6de1ac3f8b1e3d2976b01969853f2b96813387b561fa18af645dcdec2a6a01760015ec12595edd438404312133109cef7e8b0bce94e421b4e1e0&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://11.112114.xyz/logo/东南卫视.png" group-title="卫视",东南卫视-MCP
-https://live.ottiptv.cc/mcp/dongnan.m3u8?userid=1999482075&sign=7e7613670528f61385883530455c15c7588244c352c4b897477ea6108dc61b344fa29b0d56e300507923e884dc93d61e4556d3ce523bfa2fa119167395ac8f1e4fea71b266b9f81d7eba4102eb1386&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://11.112114.xyz/logo/重庆卫视.png" group-title="卫视",重庆卫视-MCP
-https://live.ottiptv.cc/mcp/chongqing.m3u8?userid=1999482075&sign=a7bd68eb4fd67b0ad2eed167a2600bfbded0b1fb9769d8b773dbb41d6360dd0f318752fe7a71f98aba5b31a052055887444862d500a3c79cabd545a4ad0f680f99ca2cdbfaffd4d5b0f99573c788c3c528&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://11.112114.xyz/logo/江西卫视.png" group-title="卫视",江西卫视-MCP
-https://live.ottiptv.cc/mcp/jiangxi.m3u8?userid=1999482075&sign=cbce0dfd1ba428e727bbfd2326015ffe215e83ec9f9d5252a27195e42992945620b3f344722babb09201ffbf88edcc72a5f09caea384920c54bd928644817adfde136eb4801cb6d9da7ffcf54ef1eb&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://11.112114.xyz/logo/广东卫视.png" group-title="卫视",广东卫视-MCP
-https://live.ottiptv.cc/mcp/guangdong.m3u8?userid=1999482075&sign=8175179c9187950eb544709467b188297a278ba201f9b8fba9d0ef6d569db875c5d6484d044d484ccc7091eb432944a40294e0b95985684ff382895bef25b1f71de00e0783d4a58f93a28fc12fc42853aa&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://11.112114.xyz/logo/河北卫视.png" group-title="卫视",河北卫视-MCP
-https://live.ottiptv.cc/mcp/hebei.m3u8?userid=1999482075&sign=393a53cee0778543ac86d7ba79ba399e09ed876baf827ca015a04020f75cd1bc2563b1a20630daaa7653843911fb4eba643fc5117aef67193da6fb28655012f14622a874b2af1b56f372c42aab&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://11.112114.xyz/logo/深圳卫视.png" group-title="卫视",深圳卫视-MCP
-https://live.ottiptv.cc/mcp/shenzheng.m3u8?userid=1999482075&sign=4d1f5ec9a2565e2ca4e644bc6ea06564e96c635e8ca89343894e5acb7459d9f92a3b83d09d1651d5bd436bfd6a1465d183266728538c052094651d2647535d4ed71575c3c7b528d1a2474896d0cba62662&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://11.112114.xyz/logo/吉林卫视.png" group-title="卫视",吉林卫视-MCP
-https://live.ottiptv.cc/mcp/jiling.m3u8?userid=1999482075&sign=a047d0e0e3d280df7e1ff3ea7f7ee9a1fd9a318d46516b33680bc8d7c5bff691294314e260ccbf25bd2d0fa3e608cb75bce8dc4253520c50c817df105b3c74245bb631a02cb124ac0c228e1755f0&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://11.112114.xyz/logo/河南卫视.png" group-title="卫视",河南卫视-MCP
-https://live.ottiptv.cc/mcp/henan.m3u8?userid=1999482075&sign=9b7417f2cbce91f69816738e2fc1c0c76d998c484af7bf4fb5454e5c47ed2c6c63c21bf2d1120c03f6cf36ab69e521125febc12eaf1eb82e3c600e8ac7cb1fd5c7705c39fce031907329d85496&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://11.112114.xyz/logo/四川卫视.png" group-title="卫视",四川卫视-MCP
-https://live.ottiptv.cc/mcp/sichuan.m3u8?userid=1999482075&sign=5a7de042d5d033004283c5975eebef30c2b9a0a1c4d998119fd78ec487cc8a0fd11b082d0e41301cfd76875f43b0b692dec74e31d47c675aca9e8183124c0f8ccc166826695aa0e6ca5aeaa2b7691e&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://11.112114.xyz/logo/广西卫视.png" group-title="卫视",广西卫视-MCP
-https://live.ottiptv.cc/mcp/guangxi.m3u8?userid=1999482075&sign=7c94e539ee647e00c657643934b89c48dbdaeb590ad8a261ea4680719b1bf574f0e8c6b28ae5be8a03fde5564b9e2bb4430ae5effe041be84370d7cb09b12407e98da3e7a3f2dadf0391af633c4711&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://11.112114.xyz/logo/陕西卫视.png" group-title="卫视",陕西卫视-MCP
-https://live.ottiptv.cc/mcp/shanxiws.m3u8?userid=1999482075&sign=1dac0b5839809d4f05b0daa9fed2a0712ab4e57ac2b6f04451c4e32a03d3dbf6f86990bdbbb622159d7fdabd732847ccc8b1d466f70f6e782e57f6e804750eec08a31e0f858f84b6dead943ed90e665d&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://11.112114.xyz/logo/山西卫视.png" group-title="卫视",山西卫视-MCP
-https://live.ottiptv.cc/mcp/shanxi.m3u8?userid=1999482075&sign=1ed7acdee3c920abb5891411f2d0b8c46579b3bdbbf84cb71a919d1bd030e3ee09a5fcec269d9750c558106deef5eea45446cd7612e17c46c0249b67996a4967d4c834c63137841a04b727175a00&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="内蒙古卫视" tvg-logo="https://11.112114.xyz/logo/内蒙古卫视.png" group-title="卫视",内蒙古卫视-MCP
-https://live.ottiptv.cc/mcp/neimenggu.m3u8?userid=1999482075&sign=ade7f21ebab98e15f77467d6af96585887dbc98e1a6959513b6b4302b3b5e630a4ac63465fb3930d8519d00d796dff0278de358ec87ca6921e87b041014f5a9e2ea1c9fa17d89211b68e43d8cd63ef964a&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://11.112114.xyz/logo/青海卫视.png" group-title="卫视",青海卫视-MCP
-https://live.ottiptv.cc/mcp/qinghai.m3u8?userid=1999482075&sign=fbb0dedc775e6ca1da43a4aa99758059a4f026d9eb23b2dc10e9613522bfd4193c8e10b9f17133d14b9a381bef429522520d7a76da3fb1fe56ce8f9cc640d88e09b5446e7d846fdd7ed523a9041bca&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://11.112114.xyz/logo/海南卫视.png" group-title="卫视",海南卫视-MCP
-https://live.ottiptv.cc/mcp/hainan.m3u8?userid=1999482075&sign=f8da852de010ee1b68b8c0354065688bf5611baea228b38af6cee0542445ec38e2fa3bf10ee7e9a688e740b5bae52dd4ec09f2c85f095d2173150a2d30e886c13ff3112f1fe5780612fea0b5a6d1&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://11.112114.xyz/logo/宁夏卫视.png" group-title="卫视",宁夏卫视-MCP
-https://live.ottiptv.cc/mcp/ningxia.m3u8?userid=1999482075&sign=057fd6017c1179844dc8730c9435797e047245a5ea4ce5df64ff53340a17619fa02e9821a589fa6466f04e1fe6644a175b0cf2b2cdd98d3a7ab1e09ba0aa855c38d20b6fbfb745d109c4291d5b7918&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="西藏卫视" tvg-logo="https://11.112114.xyz/logo/西藏卫视.png" group-title="卫视",西藏卫视-MCP
-https://live.ottiptv.cc/mcp/xizang.m3u8?userid=1999482075&sign=ba3bb5ad3e70b8ea9cd1e6e651a9aeb0dd67dfbe421898039664f00ef5ecd7200ad0718517e3af6def86edd5521cab59220fbf2edf5b5bd633e266e899af5c8b6096cd10127338587d8c7c6b0ecd&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://11.112114.xyz/logo/新疆卫视.png" group-title="卫视",新疆卫视-MCP
-https://live.ottiptv.cc/mcp/xinjiang.m3u8?userid=1999482075&sign=089c8b7635473029b3b605d5f66ce1a1a0f45d3cdcf3620892db763663479fe3697917e61a6b2ea1e254f6753e8f76a400d49bb727ec6f671a136a717e51430b727aa4e85eb1ea3c7259b538d8120916&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://11.112114.xyz/logo/甘肃卫视.png" group-title="卫视",甘肃卫视-MCP
-https://live.ottiptv.cc/mcp/gansu.m3u8?userid=1999482075&sign=c9dd8ffcbb2d89188d121586cb84900260ec0a7fee723d093606a85adf45f88f5c32bcdf69235e7625210ee311dd40297a10ac81700535e7af193c9c31080f345f6198a658c307d739f04b7e1d&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://11.112114.xyz/logo/云南卫视.png" group-title="卫视",云南卫视-MCP
-https://live.ottiptv.cc/mcp/yunnan.m3u8?userid=1999482075&sign=97a56bf05f217e06eee850b5a7cd72611c699dc407a26c2fa14b7abcb2c3a4f9e2f8d508133a847d916366753951b764c6936af544d506d336c63ed24a9f610baca908699465c6ddcb7a1c59f983&auth_token=4813f1616b78290ad5ee0a94a3066809
-#EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://11.112114.xyz/logo/兵团卫视.png" group-title="卫视",兵团卫视-MCP
-https://live.ottiptv.cc/mcp/bintuan.m3u8?userid=1999482075&sign=7f4df8bd366d04db497b673b8ed0de0360f306ffa0aa4be1d844f81d0113ef5a5abf6dc058d7424b30c73cce0ce5a11c9adfd9faeb6503c1a274f2afcf5f59c300575604727dd7a58b7f4e41e68604&auth_token=4813f1616b78290ad5ee0a94a3066809
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head>
+<title>CDN节点请求源服务器被阻断</title>
+<link rel="icon" href="https://assets.rnmcnm.com/assets/img/cdnfly/favicon.ico" type="image/x-icon">
+<script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js"></script>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<style>
+:root {
+    --primary-color: #4a90e2;
+    --error-color: #e74c3c;
+    --text-color: #2c3e50;
+    --bg-color: #f5f6fa;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+/* ipxinxi 容器 */
+.ipxinxi {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    z-index: 1000;
+}
+
+.ipxinxi:hover {
+    transform: translateX(-50%) translateY(-2px);
+    box-shadow: 0 12px 40px rgba(31, 38, 135, 0.2);
+}
+
+/* 图片容器 */
+.images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 40px 0;
+    perspective: 1000px;
+}
+
+/* 图片样式和动画 */
+.images-container img {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 图片尺寸设置 */
+.电脑 { 
+    width: 70px;
+    height: auto;
+}
+.箭头_右 { 
+    width: 40px;
+    height: auto;
+}
+.SCDN { 
+    width: 70px;
+    height: auto;
+}
+.链接 {
+    width: 40px;
+    height: auto;
+}
+.叉 { 
+    width: 25px;
+    height: auto;
+}
+.服务器 { 
+    width: 60px;
+    height: auto;
+}
+
+@keyframes floatAnimation {
+    0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
+    25% { transform: translate3d(0, -10px, 5px) rotate(2deg); }
+    75% { transform: translate3d(0, 10px, -5px) rotate(-2deg); }
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.8) translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.电脑, .服务器, .SCDN, .链接 {
+    animation: fadeInScale 0.5s forwards, floatAnimation 6s ease-in-out infinite;
+}
+
+.电脑 {
+    animation-delay: 0s, 0s; /* 默认延迟 */
+}
+
+.SCDN {
+    animation-delay: 0s, -2s; /* SCDN的floatAnimation延迟-2s */
+}
+
+.链接 {
+    animation-delay: 0s, -3s;
+}
+
+
+.服务器 {
+    animation-delay: 0s, -4s; /* 服务器的floatAnimation延迟-4s */
+}
+
+.箭头_右 {
+    animation: fadeInScale 0.5s forwards 0.3s;
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.箭头_右:hover {
+    transform: scale(1.2);
+}
+
+.叉 {
+    animation: fadeInScale 0.5s forwards 0.6s;
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.叉:hover {
+    transform: rotate(180deg) scale(1.2);
+}
+
+/* 标题样式 */
+h1 {
+    font-weight: 600;
+    font-size: 4rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--error-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    animation: fadeInScale 0.8s forwards;
+}
+
+/* 页脚样式 */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 15px 0;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer:hover {
+    transform: translateY(-2px);
+}
+
+.left-content, .right-content {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.left-content::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 80%;
+    width: 1px;
+    background: linear-gradient(to bottom, transparent, var(--text-color), transparent);
+}
+
+h2 {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+p {
+    margin: 0;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .images-container {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .ipxinxi {
+        width: 80%;
+        font-size: 0.9rem;
+    }
+    
+    footer {
+        padding: 12px 0;
+    }
+    
+    .left-content, .right-content {
+        padding: 0 10px;
+        font-size: 0.9rem;
+    }
+    
+    h2 {
+        font-size: 1rem;
+    }
+    
+    p {
+        font-size: 0.9rem;
+    }
+
+    /* 移动端按钮样式 */
+    .help-button {
+        padding: 4px 8px;
+        font-size: 10px;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .help-button:hover {
+        padding-right: 10px;
+    }
+
+    /* 移动端提示框样式 */
+    .tooltip {
+        right: 50px;
+        padding: 3px 6px;
+        font-size: 9px;
+        max-width: 70px;
+        border-radius: 3px;
+    }
+
+    .tooltip::after {
+        border-width: 3px 0 3px 3px;
+        right: -3px;
+    }
+}
+
+/* 更小屏幕的特殊处理 */
+@media (max-width: 480px) {
+    .help-button {
+        padding: 3px 6px;
+        font-size: 9px;
+    }
+
+    .help-button:hover {
+        padding-right: 8px;
+    }
+
+    .tooltip {
+        right: 40px;
+        padding: 2px 4px;
+        font-size: 8px;
+        max-width: 60px;
+    }
+}
+
+/* 添加按钮和提示框样式 */
+.help-button {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(135deg, var(--primary-color), #2980b9);
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: -2px 2px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    z-index: 999;
+    text-decoration: none;
+}
+
+.help-button:hover {
+    padding-right: 18px;
+    background: linear-gradient(135deg, #2980b9, var(--primary-color));
+}
+
+.tooltip {
+    position: fixed;
+    right: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    font-size: 12px;
+    color: var(--text-color);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 998;
+    max-width: 140px;
+}
+
+.tooltip::after {
+    content: '';
+    position: absolute;
+    right: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-width: 8px 0 8px 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
+}
+
+.tooltip.show {
+    opacity: 1;
+    visibility: visible;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: translateY(-50%) scale(1); }
+    50% { transform: translateY(-50%) scale(1.05); }
+    100% { transform: translateY(-50%) scale(1); }
+}
+</style>
+
+</head>
+<body>
+    <div class="ipxinxi" style="text-align: center;">
+    <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">您的IP: 64.236.153.98 &bull;<br></span>
+    <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">节点IP: 104.168.4.167<br></span>
+</div>
+
+<div class="images-container">
+    <img src="https://assets.rnmcnm.com/assets/img/cdnfly/电脑.svg" class="电脑" alt="电脑">
+    <img src="https://assets.rnmcnm.com/assets/img/cdnfly/箭头_右.svg" class="箭头_右" alt="箭头_右">
+    <a href="https://www.cdn1.vip" target="_blank">
+    <img src="https://assets.rnmcnm.com/assets/img/cdnfly/SCDN.svg" class="SCDN" alt="SCDN">
+    </a>
+    <img src="https://assets.rnmcnm.com/assets/img/cdnfly/%E9%93%BE%E6%8E%A5.svg" class="链接" alt="链接">
+    <img src="https://assets.rnmcnm.com/assets/img/cdnfly/叉.svg" class="叉" alt="叉">
+    <img src="https://assets.rnmcnm.com/assets/img/cdnfly/服务器.svg" class="服务器" alt="服务器">
+</div>
+
+<div class="center-container">
+    <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+       <span data-translate="error">Error</span>
+       <span>502</span>
+    </h1>
+</div>
+
+<footer>
+    <div class="left-content">
+        <h2>什么问题？</h2>
+        <p>CDN节点请求源服务器被阻断！</p>
+    </div>
+    <div class="right-content">
+        <h2>如何解决？</h2>
+        <p>请检查该站点源服务器的回源端口能否访问或拦截了CDN节点！</p>
+    </div>
+</footer>
+
+<a href="https://www.rnmcnm.com/archives/3479" class="help-button">疑难杂症</a>
+<div class="tooltip">点"疑难杂症"查解决方法</div>
+
+<script>
+// 添加页面载入动画
+document.addEventListener('DOMContentLoaded', function() {
+    // 为所有图片添加渐入效果
+    const images = document.querySelectorAll('.images-container img');
+    images.forEach((img, index) => {
+        setTimeout(() => {
+            img.style.opacity = '1';
+            img.style.transform = 'translateY(0)';
+        }, index * 200);
+    });
+
+    // IP信息容器动画
+    const ipxinxi = document.querySelector('.ipxinxi');
+    ipxinxi.style.opacity = '0';
+    ipxinxi.style.transform = 'translateX(-50%) translateY(-20px)';
+    
+    setTimeout(() => {
+        ipxinxi.style.transition = 'all 0.5s ease';
+        ipxinxi.style.opacity = '1';
+        ipxinxi.style.transform = 'translateX(-50%) translateY(0)';
+    }, 300);
+});
+
+// 添加鼠标移动视差效果
+document.addEventListener('mousemove', function(e) {
+    const images = document.querySelectorAll('.images-container img');
+    const xAxis = (window.innerWidth / 2 - e.pageX) / 25;
+    const yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+    
+    images.forEach((img) => {
+        img.style.transform = `translate(${xAxis}px, ${yAxis}px)`;
+    });
+});
+
+// 添加提示框显示逻辑
+function showTooltip() {
+    const tooltip = document.querySelector('.tooltip');
+    tooltip.classList.add('show');
+    
+    setTimeout(() => {
+        tooltip.classList.remove('show');
+    }, 3000); // 显示3秒后隐藏
+}
+
+// 每5秒显示一次提示
+setInterval(showTooltip, 5000);
+
+// 页面加载后先显示一次
+setTimeout(showTooltip, 1000);
+</script>
+</body>
+</html>
+
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.jjbisai.com/website/imgs/jj_pcsite/game/icon-ddz.png" group-title="互联网直播频道;棋牌",虎牙 JJ斗地主
 https://live.chinacert.cftest5.cn/huya/152698
