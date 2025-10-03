@@ -115,6 +115,13 @@ http://192.168.2.1:4022/udp/238.255.2.58:5999
 http://192.168.2.1:4022/rtp/238.255.2.1:5999
 ######卫视频道end######
 ######互联网直播频道######
+#EXTINF:-1 tvg-name="凤凰中文" tvg-logo="http://bxtv.3a.ink/logo/凤凰中文.png" group-title="香港",凤凰中文
+http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="http://bxtv.3a.ink/logo/凤凰资讯.png" group-title="香港",凤凰资讯
+http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+#EXTINF:-1 tvg-name="凤凰香港" tvg-logo="http://bxtv.3a.ink/logo/凤凰香港.png" group-title="香港",凤凰香港
+http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.jjbisai.com/website/imgs/jj_pcsite/game/icon-ddz.png" group-title="互联网直播频道;棋牌",虎牙 JJ斗地主
 https://live.chinacert.cftest5.cn/huya/152698
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static.jjbisai.com/website/imgs/jj_pcsite/game/icon-ddz.png" group-title="互联网直播频道;棋牌",虎牙 JJ斗地主-副房间
@@ -145,14 +152,6 @@ https://live.chinacert.cftest5.cn/douyu/131977
 http://38b891c9.rossteleccom.net/iptv/4HP7GES799X3WU/19156/index.m3u8
 #EXTINF:-1 tvg-name="ESPN US 2" tvg-logo="https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png" group-title="海外",ESPN 2 US
 http://38b891c9.rossteleccom.net/iptv/4HP7GES799X3WU/19155/index.m3u8
-
-
-
-
-
-
-
-
 ######互联网直播频道end######
 
 #EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijingjishi.png" group-title="北京",	北京纪实
