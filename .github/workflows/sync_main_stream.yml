@@ -1,0 +1,87 @@
+name: Sync stream to all IPTV main files
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'  # 每 3 小时在整点运行（UTC 时间）
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  sync-files:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Update main.m3u files with stream content
+      run: |
+        STREAM_FILE='stream/stream.m3u'
+
+        # 检查流文件是否存在
+        if [ ! -f "$STREAM_FILE" ]; then
+          echo "Error: $STREAM_FILE not found."
+          exit 1
+        fi
+
+        # 定义更新main.m3u文件的函数
+        update_main_file() {
+          local MAIN_FILE="$1"
+          if [ -f "$MAIN_FILE" ]; then
+            echo "Updating $MAIN_FILE with content from $STREAM_FILE"
+
+            # 提取标记前后的内容
+            BEFORE_CONTENT=$(sed -n '1, /######互联网直播频道######/p' "$MAIN_FILE" | sed '$d')
+            AFTER_CONTENT=$(sed -n '/######互联网直播频道end######/,$p' "$MAIN_FILE" | sed '1d')
+
+            # 组合更新后的内容
+            {
+              echo "$BEFORE_CONTENT"
+              echo "######互联网直播频道######"
+              cat "$STREAM_FILE"
+              echo "######互联网直播频道end######"
+              echo "$AFTER_CONTENT"
+            } > "$MAIN_FILE.updated"
+
+            # 比较并替换文件（如果有变化）
+            if ! cmp -s "$MAIN_FILE" "$MAIN_FILE.updated"; then
+              mv "$MAIN_FILE.updated" "$MAIN_FILE"
+              echo "Updated $MAIN_FILE"
+            else
+              echo "No changes detected for $MAIN_FILE"
+              rm "$MAIN_FILE.updated"
+            fi
+          fi
+        }
+
+        # 遍历所有电信运营商目录
+        for TELECOM in chinatelecom chinaunicom chinamobile test allinone; do
+          # 处理省级main.m3u
+          for REGION_DIR in "$TELECOM"/*/; do
+            MAIN_FILE="${REGION_DIR}main.m3u"
+            update_main_file "$MAIN_FILE"
+            
+            # 处理市级main.m3u（如果存在）
+            for CITY_DIR in "$REGION_DIR"*/; do
+              MAIN_FILE="${CITY_DIR}main.m3u"
+              update_main_file "$MAIN_FILE"
+            done
+          done
+        done
+
+    - name: Commit and push changes if any
+      run: |
+        git config user.name "GitHub Action"
+        git config user.email "actions@github.com"
+        # 检查是否有变更
+        if [ -n "$(git status --porcelain)" ]; then
+          git add .
+          git commit -m "Sync stream content to main.m3u files"
+          git push
+        else
+          echo "No changes to commit"
+        fi
+      if: success()
