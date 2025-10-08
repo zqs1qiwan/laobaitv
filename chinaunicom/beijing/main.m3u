@@ -210,26 +210,6 @@ http://192.168.2.1:4022/rtp/239.3.1.154:8001
 http://192.168.2.1:4022/rtp/239.3.1.96:8001
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京频道",通州融媒
 http://192.168.2.1:4022/rtp/239.3.1.221:8001
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/xGlToly.png" group-title="海外",Bloomberg TV+ 4K 
-https://bloomberg-bloombergtv-1-gb.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.studiohari.com/admin/wp-content/uploads/2020/11/01-cnc-matrice-logo-1536x468.png" group-title="海外",CNC 英文
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225693/2/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.studiohari.com/admin/wp-content/uploads/2020/11/01-cnc-matrice-logo-1536x468.png" group-title="海外",CNC 中文
-http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225694/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/512px-Fox_News_Channel_logo.svg.png" group-title="海外",FOX News US
-https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/JZt2qh5.png" group-title="海外",NBC News US
-https://nbcnews2.akamaized.net/hls/live/723426/NBCNewsPlaymaker24x7Linear99a3a827-ua/VIDEO_0_6596000.m3u8
-#EXTINF:-1 tvg-logo="https://od.lk/s/MF8yMjk3NjU0OTJf/ABCNewsLive_2021_200x200.png" group-title="海外",ABC News US HD
-https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
-#EXTINF:-1 tvg-logo="https://od.lk/s/MF8yMjk3NjU0OTJf/ABCNewsLive_2021_200x200.png" group-title="海外",ABC News US
-https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index_45.m3u8
-#EXTINF:-1 tvg-id="CloudflareTV.us" tvg-logo="https://blog-cloudflare-com-assets.storage.googleapis.com/2020/06/twitter-1-1.png" group-title="海外",Cloudflare TV
-https://cloudflare.tv/hls/live.m3u8
-#EXTINF:-1 tvg-logo="" group-title="海外",Astro 4K
-http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348094&extension=ts&play_token=FzoklzfqN1
-
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京频道",萌宠TV
 http://192.168.2.1:4022/rtp/239.3.1.102:8001
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京频道",大健康
@@ -286,7 +266,6 @@ http://192.168.2.1:4022/rtp/239.3.1.220:4220
 http://192.168.2.1:4022/rtp/239.3.1.212:8060
 #EXTINF:-1 tvg-id="" tvg-name="教育1台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育1台.png" group-title="北京频道",中国教育1台
 http://192.168.2.1:4022/rtp/239.3.1.57:8152
-
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京频道",山东教育
 http://192.168.2.1:4022/rtp/239.3.1.52:4120
 #EXTINF:-1 tvg-id="73" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育1台.png" group-title="北京频道",中国教育1台
@@ -371,8 +350,6 @@ http://192.168.2.1:4022/rtp/239.3.1.89:4120
 http://192.168.2.1:4022/rtp/239.3.1.94:4120
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京频道",爱生活
 http://192.168.2.1:4022/rtp/239.3.1.86:4120
-
-
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京频道",聚鲨健康
 http://192.168.2.1:4022/rtp/239.3.1.186:8001
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京频道",聚鲨生活
