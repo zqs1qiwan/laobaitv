@@ -1,5 +1,4 @@
-#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
-
+#EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml"
 
 ######央视频道######
 #EXTINF:-1 tvg-id="" tvg-name="CCTV1" tvg-logo="https://logo.laobaitv.net/CCTV1" group-title="央视频道",CCTV-1综合
@@ -132,7 +131,7 @@ http://192.168.2.1:4022/rtp/239.3.1.115:8000
 http://192.168.2.1:4022/rtp/239.3.1.116:8000
 #EXTINF:-1  tvg-id=""  tvg-name="北京生活"  tvg-logo="https://logo.laobaitv.net/bjsh"  group-title="北京频道",北京生活
 http://192.168.2.1:4022/rtp/239.3.1.117:8000
-#EXTINF:-1 tvg-id="" tvg-name="北京IPTV4K超清" tvg-logo="https://logo.laobaitv.net/bjIPTV4Kcq" group-title="北京频道;4K",北京IPTV4K超清
+#EXTINF:-1 tvg-id="" tvg-name="北京IPTV4K超清" tvg-logo="https://logo.laobaitv.net/bjIPTV4Kcq" group-title="北京频道;4K",北京IPTV4K
 http://192.168.2.1:4022/rtp/239.3.1.249:8001
 #EXTINF:-1 tvg-id="" tvg-name="爱上4K" tvg-logo="https://logo.laobaitv.net/as4K" group-title="4K",爱上4K
 http://192.168.2.1:4022/rtp/239.3.1.236:2000
@@ -206,7 +205,7 @@ http://192.168.2.1:4022/rtp/239.3.1.213:4220
 http://192.168.2.1:4022/rtp/239.3.1.214:4220
 
 
-#EXTINF:-1 tvg-id="" tvg-name="卡酷动画" tvg-logo="https://logo.laobaitv.net/kkdh" group-title="少儿频道",卡酷动画
+#EXTINF:-1 tvg-id="" tvg-name="卡酷少儿" tvg-logo="https://logo.laobaitv.net/kkse" group-title="少儿频道",卡酷少儿
 http://192.168.2.1:4022/rtp/239.3.1.189:8000
 
 
