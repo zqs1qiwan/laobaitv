@@ -131,6 +131,8 @@ http://192.168.2.1:4022/rtp/239.3.1.115:8000
 http://192.168.2.1:4022/rtp/239.3.1.116:8000
 #EXTINF:-1  tvg-id=""  tvg-name="北京生活"  tvg-logo="https://logo.laobaitv.net/bjsh"  group-title="北京频道",北京生活
 http://192.168.2.1:4022/rtp/239.3.1.117:8000
+#EXTINF:-1 tvg-id="" tvg-name="卡酷少儿" tvg-logo="https://logo.laobaitv.net/kkse" group-title="北京频道;少儿频道",北京卡酷少儿
+http://192.168.2.1:4022/rtp/239.3.1.189:8000
 #EXTINF:-1 tvg-id="" tvg-name="北京IPTV4K超清" tvg-logo="https://logo.laobaitv.net/bjIPTV4Kcq" group-title="北京频道;4K",北京IPTV4K
 http://192.168.2.1:4022/rtp/239.3.1.249:8001
 #EXTINF:-1 tvg-id="" tvg-name="爱上4K" tvg-logo="https://logo.laobaitv.net/as4K" group-title="4K",爱上4K
@@ -184,8 +186,6 @@ http://192.168.2.1:4022/rtp/239.3.1.100:8001
 http://192.168.2.1:4022/rtp/239.3.1.95:8001
 #EXTINF:-1 tvg-id="" tvg-name="北京淘电影" tvg-logo="https://logo.laobaitv.net/bjtdy" group-title="北京频道",北京淘电影
 http://192.168.2.1:4022/rtp/239.3.1.250:8001
-#EXTINF:-1 tvg-id="" tvg-name="卡酷少儿" tvg-logo="https://logo.laobaitv.net/kkse" group-title="北京频道;少儿频道",北京卡酷少儿
-http://192.168.2.1:4022/rtp/239.3.1.189:8000
 #EXTINF:-1 tvg-id="" tvg-name="北京淘BABY" tvg-logo="https://logo.laobaitv.net/bjtBABY" group-title="北京频道;少儿频道",北京淘BABY
 http://192.168.2.1:4022/rtp/239.3.1.238:8001
 
