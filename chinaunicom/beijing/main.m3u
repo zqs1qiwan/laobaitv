@@ -159,9 +159,9 @@ https://live.chinacert.cftest5.cn/huya/139167
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://shp.qpic.cn/cfwebcap/0/22499077d540db5339c80fb2f709d542/0?width=1130&height=628" group-title="互联网直播频道;电竞",英雄联盟 LPL
 https://live.chinacert.cftest5.cn/huya/660000?format=flv
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://a.msstatic.com/huya/hd/pc/contactUs/static/img/LOGO3.a1f2adf.png" group-title="互联网直播频道;影视",虎牙 电影轮播
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/huya" group-title="互联网直播频道;影视",虎牙 电影轮播
 https://live.chinacert.cftest5.cn/huya/11342412
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://a.msstatic.com/huya/hd/pc/contactUs/static/img/LOGO3.a1f2adf.png" group-title="互联网直播频道;影视",虎牙 蜡笔小新
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/huya" group-title="互联网直播频道;影视",虎牙 蜡笔小新
 https://live.chinacert.cftest5.cn/huya/30362138
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://a.msstatic.com/huya/hd/pc/contactUs/static/img/LOGO3.a1f2adf.png" group-title="互联网直播频道;影视",虎牙 爱情公寓
 https://live.chinacert.cftest5.cn/huya/11336726
@@ -171,79 +171,25 @@ https://live.chinacert.cftest5.cn/douyu/12400977
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://ir.douyu.com/images/LOGO.jpg" group-title="互联网直播频道;影视",斗鱼 RunningMan
 https://live.chinacert.cftest5.cn/douyu/131977
 
-#EXTINF:-1 tvg-name="ESPN US" tvg-logo="https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png" group-title="海外",ESPN US
+#EXTINF:-1 tvg-name="ESPN" tvg-logo="https://logo.laobaitv.net/espn" group-title="海外",ESPN US
 http://38b891c9.rossteleccom.net/iptv/4HP7GES799X3WU/19156/index.m3u8
-#EXTINF:-1 tvg-name="ESPN US 2" tvg-logo="https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png" group-title="海外",ESPN 2 US
+#EXTINF:-1 tvg-name="ESPN2" tvg-logo="https://logo.laobaitv.net/espn2" group-title="海外",ESPN 2 US
 http://38b891c9.rossteleccom.net/iptv/4HP7GES799X3WU/19155/index.m3u8
-#EXTINF:-1 tvg-id="CloudflareTV.us" tvg-logo="https://blog-cloudflare-com-assets.storage.googleapis.com/2020/06/twitter-1-1.png" group-title="海外",Cloudflare TV
-https://cloudflare.tv/hls/live.m3u8######互联网直播频道end######
+#EXTINF:-1 tvg-id="CloudflareTV" tvg-logo="https://logo.laobaitv.net/cloudflare" group-title="海外",Cloudflare TV
+https://cloudflare.tv/hls/live.m3u8
+######互联网直播频道end######
 
-
-
-
-
-#EXTINF:-1 tvg-id="" tvg-name="睛彩竞技" tvg-logo="https://logo.laobaitv.net/jcjj" group-title="睛彩",睛彩竞技
-http://192.168.2.1:4022/rtp/239.3.1.125:8001
-#EXTINF:-1 tvg-id="" tvg-name="睛彩篮球" tvg-logo="https://logo.laobaitv.net/jclq" group-title="睛彩",睛彩篮球
-http://192.168.2.1:4022/udp/239.3.1.126:8001
-#EXTINF:-1 tvg-id="" tvg-name="睛彩青少" tvg-logo="https://logo.laobaitv.net/jcqs" group-title="睛彩",睛彩青少
-http://192.168.2.1:4022/rtp/239.3.1.127:8001
-
-#EXTINF:-1 tvg-id="" tvg-name="北京淘精彩" tvg-logo="https://logo.laobaitv.net/bjtjc" group-title="北京频道",北京淘精彩
-http://192.168.2.1:4022/rtp/239.3.1.178:8001
 #EXTINF:-1 tvg-id="" tvg-name="北京淘娱乐" tvg-logo="https://logo.laobaitv.net/bjtyl" group-title="北京频道",北京淘娱乐
 http://192.168.2.1:4022/rtp/239.3.1.100:8001
 #EXTINF:-1 tvg-id="" tvg-name="北京淘剧场" tvg-logo="https://logo.laobaitv.net/bjtjc" group-title="北京频道",北京淘剧场
 http://192.168.2.1:4022/rtp/239.3.1.95:8001
-#EXTINF:-1 tvg-id="" tvg-name="北京淘BABY" tvg-logo="https://logo.laobaitv.net/bjtBABY" group-title="北京频道;少儿频道",北京淘BABY
-http://192.168.2.1:4022/rtp/239.3.1.238:8001
 #EXTINF:-1 tvg-id="" tvg-name="北京淘电影" tvg-logo="https://logo.laobaitv.net/bjtdy" group-title="北京频道",北京淘电影
 http://192.168.2.1:4022/rtp/239.3.1.250:8001
-
-#EXTINF:-1 tvg-id="" tvg-name="CCTV4欧洲" tvg-logo="https://logo.laobaitv.net/CCTV4oz" group-title="央视频道",CCTV-4 中文国际 欧洲
-http://192.168.2.1:4022/rtp/239.3.1.213:4220
-#EXTINF:-1 tvg-id="" tvg-name="CCTV4美洲" tvg-logo="https://logo.laobaitv.net/CCTV4mz" group-title="央视频道",CCTV-4 中文国际 美洲
-http://192.168.2.1:4022/rtp/239.3.1.214:4220
-
-
-#EXTINF:-1 tvg-id="" tvg-name="卡酷少儿" tvg-logo="https://logo.laobaitv.net/kkse" group-title="少儿频道",卡酷少儿
+#EXTINF:-1 tvg-id="" tvg-name="卡酷少儿" tvg-logo="https://logo.laobaitv.net/kkse" group-title="北京频道;少儿频道",北京卡酷少儿
 http://192.168.2.1:4022/rtp/239.3.1.189:8000
+#EXTINF:-1 tvg-id="" tvg-name="北京淘BABY" tvg-logo="https://logo.laobaitv.net/bjtBABY" group-title="北京频道;少儿频道",北京淘BABY
+http://192.168.2.1:4022/rtp/239.3.1.238:8001
 
-
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方频道",朝阳电视台
-http://192.168.2.1:4022/rtp/239.3.1.163:8001
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方频道",密云电视台
-http://192.168.2.1:4022/rtp/239.3.1.154:8001
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方频道",房山电视台
-http://192.168.2.1:4022/rtp/239.3.1.96:8001
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方频道",通州融媒
-http://192.168.2.1:4022/rtp/239.3.1.221:8001
-#EXTINF:-1 tvg-id="" tvg-name="萌宠TV" tvg-logo="https://logo.laobaitv.net/mcTV" group-title="其他频道",萌宠TV
-http://192.168.2.1:4022/rtp/239.3.1.102:8001
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",大健康
-http://192.168.2.1:4022/rtp/239.3.1.251:8001
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",体育赛事
-http://192.168.2.1:4022/rtp/239.3.1.157:8176
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",电影台
-http://192.168.2.1:4022/rtp/239.3.1.97:8001
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",每日影院
-http://192.168.2.1:4022/rtp/239.3.1.111:8001
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",幸福剧场
-http://192.168.2.1:4022/rtp/239.3.1.112:8001
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",幸福娱乐
-http://192.168.2.1:4022/rtp/239.3.1.113:8001
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",风尚生活
-http://192.168.2.1:4022/rtp/239.3.1.114:8001
-
-
-
-#EXTINF:-1 tvg-id="" tvg-name="金鹰纪实" tvg-logo="https://logo.laobaitv.net/jyjs" group-title="其他频道",金鹰纪实
-http://192.168.2.1:4022/rtp/239.3.1.58:8156
-#EXTINF:-1 tvg-id="" tvg-name="快乐垂钓" tvg-logo="https://logo.laobaitv.net/klcd" group-title="其他频道",快乐垂钓
-http://192.168.2.1:4022/rtp/239.3.1.164:8001
-#EXTINF:-1 tvg-id="" tvg-name="茶" tvg-logo="https://logo.laobaitv.net/c" group-title="其他频道",茶频道
-http://192.168.2.1:4022/rtp/239.3.1.165:8001
 #EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://logo.laobaitv.net/CGTN" group-title="央视频道",CGTN 新闻
 http://192.168.2.1:4022/rtp/239.3.1.215:4220
 #EXTINF:-1 tvg-id="" tvg-name="CGTN记录" tvg-logo="https://logo.laobaitv.net/CGTNjl" group-title="央视频道",CGTN 记录
@@ -256,20 +202,9 @@ http://192.168.2.1:4022/rtp/239.3.1.218:4220
 http://192.168.2.1:4022/rtp/239.3.1.219:4220
 #EXTINF:-1 tvg-id="" tvg-name="CGTN俄语" tvg-logo="https://logo.laobaitv.net/CGTNey" group-title="央视频道",CGTN 俄语
 http://192.168.2.1:4022/rtp/239.3.1.220:4220
-#EXTINF:-1 tvg-id="" tvg-name="上海纪实" tvg-logo="https://logo.laobaitv.net/shjs" group-title="其他频道",纪实人文
-http://192.168.2.1:4022/rtp/239.3.1.212:8060
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",山东教育
-http://192.168.2.1:4022/rtp/239.3.1.52:4120
-
-#EXTINF:-1 tvg-id="" tvg-name="中国教育1台" tvg-logo="https://logo.laobaitv.net/zgjy1t" group-title="其他频道",中国教育1台
-http://192.168.2.1:4022/rtp/239.3.1.57:8152
-#EXTINF:-1 tvg-id="" tvg-name="中国教育2台" tvg-logo="https://logo.laobaitv.net/zgjy2t" group-title="其他频道",中国教育2台
-http://192.168.2.1:4022/rtp/239.3.1.54:4120
-#EXTINF:-1 tvg-id="" tvg-name="中国教育3台" tvg-logo="https://logo.laobaitv.net/zgjy3t" group-title="其他频道",中国教育3台
-http://192.168.2.1:4022/rtp/239.3.1.55:4120
-#EXTINF:-1 tvg-id="" tvg-name="中国教育4台" tvg-logo="https://logo.laobaitv.net/zgjy4t" group-title="其他频道",中国教育4台
-http://192.168.2.1:4022/rtp/239.3.1.56:4120
+#EXTINF:-1 tvg-id="" tvg-name="经典电影" tvg-logo="https://logo.laobaitv.net/iptvjddy" group-title="其他频道",IPTV经典电影
+http://192.168.2.1:4022/rtp/239.3.1.195:9024
 #EXTINF:-1 tvg-id="" tvg-name="IPTV少儿动画" tvg-logo="https://logo.laobaitv.net/IPTVsedh" group-title="其他频道;少儿频道",IPTV少儿动画
 http://192.168.2.1:4022/rtp/239.3.1.199:9000
 #EXTINF:-1 tvg-id="" tvg-name="IPTV魅力时尚" tvg-logo="https://logo.laobaitv.net/IPTVmlss" group-title="其他频道",IPTV魅力时尚
@@ -278,8 +213,7 @@ http://192.168.2.1:4022/rtp/239.3.1.196:9012
 http://192.168.2.1:4022/rtp/239.3.1.194:9020
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",IPTV收视指南
 http://192.168.2.1:4022/rtp/239.3.1.193:8012
-#EXTINF:-1 tvg-id="" tvg-name="经典电影" tvg-logo="https://logo.laobaitv.net/jddy" group-title="北京频道",IPTV经典电影
-http://192.168.2.1:4022/rtp/239.3.1.195:9024
+
 #EXTINF:-1 tvg-id="" tvg-name="金鹰卡通" tvg-logo="https://logo.laobaitv.net/jykt" group-title="少儿频道",金鹰卡通
 http://192.168.2.1:4022/rtp/239.3.1.51:9252
 #EXTINF:-1 tvg-id="" tvg-name="嘉佳卡通" tvg-logo="https://logo.laobaitv.net/jjkt" group-title="少儿频道",嘉佳卡通
@@ -302,6 +236,36 @@ http://192.168.2.1:4022/rtp/239.3.1.93:4120
 http://192.168.2.1:4022/rtp/239.3.1.70:4120
 #EXTINF:-1 tvg-id="" tvg-name="财富天下" tvg-logo="https://logo.laobaitv.net/cftx" group-title="北京频道",财富天下
 http://192.168.2.1:4022/rtp/239.3.1.53:9136
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方频道",朝阳电视台
+http://192.168.2.1:4022/rtp/239.3.1.163:8001
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方频道",密云电视台
+http://192.168.2.1:4022/rtp/239.3.1.154:8001
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方频道",房山电视台
+http://192.168.2.1:4022/rtp/239.3.1.96:8001
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方频道",通州融媒
+http://192.168.2.1:4022/rtp/239.3.1.221:8001
+
+#EXTINF:-1 tvg-id="" tvg-name="CCTV4欧洲" tvg-logo="https://logo.laobaitv.net/CCTV4oz" group-title="央视频道",CCTV-4 中文国际 欧洲
+http://192.168.2.1:4022/rtp/239.3.1.213:4220
+#EXTINF:-1 tvg-id="" tvg-name="CCTV4美洲" tvg-logo="https://logo.laobaitv.net/CCTV4mz" group-title="央视频道",CCTV-4 中文国际 美洲
+http://192.168.2.1:4022/rtp/239.3.1.214:4220
+
+#EXTINF:-1 tvg-id="" tvg-name="睛彩竞技" tvg-logo="https://logo.laobaitv.net/jcjj" group-title="睛彩",睛彩竞技
+http://192.168.2.1:4022/rtp/239.3.1.125:8001
+#EXTINF:-1 tvg-id="" tvg-name="睛彩篮球" tvg-logo="https://logo.laobaitv.net/jclq" group-title="睛彩",睛彩篮球
+http://192.168.2.1:4022/udp/239.3.1.126:8001
+#EXTINF:-1 tvg-id="" tvg-name="睛彩青少" tvg-logo="https://logo.laobaitv.net/jcqs" group-title="睛彩",睛彩青少
+http://192.168.2.1:4022/rtp/239.3.1.127:8001
+
+#EXTINF:-1 tvg-id="" tvg-name="萌宠TV" tvg-logo="https://logo.laobaitv.net/mcTV" group-title="其他频道",萌宠TV
+http://192.168.2.1:4022/rtp/239.3.1.102:8001
+#EXTINF:-1 tvg-id="" tvg-name="金鹰纪实" tvg-logo="https://logo.laobaitv.net/jyjs" group-title="其他频道",金鹰纪实
+http://192.168.2.1:4022/rtp/239.3.1.58:8156
+#EXTINF:-1 tvg-id="" tvg-name="快乐垂钓" tvg-logo="https://logo.laobaitv.net/klcd" group-title="其他频道",快乐垂钓
+http://192.168.2.1:4022/rtp/239.3.1.164:8001
+#EXTINF:-1 tvg-id="" tvg-name="茶" tvg-logo="https://logo.laobaitv.net/c" group-title="其他频道",茶频道
+http://192.168.2.1:4022/rtp/239.3.1.165:8001
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",地理
 http://192.168.2.1:4022/rtp/239.3.1.71:4120
@@ -343,3 +307,12 @@ http://192.168.2.1:4022/rtp/239.3.1.89:4120
 http://192.168.2.1:4022/rtp/239.3.1.94:4120
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",爱生活
 http://192.168.2.1:4022/rtp/239.3.1.86:4120
+
+#EXTINF:-1 tvg-id="" tvg-name="中国教育1台" tvg-logo="https://logo.laobaitv.net/zgjy1t" group-title="其他频道",中国教育1台
+http://192.168.2.1:4022/rtp/239.3.1.57:8152
+#EXTINF:-1 tvg-id="" tvg-name="中国教育2台" tvg-logo="https://logo.laobaitv.net/zgjy2t" group-title="其他频道",中国教育2台
+http://192.168.2.1:4022/rtp/239.3.1.54:4120
+#EXTINF:-1 tvg-id="" tvg-name="中国教育4台" tvg-logo="https://logo.laobaitv.net/zgjy4t" group-title="其他频道",中国教育4台
+http://192.168.2.1:4022/rtp/239.3.1.56:4120
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",山东教育
+http://192.168.2.1:4022/rtp/239.3.1.52:4120
