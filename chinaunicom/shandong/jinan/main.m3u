@@ -134,9 +134,27 @@ http://192.168.2.1:4022/udp/239.253.242.59:8000
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://logo.laobaitv.net/fhzw" group-title="港澳台",凤凰中文
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://logo.laobaitv.net/fhzx" group-title="港澳台",凤凰资讯
-http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2
 #EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://logo.laobaitv.net/fhxg" group-title="港澳台",凤凰香港
 http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
+#EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://logo.laobaitv.net/fct" group-title="港澳台",TVB 翡翠台
+http://php.jdshipin.com/TVOD/iptv.php?id=fct3
+#EXTINF:-1 tvg-name="明珠台" tvg-logo="https://logo.laobaitv.net/mzt" group-title="港澳台",TVB 明珠台
+http://php.jdshipin.com/TVOD/iptv.php?id=mzt
+#EXTINF:-1 tvg-name="TVB PLUS" tvg-logo="https://logo.laobaitv.net/tvbplus" group-title="港澳台",TVB PLUS
+http://php.jdshipin.com/TVOD/iptv.php?id=tvbp
+#EXTINF:-1 tvg-name="无线新闻" tvg-logo="https://logo.laobaitv.net/wxxw" group-title="港澳台",无线新闻
+http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
+#EXTINF:-1 tvg-name="VIU TV" tvg-logo="https://logo.laobaitv.net/viutv" group-title="港澳台",VIU TV
+http://php.jdshipin.com/TVOD/iptv.php?id=viutv
+#EXTINF:-1 tvg-name="澳视澳门" tvg-logo="https://logo.laobaitv.net/asam" group-title="港澳台",澳视澳门
+http://php.jdshipin.com/TVOD/iptv.php?id=asam
+#EXTINF:-1 tvg-name="澳视卫星" tvg-logo="https://logo.laobaitv.net/aswx" group-title="港澳台",澳视卫星
+http://php.jdshipin.com/TVOD/iptv.php?id=as
+#EXTINF:-1 tvg-name="澳视体育" tvg-logo="https://logo.laobaitv.net/asty" group-title="港澳台",澳门体育
+http://cdn6.163189.xyz/163189/amty
+
+
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/ddz" group-title="互联网直播频道;棋牌",虎牙 JJ斗地主
 https://live.chinacert.cftest5.cn/huya/152698
@@ -149,7 +167,7 @@ https://live.chinacert.cftest5.cn/huya/139168
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/gd" group-title="互联网直播频道;棋牌",虎牙 虎牙掼蛋赛事
 https://live.chinacert.cftest5.cn/huya/139167
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/yxlm" group-title="互联网直播频道;电竞",英雄联盟 ASI
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/yxlm" group-title="互联网直播频道;电竞",英雄联盟赛事 ASI
 https://live.chinacert.cftest5.cn/huya/660000
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/huya" group-title="互联网直播频道;影视",虎牙 电影轮播
@@ -164,7 +182,7 @@ https://live.chinacert.cftest5.cn/douyu/12400977
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/douyu" group-title="互联网直播频道;影视",斗鱼 RunningMan
 https://live.chinacert.cftest5.cn/douyu/131977
 
-#EXTINF:-1 tvg-name="ESPN" tvg-logo="https://logo.laobaitv.net/espn" group-title="海外",ESPN
+#EXTINF:-1 tvg-name="ESPN" tvg-logo="https://logo.laobaitv.net/espn" group-title="海外;体育",ESPN
 http://41.205.93.154/ESPN/index.m3u8
 
 #EXTINF:-1 tvg-id="CloudflareTV" tvg-logo="https://logo.laobaitv.net/cloudflare" group-title="海外",Cloudflare TV
