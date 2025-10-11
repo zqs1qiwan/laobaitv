@@ -141,10 +141,10 @@ http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
 http://php.jdshipin.com/TVOD/iptv.php?id=fct3
 #EXTINF:-1 tvg-name="明珠台" tvg-logo="https://logo.laobaitv.net/mzt" group-title="港澳台",TVB 明珠台
 http://php.jdshipin.com/TVOD/iptv.php?id=mzt
-#EXTINF:-1 tvg-name="TVB PLUS" tvg-logo="https://logo.laobaitv.net/tvbplus" group-title="港澳台",TVB PLUS
-http://php.jdshipin.com/TVOD/iptv.php?id=tvbp
 #EXTINF:-1 tvg-name="无线新闻" tvg-logo="https://logo.laobaitv.net/wxxw" group-title="港澳台",无线新闻
 http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
+#EXTINF:-1 tvg-name="TVB PLUS" tvg-logo="https://logo.laobaitv.net/tvbplus" group-title="港澳台",TVB PLUS
+http://php.jdshipin.com/TVOD/iptv.php?id=tvbp
 #EXTINF:-1 tvg-name="VIU TV" tvg-logo="https://logo.laobaitv.net/viutv" group-title="港澳台",VIU TV
 http://php.jdshipin.com/TVOD/iptv.php?id=viutv
 #EXTINF:-1 tvg-name="澳视澳门" tvg-logo="https://logo.laobaitv.net/asam" group-title="港澳台",澳视澳门
@@ -184,6 +184,8 @@ https://live.chinacert.cftest5.cn/douyu/131977
 
 #EXTINF:-1 tvg-name="ESPN" tvg-logo="https://logo.laobaitv.net/espn" group-title="海外;体育",ESPN
 http://41.205.93.154/ESPN/index.m3u8
+#EXTINF:-1 tvg-name="测试" tvg-logo="https://logo.laobaitv.net/espn" group-title="海外;体育",测试
+https://passwd.judy.qzz.io/ts/Sky_Sports_Football_BU/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-id="CloudflareTV" tvg-logo="https://logo.laobaitv.net/cloudflare" group-title="海外",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
