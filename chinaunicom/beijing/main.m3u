@@ -193,8 +193,30 @@ https://live.chinacert.cftest5.cn/douyu/131977
 
 #EXTINF:-1 tvg-name="ESPN" tvg-logo="https://logo.laobaitv.net/espn" group-title="海外;体育",ESPN
 http://41.205.93.154/ESPN/index.m3u8
-#EXTINF:-1 tvg-name="测试" tvg-logo="https://logo.laobaitv.net/espn" group-title="海外;体育",测试
+#EXTINF:-1 tvg-name="SKY SPORTS MAIN EVENT" tvg-logo="https://logo.laobaitv.net/skysportsmainevent" group-title="海外;体育",SKY SPORTS MAIN EVENT
+https://passwd.judy.qzz.io/ts/Sky_Sports_Main_Event/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.laobaitv.net/skysportsfootball" group-title="海外;体育",SKY SPORTS FOOTBALL
 https://passwd.judy.qzz.io/ts/Sky_Sports_Football_BU/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.laobaitv.net/skysportspremierleague" group-title="海外;体育",SKY SPORTS PREMIER LEAGUE
+https://passwd.judy.qzz.io/ts/Sky_Sports_Premier_League/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="SKY SPORTS ACTION" tvg-logo="https://logo.laobaitv.net/skysportsaction" group-title="海外;体育",SKY SPORTS ACTION
+https://passwd.judy.qzz.io/ts/Sky_Sports_Action_Live_TV/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="SKY SPORTS MIX" tvg-logo="https://logo.laobaitv.net/skysportsmix" group-title="海外;体育",SKY SPORTS MIX
+https://passwd.judy.qzz.io/ts/Sky_Sports_Mix_Live_TV/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="SKY SPORTS ARENA" tvg-logo="https://logo.laobaitv.net/skysportsarena" group-title="海外;体育",SKY SPORTS ARENA
+https://passwd.judy.qzz.io/ts/Sky_Sports_Arena_Live_TV/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="SKY SPORTS CRICKET" tvg-logo="https://logo.laobaitv.net/skysportscricket" group-title="海外;体育",SKY SPORTS CRICKET
+https://passwd.judy.qzz.io/ts/Sky_Sports_Cricket_Live_TV/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="SKY SPORTS Tennis" tvg-logo="https://logo.laobaitv.net/skysportstennis" group-title="海外;体育",SKY SPORTS Tennis
+https://passwd.judy.qzz.io/ts/Sky_Sports_Tennis/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="SKY SPORTS F1" tvg-logo="https://logo.laobaitv.net/skysportsf1" group-title="海外;体育",SKY SPORTS F1
+https://passwd.judy.qzz.io/ts/Sky_Sports_F1_Live_TV/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="SKY SPORTS GOLF" tvg-logo="https://logo.laobaitv.net/skysportsgolf" group-title="海外;体育",SKY SPORTS GOLF
+https://passwd.judy.qzz.io/ts/Sky_Sports_Golf_Live_TV/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="SKY SPORTS RACING" tvg-logo="https://logo.laobaitv.net/skysportsracing" group-title="海外;体育",SKY SPORTS RACING
+https://passwd.judy.qzz.io/ts/Sky_Sports_Racing_Live_TV/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="SKY SPORTS USA" tvg-logo="https://logo.laobaitv.net/skysportsusa" group-title="海外;体育",SKY SPORTS USA
+https://passwd.judy.qzz.io/ts/Bein_Sports_USA_Live_TV/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-id="CloudflareTV" tvg-logo="https://logo.laobaitv.net/cloudflare" group-title="海外",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
