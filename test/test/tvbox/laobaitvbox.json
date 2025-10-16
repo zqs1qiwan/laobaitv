@@ -1,5 +1,5 @@
 {
-"spider":"https://coss.yupoo.com/upchat/2025-10-02/1759342598127.jpg;md5;f6dd09061793aa1f499be0ffebaf5f67",
+"spider":"https://coss.yupoo.com/upchat/2025-10-15/1760514839339.jpg;md5;88cb103cc0693dbc8e30539714362e2d",
 "wallpaper":"https://api.xsot.cn/bing?jump=true",
 
 "sites":[
@@ -19,7 +19,7 @@
 {"key":"Ysj","name":"🎀异界┃动漫","type":3,"api":"csp_YsjGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"Anime1","name":"🐾日本┃动漫","type": 3,"api": "csp_Anime1Guard","timeout":15,"searchable": 1,"quickSearch": 1,"changeable":1},
 
-{"key":"926","name":"⚽926┃看球","type":3,"api":"csp_kanqiu926Guard","timeout":15,"searchable":0,"changeable":0,"style":{"type":"list"},"ext":"uqGL1fpJNAUa4uUHi9iMsef1+C/R"},
+{"key":"超全","name":"⚽超全┃看球","type":3,"api":"csp_ZbzGuard","searchable":0,"quickSearch":0,"changeable":0,"style":{"type":"list"},"ext":"uqGL1fpJNAUf8fdTwZCE5qSp+Q=="},
 {"key":"88","name":"⚽88┃看球","type":3,"api":"csp_Sir88Guard","timeout":15,"searchable":0,"changeable":0,"style":{"type":"list"}},
 {"key":"看球","name":"⚽看球┃直播","type":3,"api":"csp_KanqiuGuard","timeout":15,"searchable":0,"changeable":0,"style":{"type":"list"}},
 {"key":"虎牙直播js","name":"🐯虎牙┃直播","type":3,"api":"https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.js","ext":"https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/huya2.js","style":{"type":"rect","ratio":1.755},"timeout":15,"playerType":"2","searchable": 0,"quickSearch": 0,"changeable":0},
@@ -43,7 +43,7 @@
 //"logo":"https://laobaitv.net/wp-content/uploads/2024/09/laobailogo1-nobg-293x300.png",
 "lives":[
 {"name":"老白IPTV","type":0,"url":"https://lbzs.laobaitv.net","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://11.112114.xyz/logo/{name}.png","ua": "okHttp/laobaitv-tvbox"},
-{"name":"V4-develop202","type":0,"url":"https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"},
+{"name":"V6-范明明（需开启V6网络）","type":0,"url":"https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u","playerType":2},
 {"name":"虎牙一起看","type":0,"url":"https://sub.ottiptv.cc/huyayqk.m3u","playerType":2,"timeout":10,"ua":"okHttp/Mod-1.4.0.0"},
 {"name":"斗鱼一起看","type":0,"url":"https://sub.ottiptv.cc/douyuyqk.m3u","playerType":2,"timeout":10,"ua":"okHttp/Mod-1.4.0.0"},
 {"name":"B站直播","type":0,"url":"https://sub.ottiptv.cc/bililive.m3u","playerType":2,"timeout":10,"ua":"okHttp/Mod-1.4.0.0"},
