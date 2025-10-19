@@ -1,6 +1,6 @@
 # IPTV组播播放列表 中国联通 中国电信 中国移动
 
-## 使用教程 https://iptv.laobaitv.net/
+## 使用教程 https://iptv.laobaitv.net/ 公益项目，开源免费，请勿轻信各类广告
 ## 有新的地区需求请提交issues，我需要一些本地测试环境配合
 
 
