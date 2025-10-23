@@ -40,23 +40,23 @@ http://192.168.2.1:4022/udp/239.253.252.122:8000
 ######央视频道end######
 
 ######卫视频道######
-#EXTINF:-1 tvg-id="" tvg-name="北京卫视4K" tvg-logo="https://logo.laobaitv.net/bjws4K" group-title="卫视",北京卫视 4K
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视4K" tvg-logo="https://logo.laobaitv.net/bjws4K" group-title="卫视",北京卫视 4K
 http://192.168.2.1:4022/udp/239.253.252.200:8000
-#EXTINF:-1 tvg-id="" tvg-name="浙江卫视4K" tvg-logo="https://logo.laobaitv.net/zjws4K" group-title="卫视",浙江卫视 4K
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视4K" tvg-logo="https://logo.laobaitv.net/zjws4K" group-title="卫视",浙江卫视 4K
 http://192.168.2.1:4022/udp/239.253.252.27:8000
-#EXTINF:-1 tvg-id="" tvg-name="湖南卫视4K" tvg-logo="https://logo.laobaitv.net/hunws4K" group-title="卫视",湖南卫视 4K
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视4K" tvg-logo="https://logo.laobaitv.net/hunws4K" group-title="卫视",湖南卫视 4K
 http://192.168.2.1:4022/udp/239.253.252.28:8000
 #EXTINF:-1 tvg-id="" tvg-name="江苏卫视" tvg-logo="https://logo.laobaitv.net/jsws" group-title="卫视",江苏卫视
 http://192.168.2.1:4022/udp/239.253.252.83:8000
-#EXTINF:-1 tvg-id="" tvg-name="东方卫视4K" tvg-logo="https://logo.laobaitv.net/dfws4K" group-title="卫视",东方卫视 4K
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视4K" tvg-logo="https://logo.laobaitv.net/dfws4K" group-title="卫视",东方卫视 4K
 http://192.168.2.1:4022/udp/239.253.252.176:8000
 #EXTINF:-1 tvg-id="" tvg-name="北京卫视" tvg-logo="https://logo.laobaitv.net/bjws" group-title="卫视",北京卫视
 http://192.168.2.1:4022/udp/239.253.252.85:8000
 #EXTINF:-1 tvg-id="" tvg-name="山东卫视" tvg-logo="https://logo.laobaitv.net/sdws" group-title="卫视",山东卫视
 http://192.168.2.1:4022/udp/239.253.252.78:8000
-#EXTINF:-1 tvg-id="" tvg-name="广东卫视4K" tvg-logo="https://logo.laobaitv.net/gdws4K" group-title="卫视",广东卫视 4K
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视4K" tvg-logo="https://logo.laobaitv.net/gdws4K" group-title="卫视",广东卫视 4K
 http://192.168.2.1:4022/udp/239.253.252.108:8000
-#EXTINF:-1 tvg-id="" tvg-name="深圳卫视4K" tvg-logo="https://logo.laobaitv.net/szws4K" group-title="卫视",深圳卫视 4K
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视4K" tvg-logo="https://logo.laobaitv.net/szws4K" group-title="卫视",深圳卫视 4K
 http://192.168.2.1:4022/udp/239.253.252.61:8000
 #EXTINF:-1 tvg-id="" tvg-name="安徽卫视" tvg-logo="https://logo.laobaitv.net/ahws" group-title="卫视",安徽卫视
 http://192.168.2.1:4022/udp/239.253.252.87:8000
@@ -86,7 +86,7 @@ http://192.168.2.1:4022/udp/239.253.252.110:8000
 http://192.168.2.1:4022/udp/239.253.252.179:8000
 #EXTINF:-1 tvg-id="" tvg-name="山西卫视" tvg-logo="https://logo.laobaitv.net/shanxws" group-title="卫视",山西卫视
 http://192.168.2.1:4022/udp/239.253.252.48:8000
-#EXTINF:-1 tvg-id="" tvg-name="四川卫视4K" tvg-logo="https://logo.laobaitv.net/scws4K" group-title="卫视",四川卫视 4K
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视4K" tvg-logo="https://logo.laobaitv.net/scws4K" group-title="卫视",四川卫视 4K
 http://192.168.2.1:4022/udp/239.253.252.123:8000
 #EXTINF:-1 tvg-id="" tvg-name="吉林卫视" tvg-logo="https://logo.laobaitv.net/jlws" group-title="卫视",吉林卫视
 http://192.168.2.1:4022/udp/239.253.252.173:8000
