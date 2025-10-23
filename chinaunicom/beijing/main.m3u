@@ -27,7 +27,7 @@ http://192.168.2.1:4022/rtp/239.3.1.152:8120
 http://192.168.2.1:4022/rtp/239.3.1.64:8124
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://logo.laobaitv.net/CCTV13" group-title="央视频道",CCTV-13新闻
 http://192.168.2.1:4022/rtp/239.3.1.124:8128
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://logo.laobaitv.net/CCTV14" group-title="央视频道;少儿频道",CCTV-14少儿
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://logo.laobaitv.net/CCTV14" group-title="央视频道",CCTV-14少儿
 http://192.168.2.1:4022/rtp/239.3.1.65:8132
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://logo.laobaitv.net/CCTV15" group-title="央视频道",CCTV-15音乐
 http://192.168.2.1:4022/rtp/239.3.1.153:8136
@@ -133,9 +133,9 @@ http://192.168.2.1:4022/rtp/239.3.1.116:8000
 http://192.168.2.1:4022/rtp/239.3.1.117:8000
 #EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://logo.laobaitv.net/kkse" group-title="北京频道;少儿频道",北京卡酷少儿
 http://192.168.2.1:4022/rtp/239.3.1.189:8000
-#EXTINF:-1 tvg-id="北京IPTV4K超清" tvg-name="北京IPTV4K超清" tvg-logo="https://logo.laobaitv.net/bjIPTV4Kcq" group-title="北京频道;4K",北京IPTV4K
+#EXTINF:-1 tvg-id="北京IPTV4K超清" tvg-name="北京IPTV4K超清" tvg-logo="https://logo.laobaitv.net/bjIPTV4Kcq" group-title="北京频道",北京IPTV4K
 http://192.168.2.1:4022/rtp/239.3.1.249:8001
-#EXTINF:-1 tvg-id="爱上4K" tvg-name="爱上4K" tvg-logo="https://logo.laobaitv.net/as4K" group-title="4K",爱上4K
+#EXTINF:-1 tvg-id="爱上4K" tvg-name="爱上4K" tvg-logo="https://logo.laobaitv.net/as4K" group-title="其他频道",爱上4K
 http://192.168.2.1:4022/rtp/239.3.1.236:2000
 ######本地频道end######
 ######互联网直播频道######
@@ -251,7 +251,7 @@ http://192.168.2.1:4022/rtp/239.3.1.220:4220
 
 #EXTINF:-1 tvg-id="经典电影" tvg-name="经典电影" tvg-logo="https://logo.laobaitv.net/jddy" group-title="其他频道",IPTV经典电影
 http://192.168.2.1:4022/rtp/239.3.1.195:9024
-#EXTINF:-1 tvg-id="IPTV少儿动画" tvg-name="IPTV少儿动画" tvg-logo="https://logo.laobaitv.net/IPTVsedh" group-title="其他频道;少儿频道",IPTV少儿动画
+#EXTINF:-1 tvg-id="IPTV少儿动画" tvg-name="IPTV少儿动画" tvg-logo="https://logo.laobaitv.net/IPTVsedh" group-title="其他频道",IPTV少儿动画
 http://192.168.2.1:4022/rtp/239.3.1.199:9000
 #EXTINF:-1 tvg-id="IPTV魅力时尚" tvg-name="IPTV魅力时尚" tvg-logo="https://logo.laobaitv.net/IPTVmlss" group-title="其他频道",IPTV魅力时尚
 http://192.168.2.1:4022/rtp/239.3.1.196:9012
@@ -327,11 +327,11 @@ http://192.168.2.1:4022/rtp/239.3.1.76:4120
 http://192.168.2.1:4022/rtp/239.3.1.77:4120
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",戏曲
 http://192.168.2.1:4022/rtp/239.3.1.78:4120
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道;少儿频道",早教
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",早教
 http://192.168.2.1:4022/rtp/239.3.1.79:4120
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道;少儿频道",动画
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",动画
 http://192.168.2.1:4022/rtp/239.3.1.80:4120
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道;少儿频道",好学生
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",好学生
 http://192.168.2.1:4022/rtp/239.3.1.81:4120
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其他频道",鉴赏
 http://192.168.2.1:4022/rtp/239.3.1.82:4120
