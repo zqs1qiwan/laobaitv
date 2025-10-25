@@ -47,7 +47,16 @@ https://live.chinacert.cftest5.cn/douyu/131977
 #EXTINF:-1 tvg-id="五星体育HD" tvg-name="五星体育" tvg-logo="https://logo.laobaitv.net/wxty" group-title="体育",五星体育
 https://other.chinacert.cftest5.cn/wxty.m3u8
 #EXTINF:-1 tvg-name="ESPN" tvg-logo="https://logo.laobaitv.net/espn" group-title="体育",ESPN
-http://41.205.93.154/ESPN/index.m3u8
+https://bee.laobaitv.net/ESPN/index.m3u8
+#EXTINF:-1 tvg-name="ESPN2" tvg-logo="https://logo.laobaitv.net/espn2" group-title="体育",ESPN 2
+https://bee.laobaitv.net/ESPN-2/index.m3u8
+#EXTINF:-1 tvg-name="ESPN NEWS" tvg-logo="https://logo.laobaitv.net/espnnews" group-title="体育",ESPN News
+https://bee.laobaitv.net/ESPN-News/index.m3u8
+#EXTINF:-1 tvg-name="ESPN2" tvg-logo="https://logo.laobaitv.net/espn2" group-title="体育",ESPN U
+https://bee.laobaitv.net/ESPN-U/index.m3u8
+#EXTINF:-1 tvg-name="ESPN DEPORTES" tvg-logo="https://logo.laobaitv.net/espn2" group-title="体育",ESPN Deportes
+https://bee.laobaitv.net/ESPN-Deportes/index.m3u8
+
 #EXTINF:-1 tvg-name="SKY SPORTS MAIN EVENT" tvg-logo="https://logo.laobaitv.net/skysportsmainevent" group-title="体育",SKY SPORTS MAIN EVENT
 https://bee.laobaitv.net/Sky-Sports-Main-Event/index.m3u8
 #EXTINF:-1 tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.laobaitv.net/skysportsfootball" group-title="体育",SKY SPORTS FOOTBALL
@@ -75,6 +84,7 @@ https://bee.laobaitv.net/Bein-Sports-USA/index.m3u8
 
 #EXTINF:-1 tvg-id="CloudflareTV" tvg-logo="https://logo.laobaitv.net/cloudflaretv" group-title="老白TV 友情赞助",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
+
 
 
 
