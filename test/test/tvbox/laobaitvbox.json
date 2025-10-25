@@ -42,7 +42,7 @@
 "logo":"https://laobaitv.net/wp-content/uploads/2024/09/laobailogo1-nobg-293x300.png",
 //"logo":"https://laobaitv.net/wp-content/uploads/2024/09/laobailogo1-nobg-293x300.png",
 "lives":[
-{"name":"老白IPTV","type":0,"url":"https://lbzs.laobaitv.net","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://11.112114.xyz/logo/{name}.png","ua": "okHttp/laobaitv-tvbox"},
+{"name":"老白IPTV","type":0,"url":"https://lbzs.laobaitv.net","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://11.112114.xyz/logo/{name}.png","ua": "libmpv"},
 {"name":"V6-范明明（需开启V6网络）","type":0,"url":"https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u","playerType":2},
 {"name":"虎牙一起看","type":0,"url":"https://sub.ottiptv.cc/huyayqk.m3u","playerType":2,"timeout":10,"ua":"okHttp/Mod-1.4.0.0"},
 {"name":"斗鱼一起看","type":0,"url":"https://sub.ottiptv.cc/douyuyqk.m3u","playerType":2,"timeout":10,"ua":"okHttp/Mod-1.4.0.0"},
