@@ -82,8 +82,9 @@ https://bee.laobaitv.net/Sky-Sports-Racing/index.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS" tvg-logo="https://logo.laobaitv.net/beinsports" group-title="体育",BEIN SPORTS
 https://bee.laobaitv.net/Bein-Sports-USA/index.m3u8
 
-#EXTINF:-1 tvg-id="CloudflareTV" tvg-logo="https://logo.laobaitv.net/cloudflaretv" group-title="老白TV 友情赞助",Cloudflare TV
+#EXTINF:-1 tvg-id="CloudflareTV" tvg-name="CloudflareTV" tvg-logo="https://logo.laobaitv.net/cloudflaretv" group-title="老白TV 友情赞助",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
+
 
 
 
