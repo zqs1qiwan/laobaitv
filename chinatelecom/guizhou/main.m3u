@@ -161,6 +161,19 @@ https://live.chinacert.cftest5.cn/douyu/12400977
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/douyu" group-title="互联网;影视",斗鱼 RunningMan
 https://live.chinacert.cftest5.cn/douyu/131977
 
+#EXTINF:-1 tvg-name="HBO" tvg-logo="https://logo.laobaitv.net/hbo" group-title="海外",HBO
+https://bee.laobaitv.net/HBO/index.m3u8
+#EXTINF:-1 tvg-name="HBO 2" tvg-logo="https://logo.laobaitv.net/hbo2" group-title="海外",HBO 2
+https://bee.laobaitv.net/HBO-2/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Channel" tvg-logo="https://logo.laobaitv.net/discoverychannel" group-title="海外",Discovery Channel
+https://bee.laobaitv.net/Discovery-Channel/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Life" tvg-logo="https://logo.laobaitv.net/discoverylife" group-title="海外",Discovery Life
+https://bee.laobaitv.net/Discovery-Life/index.m3u8
+#EXTINF:-1 tvg-name="Cinemax West" tvg-logo="https://logo.laobaitv.net/cinemaxwest" group-title="海外",Cinemax West
+https://vlive.feanor.sbs/Cinemax-West/index.m3u8
+#EXTINF:-1 tvg-name="Great Movies" tvg-logo="https://logo.laobaitv.net/greatmovies" group-title="海外",Great Movies
+https://vlive.feanor.sbs/UK-Great-Movies/index.m3u8
+
 #EXTINF:-1 tvg-id="五星体育HD" tvg-name="五星体育" tvg-logo="https://logo.laobaitv.net/wxty" group-title="体育",五星体育
 https://other.chinacert.cftest5.cn/wxty.m3u8
 #EXTINF:-1 tvg-name="ESPN" tvg-logo="https://logo.laobaitv.net/espn" group-title="体育",ESPN
@@ -201,6 +214,7 @@ https://bee.laobaitv.net/Bein-Sports-USA/index.m3u8
 
 #EXTINF:-1 tvg-id="CloudflareTV" tvg-name="CloudflareTV" tvg-logo="https://logo.laobaitv.net/cloudflaretv" group-title="老白TV 友情赞助",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
+
 
 
 
