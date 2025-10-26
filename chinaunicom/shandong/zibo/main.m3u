@@ -172,7 +172,7 @@ http://192.168.2.1:4022/udp/239.253.252.247:8000
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://logo.laobaitv.net/fhzw" group-title="港澳台",凤凰中文
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://logo.laobaitv.net/fhzx" group-title="港澳台",凤凰资讯
-http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2
+http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 #EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://logo.laobaitv.net/fhxg" group-title="港澳台",凤凰香港
 http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://logo.laobaitv.net/fct" group-title="港澳台",TVB 翡翠台
@@ -268,6 +268,7 @@ https://bee.laobaitv.net/Bein-Sports-USA/index.m3u8
 
 #EXTINF:-1 tvg-id="CloudflareTV" tvg-name="CloudflareTV" tvg-logo="https://logo.laobaitv.net/cloudflaretv" group-title="老白TV 友情赞助",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
+
 
 
 
