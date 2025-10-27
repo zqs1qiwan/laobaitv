@@ -1,4 +1,4 @@
-name: Update TVBox Spider Value
+name: Update TVBox Spider Value (grep/sed version)
 
 on:
   schedule:
@@ -15,50 +15,42 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Get New Spider Value with Debug
+      - name: Get New Spider Value
         id: get_new_spider
         run: |
           echo "Fetching new spider data..."
-          URL_PARAM=$(jq -rn --arg url "http://www.饭太硬.com/tv" '$url|@uri')
+          URL_PARAM=$(jq -rn --arg url "http://www.饭太硬.com/tv" '$url|@uri') # jq 仍然是 URL 编码的好工具
           FULL_URL="https://ua.fongmi.eu.org/box.php?url=${URL_PARAM}"
           echo "Requesting URL: $FULL_URL"
 
-          # 使用 curl 获取数据，并将原始响应保存到变量
           RAW_RESPONSE=$(curl -fsSL "$FULL_URL")
           CURL_EXIT_CODE=$?
-
           if [ $CURL_EXIT_CODE -ne 0 ]; then
             echo "::error::Failed to fetch data from URL (curl exit code: $CURL_EXIT_CODE)"
             exit 1
           fi
-
+          
           echo "--- RAW RESPONSE ---"
           echo "$RAW_RESPONSE"
           echo "--- END RAW RESPONSE ---"
 
-          # --- **核心改动：移除 // 开头的注释行** ---
-          # 使用 grep -v 过滤掉以 // 开头的行，然后才交给 jq
-          CLEANED_RESPONSE=$(echo "$RAW_RESPONSE" | grep -v '^[[:space:]]*//')
-          echo "--- CLEANED RESPONSE (comments removed) ---"
-          echo "$CLEANED_RESPONSE"
-          echo "--- END CLEANED RESPONSE ---"
+          # --- **核心改动：使用 grep 和 sed 提取新值** ---
+          # 1. 使用 grep 找到包含 "spider": 的行 (只取第一行匹配，以防万一)
+          # 2. 使用 sed 提取双引号之间的值
+          #    -n 不打印默认输出
+          #    s/.../.../p 查找替换并打印匹配行
+          #    [^"]* 匹配双引号以外的任何字符零次或多次
+          NEW_SPIDER=$(echo "$RAW_RESPONSE" | grep '"spider":' | head -n 1 | sed -n 's/.*"spider":[[:space:]]*"\([^"]*\)".*/\1/p')
           # --- 改动结束 ---
 
-
-          # 尝试使用清理后的响应来提取 spider 值
-          NEW_SPIDER=$(echo "$CLEANED_RESPONSE" | jq -re '.spider')
-          JQ_EXIT_CODE=$?
-
-          if [ $JQ_EXIT_CODE -ne 0 ]; then
-            # 如果清理后仍然解析失败，打印清理后的内容和错误
-            echo "::error::Failed to parse CLEANED JSON or find .spider key. jq exit code: $JQ_EXIT_CODE"
+          if [ -z "$NEW_SPIDER" ]; then
+            echo "::error::Failed to extract spider value from fetched response using grep/sed."
             exit 1
           fi
 
           echo "New spider value fetched successfully: $NEW_SPIDER"
           echo "new_spider_value=$NEW_SPIDER" >> $GITHUB_OUTPUT
 
-      # --- 后续步骤保持不变 ---
       - name: Get Old Spider Value and File Path
         id: get_old_spider
         run: |
@@ -68,12 +60,16 @@ jobs:
             echo "::error::File $FILE_PATH not found."
             exit 1
           fi
-          OLD_SPIDER=$(jq -re '.spider' "$FILE_PATH")
-          JQ_EXIT_CODE=$?
-          if [ $JQ_EXIT_CODE -ne 0 ]; then
-            echo "::error::Failed to parse JSON or find .spider key in $FILE_PATH"
-            exit 1
+          
+          # --- **核心改动：使用 grep 和 sed 提取旧值** ---
+          OLD_SPIDER=$(grep '"spider":' "$FILE_PATH" | head -n 1 | sed -n 's/.*"spider":[[:space:]]*"\([^"]*\)".*/\1/p')
+          # --- 改动结束 ---
+          
+          if [ -z "$OLD_SPIDER" ]; then
+             echo "::error::Failed to extract spider value from local file ($FILE_PATH) using grep/sed."
+             exit 1
           fi
+          
           echo "Old spider value found: $OLD_SPIDER"
           echo "old_spider_value=$OLD_SPIDER" >> $GITHUB_OUTPUT
           echo "file_path=$FILE_PATH" >> $GITHUB_OUTPUT
@@ -82,11 +78,23 @@ jobs:
         id: update_file
         if: steps.get_new_spider.outputs.new_spider_value != steps.get_old_spider.outputs.old_spider_value
         run: |
-          echo "Spider value has changed. Updating the file..."
+          echo "Spider value has changed. Updating the file using sed..."
           FILE_PATH="${{ steps.get_old_spider.outputs.file_path }}"
-          NEW_SPIDER="${{ steps.get_new_spider.outputs.new_spider_value }}"
-          jq --arg new_spider "$NEW_SPIDER" '.spider = $new_spider' "$FILE_PATH" > temp_file.json && mv temp_file.json "$FILE_PATH"
-          echo "File $FILE_PATH updated."
+          # 转义新旧值中的特殊字符，为 sed 做准备
+          NEW_SPIDER_ESCAPED=$(printf '%s\n' "${{ steps.get_new_spider.outputs.new_spider_value }}" | sed 's:[][\\/.^$*]:\\&:g')
+          OLD_SPIDER_ESCAPED=$(printf '%s\n' "${{ steps.get_old_spider.outputs.old_spider_value }}" | sed 's:[][\\/.^$*]:\\&:g')
+
+          # --- **使用 sed 进行原地替换，逻辑不变** ---
+          sed -i.bak "s|\(\"spider\":[[:space:]]*\"\)$OLD_SPIDER_ESCAPED\"|\1$NEW_SPIDER_ESCAPED\"|g" "$FILE_PATH"
+          if [ $? -ne 0 ]; then
+              echo "::error::sed command failed to update the file."
+              mv "${FILE_PATH}.bak" "$FILE_PATH" # 恢复备份
+              exit 1
+          fi
+          rm "${FILE_PATH}.bak" # 删除备份
+          # --- 替换逻辑结束 ---
+
+          echo "File $FILE_PATH updated successfully using sed."
           echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and Push Changes
