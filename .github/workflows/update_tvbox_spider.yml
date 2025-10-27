@@ -19,7 +19,6 @@ jobs:
         id: get_new_spider
         run: |
           echo "Fetching new spider data..."
-          # 将内部 URL 参数进行 URL 编码
           URL_PARAM=$(jq -rn --arg url "http://www.饭太硬.com/tv" '$url|@uri')
           FULL_URL="https://ua.fongmi.eu.org/box.php?url=${URL_PARAM}"
           echo "Requesting URL: $FULL_URL"
@@ -30,32 +29,36 @@ jobs:
 
           if [ $CURL_EXIT_CODE -ne 0 ]; then
             echo "::error::Failed to fetch data from URL (curl exit code: $CURL_EXIT_CODE)"
-            # 即使 curl 失败，也打印可能的部分响应（如果有的话）
-            echo "--- RAW RESPONSE (Curl Failed) ---"
-            echo "$RAW_RESPONSE"
-            echo "--- END RAW RESPONSE ---"
             exit 1
           fi
 
-          # --- **新增 Debug 信息** ---
           echo "--- RAW RESPONSE ---"
           echo "$RAW_RESPONSE"
           echo "--- END RAW RESPONSE ---"
-          # --- Debug 结束 ---
 
-          # 尝试提取 spider 值
-          NEW_SPIDER=$(echo "$RAW_RESPONSE" | jq -re '.spider')
+          # --- **核心改动：移除 // 开头的注释行** ---
+          # 使用 grep -v 过滤掉以 // 开头的行，然后才交给 jq
+          CLEANED_RESPONSE=$(echo "$RAW_RESPONSE" | grep -v '^[[:space:]]*//')
+          echo "--- CLEANED RESPONSE (comments removed) ---"
+          echo "$CLEANED_RESPONSE"
+          echo "--- END CLEANED RESPONSE ---"
+          # --- 改动结束 ---
+
+
+          # 尝试使用清理后的响应来提取 spider 值
+          NEW_SPIDER=$(echo "$CLEANED_RESPONSE" | jq -re '.spider')
           JQ_EXIT_CODE=$?
 
           if [ $JQ_EXIT_CODE -ne 0 ]; then
-            echo "::error::Failed to parse JSON or find .spider key. jq exit code: $JQ_EXIT_CODE"
-            # 错误信息中已经包含了 RAW_RESPONSE
+            # 如果清理后仍然解析失败，打印清理后的内容和错误
+            echo "::error::Failed to parse CLEANED JSON or find .spider key. jq exit code: $JQ_EXIT_CODE"
             exit 1
           fi
 
           echo "New spider value fetched successfully: $NEW_SPIDER"
           echo "new_spider_value=$NEW_SPIDER" >> $GITHUB_OUTPUT
 
+      # --- 后续步骤保持不变 ---
       - name: Get Old Spider Value and File Path
         id: get_old_spider
         run: |
