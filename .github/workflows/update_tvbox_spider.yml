@@ -1,0 +1,117 @@
+name: Update TVBox Spider Value
+
+on:
+  schedule:
+    # 每天凌晨 3 点 (UTC 时间) 运行一次
+    # 您可以根据需要调整时间，格式是 分 时 日 月 周
+    - cron: '0 3 * * *'
+  workflow_dispatch: # 允许手动触发此 workflow
+
+jobs:
+  update-spider:
+    runs-on: ubuntu-latest # 使用最新的 Ubuntu 运行环境
+    # 设置权限，允许 workflow 写入仓库内容
+    permissions:
+      contents: write 
+    steps:
+      - name: Checkout repository
+        # 步骤 1: 检出你的仓库代码
+        uses: actions/checkout@v4
+
+      - name: Get New Spider Value
+        # 步骤 2: 从外部 URL 获取最新的 JSON 数据并提取 spider 值
+        id: get_new_spider
+        run: |
+          echo "Fetching new spider data..."
+          # 将内部 URL 参数进行 URL 编码 (重要!)
+          URL_PARAM=$(jq -rn --arg url "http://www.饭太硬.com/tv" '$url|@uri')
+          # 构建完整的请求 URL
+          FULL_URL="https://ua.fongmi.eu.org/box.php?url=${URL_PARAM}"
+          echo "Requesting URL: $FULL_URL"
+          
+          # 使用 curl 获取数据，-f 使其在 HTTP 错误时失败，-s 静默模式，-L 跟随重定向
+          # 使用 jq 提取 .spider 的值，-e 使其在 key 不存在时失败，-r 输出原始字符串
+          RESPONSE=$(curl -fsSL "$FULL_URL")
+          CURL_EXIT_CODE=$? # 获取 curl 的退出码
+          
+          if [ $CURL_EXIT_CODE -ne 0 ]; then
+            echo "::error::Failed to fetch data from URL (curl exit code: $CURL_EXIT_CODE)"
+            exit 1
+          fi
+          
+          # 尝试提取 spider 值
+          NEW_SPIDER=$(echo "$RESPONSE" | jq -re '.spider')
+          JQ_EXIT_CODE=$? # 获取 jq 的退出码
+          
+          if [ $JQ_EXIT_CODE -ne 0 ]; then
+            echo "::error::Failed to parse JSON or find .spider key in response."
+            echo "Response was:"
+            echo "$RESPONSE" # 打印原始响应以便调试
+            exit 1
+          fi
+          
+          echo "New spider value fetched: $NEW_SPIDER"
+          # 将新值设置为 step 的 output，方便后续步骤引用
+          echo "new_spider_value=$NEW_SPIDER" >> $GITHUB_OUTPUT
+
+      - name: Get Old Spider Value and File Path
+        # 步骤 3: 从仓库中的 JSON 文件读取当前的 spider 值
+        id: get_old_spider
+        run: |
+          # 指定你的 JSON 文件相对于仓库根目录的路径
+          FILE_PATH="test/test/tvbox/laobaitvbox.json" 
+          echo "Reading old spider data from $FILE_PATH..."
+          
+          if [ ! -f "$FILE_PATH" ]; then
+            echo "::error::File $FILE_PATH not found in the repository."
+            exit 1
+          fi
+          
+          # 使用 jq 读取 .spider 的值
+          OLD_SPIDER=$(jq -re '.spider' "$FILE_PATH")
+          JQ_EXIT_CODE=$?
+          
+          if [ $JQ_EXIT_CODE -ne 0 ]; then
+            echo "::error::Failed to parse JSON or find .spider key in $FILE_PATH"
+            exit 1
+          fi
+
+          echo "Old spider value found: $OLD_SPIDER"
+          # 设置 outputs
+          echo "old_spider_value=$OLD_SPIDER" >> $GITHUB_OUTPUT
+          echo "file_path=$FILE_PATH" >> $GITHUB_OUTPUT
+
+      - name: Compare and Update File
+        # 步骤 4: 比较新旧值，如果不同，则更新文件
+        id: update_file
+        # 使用 if 条件判断，只有在新旧值不同时才执行
+        if: steps.get_new_spider.outputs.new_spider_value != steps.get_old_spider.outputs.old_spider_value
+        run: |
+          echo "Spider value has changed. Updating the file..."
+          FILE_PATH="${{ steps.get_old_spider.outputs.file_path }}"
+          NEW_SPIDER="${{ steps.get_new_spider.outputs.new_spider_value }}"
+          
+          # 使用 jq 安全地更新 JSON 文件中的 spider 字段
+          # 先写入临时文件，成功后再覆盖原文件，防止意外中断导致文件损坏
+          jq --arg new_spider "$NEW_SPIDER" '.spider = $new_spider' "$FILE_PATH" > temp_laobaitvbox.json && mv temp_laobaitvbox.json "$FILE_PATH"
+          
+          echo "File $FILE_PATH updated successfully."
+          # 设置一个 output 变量，标记文件已被更改，用于触发提交步骤
+          echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and Push Changes
+        # 步骤 5: 如果文件被更新，则自动提交并推送到仓库
+        # 使用 if 条件判断，只有 update_file 步骤被执行 (changed=true) 时才运行
+        if: steps.update_file.outputs.changed == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5 # 使用一个流行的自动提交 Action
+        with:
+          commit_message: "chore: Auto-update TVBox spider value" # 提交信息
+          file_pattern: ${{ steps.get_old_spider.outputs.file_path }} # 指定只提交被修改的那个文件
+          commit_user_name: "GitHub Action Bot" # 提交者名称
+          commit_user_email: "actions@github.com" # 提交者邮箱
+          commit_author: "GitHub Action Bot <actions@github.com>" # 作者信息
+
+      - name: No Changes Needed
+        # 步骤 6: 如果新旧值相同，则打印一条消息，不执行任何操作
+        if: steps.get_new_spider.outputs.new_spider_value == steps.get_old_spider.outputs.old_spider_value
+        run: echo "Spider value has not changed. No update needed."
