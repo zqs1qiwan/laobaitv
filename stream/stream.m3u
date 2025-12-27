@@ -69,9 +69,9 @@ https://livehub-voidnet.onrender.com/cluster/streamcore/jp/NHK_StreamOrchestrato
 #EXTINF:-1 tvg-id="五星体育HD" tvg-name="五星体育" tvg-logo="https://logo.laobaitv.net/wxty" group-title="体育",五星体育
 https://other.chinacert.cftest5.cn/wxty.m3u8
 #EXTINF:-1 tvg-name="ESPN" tvg-logo="https://logo.laobaitv.net/espn" group-title="体育",ESPN
-https://bee.laobaitv.net/ESPN/index.m3u8
+https://pplive.laobaitv.net/espn
 #EXTINF:-1 tvg-name="ESPN2" tvg-logo="https://logo.laobaitv.net/espn2" group-title="体育",ESPN 2
-https://bee.laobaitv.net/ESPN-2/index.m3u8
+https://pplive.laobaitv.net/espn2
 #EXTINF:-1 tvg-name="ESPN NEWS" tvg-logo="https://logo.laobaitv.net/espnnews" group-title="体育",ESPN News
 https://bee.laobaitv.net/ESPN-News/index.m3u8
 #EXTINF:-1 tvg-name="ESPN2" tvg-logo="https://logo.laobaitv.net/espnu" group-title="体育",ESPN U
@@ -106,6 +106,7 @@ https://bee.laobaitv.net/Bein-Sports-USA/index.m3u8
 
 #EXTINF:-1 tvg-id="CloudflareTV" tvg-name="CloudflareTV" tvg-logo="https://logo.laobaitv.net/cloudflaretv" group-title="老白TV赞助：免费！请勿相信各类广告",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
+
 
 
 
