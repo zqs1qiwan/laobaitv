@@ -95,6 +95,14 @@ http://192.168.2.1:4022/udp/238.125.5.62:5140
 #EXTINF:-1 tvg-id="" tvg-name="新疆卫视" tvg-logo="https://logo.laobaitv.net/xjws" group-title="卫视",新疆卫视
 http://192.168.2.1:4022/udp/238.125.3.174:5140
 ######卫视频道end######
+
+######其他频道######
+#EXTINF:-1 tvg-id="" tvg-name="欢笑剧场4K" tvg-logo="https://logo.laobaitv.net/hxjc4k" group-title="其他",欢笑剧场 4K
+http://192.168.2.1:4022/udp/238.125.5.122:5140
+
+######卫视频道end######
+
+
 ######互联网直播频道######
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://logo.laobaitv.net/fhzw" group-title="港澳台",凤凰中文
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
@@ -316,3 +324,4 @@ http://192.168.2.1:4022/udp/238.125.1.60:5140
 http://192.168.2.1:4022/udp/238.125.5.60:5140
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",法治天地
 http://192.168.2.1:4022/udp/238.125.5.116:5140
+
