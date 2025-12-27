@@ -35,6 +35,8 @@ http://192.168.2.1:4022/udp/238.125.5.66:5140
 http://192.168.2.1:4022/udp/238.125.4.84:5140
 #EXTINF:-1 tvg-id="" tvg-name="CCTV16" tvg-logo="https://logo.laobaitv.net/CCTV16" group-title="央视",CCTV16
 http://192.168.2.1:4022/udp/238.125.5.34:5140
+#EXTINF:-1 tvg-id="" tvg-name="CCTV16" tvg-logo="https://logo.laobaitv.net/CCTV16" group-title="央视",CCTV16 4K
+http://192.168.2.1:4022/udp/238.125.5.120:5140
 #EXTINF:-1 tvg-id="" tvg-name="CCTV17" tvg-logo="https://logo.laobaitv.net/CCTV17" group-title="央视",CCTV17
 http://192.168.2.1:4022/udp/238.125.5.74:5140
 ######央视频道end######
@@ -202,6 +204,7 @@ https://pplive.laobaitv.net/espn2
 
 #EXTINF:-1 tvg-id="CloudflareTV" tvg-name="CloudflareTV" tvg-logo="https://logo.laobaitv.net/cloudflaretv" group-title="老白TV赞助：免费！请勿相信各类广告",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
+
 
 ######互联网直播频道end######
 
