@@ -38,7 +38,7 @@ http://192.168.2.1:4022/udp/238.125.5.34:5140
 #EXTINF:-1 tvg-id="" tvg-name="CCTV16" tvg-logo="https://logo.laobaitv.net/CCTV16" group-title="央视",CCTV16 4K
 http://192.168.2.1:4022/udp/238.125.5.120:5140
 #EXTINF:-1 tvg-id="" tvg-name="CCTV17" tvg-logo="https://logo.laobaitv.net/CCTV17" group-title="央视",CCTV17
-http://192.168.2.1:4022/udp/238.125.5.74:5140
+http://192.168.2.1:4022/udp/224.168.47.7:8000
 ######央视频道end######
 
 ######卫视频道######
@@ -77,7 +77,7 @@ http://192.168.2.1:4022/udp/224.168.45.191:8000
 #EXTINF:-1 tvg-id="" tvg-name="天津卫视" tvg-logo="https://logo.laobaitv.net/tjws" group-title="卫视",天津卫视
 http://192.168.2.1:4022/udp/224.168.45.102:8000
 #EXTINF:-1 tvg-id="" tvg-name="河南卫视" tvg-logo="https://logo.laobaitv.net/henws" group-title="卫视",河南卫视
-http://192.168.2.1:4022/udp/238.125.3.171:5140
+http://192.168.2.1:4022/udp/224.168.47.8:8000
 #EXTINF:-1 tvg-id="" tvg-name="黑龙江卫视" tvg-logo="https://logo.laobaitv.net/hljws" group-title="卫视",黑龙江卫视
 http://192.168.2.1:4022/udp/224.168.45.91:8000
 #EXTINF:-1 tvg-id="" tvg-name="湖北卫视" tvg-logo="https://logo.laobaitv.net/hubws" group-title="卫视",湖北卫视
@@ -301,8 +301,10 @@ http://192.168.2.1:4022/udp/224.168.45.155:8000
 http://192.168.2.1:4022/udp/224.168.45.159:8000
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",影视1
 http://192.168.2.1:4022/udp/224.168.45.200:8000
-
-
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",霍尔果斯
+http://192.168.2.1:4022/udp/224.168.47.11:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",MNSTV-1
+http://192.168.2.1:4022/udp/224.168.47.12:8000
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",阿克苏
