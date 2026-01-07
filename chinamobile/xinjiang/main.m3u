@@ -39,6 +39,8 @@ http://192.168.2.1:4022/udp/224.168.47.113:8000
 http://192.168.2.1:4022/udp/224.168.47.134:8000
 #EXTINF:-1 tvg-id="" tvg-name="CCTV17" tvg-logo="https://logo.laobaitv.net/CCTV17" group-title="央视",CCTV17
 http://192.168.2.1:4022/udp/224.168.47.7:8000
+#EXTINF:-1 tvg-id="" tvg-name="CCTV4K" tvg-logo="https://logo.laobaitv.net/CCTV4k" group-title="央视",CCTV4K
+http://192.168.2.1:4022/udp/224.168.47.250:8000
 ######央视频道end######
 
 ######卫视频道######
@@ -47,21 +49,21 @@ http://192.168.2.1:4022/udp/224.168.45.94:8000
 #EXTINF:-1 tvg-id="" tvg-name="北京卫视4K" tvg-logo="https://logo.laobaitv.net/bjws4k" group-title="卫视",北京卫视 4K
 http://192.168.2.1:4022/udp/224.168.45.218:8000
 #EXTINF:-1 tvg-id="" tvg-name="广东卫视4K" tvg-logo="https://logo.laobaitv.net/gdws4k" group-title="卫视",广东卫视 4K
-http://192.168.2.1:4022/udp/238.125.5.141:5140
+http://192.168.2.1:4022/udp/224.168.47.237:8000
 #EXTINF:-1 tvg-id="" tvg-name="深圳卫视4K" tvg-logo="https://logo.laobaitv.net/szws4k" group-title="卫视",深圳卫视 4K
-http://192.168.2.1:4022/udp/238.125.5.142:5140
+http://192.168.2.1:4022/udp/224.168.47.238:8000
 #EXTINF:-1 tvg-id="" tvg-name="湖南卫视4K" tvg-logo="https://logo.laobaitv.net/hunws4k" group-title="卫视",湖南卫视 4K
-http://192.168.2.1:4022/udp/238.125.5.144:5140
+http://192.168.2.1:4022/udp/224.168.47.244:8000
 #EXTINF:-1 tvg-id="" tvg-name="浙江卫视4K" tvg-logo="https://logo.laobaitv.net/zjws4k" group-title="卫视",浙江卫视 4K
-http://192.168.2.1:4022/udp/238.125.5.145:5140
+http://192.168.2.1:4022/udp/224.168.47.245:8000
 #EXTINF:-1 tvg-id="" tvg-name="江苏卫视4K" tvg-logo="https://logo.laobaitv.net/jsws4k" group-title="卫视",江苏卫视 4K
-http://192.168.2.1:4022/udp/238.125.5.146:5140
+http://192.168.2.1:4022/udp/224.168.47.246:8000
 #EXTINF:-1 tvg-id="" tvg-name="山东卫视4K" tvg-logo="https://logo.laobaitv.net/sdws4k" group-title="卫视",山东卫视 4K
-http://192.168.2.1:4022/udp/238.125.5.147:5140
+http://192.168.2.1:4022/udp/224.168.47.247:8000
 #EXTINF:-1 tvg-id="" tvg-name="东方卫视4K" tvg-logo="https://logo.laobaitv.net/dfws4k" group-title="卫视",东方卫视 4K
-http://192.168.2.1:4022/udp/238.125.5.148:5140
+http://192.168.2.1:4022/udp/224.168.47.248:8000
 #EXTINF:-1 tvg-id="" tvg-name="四川卫视4K" tvg-logo="https://logo.laobaitv.net/scws4k" group-title="卫视",四川卫视 4K
-http://192.168.2.1:4022/udp/238.125.5.149:5140
+http://192.168.2.1:4022/udp/224.168.47.249:8000
 #EXTINF:-1 tvg-id="" tvg-name="新疆卫视" tvg-logo="https://logo.laobaitv.net/xjws" group-title="卫视",新疆卫视
 http://192.168.2.1:4022/udp/224.168.47.101:8000
 #EXTINF:-1 tvg-id="" tvg-name="湖南卫视" tvg-logo="https://logo.laobaitv.net/hunws" group-title="卫视",湖南卫视
@@ -114,10 +116,16 @@ http://192.168.2.1:4022/udp/224.168.47.135:8000
 http://192.168.2.1:4022/udp/224.168.45.104:8000
 #EXTINF:-1 tvg-id="" tvg-name="四川卫视" tvg-logo="https://logo.laobaitv.net/scws" group-title="卫视",四川卫视
 http://192.168.2.1:4022/udp/224.168.45.202:8000
+#EXTINF:-1 tvg-id="" tvg-name="山西卫视" tvg-logo="https://logo.laobaitv.net/shanxws" group-title="卫视",山西卫视
+http://192.168.2.1:4022/udp/224.168.47.228:8000
 #EXTINF:-1 tvg-id="" tvg-name="青海卫视" tvg-logo="https://logo.laobaitv.net/qhws" group-title="卫视",青海卫视
 http://192.168.2.1:4022/udp/224.168.47.133:8000
 #EXTINF:-1 tvg-id="" tvg-name="兵团卫视" tvg-logo="https://logo.laobaitv.net/btws" group-title="卫视",兵团卫视
 http://192.168.2.1:4022/udp/224.168.47.190:8000
+#EXTINF:-1 tvg-id="" tvg-name="宁夏卫视" tvg-logo="https://logo.laobaitv.net/nxws" group-title="卫视",宁夏卫视
+http://192.168.2.1:4022/udp/224.168.47.241:8000
+#EXTINF:-1 tvg-id="" tvg-name="西藏卫视" tvg-logo="https://logo.laobaitv.net/xzws" group-title="卫视",西藏卫视
+http://192.168.2.1:4022/udp/224.168.47.242:8000
 ######卫视频道end######
 
 ######其他频道######
@@ -150,6 +158,31 @@ http://192.168.2.1:4022/udp/224.168.47.75:8000
 http://192.168.2.1:4022/udp/224.168.47.80:8000
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育4
 http://192.168.2.1:4022/udp/224.168.47.201:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育5
+http://192.168.2.1:4022/udp/224.168.47.202:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育6
+http://192.168.2.1:4022/udp/224.168.47.203:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育7
+http://192.168.2.1:4022/udp/224.168.47.204:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育8
+http://192.168.2.1:4022/udp/224.168.47.205:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育9
+http://192.168.2.1:4022/udp/224.168.47.206:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育10
+http://192.168.2.1:4022/udp/224.168.47.207:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育11
+http://192.168.2.1:4022/udp/224.168.47.210:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育12
+http://192.168.2.1:4022/udp/224.168.47.213:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育13
+http://192.168.2.1:4022/udp/224.168.47.214:8000
+
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="" tvg-logo="https://logo.laobaitv.net/chcdzdy" group-title="地方台",CHC动作电影
+http://192.168.2.1:4022/udp/224.168.47.224:8000
+#EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="" tvg-logo="https://logo.laobaitv.net/chcymdy" group-title="地方台",CHC影迷电影
+http://192.168.2.1:4022/udp/224.168.47.225:8000
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="" tvg-logo="https://logo.laobaitv.net/chcjtyy" group-title="地方台",CHC家庭影院
+http://192.168.2.1:4022/udp/224.168.47.226:8000
 ######其他频道end######
 
 
@@ -269,6 +302,8 @@ https://cloudflare.tv/hls/live.m3u8
 http://192.168.2.1:4022/udp/224.168.45.73:8000
 #EXTINF:-1 tvg-id="北京纪实科教" tvg-name="" tvg-logo="https://logo.laobaitv.net/bjjskj" group-title="地方台",北京纪实科教
 http://192.168.2.1:4022/udp/224.168.45.192:8000
+#EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="" tvg-logo="https://logo.laobaitv.net/bjkkse" group-title="地方台",北京卡酷少儿
+http://192.168.2.1:4022/udp/224.168.47.240:8000
 #EXTINF:-1 tvg-id="金鹰纪实" tvg-name="" tvg-logo="https://logo.laobaitv.net/jyjs" group-title="地方台",金鹰纪实
 http://192.168.2.1:4022/udp/224.168.45.203:8000
 #EXTINF:-1 tvg-id="金鹰卡通" tvg-name="" tvg-logo="https://logo.laobaitv.net/jykt" group-title="地方台",金鹰卡通
