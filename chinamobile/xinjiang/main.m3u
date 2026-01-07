@@ -34,7 +34,7 @@ http://192.168.2.1:4022/udp/224.168.45.228:8000
 #EXTINF:-1 tvg-id="" tvg-name="CCTV15" tvg-logo="https://logo.laobaitv.net/CCTV15" group-title="央视",CCTV15
 http://192.168.2.1:4022/udp/224.168.47.18:8000
 #EXTINF:-1 tvg-id="" tvg-name="CCTV16" tvg-logo="https://logo.laobaitv.net/CCTV16" group-title="央视",CCTV16
-http://192.168.2.1:4022/udp/238.125.5.34:5140
+http://192.168.2.1:4022/udp/224.168.47.113:8000
 #EXTINF:-1 tvg-id="" tvg-name="CCTV16" tvg-logo="https://logo.laobaitv.net/CCTV16" group-title="央视",CCTV16 4K
 http://192.168.2.1:4022/udp/238.125.5.120:5140
 #EXTINF:-1 tvg-id="" tvg-name="CCTV17" tvg-logo="https://logo.laobaitv.net/CCTV17" group-title="央视",CCTV17
@@ -281,6 +281,29 @@ http://192.168.2.1:4022/udp/224.168.47.64:8000
 http://192.168.2.1:4022/udp/224.168.47.67:8000
 #EXTINF:-1 tvg-id="人物频道" tvg-name="" tvg-logo="https://logo.laobaitv.net/rwpd" group-title="地方台",人物频道
 http://192.168.2.1:4022/udp/224.168.47.68:8000
+#EXTINF:-1 tvg-id="武术世界" tvg-name="" tvg-logo="https://logo.laobaitv.net/wssj" group-title="地方台",武术世界
+http://192.168.2.1:4022/udp/224.168.47.114:8000
+#EXTINF:-1 tvg-id="文物宝库" tvg-name="" tvg-logo="https://logo.laobaitv.net/wwbk" group-title="地方台",文物宝库
+http://192.168.2.1:4022/udp/224.168.47.115:8000
+#EXTINF:-1 tvg-id="梨园频道" tvg-name="" tvg-logo="https://logo.laobaitv.net/lypd" group-title="地方台",梨园频道
+http://192.168.2.1:4022/udp/224.168.47.116:8000
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆-2
+http://192.168.2.1:4022/udp/224.168.47.102:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆-3
+http://192.168.2.1:4022/udp/224.168.47.103:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆-4
+http://192.168.2.1:4022/udp/224.168.47.104:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆-5
+http://192.168.2.1:4022/udp/224.168.47.105:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆-6
+http://192.168.2.1:4022/udp/224.168.47.106:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆-7
+http://192.168.2.1:4022/udp/224.168.47.110:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆-8
+http://192.168.2.1:4022/udp/224.168.47.112:8000
+
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",阜康
 http://192.168.2.1:4022/udp/224.168.45.88:8000
@@ -346,90 +369,3 @@ http://192.168.2.1:4022/udp/224.168.47.27:8000
 http://192.168.2.1:4022/udp/224.168.47.32:8000
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",FYTV-2
 http://192.168.2.1:4022/udp/224.168.47.33:8000
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",阿克苏
-http://192.168.2.1:4022/udp/238.125.3.84:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",阿克苏1
-http://192.168.2.1:4022/udp/238.125.7.84:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",阿克苏2
-http://192.168.2.1:4022/udp/238.125.7.85:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",阿克苏3
-http://192.168.2.1:4022/udp/238.125.7.86:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",阿拉尔
-http://192.168.2.1:4022/udp/238.125.3.54:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",阿勒泰
-http://192.168.2.1:4022/udp/238.125.3.151:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",阿勒泰1
-http://192.168.2.1:4022/udp/238.125.3.150:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",阿勒泰1
-http://192.168.2.1:4022/udp/238.125.7.54:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",阿勒泰2
-http://192.168.2.1:4022/udp/238.125.7.134:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",巴里坤
-http://192.168.2.1:4022/udp/238.125.7.220:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",巴里坤
-http://192.168.2.1:4022/udp/238.125.7.221:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",巴音郭楞
-http://192.168.2.1:4022/udp/238.125.3.43:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",巴音郭楞
-http://192.168.2.1:4022/udp/238.125.3.39:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",巴音郭楞
-http://192.168.2.1:4022/udp/238.125.3.38:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",巴音郭楞
-http://192.168.2.1:4022/udp/238.125.3.40:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",巴州1
-http://192.168.2.1:4022/udp/238.125.7.38:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",巴州2
-http://192.168.2.1:4022/udp/238.125.7.39:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",巴州3
-http://192.168.2.1:4022/udp/238.125.7.40:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",巴州4
-http://192.168.2.1:4022/udp/238.125.7.43:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",包头
-http://192.168.2.1:4022/udp/238.125.3.12:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",包头
-http://192.168.2.1:4022/udp/238.125.3.13:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",包头
-http://192.168.2.1:4022/udp/238.125.3.14:5140
-#EXTINF:-1 tvg-id="" tvg-name="北京纪实" tvg-logo="https://logo.laobaitv.net/bjjs" group-title="北京",北京纪实科教
-http://192.168.2.1:4022/udp/238.125.5.70:5140
-#EXTINF:-1 tvg-id="" tvg-name="北京纪实" tvg-logo="https://logo.laobaitv.net/bjjs" group-title="北京",北京纪实科教
-http://192.168.2.1:4022/udp/238.125.3.121:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",博州2
-http://192.168.2.1:4022/udp/238.125.7.13:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",博州3
-http://192.168.2.1:4022/udp/238.125.7.14:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",博州汉语
-http://192.168.2.1:4022/udp/238.125.7.12:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",布尔津
-http://192.168.2.1:4022/udp/238.125.7.224:5140
-#EXTINF:-1 tvg-id="" tvg-name="茶频道" tvg-logo="https://logo.laobaitv.net/cpd" group-title="地方",茶频道
-http://192.168.2.1:4022/udp/238.125.5.101:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",昌吉
-http://192.168.2.1:4022/udp/238.125.7.27:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",昌吉
-http://192.168.2.1:4022/udp/238.125.3.27:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",超级体育
-http://192.168.2.1:4022/udp/238.125.3.65:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",大巴扎
-http://192.168.2.1:4022/udp/238.125.7.175:5140
-#EXTINF:-1 tvg-id="" tvg-name="第一财经" tvg-logo="https://logo.laobaitv.net/dycj" group-title="上海",第一财经
-http://192.168.2.1:4022/udp/238.125.1.59:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",电视剧
-http://192.168.2.1:4022/udp/238.125.7.208:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",东方财经
-http://192.168.2.1:4022/udp/238.125.4.54:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",东方财经
-http://220.171.75.48:888:888/udp/238.125.4.54:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",动漫秀场
-http://192.168.2.1:4022/udp/238.125.5.33:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",动漫秀场
-http://192.168.2.1:4022/udp/238.125.1.33:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",都市剧场
-http://192.168.2.1:4022/udp/238.125.1.60:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",都市剧场
-http://192.168.2.1:4022/udp/238.125.5.60:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",法治天地
-http://192.168.2.1:4022/udp/238.125.5.116:5140
-
-
