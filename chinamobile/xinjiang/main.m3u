@@ -127,6 +127,23 @@ http://192.168.2.1:4022/udp/224.168.45.196:8000
 http://192.168.2.1:4022/udp/224.168.45.198:8000
 #EXTINF:-1 tvg-id="" tvg-name="CGTN记录" tvg-logo="https://logo.laobaitv.net/cgtnjl" group-title="央视",CGTN记录
 http://192.168.2.1:4022/udp/224.168.45.199:8000
+
+#EXTINF:-1 tvg-id="" tvg-name="精彩影视" tvg-logo="https://logo.laobaitv.net/jcys" group-title="其他",精彩影视
+http://192.168.2.1:4022/udp/224.168.47.69:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育1
+http://192.168.2.1:4022/udp/224.168.47.72:8000
+#EXTINF:-1 tvg-id="" tvg-name="睛彩竞技" tvg-logo="https://logo.laobaitv.net/jcjj" group-title="体育",睛彩竞技
+http://192.168.2.1:4022/udp/224.168.47.73:8000
+#EXTINF:-1 tvg-id="" tvg-name="睛彩篮球" tvg-logo="https://logo.laobaitv.net/jclq" group-title="体育",睛彩篮球
+http://192.168.2.1:4022/udp/224.168.47.78:8000
+#EXTINF:-1 tvg-id="" tvg-name="睛彩青少" tvg-logo="https://logo.laobaitv.net/jcqs" group-title="体育",睛彩青少
+http://192.168.2.1:4022/udp/224.168.47.81:8000
+#EXTINF:-1 tvg-id="" tvg-name="睛彩广场舞" tvg-logo="https://logo.laobaitv.net/jcgcw" group-title="体育",睛彩广场舞
+http://192.168.2.1:4022/udp/224.168.47.82:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育2
+http://192.168.2.1:4022/udp/224.168.47.75:8000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育3
+http://192.168.2.1:4022/udp/224.168.47.80:8000
 ######其他频道end######
 
 
@@ -260,7 +277,10 @@ http://192.168.2.1:4022/udp/224.168.45.204:8000
 http://192.168.2.1:4022/udp/224.168.45.219:8000
 #EXTINF:-1 tvg-id="财富天下" tvg-name="" tvg-logo="https://logo.laobaitv.net/cftx" group-title="地方台",财富天下
 http://192.168.2.1:4022/udp/224.168.47.64:8000
-
+#EXTINF:-1 tvg-id="求索记录" tvg-name="" tvg-logo="https://logo.laobaitv.net/qsjl" group-title="地方台",求索记录
+http://192.168.2.1:4022/udp/224.168.47.67:8000
+#EXTINF:-1 tvg-id="人物频道" tvg-name="" tvg-logo="https://logo.laobaitv.net/rwpd" group-title="地方台",人物频道
+http://192.168.2.1:4022/udp/224.168.47.68:8000
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",阜康
 http://192.168.2.1:4022/udp/224.168.45.88:8000
