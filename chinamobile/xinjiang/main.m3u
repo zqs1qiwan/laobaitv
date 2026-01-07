@@ -97,7 +97,7 @@ http://192.168.2.1:4022/udp/224.168.45.190:8000
 #EXTINF:-1 tvg-id="" tvg-name="云南卫视" tvg-logo="https://logo.laobaitv.net/ynws" group-title="卫视",云南卫视
 http://192.168.2.1:4022/udp/224.168.47.25:8000
 #EXTINF:-1 tvg-id="" tvg-name="广西卫视" tvg-logo="https://logo.laobaitv.net/gxws" group-title="卫视",广西卫视
-http://192.168.2.1:4022/udp/238.125.5.105:5140
+http://192.168.2.1:4022/udp/224.168.47.65:8000
 #EXTINF:-1 tvg-id="" tvg-name="甘肃卫视" tvg-logo="https://logo.laobaitv.net/gsws" group-title="卫视",甘肃卫视
 http://192.168.2.1:4022/udp/238.125.5.121:5140
 #EXTINF:-1 tvg-id="" tvg-name="辽宁卫视" tvg-logo="https://logo.laobaitv.net/lnws" group-title="卫视",辽宁卫视
@@ -258,6 +258,9 @@ http://192.168.2.1:4022/udp/224.168.47.57:8000
 http://192.168.2.1:4022/udp/224.168.45.204:8000
 #EXTINF:-1 tvg-id="CETV2" tvg-name="" tvg-logo="https://logo.laobaitv.net/cetv2" group-title="地方台",CETV2
 http://192.168.2.1:4022/udp/224.168.45.219:8000
+#EXTINF:-1 tvg-id="财富天下" tvg-name="" tvg-logo="https://logo.laobaitv.net/cftx" group-title="地方台",财富天下
+http://192.168.2.1:4022/udp/224.168.47.64:8000
+
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",阜康
 http://192.168.2.1:4022/udp/224.168.45.88:8000
