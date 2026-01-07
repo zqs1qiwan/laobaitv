@@ -287,7 +287,8 @@ http://192.168.2.1:4022/udp/224.168.47.114:8000
 http://192.168.2.1:4022/udp/224.168.47.115:8000
 #EXTINF:-1 tvg-id="梨园频道" tvg-name="" tvg-logo="https://logo.laobaitv.net/lypd" group-title="地方台",梨园频道
 http://192.168.2.1:4022/udp/224.168.47.116:8000
-
+#EXTINF:-1 tvg-id="四海钓鱼" tvg-name="" tvg-logo="https://logo.laobaitv.net/shdy" group-title="地方台",四海钓鱼
+http://192.168.2.1:4022/udp/224.168.47.127:8000
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆-2
 http://192.168.2.1:4022/udp/224.168.47.102:8000
