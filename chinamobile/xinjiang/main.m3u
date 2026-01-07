@@ -36,7 +36,7 @@ http://192.168.2.1:4022/udp/224.168.47.18:8000
 #EXTINF:-1 tvg-id="" tvg-name="CCTV16" tvg-logo="https://logo.laobaitv.net/CCTV16" group-title="央视",CCTV16
 http://192.168.2.1:4022/udp/224.168.47.113:8000
 #EXTINF:-1 tvg-id="" tvg-name="CCTV16" tvg-logo="https://logo.laobaitv.net/CCTV16" group-title="央视",CCTV16 4K
-http://192.168.2.1:4022/udp/238.125.5.120:5140
+http://192.168.2.1:4022/udp/224.168.47.134:8000
 #EXTINF:-1 tvg-id="" tvg-name="CCTV17" tvg-logo="https://logo.laobaitv.net/CCTV17" group-title="央视",CCTV17
 http://192.168.2.1:4022/udp/224.168.47.7:8000
 ######央视频道end######
@@ -108,12 +108,14 @@ http://192.168.2.1:4022/udp/224.168.45.205:8000
 http://192.168.2.1:4022/udp/224.168.45.100:8000
 #EXTINF:-1 tvg-id="" tvg-name="旅游卫视" tvg-logo="https://logo.laobaitv.net/lyws" group-title="卫视",海南卫视
 http://192.168.2.1:4022/udp/224.168.45.142:8000
+#EXTINF:-1 tvg-id="" tvg-name="陕西卫视" tvg-logo="https://logo.laobaitv.net/shannxws" group-title="卫视",陕西卫视
+http://192.168.2.1:4022/udp/224.168.47.135:8000
 #EXTINF:-1 tvg-id="" tvg-name="江西卫视" tvg-logo="https://logo.laobaitv.net/jxws" group-title="卫视",江西卫视
 http://192.168.2.1:4022/udp/224.168.45.104:8000
 #EXTINF:-1 tvg-id="" tvg-name="四川卫视" tvg-logo="https://logo.laobaitv.net/scws" group-title="卫视",四川卫视
 http://192.168.2.1:4022/udp/224.168.45.202:8000
 #EXTINF:-1 tvg-id="" tvg-name="青海卫视" tvg-logo="https://logo.laobaitv.net/qhws" group-title="卫视",青海卫视
-http://192.168.2.1:4022/udp/238.125.5.125:5140
+http://192.168.2.1:4022/udp/224.168.47.133:8000
 ######卫视频道end######
 
 ######其他频道######
