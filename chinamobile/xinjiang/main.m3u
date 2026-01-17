@@ -46,23 +46,23 @@ http://192.168.2.1:4022/udp/224.168.47.250:8000
 ######卫视频道######
 #EXTINF:-1 tvg-id="" tvg-name="北京卫视" tvg-logo="https://logo.laobaitv.net/bjws" group-title="卫视",北京卫视
 http://192.168.2.1:4022/udp/224.168.45.94:8000
-#EXTINF:-1 tvg-id="" tvg-name="北京卫视4K" tvg-logo="https://logo.laobaitv.net/bjws4k" group-title="卫视",北京卫视 4K
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视4K" tvg-logo="https://logo.laobaitv.net/bjws4k" group-title="卫视",北京卫视 4K
 http://192.168.2.1:4022/udp/224.168.45.218:8000
-#EXTINF:-1 tvg-id="" tvg-name="广东卫视4K" tvg-logo="https://logo.laobaitv.net/gdws4k" group-title="卫视",广东卫视 4K
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视4K" tvg-logo="https://logo.laobaitv.net/gdws4k" group-title="卫视",广东卫视 4K
 http://192.168.2.1:4022/udp/224.168.47.237:8000
-#EXTINF:-1 tvg-id="" tvg-name="深圳卫视4K" tvg-logo="https://logo.laobaitv.net/szws4k" group-title="卫视",深圳卫视 4K
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视4K" tvg-logo="https://logo.laobaitv.net/szws4k" group-title="卫视",深圳卫视 4K
 http://192.168.2.1:4022/udp/224.168.47.238:8000
-#EXTINF:-1 tvg-id="" tvg-name="湖南卫视4K" tvg-logo="https://logo.laobaitv.net/hunws4k" group-title="卫视",湖南卫视 4K
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视4K" tvg-logo="https://logo.laobaitv.net/hunws4k" group-title="卫视",湖南卫视 4K
 http://192.168.2.1:4022/udp/224.168.47.244:8000
-#EXTINF:-1 tvg-id="" tvg-name="浙江卫视4K" tvg-logo="https://logo.laobaitv.net/zjws4k" group-title="卫视",浙江卫视 4K
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视4K" tvg-logo="https://logo.laobaitv.net/zjws4k" group-title="卫视",浙江卫视 4K
 http://192.168.2.1:4022/udp/224.168.47.245:8000
-#EXTINF:-1 tvg-id="" tvg-name="江苏卫视4K" tvg-logo="https://logo.laobaitv.net/jsws4k" group-title="卫视",江苏卫视 4K
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视4K" tvg-logo="https://logo.laobaitv.net/jsws4k" group-title="卫视",江苏卫视 4K
 http://192.168.2.1:4022/udp/224.168.47.246:8000
-#EXTINF:-1 tvg-id="" tvg-name="山东卫视4K" tvg-logo="https://logo.laobaitv.net/sdws4k" group-title="卫视",山东卫视 4K
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视4K" tvg-logo="https://logo.laobaitv.net/sdws4k" group-title="卫视",山东卫视 4K
 http://192.168.2.1:4022/udp/224.168.47.247:8000
-#EXTINF:-1 tvg-id="" tvg-name="东方卫视4K" tvg-logo="https://logo.laobaitv.net/dfws4k" group-title="卫视",东方卫视 4K
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视4K" tvg-logo="https://logo.laobaitv.net/dfws4k" group-title="卫视",东方卫视 4K
 http://192.168.2.1:4022/udp/224.168.47.248:8000
-#EXTINF:-1 tvg-id="" tvg-name="四川卫视4K" tvg-logo="https://logo.laobaitv.net/scws4k" group-title="卫视",四川卫视 4K
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视4K" tvg-logo="https://logo.laobaitv.net/scws4k" group-title="卫视",四川卫视 4K
 http://192.168.2.1:4022/udp/224.168.47.249:8000
 #EXTINF:-1 tvg-id="" tvg-name="新疆卫视" tvg-logo="https://logo.laobaitv.net/xjws" group-title="卫视",新疆卫视
 http://192.168.2.1:4022/udp/224.168.47.101:8000
@@ -293,6 +293,7 @@ https://pplive.laobaitv.net/espn2
 
 #EXTINF:-1 tvg-id="CloudflareTV" tvg-name="CloudflareTV" tvg-logo="https://logo.laobaitv.net/cloudflaretv" group-title="老白TV赞助：免费！请勿相信各类广告",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
+
 
 ######互联网直播频道end######
 
