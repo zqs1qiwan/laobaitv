@@ -15,7 +15,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Update main.m3u files with stream content
       run: |
@@ -33,18 +33,29 @@ jobs:
           if [ -f "$MAIN_FILE" ]; then
             echo "Updating $MAIN_FILE with content from $STREAM_FILE"
 
-            # 提取标记前后的内容
-            BEFORE_CONTENT=$(sed -n '1, /######互联网直播频道######/p' "$MAIN_FILE" | sed '$d')
-            AFTER_CONTENT=$(sed -n '/######互联网直播频道end######/,$p' "$MAIN_FILE" | sed '1d')
+            # 检查标记是否存在
+            if grep -q '######互联网直播频道######' "$MAIN_FILE"; then
+              # 标记存在：替换标记之间的内容
+              BEFORE_CONTENT=$(sed -n '1,/######互联网直播频道######/p' "$MAIN_FILE" | sed '$d')
+              AFTER_CONTENT=$(sed -n '/######互联网直播频道end######/,$p' "$MAIN_FILE" | sed '1d')
 
-            # 组合更新后的内容
-            {
-              echo "$BEFORE_CONTENT"
-              echo "######互联网直播频道######"
-              cat "$STREAM_FILE"
-              echo "######互联网直播频道end######"
-              echo "$AFTER_CONTENT"
-            } > "$MAIN_FILE.updated"
+              {
+                echo "$BEFORE_CONTENT"
+                echo "######互联网直播频道######"
+                cat "$STREAM_FILE"
+                echo "######互联网直播频道end######"
+                echo "$AFTER_CONTENT"
+              } > "$MAIN_FILE.updated"
+            else
+              # 标记不存在：将stream内容追加到文件末尾
+              {
+                cat "$MAIN_FILE"
+                echo ""
+                echo "######互联网直播频道######"
+                cat "$STREAM_FILE"
+                echo "######互联网直播频道end######"
+              } > "$MAIN_FILE.updated"
+            fi
 
             # 比较并替换文件（如果有变化）
             if ! cmp -s "$MAIN_FILE" "$MAIN_FILE.updated"; then
@@ -73,6 +84,7 @@ jobs:
         done
 
     - name: Commit and push changes if any
+      if: success()
       run: |
         git config user.name "GitHub Action"
         git config user.email "actions@github.com"
@@ -84,4 +96,3 @@ jobs:
         else
           echo "No changes to commit"
         fi
-      if: success()
