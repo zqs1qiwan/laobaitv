@@ -57,11 +57,11 @@ https://bee.laobaitv.net/play?id=HBO-2
 #EXTINF:-1 tvg-name="Discovery Channel" tvg-logo="https://logo.laobaitv.net/discoverychannel" group-title="海外",Discovery Channel
 https://bee.laobaitv.net/play?id=Discovery-Channel
 #EXTINF:-1 tvg-name="Discovery Life" tvg-logo="https://logo.laobaitv.net/discoverylife" group-title="海外",Discovery Life
-#https://bee.laobaitv.net/Discovery-Life/index.m3u8
+https://bee.laobaitv.net/play?id=Discovery-Life
 #EXTINF:-1 tvg-name="Cinemax West" tvg-logo="https://logo.laobaitv.net/cinemaxwest" group-title="海外",Cinemax West
-#https://bee.laobaitv.net/Cinemax-West/index.m3u8
+https://bee.laobaitv.net/play?id=Cinemax-West
 #EXTINF:-1 tvg-name="Great Movies" tvg-logo="https://logo.laobaitv.net/greatmovies" group-title="海外",Great Movies
-#https://bee.laobaitv.net/UK-Great-Movies/index.m3u8
+https://bee.laobaitv.net/play?id=UK-Great-Movies
 #EXTINF:-1 tvg-name="NHK World Japan" tvg-logo="https://logo.laobaitv.net/nhkworldjapan" group-title="海外",NHK World Japan
 https://livehub-voidnet.onrender.com/cluster/streamcore/jp/NHK_StreamOrchestrator.m3u8
 
@@ -73,9 +73,9 @@ https://live.laobaitv.net/smg/wxty
 #EXTINF:-1 tvg-name="ESPN2" tvg-logo="https://logo.laobaitv.net/espn2" group-title="体育",ESPN 2
 https://bee.laobaitv.net/play?id=ESPN-2
 #EXTINF:-1 tvg-name="ESPN NEWS" tvg-logo="https://logo.laobaitv.net/espnnews" group-title="体育",ESPN News
-#https://bee.laobaitv.net/ESPN-News/index.m3u8
+https://bee.laobaitv.net/play?id=ESPN-News
 #EXTINF:-1 tvg-name="ESPN DEPORTES" tvg-logo="https://logo.laobaitv.net/espndeportes" group-title="体育",ESPN Deportes
-#https://bee.laobaitv.net/ESPN-Deportes/index.m3u8
+https://bee.laobaitv.net/play?id=ESPN-Deportes
 #EXTINF:-1 tvg-name="ESPN U" tvg-logo="https://logo.laobaitv.net/espnu" group-title="体育",ESPN U
 https://bee.laobaitv.net/play?id=ESPN-U
 
@@ -100,9 +100,9 @@ https://bee.laobaitv.net/play?id=Sky-Sports-News
 #EXTINF:-1 tvg-name="SKY SPORTS ACTION" tvg-logo="https://logo.laobaitv.net/skysportsaction" group-title="体育",SKY SPORTS ACTION
 https://bee.laobaitv.net/play?id=Sky-Sports-Action
 #EXTINF:-1 tvg-name="SKY SPORTS Tennis" tvg-logo="https://logo.laobaitv.net/skysportstennis" group-title="体育",SKY SPORTS Tennis
-#https://bee.laobaitv.net/Sky-Sports-Tennis/index.m3u8
+https://bee.laobaitv.net/play?id=Sky-Sports-Tennis
 #EXTINF:-1 tvg-name="SKY SPORTS RACING" tvg-logo="https://logo.laobaitv.net/skysportsracing" group-title="体育",SKY SPORTS RACING
-#https://bee.laobaitv.net/Sky-Sports-Racing/index.m3u8
+https://bee.laobaitv.net/play?id=Sky-Sports-Racing
 
 #EXTINF:-1 tvg-name="SKY BUNDESLIGA 1" tvg-logo="https://logo.laobaitv.net/skybundesliga" group-title="体育",SKY BUNDESLIGA 1
 https://bee.laobaitv.net/play?id=Sky-Bundesliga-1
