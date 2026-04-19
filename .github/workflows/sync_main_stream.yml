@@ -1,6 +1,9 @@
 name: Sync stream to all IPTV main files
 
 on:
+  push:
+    paths:
+      - 'stream/**'
   schedule:
     - cron: '0 */3 * * *'  # 每 3 小时在整点运行（UTC 时间）
   workflow_dispatch:
