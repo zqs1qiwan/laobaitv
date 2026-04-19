@@ -50,12 +50,12 @@ https://live.laobaitv.net/douyu/12400977
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/douyu" group-title="互联网;影视",斗鱼 RunningMan
 https://live.laobaitv.net/douyu/131977
 
-##EXTINF:-1 tvg-name="HBO" tvg-logo="https://logo.laobaitv.net/hbo" group-title="海外",HBO
-#https://bee.laobaitv.net/HBO/index.m3u8
+#EXTINF:-1 tvg-name="HBO" tvg-logo="https://logo.laobaitv.net/hbo" group-title="海外",HBO
+https://bee.laobaitv.net/play?id=HBO
 #EXTINF:-1 tvg-name="HBO 2" tvg-logo="https://logo.laobaitv.net/hbo2" group-title="海外",HBO 2
-#https://bee.laobaitv.net/HBO-2/index.m3u8
+https://bee.laobaitv.net/play?id=HBO-2
 #EXTINF:-1 tvg-name="Discovery Channel" tvg-logo="https://logo.laobaitv.net/discoverychannel" group-title="海外",Discovery Channel
-#https://bee.laobaitv.net/Discovery-Channel/index.m3u8
+https://bee.laobaitv.net/play?id=Discovery-Channel
 #EXTINF:-1 tvg-name="Discovery Life" tvg-logo="https://logo.laobaitv.net/discoverylife" group-title="海外",Discovery Life
 #https://bee.laobaitv.net/Discovery-Life/index.m3u8
 #EXTINF:-1 tvg-name="Cinemax West" tvg-logo="https://logo.laobaitv.net/cinemaxwest" group-title="海外",Cinemax West
@@ -142,6 +142,21 @@ https://bee.laobaitv.net/play?id=Premier-Sports-1
 
 #EXTINF:-1 tvg-name="LALIGA HYPERMOTION" tvg-logo="https://logo.laobaitv.net/laliga" group-title="体育",LALIGA HYPERMOTION
 https://bee.laobaitv.net/play?id=LaLiga-Hypermotion
+
+#EXTINF:-1 tvg-name="ESPN" tvg-logo="https://logo.laobaitv.net/espn" group-title="体育",ESPN
+https://bee.laobaitv.net/play?id=ESPN
+#EXTINF:-1 tvg-name="FOX SPORTS 1" tvg-logo="https://logo.laobaitv.net/foxsports" group-title="体育",FOX SPORTS 1
+https://bee.laobaitv.net/play?id=Fox-Sports-1
+#EXTINF:-1 tvg-name="FOX SPORTS 2" tvg-logo="https://logo.laobaitv.net/foxsports" group-title="体育",FOX SPORTS 2
+https://bee.laobaitv.net/play?id=Fox-Sports-2
+#EXTINF:-1 tvg-name="NBA TV" tvg-logo="https://logo.laobaitv.net/nbatv" group-title="体育",NBA TV
+https://bee.laobaitv.net/play?id=NBA-TV
+#EXTINF:-1 tvg-name="NFL NETWORK" tvg-logo="https://logo.laobaitv.net/nflnetwork" group-title="体育",NFL NETWORK
+https://bee.laobaitv.net/play?id=NFL-Network
+#EXTINF:-1 tvg-name="EUROSPORT 1" tvg-logo="https://logo.laobaitv.net/eurosport" group-title="体育",EUROSPORT 1
+https://bee.laobaitv.net/play?id=Eurosport-1
+#EXTINF:-1 tvg-name="EUROSPORT 2" tvg-logo="https://logo.laobaitv.net/eurosport" group-title="体育",EUROSPORT 2
+https://bee.laobaitv.net/play?id=Eurosport-2
 
 #EXTINF:-1 tvg-id="CloudflareTV" tvg-name="CloudflareTV" tvg-logo="https://logo.laobaitv.net/cloudflaretv" group-title="老白TV赞助：免费！请勿相信各类广告",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
