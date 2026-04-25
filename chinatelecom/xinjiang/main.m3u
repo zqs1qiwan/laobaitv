@@ -257,6 +257,23 @@ https://bee.laobaitv.net/play?id=Bein-Sports-USA
 #EXTINF:-1 tvg-id="premiersports1" tvg-name="PREMIER SPORTS 1" tvg-logo="https://logo.laobaitv.net/premiersports1" group-title="体育",PREMIER SPORTS 1
 https://bee.laobaitv.net/play?id=Premier-Sports-1
 
+#EXTINF:-1 tvg-id="AdultSwim" tvg-name="Adult Swim" tvg-logo="https://logo.laobaitv.net/adultswim" group-title="海外娱乐",Adult Swim
+https://live.laobaitv.net/proxy/adultswim
+#EXTINF:-1 tvg-id="AdultSwimRickAndMorty" tvg-name="Rick and Morty 24/7" tvg-logo="https://logo.laobaitv.net/rickandmorty" group-title="海外娱乐",Rick and Morty 24/7
+https://live.laobaitv.net/proxy/adultswim/rickandmorty
+#EXTINF:-1 tvg-id="AdultSwimOffTheAir" tvg-name="Adult Swim: Off the Air" tvg-logo="https://logo.laobaitv.net/adultswim" group-title="海外娱乐",Adult Swim: Off the Air
+https://live.laobaitv.net/proxy/adultswim/offtheair
+#EXTINF:-1 tvg-id="AdultSwimBlackJesus" tvg-name="Black Jesus 24/7" tvg-logo="https://logo.laobaitv.net/adultswim" group-title="海外娱乐",Black Jesus 24/7
+https://live.laobaitv.net/proxy/adultswim/blackjesus
+#EXTINF:-1 tvg-id="AdultSwimEricAndre" tvg-name="Eric Andre Show 24/7" tvg-logo="https://logo.laobaitv.net/adultswim" group-title="海外娱乐",Eric Andre Show 24/7
+https://live.laobaitv.net/proxy/adultswim/ericandre
+#EXTINF:-1 tvg-id="AdultSwimMrPickles" tvg-name="Mr. Pickles 24/7" tvg-logo="https://logo.laobaitv.net/adultswim" group-title="海外娱乐",Mr. Pickles 24/7
+https://live.laobaitv.net/proxy/adultswim/mrpickles
+#EXTINF:-1 tvg-id="AdultSwimSquidbillies" tvg-name="Squidbillies 24/7" tvg-logo="https://logo.laobaitv.net/adultswim" group-title="海外娱乐",Squidbillies 24/7
+https://live.laobaitv.net/proxy/adultswim/squidbillies
+#EXTINF:-1 tvg-id="AdultSwimRobotChicken" tvg-name="Robot Chicken 24/7" tvg-logo="https://logo.laobaitv.net/adultswim" group-title="海外娱乐",Robot Chicken 24/7
+https://live.laobaitv.net/proxy/adultswim/robotchicken
+
 #EXTINF:-1 tvg-id="CloudflareTV" tvg-name="CloudflareTV" tvg-logo="https://logo.laobaitv.net/cloudflaretv" group-title="老白TV赞助：免费！请勿相信各类广告",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
 
