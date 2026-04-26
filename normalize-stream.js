@@ -11,7 +11,7 @@
  *   - 其他：原样保留
  *
  * EXTINF 属性顺序：tvg-id → tvg-name → tvg-logo → group-title
- * Logo slug：先去空格再 encodeURIComponent（URL 无 %20）
+ * Logo slug：去空格后直接拼中文路径（logo 服务支持中文 URL）
  */
 
 const https = require('https');
@@ -31,9 +31,9 @@ function fetchJSON(url) {
   });
 }
 
-// ── Logo URL 生成（去空格后再 encode） ─────────────────────────────────────────
+// ── Logo URL 生成（去空格后直接拼中文路径） ────────────────────────────────────
 function logoUrl(slug) {
-  return LOGO_BASE + encodeURIComponent(slug.replace(/\s+/g, ''));
+  return LOGO_BASE + slug.replace(/\s+/g, '');
 }
 
 // ── 归一化/匹配工具（与 iptv-editor 保持一致） ──────────────────────────────
