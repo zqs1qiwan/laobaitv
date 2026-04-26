@@ -1,492 +1,418 @@
 #EXTM3U x-tvg-url="https://epg.laobaitv.net"
-
 ######央视频道######
-#EXTINF:-1 tvg-id="" tvg-name="CCTV1" tvg-logo="https://logo.laobaitv.net/CCTV1" group-title="央视",CCTV1
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV-1 综合" tvg-logo="https://logo.laobaitv.net/CCTV1" group-title="央视频道",CCTV-1 综合
 http://192.168.2.1:4022/udp/224.168.45.220:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV2" tvg-logo="https://logo.laobaitv.net/CCTV2" group-title="央视",CCTV2
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV-2 财经" tvg-logo="https://logo.laobaitv.net/CCTV2" group-title="央视频道",CCTV-2 财经
 http://192.168.2.1:4022/udp/224.168.45.221:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV3" tvg-logo="https://logo.laobaitv.net/CCTV3" group-title="央视",CCTV3
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV-3 综艺" tvg-logo="https://logo.laobaitv.net/CCTV3" group-title="央视频道",CCTV-3 综艺
 http://192.168.2.1:4022/udp/224.168.45.105:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV4" tvg-logo="https://logo.laobaitv.net/CCTV4" group-title="央视",CCTV4
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV-4 中文国际" tvg-logo="https://logo.laobaitv.net/CCTV4" group-title="央视频道",CCTV-4 中文国际
 http://192.168.2.1:4022/udp/224.168.45.222:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV5" tvg-logo="https://logo.laobaitv.net/CCTV5" group-title="央视",CCTV5
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV-5 体育" tvg-logo="https://logo.laobaitv.net/CCTV5" group-title="央视频道",CCTV-5 体育
 http://192.168.2.1:4022/udp/224.168.45.106:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV5+" tvg-logo="https://logo.laobaitv.net/CCTV5+" group-title="央视",CCTV5+
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV-5+ 体育赛事" tvg-logo="https://logo.laobaitv.net/CCTV5+" group-title="央视频道",CCTV-5+ 体育赛事
 http://192.168.2.1:4022/udp/224.168.45.223:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV6" tvg-logo="https://logo.laobaitv.net/CCTV6" group-title="央视",CCTV6
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV-6 电影" tvg-logo="https://logo.laobaitv.net/CCTV6" group-title="央视频道",CCTV-6 电影
 http://192.168.2.1:4022/udp/224.168.45.107:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV7" tvg-logo="https://logo.laobaitv.net/CCTV7" group-title="央视",CCTV7
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV-7 国防军事" tvg-logo="https://logo.laobaitv.net/CCTV7" group-title="央视频道",CCTV-7 国防军事
 http://192.168.2.1:4022/udp/224.168.45.224:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV8" tvg-logo="https://logo.laobaitv.net/CCTV8" group-title="央视",CCTV8
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV-8 电视剧" tvg-logo="https://logo.laobaitv.net/CCTV8" group-title="央视频道",CCTV-8 电视剧
 http://192.168.2.1:4022/udp/224.168.45.108:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV9" tvg-logo="https://logo.laobaitv.net/CCTV9" group-title="央视",CCTV9
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV-9 纪录" tvg-logo="https://logo.laobaitv.net/CCTV9" group-title="央视频道",CCTV-9 纪录
 http://192.168.2.1:4022/udp/224.168.45.225:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV10" tvg-logo="https://logo.laobaitv.net/CCTV10" group-title="央视",CCTV10
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV-10 科教" tvg-logo="https://logo.laobaitv.net/CCTV10" group-title="央视频道",CCTV-10 科教
 http://192.168.2.1:4022/udp/224.168.45.226:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV11" tvg-logo="https://logo.laobaitv.net/CCTV11" group-title="央视",CCTV11
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV-11 戏曲" tvg-logo="https://logo.laobaitv.net/CCTV11" group-title="央视频道",CCTV-11 戏曲
 http://192.168.2.1:4022/udp/224.168.47.15:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV12" tvg-logo="https://logo.laobaitv.net/CCTV12" group-title="央视",CCTV12
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV-12 社会与法" tvg-logo="https://logo.laobaitv.net/CCTV12" group-title="央视频道",CCTV-12 社会与法
 http://192.168.2.1:4022/udp/224.168.45.227:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV13" tvg-logo="https://logo.laobaitv.net/CCTV13" group-title="央视",CCTV13
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV-13 新闻" tvg-logo="https://logo.laobaitv.net/CCTV13" group-title="央视频道",CCTV-13 新闻
 http://192.168.2.1:4022/udp/224.168.47.46:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV14" tvg-logo="https://logo.laobaitv.net/CCTV14" group-title="央视",CCTV14
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV-14 少儿" tvg-logo="https://logo.laobaitv.net/CCTV14" group-title="央视频道",CCTV-14 少儿
 http://192.168.2.1:4022/udp/224.168.45.228:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV15" tvg-logo="https://logo.laobaitv.net/CCTV15" group-title="央视",CCTV15
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV-15 音乐" tvg-logo="https://logo.laobaitv.net/CCTV15" group-title="央视频道",CCTV-15 音乐
 http://192.168.2.1:4022/udp/224.168.47.18:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV16" tvg-logo="https://logo.laobaitv.net/CCTV16" group-title="央视",CCTV16
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV-16 奥林匹克" tvg-logo="https://logo.laobaitv.net/CCTV16" group-title="央视频道",CCTV-16 奥林匹克
 http://192.168.2.1:4022/udp/224.168.47.113:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV16" tvg-logo="https://logo.laobaitv.net/CCTV16" group-title="央视",CCTV16 4K
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV-16 奥林匹克4K" tvg-logo="https://logo.laobaitv.net/CCTV16" group-title="央视频道",CCTV-16 奥林匹克4K
 http://192.168.2.1:4022/udp/224.168.47.134:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV17" tvg-logo="https://logo.laobaitv.net/CCTV17" group-title="央视",CCTV17
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV-17 农业农村" tvg-logo="https://logo.laobaitv.net/CCTV17" group-title="央视频道",CCTV-17 农业农村
 http://192.168.2.1:4022/udp/224.168.47.7:8000
-#EXTINF:-1 tvg-id="" tvg-name="CCTV4K" tvg-logo="https://logo.laobaitv.net/CCTV4k" group-title="央视",CCTV4K
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV-4K 超高清" tvg-logo="https://logo.laobaitv.net/CCTV4K" group-title="央视频道",CCTV-4K 超高清
 http://192.168.2.1:4022/udp/224.168.47.250:8000
 ######央视频道end######
-
 ######卫视频道######
-#EXTINF:-1 tvg-id="" tvg-name="北京卫视" tvg-logo="https://logo.laobaitv.net/bjws" group-title="卫视",北京卫视
+#EXTINF:-1 tvg-id="beijingweishi" tvg-name="北京卫视" tvg-logo="https://logo.laobaitv.net/北京卫视" group-title="卫视频道",北京卫视
 http://192.168.2.1:4022/udp/224.168.45.94:8000
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视4K" tvg-logo="https://logo.laobaitv.net/bjws4k" group-title="卫视",北京卫视 4K
+#EXTINF:-1 tvg-id="beijingweishi" tvg-name="北京卫视4K" tvg-logo="https://logo.laobaitv.net/北京卫视4K" group-title="卫视频道",北京卫视4K
 http://192.168.2.1:4022/udp/224.168.45.218:8000
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视4K" tvg-logo="https://logo.laobaitv.net/gdws4k" group-title="卫视",广东卫视 4K
+#EXTINF:-1 tvg-id="guangdongweishi" tvg-name="广东卫视4K" tvg-logo="https://logo.laobaitv.net/广东卫视4K" group-title="卫视频道",广东卫视4K
 http://192.168.2.1:4022/udp/224.168.47.237:8000
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视4K" tvg-logo="https://logo.laobaitv.net/szws4k" group-title="卫视",深圳卫视 4K
+#EXTINF:-1 tvg-id="shenzhenweishi" tvg-name="深圳卫视4K" tvg-logo="https://logo.laobaitv.net/深圳卫视4K" group-title="卫视频道",深圳卫视4K
 http://192.168.2.1:4022/udp/224.168.47.238:8000
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视4K" tvg-logo="https://logo.laobaitv.net/hunws4k" group-title="卫视",湖南卫视 4K
+#EXTINF:-1 tvg-id="hunanweishi" tvg-name="湖南卫视4K" tvg-logo="https://logo.laobaitv.net/湖南卫视4K" group-title="卫视频道",湖南卫视4K
 http://192.168.2.1:4022/udp/224.168.47.244:8000
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视4K" tvg-logo="https://logo.laobaitv.net/zjws4k" group-title="卫视",浙江卫视 4K
+#EXTINF:-1 tvg-id="zhejiangweishi" tvg-name="浙江卫视4K" tvg-logo="https://logo.laobaitv.net/浙江卫视4K" group-title="卫视频道",浙江卫视4K
 http://192.168.2.1:4022/udp/224.168.47.245:8000
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视4K" tvg-logo="https://logo.laobaitv.net/jsws4k" group-title="卫视",江苏卫视 4K
+#EXTINF:-1 tvg-id="jiangsuweishi" tvg-name="江苏卫视4K" tvg-logo="https://logo.laobaitv.net/江苏卫视4K" group-title="卫视频道",江苏卫视4K
 http://192.168.2.1:4022/udp/224.168.47.246:8000
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视4K" tvg-logo="https://logo.laobaitv.net/sdws4k" group-title="卫视",山东卫视 4K
+#EXTINF:-1 tvg-id="shandongweishi" tvg-name="山东卫视4K" tvg-logo="https://logo.laobaitv.net/山东卫视4K" group-title="卫视频道",山东卫视4K
 http://192.168.2.1:4022/udp/224.168.47.247:8000
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视4K" tvg-logo="https://logo.laobaitv.net/dfws4k" group-title="卫视",东方卫视 4K
+#EXTINF:-1 tvg-id="dongfangweishi" tvg-name="东方卫视4K" tvg-logo="https://logo.laobaitv.net/东方卫视4K" group-title="卫视频道",东方卫视4K
 http://192.168.2.1:4022/udp/224.168.47.248:8000
-#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视4K" tvg-logo="https://logo.laobaitv.net/scws4k" group-title="卫视",四川卫视 4K
+#EXTINF:-1 tvg-id="sichuanweishi" tvg-name="四川卫视4K" tvg-logo="https://logo.laobaitv.net/四川卫视4K" group-title="卫视频道",四川卫视4K
 http://192.168.2.1:4022/udp/224.168.47.249:8000
-#EXTINF:-1 tvg-id="" tvg-name="新疆卫视" tvg-logo="https://logo.laobaitv.net/xjws" group-title="卫视",新疆卫视
+#EXTINF:-1 tvg-id="xinjiangweishi" tvg-name="新疆卫视" tvg-logo="https://logo.laobaitv.net/新疆卫视" group-title="卫视频道",新疆卫视
 http://192.168.2.1:4022/udp/224.168.47.101:8000
-#EXTINF:-1 tvg-id="" tvg-name="湖南卫视" tvg-logo="https://logo.laobaitv.net/hunws" group-title="卫视",湖南卫视
+#EXTINF:-1 tvg-id="hunanweishi" tvg-name="湖南卫视" tvg-logo="https://logo.laobaitv.net/湖南卫视" group-title="卫视频道",湖南卫视
 http://192.168.2.1:4022/udp/224.168.45.93:8000
-#EXTINF:-1 tvg-id="" tvg-name="东方卫视" tvg-logo="https://logo.laobaitv.net/dfws" group-title="卫视",东方卫视
+#EXTINF:-1 tvg-id="dongfangweishi" tvg-name="东方卫视" tvg-logo="https://logo.laobaitv.net/东方卫视" group-title="卫视频道",东方卫视
 http://192.168.2.1:4022/udp/224.168.45.97:8000
-#EXTINF:-1 tvg-id="" tvg-name="江苏卫视" tvg-logo="https://logo.laobaitv.net/jsws" group-title="卫视",江苏卫视
+#EXTINF:-1 tvg-id="jiangsuweishi" tvg-name="江苏卫视" tvg-logo="https://logo.laobaitv.net/江苏卫视" group-title="卫视频道",江苏卫视
 http://192.168.2.1:4022/udp/224.168.45.95:8000
-#EXTINF:-1 tvg-id="" tvg-name="浙江卫视" tvg-logo="https://logo.laobaitv.net/zjws" group-title="卫视",浙江卫视
+#EXTINF:-1 tvg-id="zhejiangweishi" tvg-name="浙江卫视" tvg-logo="https://logo.laobaitv.net/浙江卫视" group-title="卫视频道",浙江卫视
 http://192.168.2.1:4022/udp/224.168.45.90:8000
-#EXTINF:-1 tvg-id="" tvg-name="河北卫视" tvg-logo="https://logo.laobaitv.net/hebws" group-title="卫视",河北卫视
+#EXTINF:-1 tvg-id="hebeiweishi" tvg-name="河北卫视" tvg-logo="https://logo.laobaitv.net/河北卫视" group-title="卫视频道",河北卫视
 http://192.168.2.1:4022/udp/224.168.45.191:8000
-#EXTINF:-1 tvg-id="" tvg-name="天津卫视" tvg-logo="https://logo.laobaitv.net/tjws" group-title="卫视",天津卫视
+#EXTINF:-1 tvg-id="tianjinweishi" tvg-name="天津卫视" tvg-logo="https://logo.laobaitv.net/天津卫视" group-title="卫视频道",天津卫视
 http://192.168.2.1:4022/udp/224.168.45.102:8000
-#EXTINF:-1 tvg-id="" tvg-name="河南卫视" tvg-logo="https://logo.laobaitv.net/henws" group-title="卫视",河南卫视
+#EXTINF:-1 tvg-id="henanweishi" tvg-name="河南卫视" tvg-logo="https://logo.laobaitv.net/河南卫视" group-title="卫视频道",河南卫视
 http://192.168.2.1:4022/udp/224.168.47.8:8000
-#EXTINF:-1 tvg-id="" tvg-name="黑龙江卫视" tvg-logo="https://logo.laobaitv.net/hljws" group-title="卫视",黑龙江卫视
+#EXTINF:-1 tvg-id="heilongjiangweishi" tvg-name="黑龙江卫视" tvg-logo="https://logo.laobaitv.net/黑龙江卫视" group-title="卫视频道",黑龙江卫视
 http://192.168.2.1:4022/udp/224.168.45.91:8000
-#EXTINF:-1 tvg-id="" tvg-name="湖北卫视" tvg-logo="https://logo.laobaitv.net/hubws" group-title="卫视",湖北卫视
+#EXTINF:-1 tvg-id="hubeiweishi" tvg-name="湖北卫视" tvg-logo="https://logo.laobaitv.net/湖北卫视" group-title="卫视频道",湖北卫视
 http://192.168.2.1:4022/udp/224.168.45.96:8000
-#EXTINF:-1 tvg-id="" tvg-name="山东卫视" tvg-logo="https://logo.laobaitv.net/sdws" group-title="卫视",山东卫视
+#EXTINF:-1 tvg-id="shandongweishi" tvg-name="山东卫视" tvg-logo="https://logo.laobaitv.net/山东卫视" group-title="卫视频道",山东卫视
 http://192.168.2.1:4022/udp/224.168.45.92:8000
-#EXTINF:-1 tvg-id="" tvg-name="吉林卫视" tvg-logo="https://logo.laobaitv.net/jlws" group-title="卫视",吉林卫视
+#EXTINF:-1 tvg-id="jilinweishi" tvg-name="吉林卫视" tvg-logo="https://logo.laobaitv.net/吉林卫视" group-title="卫视频道",吉林卫视
 http://192.168.2.1:4022/udp/224.168.45.170:8000
-#EXTINF:-1 tvg-id="" tvg-name="深圳卫视" tvg-logo="https://logo.laobaitv.net/szws" group-title="卫视",深圳卫视
+#EXTINF:-1 tvg-id="shenzhenweishi" tvg-name="深圳卫视" tvg-logo="https://logo.laobaitv.net/深圳卫视" group-title="卫视频道",深圳卫视
 http://192.168.2.1:4022/udp/224.168.45.98:8000
-#EXTINF:-1 tvg-id="" tvg-name="广东卫视" tvg-logo="https://logo.laobaitv.net/gdws" group-title="卫视",广东卫视
+#EXTINF:-1 tvg-id="guangdongweishi" tvg-name="广东卫视" tvg-logo="https://logo.laobaitv.net/广东卫视" group-title="卫视频道",广东卫视
 http://192.168.2.1:4022/udp/224.168.45.99:8000
-#EXTINF:-1 tvg-id="" tvg-name="重庆卫视" tvg-logo="https://logo.laobaitv.net/cqws" group-title="卫视",重庆卫视
+#EXTINF:-1 tvg-id="chongqingweishi" tvg-name="重庆卫视" tvg-logo="https://logo.laobaitv.net/重庆卫视" group-title="卫视频道",重庆卫视
 http://192.168.2.1:4022/udp/224.168.45.101:8000
-#EXTINF:-1 tvg-id="" tvg-name="贵州卫视" tvg-logo="https://logo.laobaitv.net/gzws" group-title="卫视",贵州卫视
+#EXTINF:-1 tvg-id="guizhouweishi" tvg-name="贵州卫视" tvg-logo="https://logo.laobaitv.net/贵州卫视" group-title="卫视频道",贵州卫视
 http://192.168.2.1:4022/udp/224.168.45.190:8000
-#EXTINF:-1 tvg-id="" tvg-name="云南卫视" tvg-logo="https://logo.laobaitv.net/ynws" group-title="卫视",云南卫视
+#EXTINF:-1 tvg-id="yunnanweishi" tvg-name="云南卫视" tvg-logo="https://logo.laobaitv.net/云南卫视" group-title="卫视频道",云南卫视
 http://192.168.2.1:4022/udp/224.168.47.25:8000
-#EXTINF:-1 tvg-id="" tvg-name="广西卫视" tvg-logo="https://logo.laobaitv.net/gxws" group-title="卫视",广西卫视
+#EXTINF:-1 tvg-id="guangxiweishi" tvg-name="广西卫视" tvg-logo="https://logo.laobaitv.net/广西卫视" group-title="卫视频道",广西卫视
 http://192.168.2.1:4022/udp/224.168.47.65:8000
-#EXTINF:-1 tvg-id="" tvg-name="甘肃卫视" tvg-logo="https://logo.laobaitv.net/gsws" group-title="卫视",甘肃卫视
+#EXTINF:-1 tvg-id="gansuweishi" tvg-name="甘肃卫视" tvg-logo="https://logo.laobaitv.net/甘肃卫视" group-title="卫视频道",甘肃卫视
 http://192.168.2.1:4022/udp/224.168.47.195:8000
-#EXTINF:-1 tvg-id="" tvg-name="辽宁卫视" tvg-logo="https://logo.laobaitv.net/lnws" group-title="卫视",辽宁卫视
+#EXTINF:-1 tvg-id="liaoningweishi" tvg-name="辽宁卫视" tvg-logo="https://logo.laobaitv.net/辽宁卫视" group-title="卫视频道",辽宁卫视
 http://192.168.2.1:4022/udp/224.168.45.231:8000
-#EXTINF:-1 tvg-id="" tvg-name="东南卫视" tvg-logo="https://logo.laobaitv.net/dnws" group-title="卫视",东南卫视
+#EXTINF:-1 tvg-id="dongnanweishi" tvg-name="东南卫视" tvg-logo="https://logo.laobaitv.net/东南卫视" group-title="卫视频道",东南卫视
 http://192.168.2.1:4022/udp/224.168.45.205:8000
-#EXTINF:-1 tvg-id="" tvg-name="安徽卫视" tvg-logo="https://logo.laobaitv.net/ahws" group-title="卫视",安徽卫视
+#EXTINF:-1 tvg-id="anhuiweishi" tvg-name="安徽卫视" tvg-logo="https://logo.laobaitv.net/安徽卫视" group-title="卫视频道",安徽卫视
 http://192.168.2.1:4022/udp/224.168.45.100:8000
-#EXTINF:-1 tvg-id="" tvg-name="旅游卫视" tvg-logo="https://logo.laobaitv.net/lyws" group-title="卫视",海南卫视
+#EXTINF:-1 tvg-id="hainanweishi" tvg-name="海南卫视" tvg-logo="https://logo.laobaitv.net/海南卫视" group-title="卫视频道",海南卫视
 http://192.168.2.1:4022/udp/224.168.45.142:8000
-#EXTINF:-1 tvg-id="" tvg-name="陕西卫视" tvg-logo="https://logo.laobaitv.net/shannxws" group-title="卫视",陕西卫视
+#EXTINF:-1 tvg-id="shaanxiweishi" tvg-name="陕西卫视" tvg-logo="https://logo.laobaitv.net/陕西卫视" group-title="卫视频道",陕西卫视
 http://192.168.2.1:4022/udp/224.168.47.135:8000
-#EXTINF:-1 tvg-id="" tvg-name="江西卫视" tvg-logo="https://logo.laobaitv.net/jxws" group-title="卫视",江西卫视
+#EXTINF:-1 tvg-id="jiangxiweishi" tvg-name="江西卫视" tvg-logo="https://logo.laobaitv.net/江西卫视" group-title="卫视频道",江西卫视
 http://192.168.2.1:4022/udp/224.168.45.104:8000
-#EXTINF:-1 tvg-id="" tvg-name="四川卫视" tvg-logo="https://logo.laobaitv.net/scws" group-title="卫视",四川卫视
+#EXTINF:-1 tvg-id="sichuanweishi" tvg-name="四川卫视" tvg-logo="https://logo.laobaitv.net/四川卫视" group-title="卫视频道",四川卫视
 http://192.168.2.1:4022/udp/224.168.45.202:8000
-#EXTINF:-1 tvg-id="" tvg-name="山西卫视" tvg-logo="https://logo.laobaitv.net/shanxws" group-title="卫视",山西卫视
+#EXTINF:-1 tvg-id="shanxiweishi" tvg-name="山西卫视" tvg-logo="https://logo.laobaitv.net/山西卫视" group-title="卫视频道",山西卫视
 http://192.168.2.1:4022/udp/224.168.47.228:8000
-#EXTINF:-1 tvg-id="" tvg-name="青海卫视" tvg-logo="https://logo.laobaitv.net/qhws" group-title="卫视",青海卫视
+#EXTINF:-1 tvg-id="qinghaiweishi" tvg-name="青海卫视" tvg-logo="https://logo.laobaitv.net/青海卫视" group-title="卫视频道",青海卫视
 http://192.168.2.1:4022/udp/224.168.47.133:8000
-#EXTINF:-1 tvg-id="" tvg-name="兵团卫视" tvg-logo="https://logo.laobaitv.net/btws" group-title="卫视",兵团卫视
+#EXTINF:-1 tvg-id="bingtuanweishi" tvg-name="兵团卫视" tvg-logo="https://logo.laobaitv.net/兵团卫视" group-title="卫视频道",兵团卫视
 http://192.168.2.1:4022/udp/224.168.47.190:8000
-#EXTINF:-1 tvg-id="" tvg-name="宁夏卫视" tvg-logo="https://logo.laobaitv.net/nxws" group-title="卫视",宁夏卫视
+#EXTINF:-1 tvg-id="ningxiaweishi" tvg-name="宁夏卫视" tvg-logo="https://logo.laobaitv.net/宁夏卫视" group-title="卫视频道",宁夏卫视
 http://192.168.2.1:4022/udp/224.168.47.241:8000
-#EXTINF:-1 tvg-id="" tvg-name="西藏卫视" tvg-logo="https://logo.laobaitv.net/xzws" group-title="卫视",西藏卫视
+#EXTINF:-1 tvg-id="xizangweishi" tvg-name="西藏卫视" tvg-logo="https://logo.laobaitv.net/西藏卫视" group-title="卫视频道",西藏卫视
 http://192.168.2.1:4022/udp/224.168.47.242:8000
 ######卫视频道end######
-
 ######其他频道######
-#EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://logo.laobaitv.net/cgtn" group-title="央视",CGTN
+#EXTINF:-1 tvg-id="cgtnyingyu" tvg-name="CGTN" tvg-logo="https://logo.laobaitv.net/CGTN" group-title="其他频道",CGTN
 http://192.168.2.1:4022/udp/224.168.45.193:8000
-#EXTINF:-1 tvg-id="" tvg-name="CGTN法语" tvg-logo="https://logo.laobaitv.net/cgtnfy" group-title="央视",CGTN法语
+#EXTINF:-1 tvg-id="cgtnfayu" tvg-name="CGTN 法语" tvg-logo="https://logo.laobaitv.net/CGTN法语" group-title="其他频道",CGTN 法语
 http://192.168.2.1:4022/udp/224.168.45.195:8000
-#EXTINF:-1 tvg-id="" tvg-name="CGTN西语" tvg-logo="https://logo.laobaitv.net/cgtnxy" group-title="央视",CGTN西语
+#EXTINF:-1 tvg-id="cgtnxiyu" tvg-name="CGTN 西语" tvg-logo="https://logo.laobaitv.net/CGTN西语" group-title="其他频道",CGTN 西语
 http://192.168.2.1:4022/udp/224.168.45.196:8000
-#EXTINF:-1 tvg-id="" tvg-name="CGTN俄语" tvg-logo="https://logo.laobaitv.net/cgtney" group-title="央视",CGTN俄语
+#EXTINF:-1 tvg-id="cgtneyu" tvg-name="CGTN 俄语" tvg-logo="https://logo.laobaitv.net/CGTN俄语" group-title="其他频道",CGTN 俄语
 http://192.168.2.1:4022/udp/224.168.45.198:8000
-#EXTINF:-1 tvg-id="" tvg-name="CGTN记录" tvg-logo="https://logo.laobaitv.net/cgtnjl" group-title="央视",CGTN记录
+#EXTINF:-1 tvg-id="cgtnjilu" tvg-name="CGTN 纪录" tvg-logo="https://logo.laobaitv.net/CGTN纪录" group-title="其他频道",CGTN 纪录
 http://192.168.2.1:4022/udp/224.168.45.199:8000
-
-#EXTINF:-1 tvg-id="" tvg-name="精彩影视" tvg-logo="https://logo.laobaitv.net/jcys" group-title="其他",精彩影视
+#EXTINF:-1 tvg-id="精彩影视" tvg-name="精彩影视" tvg-logo="https://logo.laobaitv.net/精彩影视" group-title="其他",精彩影视
 http://192.168.2.1:4022/udp/224.168.47.69:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育1
+#EXTINF:-1 tvg-id="咪咕体育1" tvg-name="咪咕体育1" tvg-logo="https://logo.laobaitv.net/咪咕体育1" group-title="体育",咪咕体育1
 http://192.168.2.1:4022/udp/224.168.47.72:8000
-#EXTINF:-1 tvg-id="" tvg-name="睛彩竞技" tvg-logo="https://logo.laobaitv.net/jcjj" group-title="体育",睛彩竞技
+#EXTINF:-1 tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://logo.laobaitv.net/睛彩竞技" group-title="体育",睛彩竞技
 http://192.168.2.1:4022/udp/224.168.47.73:8000
-#EXTINF:-1 tvg-id="" tvg-name="睛彩篮球" tvg-logo="https://logo.laobaitv.net/jclq" group-title="体育",睛彩篮球
+#EXTINF:-1 tvg-id="睛彩篮球" tvg-name="睛彩篮球" tvg-logo="https://logo.laobaitv.net/睛彩篮球" group-title="体育",睛彩篮球
 http://192.168.2.1:4022/udp/224.168.47.78:8000
-#EXTINF:-1 tvg-id="" tvg-name="睛彩青少" tvg-logo="https://logo.laobaitv.net/jcqs" group-title="体育",睛彩青少
+#EXTINF:-1 tvg-id="睛彩青少" tvg-name="睛彩青少" tvg-logo="https://logo.laobaitv.net/睛彩青少" group-title="体育",睛彩青少
 http://192.168.2.1:4022/udp/224.168.47.81:8000
-#EXTINF:-1 tvg-id="" tvg-name="睛彩广场舞" tvg-logo="https://logo.laobaitv.net/jcgcw" group-title="体育",睛彩广场舞
+#EXTINF:-1 tvg-id="睛彩广场舞" tvg-name="睛彩广场舞" tvg-logo="https://logo.laobaitv.net/睛彩广场舞" group-title="体育",睛彩广场舞
 http://192.168.2.1:4022/udp/224.168.47.82:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育2
+#EXTINF:-1 tvg-id="咪咕体育2" tvg-name="咪咕体育2" tvg-logo="https://logo.laobaitv.net/咪咕体育2" group-title="体育",咪咕体育2
 http://192.168.2.1:4022/udp/224.168.47.75:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育3
+#EXTINF:-1 tvg-id="咪咕体育3" tvg-name="咪咕体育3" tvg-logo="https://logo.laobaitv.net/咪咕体育3" group-title="体育",咪咕体育3
 http://192.168.2.1:4022/udp/224.168.47.80:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育4
+#EXTINF:-1 tvg-id="咪咕体育4" tvg-name="咪咕体育4" tvg-logo="https://logo.laobaitv.net/咪咕体育4" group-title="体育",咪咕体育4
 http://192.168.2.1:4022/udp/224.168.47.201:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育5
+#EXTINF:-1 tvg-id="咪咕体育5" tvg-name="咪咕体育5" tvg-logo="https://logo.laobaitv.net/咪咕体育5" group-title="体育",咪咕体育5
 http://192.168.2.1:4022/udp/224.168.47.202:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育6
+#EXTINF:-1 tvg-id="咪咕体育6" tvg-name="咪咕体育6" tvg-logo="https://logo.laobaitv.net/咪咕体育6" group-title="体育",咪咕体育6
 http://192.168.2.1:4022/udp/224.168.47.203:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育7
+#EXTINF:-1 tvg-id="咪咕体育7" tvg-name="咪咕体育7" tvg-logo="https://logo.laobaitv.net/咪咕体育7" group-title="体育",咪咕体育7
 http://192.168.2.1:4022/udp/224.168.47.204:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育8
+#EXTINF:-1 tvg-id="咪咕体育8" tvg-name="咪咕体育8" tvg-logo="https://logo.laobaitv.net/咪咕体育8" group-title="体育",咪咕体育8
 http://192.168.2.1:4022/udp/224.168.47.205:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育9
+#EXTINF:-1 tvg-id="咪咕体育9" tvg-name="咪咕体育9" tvg-logo="https://logo.laobaitv.net/咪咕体育9" group-title="体育",咪咕体育9
 http://192.168.2.1:4022/udp/224.168.47.206:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育10
+#EXTINF:-1 tvg-id="咪咕体育10" tvg-name="咪咕体育10" tvg-logo="https://logo.laobaitv.net/咪咕体育10" group-title="体育",咪咕体育10
 http://192.168.2.1:4022/udp/224.168.47.207:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育11
+#EXTINF:-1 tvg-id="咪咕体育11" tvg-name="咪咕体育11" tvg-logo="https://logo.laobaitv.net/咪咕体育11" group-title="体育",咪咕体育11
 http://192.168.2.1:4022/udp/224.168.47.210:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育12
+#EXTINF:-1 tvg-id="咪咕体育12" tvg-name="咪咕体育12" tvg-logo="https://logo.laobaitv.net/咪咕体育12" group-title="体育",咪咕体育12
 http://192.168.2.1:4022/udp/224.168.47.213:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="体育",咪咕体育13
+#EXTINF:-1 tvg-id="咪咕体育13" tvg-name="咪咕体育13" tvg-logo="https://logo.laobaitv.net/咪咕体育13" group-title="体育",咪咕体育13
 http://192.168.2.1:4022/udp/224.168.47.214:8000
-
-#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="" tvg-logo="https://logo.laobaitv.net/chcdzdy" group-title="地方台",CHC动作电影
+#EXTINF:-1 tvg-id="chcdongzuodianying" tvg-name="CHC 动作电影" tvg-logo="https://logo.laobaitv.net/CHC动作电影" group-title="其他频道",CHC 动作电影
 http://192.168.2.1:4022/udp/224.168.47.224:8000
-#EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="" tvg-logo="https://logo.laobaitv.net/chcymdy" group-title="地方台",CHC影迷电影
+#EXTINF:-1 tvg-id="chcgaoqingdianying" tvg-name="CHC 影迷电影" tvg-logo="https://logo.laobaitv.net/CHC影迷电影" group-title="其他频道",CHC 影迷电影
 http://192.168.2.1:4022/udp/224.168.47.225:8000
-#EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="" tvg-logo="https://logo.laobaitv.net/chcjtyy" group-title="地方台",CHC家庭影院
+#EXTINF:-1 tvg-id="chcjiatingdianying" tvg-name="CHC 家庭电影" tvg-logo="https://logo.laobaitv.net/CHC家庭电影" group-title="其他频道",CHC 家庭电影
 http://192.168.2.1:4022/udp/224.168.47.226:8000
 ######其他频道end######
 ######互联网直播频道######
 #EXTM3U x-tvg-url="https://epg.laobaitv.net"
-
 #EXTINF:-1 tvg-id="fenghuangzhongwen" tvg-name="凤凰中文台" tvg-logo="https://logo.laobaitv.net/凤凰中文台" group-title="港澳台",凤凰中文台
 https://smt2.1678520.xyz/smt3.2.1.php?id=phoenixtv_hd
-
 #EXTINF:-1 tvg-id="fenghuangzixun" tvg-name="凤凰资讯台" tvg-logo="https://logo.laobaitv.net/凤凰资讯台" group-title="港澳台",凤凰资讯台
 https://smt2.1678520.xyz/smt3.2.1.php?id=phoenixinfo_hd
-
 #EXTINF:-1 tvg-id="fenghuangxianggang" tvg-name="凤凰香港台" tvg-logo="https://logo.laobaitv.net/凤凰香港台" group-title="港澳台",凤凰香港台
 https://smt2.1678520.xyz/smt3.2.1.php?id=hkphoenix_twn
-
 #EXTINF:-1 tvg-id="tvbfeicuitai" tvg-name="TVB 翡翠台" tvg-logo="https://logo.laobaitv.net/TVB翡翠台" group-title="港澳台",TVB 翡翠台
 http://o11.163189.xyz/stream/tvb/fct4k/
-
 #EXTINF:-1 tvg-id="tvbmingzhutai" tvg-name="TVB 明珠台" tvg-logo="https://logo.laobaitv.net/TVB明珠台" group-title="港澳台",TVB 明珠台
 https://php.jdshipin.com/TVOD/iptv.php?id=mzt
-
 #EXTINF:-1 tvg-id="tvbhudongxinwentai" tvg-name="TVB 无线新闻台" tvg-logo="https://logo.laobaitv.net/TVB无线新闻台" group-title="港澳台",TVB 无线新闻台
 https://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
-
 #EXTINF:-1 tvg-id="tvbplus" tvg-name="TVB Plus" tvg-logo="https://logo.laobaitv.net/TVBPlus" group-title="港澳台",TVB Plus
 http://o11.163189.xyz/stream/tvb/tvbp/
-
 #EXTINF:-1 tvg-id="" tvg-name="TVB千禧經典台" tvg-logo="https://logo.laobaitv.net/TVB千禧經典台" group-title="港澳台",TVB千禧經典台
 https://smt2.1678520.xyz/smt3.2.1.php?id=Tvbclassic
-
 #EXTINF:-1 tvg-id="" tvg-name="TVB娛樂新聞台" tvg-logo="https://logo.laobaitv.net/TVB娛樂新聞台" group-title="港澳台",TVB娛樂新聞台
 https://smt2.1678520.xyz/smt3.2.1.php?id=Tvbentertainment
-
 #EXTINF:-1 tvg-id="viutv" tvg-name="ViuTV" tvg-logo="https://logo.laobaitv.net/ViuTV" group-title="港澳台",ViuTV
 https://php.jdshipin.com/TVOD/iptv.php?id=viutv
-
 #EXTINF:-1 tvg-id="aoshiaomen" tvg-name="澳视澳门" tvg-logo="https://logo.laobaitv.net/澳视澳门" group-title="港澳台",澳视澳门
 https://php.jdshipin.com/TVOD/iptv.php?id=asam
-
 #EXTINF:-1 tvg-id="aomenmacau" tvg-name="澳门Macau" tvg-logo="https://logo.laobaitv.net/澳门Macau" group-title="港澳台",澳门Macau
 https://php.jdshipin.com/TVOD/iptv.php?id=as
-
 #EXTINF:-1 tvg-id="aomentiyu" tvg-name="澳门体育" tvg-logo="https://logo.laobaitv.net/澳门体育" group-title="港澳台",澳门体育
 https://cdn6.163189.xyz/163189/amty
-
 #EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/斗地主" group-title="棋牌",斗地主
 https://live.laobaitv.net/huya/152698
-
 #EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/斗地主" group-title="棋牌",斗地主
 https://live.laobaitv.net/huya/23695493
-
 #EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/斗地主" group-title="棋牌",斗地主
 https://live.laobaitv.net/huya/30814432
-
 #EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/斗地主" group-title="棋牌",斗地主
 https://live.laobaitv.net/huya/139168
-
 #EXTINF:-1 tvg-id="" tvg-name="掼蛋" tvg-logo="https://logo.laobaitv.net/掼蛋" group-title="棋牌",掼蛋
 https://live.laobaitv.net/mg/?id=631354620
-
 #EXTINF:-1 tvg-id="" tvg-name="掼蛋" tvg-logo="https://logo.laobaitv.net/掼蛋" group-title="棋牌",掼蛋
 https://live.laobaitv.net/huya/139167
-
 #EXTINF:-1 tvg-id="" tvg-name="英雄联盟" tvg-logo="https://logo.laobaitv.net/英雄联盟" group-title="电竞",英雄联盟
 https://live.laobaitv.net/huya/660000
-
 #EXTINF:-1 tvg-id="" tvg-name="周星驰" tvg-logo="https://logo.laobaitv.net/周星驰" group-title="影视",周星驰
 https://live.laobaitv.net/huya/11342412
-
 #EXTINF:-1 tvg-id="" tvg-name="柯南" tvg-logo="https://logo.laobaitv.net/柯南" group-title="影视",柯南
 https://live.laobaitv.net/huya/30080148
-
 #EXTINF:-1 tvg-id="" tvg-name="蜡笔小新" tvg-logo="https://logo.laobaitv.net/蜡笔小新" group-title="影视",蜡笔小新
 https://live.laobaitv.net/huya/30362138
-
 #EXTINF:-1 tvg-id="" tvg-name="鹿鼎记" tvg-logo="https://logo.laobaitv.net/鹿鼎记" group-title="影视",鹿鼎记
 https://live.laobaitv.net/huya/23650774
-
 #EXTINF:-1 tvg-id="" tvg-name="爱情公寓" tvg-logo="https://logo.laobaitv.net/爱情公寓" group-title="影视",爱情公寓
 https://live.laobaitv.net/huya/11336726
-
 #EXTINF:-1 tvg-id="" tvg-name="海绵宝宝" tvg-logo="https://logo.laobaitv.net/海绵宝宝" group-title="影视",海绵宝宝
 https://live.laobaitv.net/douyu/12400977
-
 #EXTINF:-1 tvg-id="" tvg-name="RunningMan" tvg-logo="https://logo.laobaitv.net/RunningMan" group-title="影视",RunningMan
 https://live.laobaitv.net/douyu/131977
-
 #EXTINF:-1 tvg-id="hbo" tvg-name="HBO" tvg-logo="https://logo.laobaitv.net/HBO" group-title="影视",HBO
 https://bee.laobaitv.net/play?id=HBO
-
 #EXTINF:-1 tvg-id="hbo2" tvg-name="HBO 2" tvg-logo="https://logo.laobaitv.net/HBO2" group-title="影视",HBO 2
 https://bee.laobaitv.net/play?id=HBO-2
-
 #EXTINF:-1 tvg-id="greatmovies" tvg-name="GREAT! movies" tvg-logo="https://logo.laobaitv.net/GREAT!movies" group-title="影视",GREAT! movies
 https://bee.laobaitv.net/play?id=UK-Great-Movies
-
 #EXTINF:-1 tvg-id="shandongtiyu" tvg-name="山东体育休闲频道" tvg-logo="https://logo.laobaitv.net/山东体育休闲频道" group-title="体育",山东体育休闲频道
 https://live.laobaitv.net/qilu/24587
-
 #EXTINF:-1 tvg-id="wuxingtiyu" tvg-name="五星体育" tvg-logo="https://logo.laobaitv.net/五星体育" group-title="体育",五星体育
 https://live.laobaitv.net/smg/wxty
-
 #EXTINF:-1 tvg-id="nbatv" tvg-name="NBA TV" tvg-logo="https://logo.laobaitv.net/NBATV" group-title="体育",NBA TV
 https://bee.laobaitv.net/play?id=NBA-TV
-
 #EXTINF:-1 tvg-id="nfltv" tvg-name="NFL Network" tvg-logo="https://logo.laobaitv.net/NFLNetwork" group-title="体育",NFL Network
 https://bee.laobaitv.net/play?id=NFL-Network
-
 #EXTINF:-1 tvg-id="espn" tvg-name="ESPN" tvg-logo="https://logo.laobaitv.net/ESPN" group-title="体育",ESPN
 https://bee.laobaitv.net/play?id=ESPN
-
 #EXTINF:-1 tvg-id="espn2" tvg-name="ESPN 2" tvg-logo="https://logo.laobaitv.net/ESPN2" group-title="体育",ESPN 2
 https://bee.laobaitv.net/play?id=ESPN-2
-
 #EXTINF:-1 tvg-id="espnnews" tvg-name="ESPN News" tvg-logo="https://logo.laobaitv.net/ESPNNews" group-title="体育",ESPN News
 https://bee.laobaitv.net/play?id=ESPN-News
-
 #EXTINF:-1 tvg-id="espndeportes" tvg-name="ESPN Deportes" tvg-logo="https://logo.laobaitv.net/ESPNDeportes" group-title="体育",ESPN Deportes
 https://bee.laobaitv.net/play?id=ESPN-Deportes
-
 #EXTINF:-1 tvg-id="espnu" tvg-name="ESPN U" tvg-logo="https://logo.laobaitv.net/ESPNU" group-title="体育",ESPN U
 https://bee.laobaitv.net/play?id=ESPN-U
-
 #EXTINF:-1 tvg-id="skysportsmainevent" tvg-name="SKY SPORTS MAIN EVENT" tvg-logo="https://logo.laobaitv.net/SKYSPORTSMAINEVENT" group-title="体育",SKY SPORTS MAIN EVENT
 https://bee.laobaitv.net/play?id=Sky-Sports-Main-Event
-
 #EXTINF:-1 tvg-id="skysportspremierleague" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.laobaitv.net/SKYSPORTSPREMIERLEAGUE" group-title="体育",SKY SPORTS PREMIER LEAGUE
 https://bee.laobaitv.net/play?id=Sky-Sports-Premier-League
-
 #EXTINF:-1 tvg-id="skysportsfootball" tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.laobaitv.net/SKYSPORTSFOOTBALL" group-title="体育",SKY SPORTS FOOTBALL
 https://bee.laobaitv.net/play?id=Sky-Sports-Football
-
 #EXTINF:-1 tvg-id="skysportscricket" tvg-name="SKY SPORTS CRICKET" tvg-logo="https://logo.laobaitv.net/SKYSPORTSCRICKET" group-title="体育",SKY SPORTS CRICKET
 https://bee.laobaitv.net/play?id=Sky-Sports-Cricket
-
 #EXTINF:-1 tvg-id="skysportsgolf" tvg-name="SKY SPORTS GOLF" tvg-logo="https://logo.laobaitv.net/SKYSPORTSGOLF" group-title="体育",SKY SPORTS GOLF
 https://bee.laobaitv.net/play?id=Sky-Sports-Golf
-
 #EXTINF:-1 tvg-id="skysportsf1" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.laobaitv.net/SKYSPORTSF1" group-title="体育",SKY SPORTS F1
 https://bee.laobaitv.net/play?id=Sky-Sports-F1
-
 #EXTINF:-1 tvg-id="skysportsarena" tvg-name="SKY SPORTS ARENA" tvg-logo="https://logo.laobaitv.net/SKYSPORTSARENA" group-title="体育",SKY SPORTS ARENA
 https://bee.laobaitv.net/play?id=Sky-Sports-Arena
-
 #EXTINF:-1 tvg-id="skysportsmix" tvg-name="SKY SPORTS MIX" tvg-logo="https://logo.laobaitv.net/SKYSPORTSMIX" group-title="体育",SKY SPORTS MIX
 https://bee.laobaitv.net/play?id=Sky-Sports-Mix
-
 #EXTINF:-1 tvg-id="skysportsnews" tvg-name="SKY SPORTS NEWS" tvg-logo="https://logo.laobaitv.net/SKYSPORTSNEWS" group-title="体育",SKY SPORTS NEWS
 https://bee.laobaitv.net/play?id=Sky-Sports-News
-
 #EXTINF:-1 tvg-id="skysportsaction" tvg-name="SKY SPORTS ACTION" tvg-logo="https://logo.laobaitv.net/SKYSPORTSACTION" group-title="体育",SKY SPORTS ACTION
 https://bee.laobaitv.net/play?id=Sky-Sports-Action
-
 #EXTINF:-1 tvg-id="skysportstennis" tvg-name="SKY SPORTS Tennis" tvg-logo="https://logo.laobaitv.net/SKYSPORTSTennis" group-title="体育",SKY SPORTS Tennis
 https://bee.laobaitv.net/play?id=Sky-Sports-Tennis
-
 #EXTINF:-1 tvg-id="skysportsracing" tvg-name="SKY SPORTS RACING" tvg-logo="https://logo.laobaitv.net/SKYSPORTSRACING" group-title="体育",SKY SPORTS RACING
 https://bee.laobaitv.net/play?id=Sky-Sports-Racing
-
 #EXTINF:-1 tvg-id="foxsports1" tvg-name="FOX SPORTS 1" tvg-logo="https://logo.laobaitv.net/FOXSPORTS1" group-title="体育",FOX SPORTS 1
 https://bee.laobaitv.net/play?id=Fox-Sports-1
-
 #EXTINF:-1 tvg-id="foxsports2" tvg-name="FOX SPORTS 2" tvg-logo="https://logo.laobaitv.net/FOXSPORTS2" group-title="体育",FOX SPORTS 2
 https://bee.laobaitv.net/play?id=Fox-Sports-2
-
 #EXTINF:-1 tvg-id="tntsports1" tvg-name="TNT SPORTS 1" tvg-logo="https://logo.laobaitv.net/TNTSPORTS1" group-title="体育",TNT SPORTS 1
 https://bee.laobaitv.net/play?id=TNT-Sports-1
-
 #EXTINF:-1 tvg-id="tntsports2" tvg-name="TNT SPORTS 2" tvg-logo="https://logo.laobaitv.net/TNTSPORTS2" group-title="体育",TNT SPORTS 2
 https://bee.laobaitv.net/play?id=TNT-Sports-2
-
 #EXTINF:-1 tvg-id="tntsports3" tvg-name="TNT SPORTS 3" tvg-logo="https://logo.laobaitv.net/TNTSPORTS3" group-title="体育",TNT SPORTS 3
 https://bee.laobaitv.net/play?id=TNT-Sports-3
-
 #EXTINF:-1 tvg-id="tntsports4" tvg-name="TNT SPORTS 4" tvg-logo="https://logo.laobaitv.net/TNTSPORTS4" group-title="体育",TNT SPORTS 4
 https://bee.laobaitv.net/play?id=TNT-Sports-4
-
 #EXTINF:-1 tvg-id="eurosport1" tvg-name="EUROSPORT 1" tvg-logo="https://logo.laobaitv.net/EUROSPORT1" group-title="体育",EUROSPORT 1
 https://bee.laobaitv.net/play?id=Eurosport-1
-
 #EXTINF:-1 tvg-id="eurosport2" tvg-name="EUROSPORT 2" tvg-logo="https://logo.laobaitv.net/EUROSPORT2" group-title="体育",EUROSPORT 2
 https://bee.laobaitv.net/play?id=Eurosport-2
-
 #EXTINF:-1 tvg-id="beinsports" tvg-name="BEIN SPORTS" tvg-logo="https://logo.laobaitv.net/BEINSPORTS" group-title="体育",BEIN SPORTS
 https://bee.laobaitv.net/play?id=Bein-Sports-USA
-
 #EXTINF:-1 tvg-id="premiersports1" tvg-name="PREMIER SPORTS 1" tvg-logo="https://logo.laobaitv.net/PREMIERSPORTS1" group-title="体育",PREMIER SPORTS 1
 https://bee.laobaitv.net/play?id=Premier-Sports-1
-
 #EXTINF:-1 tvg-id="" tvg-name="Adult Swim" tvg-logo="https://logo.laobaitv.net/AdultSwim" group-title="影视",Adult Swim
 https://live.laobaitv.net/proxy/adultswim
-
 #EXTINF:-1 tvg-id="CloudflareTV" tvg-name="CloudflareTV" tvg-logo="https://logo.laobaitv.net/CloudflareTV" group-title="老白TV赞助：免费！请勿相信各类广告",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
 ######互联网直播频道end######
-
-#EXTINF:-1 tvg-id="山东教育卫视" tvg-name="" tvg-logo="https://logo.laobaitv.net/sdjyws" group-title="地方台",山东教育卫视
+#EXTINF:-1 tvg-id="山东教育卫视" tvg-name="山东教育卫视" tvg-logo="https://logo.laobaitv.net/山东教育卫视" group-title="地方台",山东教育卫视
 http://192.168.2.1:4022/udp/224.168.45.73:8000
-#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="" tvg-logo="https://logo.laobaitv.net/bjjskj" group-title="地方台",北京纪实科教
+#EXTINF:-1 tvg-id="beijingjishikejiao" tvg-name="北京纪实科教" tvg-logo="https://logo.laobaitv.net/北京纪实科教" group-title="北京频道",北京纪实科教
 http://192.168.2.1:4022/udp/224.168.45.192:8000
-#EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="" tvg-logo="https://logo.laobaitv.net/bjkkse" group-title="地方台",北京卡酷少儿
+#EXTINF:-1 tvg-id="kakushaoer" tvg-name="卡酷少儿" tvg-logo="https://logo.laobaitv.net/卡酷少儿" group-title="北京频道",卡酷少儿
 http://192.168.2.1:4022/udp/224.168.47.240:8000
-#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="" tvg-logo="https://logo.laobaitv.net/jyjs" group-title="地方台",金鹰纪实
+#EXTINF:-1 tvg-id="jinyingjishi" tvg-name="金鹰纪实" tvg-logo="https://logo.laobaitv.net/金鹰纪实" group-title="其他频道",金鹰纪实
 http://192.168.2.1:4022/udp/224.168.45.203:8000
-#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="" tvg-logo="https://logo.laobaitv.net/jykt" group-title="地方台",金鹰卡通
+#EXTINF:-1 tvg-id="jinyingkatong" tvg-name="金鹰卡通" tvg-logo="https://logo.laobaitv.net/金鹰卡通" group-title="其他频道",金鹰卡通
 http://192.168.2.1:4022/udp/224.168.47.59:8000
-#EXTINF:-1 tvg-id="快乐垂钓" tvg-name="" tvg-logo="https://logo.laobaitv.net/klcd" group-title="地方台",快乐垂钓
+#EXTINF:-1 tvg-id="kuailechuidiao" tvg-name="快乐垂钓" tvg-logo="https://logo.laobaitv.net/快乐垂钓" group-title="其他频道",快乐垂钓
 http://192.168.2.1:4022/udp/224.168.47.38:8000
-#EXTINF:-1 tvg-id="茶频道" tvg-name="" tvg-logo="https://logo.laobaitv.net/cpd" group-title="地方台",茶频道
+#EXTINF:-1 tvg-id="cha" tvg-name="茶频道" tvg-logo="https://logo.laobaitv.net/茶频道" group-title="其他频道",茶频道
 http://192.168.2.1:4022/udp/224.168.47.57:8000
-#EXTINF:-1 tvg-id="CETV1" tvg-name="" tvg-logo="https://logo.laobaitv.net/cetv1" group-title="地方台",CETV1
+#EXTINF:-1 tvg-id="zhongguojiaoyu1tai" tvg-name="中国教育电视台一频道" tvg-logo="https://logo.laobaitv.net/中国教育电视台一频道" group-title="央视频道",中国教育电视台一频道
 http://192.168.2.1:4022/udp/224.168.45.204:8000
-#EXTINF:-1 tvg-id="CETV2" tvg-name="" tvg-logo="https://logo.laobaitv.net/cetv2" group-title="地方台",CETV2
+#EXTINF:-1 tvg-id="zhongguojiaoyu2tai" tvg-name="中国教育电视台二频道" tvg-logo="https://logo.laobaitv.net/中国教育电视台二频道" group-title="央视频道",中国教育电视台二频道
 http://192.168.2.1:4022/udp/224.168.45.219:8000
-#EXTINF:-1 tvg-id="财富天下" tvg-name="" tvg-logo="https://logo.laobaitv.net/cftx" group-title="地方台",财富天下
+#EXTINF:-1 tvg-id="财富天下" tvg-name="财富天下" tvg-logo="https://logo.laobaitv.net/财富天下" group-title="地方台",财富天下
 http://192.168.2.1:4022/udp/224.168.47.64:8000
-#EXTINF:-1 tvg-id="求索记录" tvg-name="" tvg-logo="https://logo.laobaitv.net/qsjl" group-title="地方台",求索记录
+#EXTINF:-1 tvg-id="求索记录" tvg-name="求索记录" tvg-logo="https://logo.laobaitv.net/求索记录" group-title="地方台",求索记录
 http://192.168.2.1:4022/udp/224.168.47.67:8000
-#EXTINF:-1 tvg-id="人物频道" tvg-name="" tvg-logo="https://logo.laobaitv.net/rwpd" group-title="地方台",人物频道
+#EXTINF:-1 tvg-id="人物频道" tvg-name="人物频道" tvg-logo="https://logo.laobaitv.net/人物频道" group-title="地方台",人物频道
 http://192.168.2.1:4022/udp/224.168.47.68:8000
-#EXTINF:-1 tvg-id="武术世界" tvg-name="" tvg-logo="https://logo.laobaitv.net/wssj" group-title="地方台",武术世界
+#EXTINF:-1 tvg-id="wushushijie" tvg-name="武术世界" tvg-logo="https://logo.laobaitv.net/武术世界" group-title="其他频道",武术世界
 http://192.168.2.1:4022/udp/224.168.47.114:8000
-#EXTINF:-1 tvg-id="文物宝库" tvg-name="" tvg-logo="https://logo.laobaitv.net/wwbk" group-title="地方台",文物宝库
+#EXTINF:-1 tvg-id="文物宝库" tvg-name="文物宝库" tvg-logo="https://logo.laobaitv.net/文物宝库" group-title="地方台",文物宝库
 http://192.168.2.1:4022/udp/224.168.47.115:8000
-#EXTINF:-1 tvg-id="梨园频道" tvg-name="" tvg-logo="https://logo.laobaitv.net/lypd" group-title="地方台",梨园频道
+#EXTINF:-1 tvg-id="liyuan" tvg-name="梨园" tvg-logo="https://logo.laobaitv.net/梨园" group-title="其他频道",梨园
 http://192.168.2.1:4022/udp/224.168.47.116:8000
-#EXTINF:-1 tvg-id="四海钓鱼" tvg-name="" tvg-logo="https://logo.laobaitv.net/shdy" group-title="地方台",四海钓鱼
+#EXTINF:-1 tvg-id="sihaidiaoyu" tvg-name="四海钓鱼" tvg-logo="https://logo.laobaitv.net/四海钓鱼" group-title="其他频道",四海钓鱼
 http://192.168.2.1:4022/udp/224.168.47.127:8000
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆-2
+#EXTINF:-1 tvg-id="新疆-2" tvg-name="新疆-2" tvg-logo="https://logo.laobaitv.net/新疆-2" group-title="本地台",新疆-2
 http://192.168.2.1:4022/udp/224.168.47.102:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆-3
+#EXTINF:-1 tvg-id="新疆-3" tvg-name="新疆-3" tvg-logo="https://logo.laobaitv.net/新疆-3" group-title="本地台",新疆-3
 http://192.168.2.1:4022/udp/224.168.47.103:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆-4
+#EXTINF:-1 tvg-id="新疆-4" tvg-name="新疆-4" tvg-logo="https://logo.laobaitv.net/新疆-4" group-title="本地台",新疆-4
 http://192.168.2.1:4022/udp/224.168.47.104:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆-5
+#EXTINF:-1 tvg-id="新疆-5" tvg-name="新疆-5" tvg-logo="https://logo.laobaitv.net/新疆-5" group-title="本地台",新疆-5
 http://192.168.2.1:4022/udp/224.168.47.105:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆-6
+#EXTINF:-1 tvg-id="新疆-6" tvg-name="新疆-6" tvg-logo="https://logo.laobaitv.net/新疆-6" group-title="本地台",新疆-6
 http://192.168.2.1:4022/udp/224.168.47.106:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆-7
+#EXTINF:-1 tvg-id="新疆-7" tvg-name="新疆-7" tvg-logo="https://logo.laobaitv.net/新疆-7" group-title="本地台",新疆-7
 http://192.168.2.1:4022/udp/224.168.47.110:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆-8
+#EXTINF:-1 tvg-id="新疆-8" tvg-name="新疆-8" tvg-logo="https://logo.laobaitv.net/新疆-8" group-title="本地台",新疆-8
 http://192.168.2.1:4022/udp/224.168.47.112:8000
-
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",阜康
+#EXTINF:-1 tvg-id="阜康" tvg-name="阜康" tvg-logo="https://logo.laobaitv.net/阜康" group-title="本地台",阜康
 http://192.168.2.1:4022/udp/224.168.45.88:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",地方1
+#EXTINF:-1 tvg-id="地方1" tvg-name="地方1" tvg-logo="https://logo.laobaitv.net/地方1" group-title="本地台",地方1
 http://192.168.2.1:4022/udp/224.168.45.103:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",地方3
+#EXTINF:-1 tvg-id="地方3" tvg-name="地方3" tvg-logo="https://logo.laobaitv.net/地方3" group-title="本地台",地方3
 http://192.168.2.1:4022/udp/224.168.45.109:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",影视1 本地语
+#EXTINF:-1 tvg-id="影视1 本地语" tvg-name="影视1 本地语" tvg-logo="https://logo.laobaitv.net/影视1本地语" group-title="本地台",影视1 本地语
 http://192.168.2.1:4022/udp/224.168.45.118:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",影视2 本地语
+#EXTINF:-1 tvg-id="影视2 本地语" tvg-name="影视2 本地语" tvg-logo="https://logo.laobaitv.net/影视2本地语" group-title="本地台",影视2 本地语
 http://192.168.2.1:4022/udp/224.168.45.119:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",影视3 本地语
+#EXTINF:-1 tvg-id="影视3 本地语" tvg-name="影视3 本地语" tvg-logo="https://logo.laobaitv.net/影视3本地语" group-title="本地台",影视3 本地语
 http://192.168.2.1:4022/udp/224.168.45.120:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",影视4 本地语
+#EXTINF:-1 tvg-id="影视4 本地语" tvg-name="影视4 本地语" tvg-logo="https://logo.laobaitv.net/影视4本地语" group-title="本地台",影视4 本地语
 http://192.168.2.1:4022/udp/224.168.45.121:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",吉木萨尔台
+#EXTINF:-1 tvg-id="吉木萨尔台" tvg-name="吉木萨尔台" tvg-logo="https://logo.laobaitv.net/吉木萨尔台" group-title="本地台",吉木萨尔台
 http://192.168.2.1:4022/udp/224.168.45.122:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",察布查尔-1
+#EXTINF:-1 tvg-id="察布查尔-1" tvg-name="察布查尔-1" tvg-logo="https://logo.laobaitv.net/察布查尔-1" group-title="本地台",察布查尔-1
 http://192.168.2.1:4022/udp/224.168.45.123:8000
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",KSTV-1
+#EXTINF:-1 tvg-id="KSTV-1" tvg-name="KSTV-1" tvg-logo="https://logo.laobaitv.net/KSTV-1" group-title="本地台",KSTV-1
 http://192.168.2.1:4022/udp/224.168.45.124:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",KSTV-2
+#EXTINF:-1 tvg-id="KSTV-2" tvg-name="KSTV-2" tvg-logo="https://logo.laobaitv.net/KSTV-2" group-title="本地台",KSTV-2
 http://192.168.2.1:4022/udp/224.168.45.230:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",KSTV-3
+#EXTINF:-1 tvg-id="KSTV-3" tvg-name="KSTV-3" tvg-logo="https://logo.laobaitv.net/KSTV-3" group-title="本地台",KSTV-3
 http://192.168.2.1:4022/udp/224.168.45.255:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",AKSTV-1
+#EXTINF:-1 tvg-id="AKSTV-1" tvg-name="AKSTV-1" tvg-logo="https://logo.laobaitv.net/AKSTV-1" group-title="本地台",AKSTV-1
 http://192.168.2.1:4022/udp/224.168.45.135:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",AKSTV-2
+#EXTINF:-1 tvg-id="AKSTV-2" tvg-name="AKSTV-2" tvg-logo="https://logo.laobaitv.net/AKSTV-2" group-title="本地台",AKSTV-2
 http://192.168.2.1:4022/udp/224.168.45.139:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",乌什TV-1
+#EXTINF:-1 tvg-id="乌什TV-1" tvg-name="乌什TV-1" tvg-logo="https://logo.laobaitv.net/乌什TV-1" group-title="本地台",乌什TV-1
 http://192.168.2.1:4022/udp/224.168.45.138:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",乌什TV-2
+#EXTINF:-1 tvg-id="乌什TV-2" tvg-name="乌什TV-2" tvg-logo="https://logo.laobaitv.net/乌什TV-2" group-title="本地台",乌什TV-2
 http://192.168.2.1:4022/udp/224.168.45.140:8000
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",塔城
+#EXTINF:-1 tvg-id="塔城" tvg-name="塔城" tvg-logo="https://logo.laobaitv.net/塔城" group-title="本地台",塔城
 http://192.168.2.1:4022/udp/224.168.45.144:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆 霍城-1
+#EXTINF:-1 tvg-id="新疆 霍城-1" tvg-name="新疆 霍城-1" tvg-logo="https://logo.laobaitv.net/新疆霍城-1" group-title="本地台",新疆 霍城-1
 http://192.168.2.1:4022/udp/224.168.45.145:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆 霍城-2
+#EXTINF:-1 tvg-id="新疆 霍城-2" tvg-name="新疆 霍城-2" tvg-logo="https://logo.laobaitv.net/新疆霍城-2" group-title="本地台",新疆 霍城-2
 http://192.168.2.1:4022/udp/224.168.45.146:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆 BTTV-1
+#EXTINF:-1 tvg-id="新疆 BTTV-1" tvg-name="新疆 BTTV-1" tvg-logo="https://logo.laobaitv.net/新疆BTTV-1" group-title="本地台",新疆 BTTV-1
 http://192.168.2.1:4022/udp/224.168.45.152:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆 呼图壁-1
+#EXTINF:-1 tvg-id="新疆 呼图壁-1" tvg-name="新疆 呼图壁-1" tvg-logo="https://logo.laobaitv.net/新疆呼图壁-1" group-title="本地台",新疆 呼图壁-1
 http://192.168.2.1:4022/udp/224.168.45.155:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆 BLTV
+#EXTINF:-1 tvg-id="新疆 BLTV" tvg-name="新疆 BLTV" tvg-logo="https://logo.laobaitv.net/新疆BLTV" group-title="本地台",新疆 BLTV
 http://192.168.2.1:4022/udp/224.168.45.159:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",新疆 布尔津
+#EXTINF:-1 tvg-id="新疆 布尔津" tvg-name="新疆 布尔津" tvg-logo="https://logo.laobaitv.net/新疆布尔津" group-title="本地台",新疆 布尔津
 http://192.168.2.1:4022/udp/224.168.47.23:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",影视1
+#EXTINF:-1 tvg-id="影视1" tvg-name="影视1" tvg-logo="https://logo.laobaitv.net/影视1" group-title="本地台",影视1
 http://192.168.2.1:4022/udp/224.168.45.200:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",霍尔果斯
+#EXTINF:-1 tvg-id="霍尔果斯" tvg-name="霍尔果斯" tvg-logo="https://logo.laobaitv.net/霍尔果斯" group-title="本地台",霍尔果斯
 http://192.168.2.1:4022/udp/224.168.47.11:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",MNSTV-1
+#EXTINF:-1 tvg-id="MNSTV-1" tvg-name="MNSTV-1" tvg-logo="https://logo.laobaitv.net/MNSTV-1" group-title="本地台",MNSTV-1
 http://192.168.2.1:4022/udp/224.168.47.12:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",昌吉综合
+#EXTINF:-1 tvg-id="昌吉综合" tvg-name="昌吉综合" tvg-logo="https://logo.laobaitv.net/昌吉综合" group-title="本地台",昌吉综合
 http://192.168.2.1:4022/udp/224.168.47.16:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",SCTV-1
+#EXTINF:-1 tvg-id="SCTV-1" tvg-name="SCTV-1" tvg-logo="https://logo.laobaitv.net/SCTV-1" group-title="本地台",SCTV-1
 http://192.168.2.1:4022/udp/224.168.47.26:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",SCTV-2
+#EXTINF:-1 tvg-id="SCTV-2" tvg-name="SCTV-2" tvg-logo="https://logo.laobaitv.net/SCTV-2" group-title="本地台",SCTV-2
 http://192.168.2.1:4022/udp/224.168.47.27:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",FYTV-1
+#EXTINF:-1 tvg-id="FYTV-1" tvg-name="FYTV-1" tvg-logo="https://logo.laobaitv.net/FYTV-1" group-title="本地台",FYTV-1
 http://192.168.2.1:4022/udp/224.168.47.32:8000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地台",FYTV-2
+#EXTINF:-1 tvg-id="FYTV-2" tvg-name="FYTV-2" tvg-logo="https://logo.laobaitv.net/FYTV-2" group-title="本地台",FYTV-2
 http://192.168.2.1:4022/udp/224.168.47.33:8000
