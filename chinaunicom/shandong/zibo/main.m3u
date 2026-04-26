@@ -171,43 +171,43 @@ http://192.168.2.1:4022/udp/239.253.252.247:8000
 ######互联网直播频道######
 #EXTM3U x-tvg-url="https://epg.laobaitv.net"
 
-#EXTINF:-1 tvg-name="凤凰中文台" tvg-logo="https://logo.laobaitv.net/%E5%87%A4%E5%87%B0%E4%B8%AD%E6%96%87%E5%8F%B0" group-title="港澳台" tvg-id="fenghuangzhongwen",凤凰中文台
+#EXTINF:-1 tvg-id="fenghuangzhongwen" tvg-name="凤凰中文台" tvg-logo="https://logo.laobaitv.net/%E5%87%A4%E5%87%B0%E4%B8%AD%E6%96%87%E5%8F%B0" group-title="港澳台",凤凰中文台
 https://smt2.1678520.xyz/smt3.2.1.php?id=phoenixtv_hd
 
-#EXTINF:-1 tvg-name="凤凰资讯台" tvg-logo="https://logo.laobaitv.net/%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF%E5%8F%B0" group-title="港澳台" tvg-id="fenghuangzixun",凤凰资讯台
+#EXTINF:-1 tvg-id="fenghuangzixun" tvg-name="凤凰资讯台" tvg-logo="https://logo.laobaitv.net/%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF%E5%8F%B0" group-title="港澳台",凤凰资讯台
 https://smt2.1678520.xyz/smt3.2.1.php?id=phoenixinfo_hd
 
-#EXTINF:-1 tvg-name="凤凰香港台" tvg-logo="https://logo.laobaitv.net/%E5%87%A4%E5%87%B0%E9%A6%99%E6%B8%AF%E5%8F%B0" group-title="港澳台" tvg-id="fenghuangxianggang",凤凰香港台
+#EXTINF:-1 tvg-id="fenghuangxianggang" tvg-name="凤凰香港台" tvg-logo="https://logo.laobaitv.net/%E5%87%A4%E5%87%B0%E9%A6%99%E6%B8%AF%E5%8F%B0" group-title="港澳台",凤凰香港台
 https://smt2.1678520.xyz/smt3.2.1.php?id=hkphoenix_twn
 
-#EXTINF:-1 tvg-name="TVB 翡翠台" tvg-logo="https://logo.laobaitv.net/TVB%20%E7%BF%A1%E7%BF%A0%E5%8F%B0" group-title="港澳台" tvg-id="tvbfeicuitai",TVB 翡翠台
+#EXTINF:-1 tvg-id="tvbfeicuitai" tvg-name="TVB 翡翠台" tvg-logo="https://logo.laobaitv.net/TVB%E7%BF%A1%E7%BF%A0%E5%8F%B0" group-title="港澳台",TVB 翡翠台
 http://o11.163189.xyz/stream/tvb/fct4k/
 
-#EXTINF:-1 tvg-name="TVB 明珠台" tvg-logo="https://logo.laobaitv.net/TVB%20%E6%98%8E%E7%8F%A0%E5%8F%B0" group-title="港澳台" tvg-id="tvbmingzhutai",TVB 明珠台
+#EXTINF:-1 tvg-id="tvbmingzhutai" tvg-name="TVB 明珠台" tvg-logo="https://logo.laobaitv.net/TVB%E6%98%8E%E7%8F%A0%E5%8F%B0" group-title="港澳台",TVB 明珠台
 https://php.jdshipin.com/TVOD/iptv.php?id=mzt
 
-#EXTINF:-1 tvg-name="TVB 无线新闻台" tvg-logo="https://logo.laobaitv.net/TVB%20%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB%E5%8F%B0" group-title="港澳台" tvg-id="tvbhudongxinwentai",TVB 无线新闻台
+#EXTINF:-1 tvg-id="tvbhudongxinwentai" tvg-name="TVB 无线新闻台" tvg-logo="https://logo.laobaitv.net/TVB%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB%E5%8F%B0" group-title="港澳台",TVB 无线新闻台
 https://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
 
-#EXTINF:-1 tvg-name="TVB Plus" tvg-logo="https://logo.laobaitv.net/TVB%20Plus" group-title="港澳台" tvg-id="tvbplus",TVB Plus
+#EXTINF:-1 tvg-id="tvbplus" tvg-name="TVB Plus" tvg-logo="https://logo.laobaitv.net/TVBPlus" group-title="港澳台",TVB Plus
 http://o11.163189.xyz/stream/tvb/tvbp/
 
-#EXTINF:-1 tvg-name="TVB千禧經典台" tvg-logo="https://logo.laobaitv.net/TVB千禧經典台" group-title="港澳台",TVB千禧經典台
+#EXTINF:-1 tvg-id="" tvg-name="TVB千禧經典台" tvg-logo="https://logo.laobaitv.net/TVB%E5%8D%83%E7%A6%A7%E7%B6%93%E5%85%B8%E5%8F%B0" group-title="港澳台",TVB千禧經典台
 https://smt2.1678520.xyz/smt3.2.1.php?id=Tvbclassic
 
-#EXTINF:-1 tvg-name="TVB娛樂新聞台" tvg-logo="https://logo.laobaitv.net/TVB娛樂新聞台" group-title="港澳台",TVB娛樂新聞台
+#EXTINF:-1 tvg-id="" tvg-name="TVB娛樂新聞台" tvg-logo="https://logo.laobaitv.net/TVB%E5%A8%9B%E6%A8%82%E6%96%B0%E8%81%9E%E5%8F%B0" group-title="港澳台",TVB娛樂新聞台
 https://smt2.1678520.xyz/smt3.2.1.php?id=Tvbentertainment
 
-#EXTINF:-1 tvg-name="ViuTV" tvg-logo="https://logo.laobaitv.net/ViuTV" group-title="港澳台" tvg-id="viutv",ViuTV
+#EXTINF:-1 tvg-id="viutv" tvg-name="ViuTV" tvg-logo="https://logo.laobaitv.net/ViuTV" group-title="港澳台",ViuTV
 https://php.jdshipin.com/TVOD/iptv.php?id=viutv
 
-#EXTINF:-1 tvg-name="澳视澳门" tvg-logo="https://logo.laobaitv.net/%E6%BE%B3%E8%A7%86%E6%BE%B3%E9%97%A8" group-title="港澳台" tvg-id="aoshiaomen",澳视澳门
+#EXTINF:-1 tvg-id="aoshiaomen" tvg-name="澳视澳门" tvg-logo="https://logo.laobaitv.net/%E6%BE%B3%E8%A7%86%E6%BE%B3%E9%97%A8" group-title="港澳台",澳视澳门
 https://php.jdshipin.com/TVOD/iptv.php?id=asam
 
-#EXTINF:-1 tvg-name="澳门-Macau" tvg-logo="https://logo.laobaitv.net/%E6%BE%B3%E9%97%A8-Macau" group-title="港澳台" tvg-id="aomenmacau",澳门-Macau
+#EXTINF:-1 tvg-id="aomenmacau" tvg-name="澳门-Macau" tvg-logo="https://logo.laobaitv.net/%E6%BE%B3%E9%97%A8-Macau" group-title="港澳台",澳门-Macau
 https://php.jdshipin.com/TVOD/iptv.php?id=as
 
-#EXTINF:-1 tvg-name="澳门体育" tvg-logo="https://logo.laobaitv.net/%E6%BE%B3%E9%97%A8%E4%BD%93%E8%82%B2" group-title="港澳台" tvg-id="aomentiyu",澳门体育
+#EXTINF:-1 tvg-id="aomentiyu" tvg-name="澳门体育" tvg-logo="https://logo.laobaitv.net/%E6%BE%B3%E9%97%A8%E4%BD%93%E8%82%B2" group-title="港澳台",澳门体育
 https://cdn6.163189.xyz/163189/amty
 
 #EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/%E6%96%97%E5%9C%B0%E4%B8%BB" group-title="棋牌",斗地主
@@ -231,7 +231,7 @@ https://live.laobaitv.net/huya/139167
 #EXTINF:-1 tvg-id="" tvg-name="英雄联盟" tvg-logo="https://logo.laobaitv.net/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F" group-title="电竞",英雄联盟
 https://live.laobaitv.net/huya/660000
 
-#EXTINF:-1 tvg-id="" tvg-name="电影轮播" tvg-logo="https://logo.laobaitv.net/%E7%94%B5%E5%BD%B1%E8%BD%AE%E6%92%AD" group-title="影视",电影轮播
+#EXTINF:-1 tvg-id="" tvg-name="周星驰" tvg-logo="https://logo.laobaitv.net/%E5%91%A8%E6%98%9F%E9%A9%B0" group-title="影视",周星驰
 https://live.laobaitv.net/huya/11342412
 
 #EXTINF:-1 tvg-id="" tvg-name="柯南" tvg-logo="https://logo.laobaitv.net/%E6%9F%AF%E5%8D%97" group-title="影视",柯南
@@ -255,10 +255,10 @@ https://live.laobaitv.net/douyu/131977
 #EXTINF:-1 tvg-id="hbo" tvg-name="HBO" tvg-logo="https://logo.laobaitv.net/HBO" group-title="影视",HBO
 https://bee.laobaitv.net/play?id=HBO
 
-#EXTINF:-1 tvg-id="hbo2" tvg-name="HBO 2" tvg-logo="https://logo.laobaitv.net/HBO%202" group-title="影视",HBO 2
+#EXTINF:-1 tvg-id="hbo2" tvg-name="HBO 2" tvg-logo="https://logo.laobaitv.net/HBO2" group-title="影视",HBO 2
 https://bee.laobaitv.net/play?id=HBO-2
 
-#EXTINF:-1 tvg-name="GREAT! movies" tvg-logo="https://logo.laobaitv.net/GREAT!%20movies" group-title="影视" tvg-id="greatmovies",GREAT! movies
+#EXTINF:-1 tvg-id="greatmovies" tvg-name="GREAT! movies" tvg-logo="https://logo.laobaitv.net/GREAT!movies" group-title="影视",GREAT! movies
 https://bee.laobaitv.net/play?id=UK-Great-Movies
 
 #EXTINF:-1 tvg-id="shandongtiyu" tvg-name="山东体育休闲频道" tvg-logo="https://logo.laobaitv.net/%E5%B1%B1%E4%B8%9C%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2%E9%A2%91%E9%81%93" group-title="体育",山东体育休闲频道
@@ -267,97 +267,97 @@ https://live.laobaitv.net/qilu/24587
 #EXTINF:-1 tvg-id="wuxingtiyu" tvg-name="五星体育" tvg-logo="https://logo.laobaitv.net/%E4%BA%94%E6%98%9F%E4%BD%93%E8%82%B2" group-title="体育",五星体育
 https://live.laobaitv.net/smg/wxty
 
-#EXTINF:-1 tvg-id="nbatv" tvg-name="NBA TV" tvg-logo="https://logo.laobaitv.net/NBA%20TV" group-title="体育",NBA TV
+#EXTINF:-1 tvg-id="nbatv" tvg-name="NBA TV" tvg-logo="https://logo.laobaitv.net/NBATV" group-title="体育",NBA TV
 https://bee.laobaitv.net/play?id=NBA-TV
 
-#EXTINF:-1 tvg-id="nfltv" tvg-name="NFL Network" tvg-logo="https://logo.laobaitv.net/NFL%20Network" group-title="体育",NFL Network
+#EXTINF:-1 tvg-id="nfltv" tvg-name="NFL Network" tvg-logo="https://logo.laobaitv.net/NFLNetwork" group-title="体育",NFL Network
 https://bee.laobaitv.net/play?id=NFL-Network
 
 #EXTINF:-1 tvg-id="espn" tvg-name="ESPN" tvg-logo="https://logo.laobaitv.net/ESPN" group-title="体育",ESPN
 https://bee.laobaitv.net/play?id=ESPN
 
-#EXTINF:-1 tvg-id="espn2" tvg-name="ESPN 2" tvg-logo="https://logo.laobaitv.net/ESPN%202" group-title="体育",ESPN 2
+#EXTINF:-1 tvg-id="espn2" tvg-name="ESPN 2" tvg-logo="https://logo.laobaitv.net/ESPN2" group-title="体育",ESPN 2
 https://bee.laobaitv.net/play?id=ESPN-2
 
-#EXTINF:-1 tvg-id="espnnews" tvg-name="ESPN News" tvg-logo="https://logo.laobaitv.net/ESPN%20News" group-title="体育",ESPN News
+#EXTINF:-1 tvg-id="espnnews" tvg-name="ESPN News" tvg-logo="https://logo.laobaitv.net/ESPNNews" group-title="体育",ESPN News
 https://bee.laobaitv.net/play?id=ESPN-News
 
-#EXTINF:-1 tvg-id="espndeportes" tvg-name="ESPN Deportes" tvg-logo="https://logo.laobaitv.net/ESPN%20Deportes" group-title="体育",ESPN Deportes
+#EXTINF:-1 tvg-id="espndeportes" tvg-name="ESPN Deportes" tvg-logo="https://logo.laobaitv.net/ESPNDeportes" group-title="体育",ESPN Deportes
 https://bee.laobaitv.net/play?id=ESPN-Deportes
 
-#EXTINF:-1 tvg-id="espnu" tvg-name="ESPN U" tvg-logo="https://logo.laobaitv.net/ESPN%20U" group-title="体育",ESPN U
+#EXTINF:-1 tvg-id="espnu" tvg-name="ESPN U" tvg-logo="https://logo.laobaitv.net/ESPNU" group-title="体育",ESPN U
 https://bee.laobaitv.net/play?id=ESPN-U
 
-#EXTINF:-1 tvg-id="skysportsmainevent" tvg-name="SKY SPORTS MAIN EVENT" tvg-logo="https://logo.laobaitv.net/SKY%20SPORTS%20MAIN%20EVENT" group-title="体育",SKY SPORTS MAIN EVENT
+#EXTINF:-1 tvg-id="skysportsmainevent" tvg-name="SKY SPORTS MAIN EVENT" tvg-logo="https://logo.laobaitv.net/SKYSPORTSMAINEVENT" group-title="体育",SKY SPORTS MAIN EVENT
 https://bee.laobaitv.net/play?id=Sky-Sports-Main-Event
 
-#EXTINF:-1 tvg-id="skysportspremierleague" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.laobaitv.net/SKY%20SPORTS%20PREMIER%20LEAGUE" group-title="体育",SKY SPORTS PREMIER LEAGUE
+#EXTINF:-1 tvg-id="skysportspremierleague" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.laobaitv.net/SKYSPORTSPREMIERLEAGUE" group-title="体育",SKY SPORTS PREMIER LEAGUE
 https://bee.laobaitv.net/play?id=Sky-Sports-Premier-League
 
-#EXTINF:-1 tvg-id="skysportsfootball" tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.laobaitv.net/SKY%20SPORTS%20FOOTBALL" group-title="体育",SKY SPORTS FOOTBALL
+#EXTINF:-1 tvg-id="skysportsfootball" tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.laobaitv.net/SKYSPORTSFOOTBALL" group-title="体育",SKY SPORTS FOOTBALL
 https://bee.laobaitv.net/play?id=Sky-Sports-Football
 
-#EXTINF:-1 tvg-id="skysportscricket" tvg-name="SKY SPORTS CRICKET" tvg-logo="https://logo.laobaitv.net/SKY%20SPORTS%20CRICKET" group-title="体育",SKY SPORTS CRICKET
+#EXTINF:-1 tvg-id="skysportscricket" tvg-name="SKY SPORTS CRICKET" tvg-logo="https://logo.laobaitv.net/SKYSPORTSCRICKET" group-title="体育",SKY SPORTS CRICKET
 https://bee.laobaitv.net/play?id=Sky-Sports-Cricket
 
-#EXTINF:-1 tvg-id="skysportsgolf" tvg-name="SKY SPORTS GOLF" tvg-logo="https://logo.laobaitv.net/SKY%20SPORTS%20GOLF" group-title="体育",SKY SPORTS GOLF
+#EXTINF:-1 tvg-id="skysportsgolf" tvg-name="SKY SPORTS GOLF" tvg-logo="https://logo.laobaitv.net/SKYSPORTSGOLF" group-title="体育",SKY SPORTS GOLF
 https://bee.laobaitv.net/play?id=Sky-Sports-Golf
 
-#EXTINF:-1 tvg-id="skysportsf1" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.laobaitv.net/SKY%20SPORTS%20F1" group-title="体育",SKY SPORTS F1
+#EXTINF:-1 tvg-id="skysportsf1" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.laobaitv.net/SKYSPORTSF1" group-title="体育",SKY SPORTS F1
 https://bee.laobaitv.net/play?id=Sky-Sports-F1
 
-#EXTINF:-1 tvg-id="skysportsarena" tvg-name="SKY SPORTS ARENA" tvg-logo="https://logo.laobaitv.net/SKY%20SPORTS%20ARENA" group-title="体育",SKY SPORTS ARENA
+#EXTINF:-1 tvg-id="skysportsarena" tvg-name="SKY SPORTS ARENA" tvg-logo="https://logo.laobaitv.net/SKYSPORTSARENA" group-title="体育",SKY SPORTS ARENA
 https://bee.laobaitv.net/play?id=Sky-Sports-Arena
 
-#EXTINF:-1 tvg-id="skysportsmix" tvg-name="SKY SPORTS MIX" tvg-logo="https://logo.laobaitv.net/SKY%20SPORTS%20MIX" group-title="体育",SKY SPORTS MIX
+#EXTINF:-1 tvg-id="skysportsmix" tvg-name="SKY SPORTS MIX" tvg-logo="https://logo.laobaitv.net/SKYSPORTSMIX" group-title="体育",SKY SPORTS MIX
 https://bee.laobaitv.net/play?id=Sky-Sports-Mix
 
-#EXTINF:-1 tvg-id="skysportsnews" tvg-name="SKY SPORTS NEWS" tvg-logo="https://logo.laobaitv.net/SKY%20SPORTS%20NEWS" group-title="体育",SKY SPORTS NEWS
+#EXTINF:-1 tvg-id="skysportsnews" tvg-name="SKY SPORTS NEWS" tvg-logo="https://logo.laobaitv.net/SKYSPORTSNEWS" group-title="体育",SKY SPORTS NEWS
 https://bee.laobaitv.net/play?id=Sky-Sports-News
 
-#EXTINF:-1 tvg-id="skysportsaction" tvg-name="SKY SPORTS ACTION" tvg-logo="https://logo.laobaitv.net/SKY%20SPORTS%20ACTION" group-title="体育",SKY SPORTS ACTION
+#EXTINF:-1 tvg-id="skysportsaction" tvg-name="SKY SPORTS ACTION" tvg-logo="https://logo.laobaitv.net/SKYSPORTSACTION" group-title="体育",SKY SPORTS ACTION
 https://bee.laobaitv.net/play?id=Sky-Sports-Action
 
-#EXTINF:-1 tvg-id="skysportstennis" tvg-name="SKY SPORTS Tennis" tvg-logo="https://logo.laobaitv.net/SKY%20SPORTS%20Tennis" group-title="体育",SKY SPORTS Tennis
+#EXTINF:-1 tvg-id="skysportstennis" tvg-name="SKY SPORTS Tennis" tvg-logo="https://logo.laobaitv.net/SKYSPORTSTennis" group-title="体育",SKY SPORTS Tennis
 https://bee.laobaitv.net/play?id=Sky-Sports-Tennis
 
-#EXTINF:-1 tvg-id="skysportsracing" tvg-name="SKY SPORTS RACING" tvg-logo="https://logo.laobaitv.net/SKY%20SPORTS%20RACING" group-title="体育",SKY SPORTS RACING
+#EXTINF:-1 tvg-id="skysportsracing" tvg-name="SKY SPORTS RACING" tvg-logo="https://logo.laobaitv.net/SKYSPORTSRACING" group-title="体育",SKY SPORTS RACING
 https://bee.laobaitv.net/play?id=Sky-Sports-Racing
 
-#EXTINF:-1 tvg-id="foxsports1" tvg-name="FOX SPORTS 1" tvg-logo="https://logo.laobaitv.net/FOX%20SPORTS%201" group-title="体育",FOX SPORTS 1
+#EXTINF:-1 tvg-id="foxsports1" tvg-name="FOX SPORTS 1" tvg-logo="https://logo.laobaitv.net/FOXSPORTS1" group-title="体育",FOX SPORTS 1
 https://bee.laobaitv.net/play?id=Fox-Sports-1
 
-#EXTINF:-1 tvg-id="foxsports2" tvg-name="FOX SPORTS 2" tvg-logo="https://logo.laobaitv.net/FOX%20SPORTS%202" group-title="体育",FOX SPORTS 2
+#EXTINF:-1 tvg-id="foxsports2" tvg-name="FOX SPORTS 2" tvg-logo="https://logo.laobaitv.net/FOXSPORTS2" group-title="体育",FOX SPORTS 2
 https://bee.laobaitv.net/play?id=Fox-Sports-2
 
-#EXTINF:-1 tvg-id="tntsports1" tvg-name="TNT SPORTS 1" tvg-logo="https://logo.laobaitv.net/TNT%20SPORTS%201" group-title="体育",TNT SPORTS 1
+#EXTINF:-1 tvg-id="tntsports1" tvg-name="TNT SPORTS 1" tvg-logo="https://logo.laobaitv.net/TNTSPORTS1" group-title="体育",TNT SPORTS 1
 https://bee.laobaitv.net/play?id=TNT-Sports-1
 
-#EXTINF:-1 tvg-id="tntsports2" tvg-name="TNT SPORTS 2" tvg-logo="https://logo.laobaitv.net/TNT%20SPORTS%202" group-title="体育",TNT SPORTS 2
+#EXTINF:-1 tvg-id="tntsports2" tvg-name="TNT SPORTS 2" tvg-logo="https://logo.laobaitv.net/TNTSPORTS2" group-title="体育",TNT SPORTS 2
 https://bee.laobaitv.net/play?id=TNT-Sports-2
 
-#EXTINF:-1 tvg-id="tntsports3" tvg-name="TNT SPORTS 3" tvg-logo="https://logo.laobaitv.net/TNT%20SPORTS%203" group-title="体育",TNT SPORTS 3
+#EXTINF:-1 tvg-id="tntsports3" tvg-name="TNT SPORTS 3" tvg-logo="https://logo.laobaitv.net/TNTSPORTS3" group-title="体育",TNT SPORTS 3
 https://bee.laobaitv.net/play?id=TNT-Sports-3
 
-#EXTINF:-1 tvg-id="tntsports4" tvg-name="TNT SPORTS 4" tvg-logo="https://logo.laobaitv.net/TNT%20SPORTS%204" group-title="体育",TNT SPORTS 4
+#EXTINF:-1 tvg-id="tntsports4" tvg-name="TNT SPORTS 4" tvg-logo="https://logo.laobaitv.net/TNTSPORTS4" group-title="体育",TNT SPORTS 4
 https://bee.laobaitv.net/play?id=TNT-Sports-4
 
-#EXTINF:-1 tvg-id="eurosport1" tvg-name="EUROSPORT 1" tvg-logo="https://logo.laobaitv.net/EUROSPORT%201" group-title="体育",EUROSPORT 1
+#EXTINF:-1 tvg-id="eurosport1" tvg-name="EUROSPORT 1" tvg-logo="https://logo.laobaitv.net/EUROSPORT1" group-title="体育",EUROSPORT 1
 https://bee.laobaitv.net/play?id=Eurosport-1
 
-#EXTINF:-1 tvg-id="eurosport2" tvg-name="EUROSPORT 2" tvg-logo="https://logo.laobaitv.net/EUROSPORT%202" group-title="体育",EUROSPORT 2
+#EXTINF:-1 tvg-id="eurosport2" tvg-name="EUROSPORT 2" tvg-logo="https://logo.laobaitv.net/EUROSPORT2" group-title="体育",EUROSPORT 2
 https://bee.laobaitv.net/play?id=Eurosport-2
 
-#EXTINF:-1 tvg-id="beinsports" tvg-name="BEIN SPORTS" tvg-logo="https://logo.laobaitv.net/BEIN%20SPORTS" group-title="体育",BEIN SPORTS
+#EXTINF:-1 tvg-id="beinsports" tvg-name="BEIN SPORTS" tvg-logo="https://logo.laobaitv.net/BEINSPORTS" group-title="体育",BEIN SPORTS
 https://bee.laobaitv.net/play?id=Bein-Sports-USA
 
-#EXTINF:-1 tvg-id="premiersports1" tvg-name="PREMIER SPORTS 1" tvg-logo="https://logo.laobaitv.net/PREMIER%20SPORTS%201" group-title="体育",PREMIER SPORTS 1
+#EXTINF:-1 tvg-id="premiersports1" tvg-name="PREMIER SPORTS 1" tvg-logo="https://logo.laobaitv.net/PREMIERSPORTS1" group-title="体育",PREMIER SPORTS 1
 https://bee.laobaitv.net/play?id=Premier-Sports-1
 
-#EXTINF:-1 tvg-id="AdultSwim" tvg-name="Adult Swim" tvg-logo="https://logo.laobaitv.net/adultswim" group-title="影视",Adult Swim
+#EXTINF:-1 tvg-id="" tvg-name="Adult Swim" tvg-logo="https://logo.laobaitv.net/AdultSwim" group-title="影视",Adult Swim
 https://live.laobaitv.net/proxy/adultswim
 
-#EXTINF:-1 tvg-id="CloudflareTV" tvg-name="CloudflareTV" tvg-logo="https://logo.laobaitv.net/cloudflaretv" group-title="老白TV赞助：免费！请勿相信各类广告",Cloudflare TV
+#EXTINF:-1 tvg-id="CloudflareTV" tvg-name="CloudflareTV" tvg-logo="https://logo.laobaitv.net/CloudflareTV" group-title="老白TV赞助：免费！请勿相信各类广告",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
 ######互联网直播频道end######
 
