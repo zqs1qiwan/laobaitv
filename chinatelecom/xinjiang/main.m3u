@@ -126,82 +126,82 @@ http://192.168.2.1:4022/udp/238.125.5.122:5140
 ######互联网直播频道######
 #EXTM3U x-tvg-url="https://epg.laobaitv.net"
 
-#EXTINF:-1 tvg-id="fenghuangzhongwen" tvg-name="凤凰中文台" tvg-logo="https://logo.laobaitv.net/%E5%87%A4%E5%87%B0%E4%B8%AD%E6%96%87%E5%8F%B0" group-title="港澳台",凤凰中文台
+#EXTINF:-1 tvg-id="fenghuangzhongwen" tvg-name="凤凰中文台" tvg-logo="https://logo.laobaitv.net/凤凰中文台" group-title="港澳台",凤凰中文台
 https://smt2.1678520.xyz/smt3.2.1.php?id=phoenixtv_hd
 
-#EXTINF:-1 tvg-id="fenghuangzixun" tvg-name="凤凰资讯台" tvg-logo="https://logo.laobaitv.net/%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF%E5%8F%B0" group-title="港澳台",凤凰资讯台
+#EXTINF:-1 tvg-id="fenghuangzixun" tvg-name="凤凰资讯台" tvg-logo="https://logo.laobaitv.net/凤凰资讯台" group-title="港澳台",凤凰资讯台
 https://smt2.1678520.xyz/smt3.2.1.php?id=phoenixinfo_hd
 
-#EXTINF:-1 tvg-id="fenghuangxianggang" tvg-name="凤凰香港台" tvg-logo="https://logo.laobaitv.net/%E5%87%A4%E5%87%B0%E9%A6%99%E6%B8%AF%E5%8F%B0" group-title="港澳台",凤凰香港台
+#EXTINF:-1 tvg-id="fenghuangxianggang" tvg-name="凤凰香港台" tvg-logo="https://logo.laobaitv.net/凤凰香港台" group-title="港澳台",凤凰香港台
 https://smt2.1678520.xyz/smt3.2.1.php?id=hkphoenix_twn
 
-#EXTINF:-1 tvg-id="tvbfeicuitai" tvg-name="TVB 翡翠台" tvg-logo="https://logo.laobaitv.net/TVB%E7%BF%A1%E7%BF%A0%E5%8F%B0" group-title="港澳台",TVB 翡翠台
+#EXTINF:-1 tvg-id="tvbfeicuitai" tvg-name="TVB 翡翠台" tvg-logo="https://logo.laobaitv.net/TVB翡翠台" group-title="港澳台",TVB 翡翠台
 http://o11.163189.xyz/stream/tvb/fct4k/
 
-#EXTINF:-1 tvg-id="tvbmingzhutai" tvg-name="TVB 明珠台" tvg-logo="https://logo.laobaitv.net/TVB%E6%98%8E%E7%8F%A0%E5%8F%B0" group-title="港澳台",TVB 明珠台
+#EXTINF:-1 tvg-id="tvbmingzhutai" tvg-name="TVB 明珠台" tvg-logo="https://logo.laobaitv.net/TVB明珠台" group-title="港澳台",TVB 明珠台
 https://php.jdshipin.com/TVOD/iptv.php?id=mzt
 
-#EXTINF:-1 tvg-id="tvbhudongxinwentai" tvg-name="TVB 无线新闻台" tvg-logo="https://logo.laobaitv.net/TVB%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB%E5%8F%B0" group-title="港澳台",TVB 无线新闻台
+#EXTINF:-1 tvg-id="tvbhudongxinwentai" tvg-name="TVB 无线新闻台" tvg-logo="https://logo.laobaitv.net/TVB无线新闻台" group-title="港澳台",TVB 无线新闻台
 https://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
 
 #EXTINF:-1 tvg-id="tvbplus" tvg-name="TVB Plus" tvg-logo="https://logo.laobaitv.net/TVBPlus" group-title="港澳台",TVB Plus
 http://o11.163189.xyz/stream/tvb/tvbp/
 
-#EXTINF:-1 tvg-id="" tvg-name="TVB千禧經典台" tvg-logo="https://logo.laobaitv.net/TVB%E5%8D%83%E7%A6%A7%E7%B6%93%E5%85%B8%E5%8F%B0" group-title="港澳台",TVB千禧經典台
+#EXTINF:-1 tvg-id="" tvg-name="TVB千禧經典台" tvg-logo="https://logo.laobaitv.net/TVB千禧經典台" group-title="港澳台",TVB千禧經典台
 https://smt2.1678520.xyz/smt3.2.1.php?id=Tvbclassic
 
-#EXTINF:-1 tvg-id="" tvg-name="TVB娛樂新聞台" tvg-logo="https://logo.laobaitv.net/TVB%E5%A8%9B%E6%A8%82%E6%96%B0%E8%81%9E%E5%8F%B0" group-title="港澳台",TVB娛樂新聞台
+#EXTINF:-1 tvg-id="" tvg-name="TVB娛樂新聞台" tvg-logo="https://logo.laobaitv.net/TVB娛樂新聞台" group-title="港澳台",TVB娛樂新聞台
 https://smt2.1678520.xyz/smt3.2.1.php?id=Tvbentertainment
 
 #EXTINF:-1 tvg-id="viutv" tvg-name="ViuTV" tvg-logo="https://logo.laobaitv.net/ViuTV" group-title="港澳台",ViuTV
 https://php.jdshipin.com/TVOD/iptv.php?id=viutv
 
-#EXTINF:-1 tvg-id="aoshiaomen" tvg-name="澳视澳门" tvg-logo="https://logo.laobaitv.net/%E6%BE%B3%E8%A7%86%E6%BE%B3%E9%97%A8" group-title="港澳台",澳视澳门
+#EXTINF:-1 tvg-id="aoshiaomen" tvg-name="澳视澳门" tvg-logo="https://logo.laobaitv.net/澳视澳门" group-title="港澳台",澳视澳门
 https://php.jdshipin.com/TVOD/iptv.php?id=asam
 
-#EXTINF:-1 tvg-id="aomenmacau" tvg-name="澳门-Macau" tvg-logo="https://logo.laobaitv.net/%E6%BE%B3%E9%97%A8-Macau" group-title="港澳台",澳门-Macau
+#EXTINF:-1 tvg-id="aomenmacau" tvg-name="澳门-Macau" tvg-logo="https://logo.laobaitv.net/澳门-Macau" group-title="港澳台",澳门-Macau
 https://php.jdshipin.com/TVOD/iptv.php?id=as
 
-#EXTINF:-1 tvg-id="aomentiyu" tvg-name="澳门体育" tvg-logo="https://logo.laobaitv.net/%E6%BE%B3%E9%97%A8%E4%BD%93%E8%82%B2" group-title="港澳台",澳门体育
+#EXTINF:-1 tvg-id="aomentiyu" tvg-name="澳门体育" tvg-logo="https://logo.laobaitv.net/澳门体育" group-title="港澳台",澳门体育
 https://cdn6.163189.xyz/163189/amty
 
-#EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/%E6%96%97%E5%9C%B0%E4%B8%BB" group-title="棋牌",斗地主
+#EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/斗地主" group-title="棋牌",斗地主
 https://live.laobaitv.net/huya/152698
 
-#EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/%E6%96%97%E5%9C%B0%E4%B8%BB" group-title="棋牌",斗地主
+#EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/斗地主" group-title="棋牌",斗地主
 https://live.laobaitv.net/huya/23695493
 
-#EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/%E6%96%97%E5%9C%B0%E4%B8%BB" group-title="棋牌",斗地主
+#EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/斗地主" group-title="棋牌",斗地主
 https://live.laobaitv.net/huya/30814432
 
-#EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/%E6%96%97%E5%9C%B0%E4%B8%BB" group-title="棋牌",斗地主
+#EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/斗地主" group-title="棋牌",斗地主
 https://live.laobaitv.net/huya/139168
 
-#EXTINF:-1 tvg-id="" tvg-name="掼蛋" tvg-logo="https://logo.laobaitv.net/%E6%8E%BC%E8%9B%8B" group-title="棋牌",掼蛋
+#EXTINF:-1 tvg-id="" tvg-name="掼蛋" tvg-logo="https://logo.laobaitv.net/掼蛋" group-title="棋牌",掼蛋
 https://live.laobaitv.net/mg/?id=631354620
 
-#EXTINF:-1 tvg-id="" tvg-name="掼蛋" tvg-logo="https://logo.laobaitv.net/%E6%8E%BC%E8%9B%8B" group-title="棋牌",掼蛋
+#EXTINF:-1 tvg-id="" tvg-name="掼蛋" tvg-logo="https://logo.laobaitv.net/掼蛋" group-title="棋牌",掼蛋
 https://live.laobaitv.net/huya/139167
 
-#EXTINF:-1 tvg-id="" tvg-name="英雄联盟" tvg-logo="https://logo.laobaitv.net/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F" group-title="电竞",英雄联盟
+#EXTINF:-1 tvg-id="" tvg-name="英雄联盟" tvg-logo="https://logo.laobaitv.net/英雄联盟" group-title="电竞",英雄联盟
 https://live.laobaitv.net/huya/660000
 
-#EXTINF:-1 tvg-id="" tvg-name="周星驰" tvg-logo="https://logo.laobaitv.net/%E5%91%A8%E6%98%9F%E9%A9%B0" group-title="影视",周星驰
+#EXTINF:-1 tvg-id="" tvg-name="周星驰" tvg-logo="https://logo.laobaitv.net/周星驰" group-title="影视",周星驰
 https://live.laobaitv.net/huya/11342412
 
-#EXTINF:-1 tvg-id="" tvg-name="柯南" tvg-logo="https://logo.laobaitv.net/%E6%9F%AF%E5%8D%97" group-title="影视",柯南
+#EXTINF:-1 tvg-id="" tvg-name="柯南" tvg-logo="https://logo.laobaitv.net/柯南" group-title="影视",柯南
 https://live.laobaitv.net/huya/30080148
 
-#EXTINF:-1 tvg-id="" tvg-name="蜡笔小新" tvg-logo="https://logo.laobaitv.net/%E8%9C%A1%E7%AC%94%E5%B0%8F%E6%96%B0" group-title="影视",蜡笔小新
+#EXTINF:-1 tvg-id="" tvg-name="蜡笔小新" tvg-logo="https://logo.laobaitv.net/蜡笔小新" group-title="影视",蜡笔小新
 https://live.laobaitv.net/huya/30362138
 
-#EXTINF:-1 tvg-id="" tvg-name="鹿鼎记" tvg-logo="https://logo.laobaitv.net/%E9%B9%BF%E9%BC%8E%E8%AE%B0" group-title="影视",鹿鼎记
+#EXTINF:-1 tvg-id="" tvg-name="鹿鼎记" tvg-logo="https://logo.laobaitv.net/鹿鼎记" group-title="影视",鹿鼎记
 https://live.laobaitv.net/huya/23650774
 
-#EXTINF:-1 tvg-id="" tvg-name="爱情公寓" tvg-logo="https://logo.laobaitv.net/%E7%88%B1%E6%83%85%E5%85%AC%E5%AF%93" group-title="影视",爱情公寓
+#EXTINF:-1 tvg-id="" tvg-name="爱情公寓" tvg-logo="https://logo.laobaitv.net/爱情公寓" group-title="影视",爱情公寓
 https://live.laobaitv.net/huya/11336726
 
-#EXTINF:-1 tvg-id="" tvg-name="海绵宝宝" tvg-logo="https://logo.laobaitv.net/%E6%B5%B7%E7%BB%B5%E5%AE%9D%E5%AE%9D" group-title="影视",海绵宝宝
+#EXTINF:-1 tvg-id="" tvg-name="海绵宝宝" tvg-logo="https://logo.laobaitv.net/海绵宝宝" group-title="影视",海绵宝宝
 https://live.laobaitv.net/douyu/12400977
 
 #EXTINF:-1 tvg-id="" tvg-name="RunningMan" tvg-logo="https://logo.laobaitv.net/RunningMan" group-title="影视",RunningMan
@@ -216,10 +216,10 @@ https://bee.laobaitv.net/play?id=HBO-2
 #EXTINF:-1 tvg-id="greatmovies" tvg-name="GREAT! movies" tvg-logo="https://logo.laobaitv.net/GREAT!movies" group-title="影视",GREAT! movies
 https://bee.laobaitv.net/play?id=UK-Great-Movies
 
-#EXTINF:-1 tvg-id="shandongtiyu" tvg-name="山东体育休闲频道" tvg-logo="https://logo.laobaitv.net/%E5%B1%B1%E4%B8%9C%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2%E9%A2%91%E9%81%93" group-title="体育",山东体育休闲频道
+#EXTINF:-1 tvg-id="shandongtiyu" tvg-name="山东体育休闲频道" tvg-logo="https://logo.laobaitv.net/山东体育休闲频道" group-title="体育",山东体育休闲频道
 https://live.laobaitv.net/qilu/24587
 
-#EXTINF:-1 tvg-id="wuxingtiyu" tvg-name="五星体育" tvg-logo="https://logo.laobaitv.net/%E4%BA%94%E6%98%9F%E4%BD%93%E8%82%B2" group-title="体育",五星体育
+#EXTINF:-1 tvg-id="wuxingtiyu" tvg-name="五星体育" tvg-logo="https://logo.laobaitv.net/五星体育" group-title="体育",五星体育
 https://live.laobaitv.net/smg/wxty
 
 #EXTINF:-1 tvg-id="nbatv" tvg-name="NBA TV" tvg-logo="https://logo.laobaitv.net/NBATV" group-title="体育",NBA TV
