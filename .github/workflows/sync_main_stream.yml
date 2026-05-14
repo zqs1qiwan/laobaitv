@@ -22,7 +22,7 @@ jobs:
 
     - name: Update main.m3u files with stream content
       run: |
-        STREAM_FILE='stream/stream.m3u'
+        STREAM_FILE='stream/stream'
 
         # 检查流文件是否存在
         if [ ! -f "$STREAM_FILE" ]; then
