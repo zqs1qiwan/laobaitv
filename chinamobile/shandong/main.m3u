@@ -145,13 +145,13 @@ http://192.168.2.1:4022/udp/239.253.7.178:51050
 #EXTM3U x-tvg-url="https://epg.laobaitv.net"
 
 #EXTINF:-1 tvg-id="fenghuangzhongwen" tvg-name="凤凰中文台" tvg-logo="https://logo.laobaitv.net/凤凰中文台" group-title="港澳台",凤凰中文台
-https://smt2.1678520.xyz/smt3.2.1.php?id=phoenixtv_hd
+https://live.laobaitv.net/proxy/phoenix/zhongwen
 
 #EXTINF:-1 tvg-id="fenghuangzixun" tvg-name="凤凰资讯台" tvg-logo="https://logo.laobaitv.net/凤凰资讯台" group-title="港澳台",凤凰资讯台
-https://smt2.1678520.xyz/smt3.2.1.php?id=phoenixinfo_hd
+https://live.laobaitv.net/proxy/phoenix/zixun
 
 #EXTINF:-1 tvg-id="fenghuangxianggang" tvg-name="凤凰香港台" tvg-logo="https://logo.laobaitv.net/凤凰香港台" group-title="港澳台",凤凰香港台
-https://smt2.1678520.xyz/smt3.2.1.php?id=hkphoenix_twn
+https://live.laobaitv.net/proxy/phoenix/xianggang
 
 #EXTINF:-1 tvg-id="tvbfeicuitai" tvg-name="TVB 翡翠台" tvg-logo="https://logo.laobaitv.net/TVB翡翠台" group-title="港澳台",TVB 翡翠台
 http://o11.163189.xyz/stream/tvb/fct4k/
