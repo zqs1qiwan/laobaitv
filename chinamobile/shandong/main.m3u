@@ -142,8 +142,6 @@ http://192.168.2.1:4022/udp/239.253.8.74:16075
 http://192.168.2.1:4022/udp/239.253.7.178:51050
 ######卫视频道end######
 ######互联网直播频道######
-#EXTM3U x-tvg-url="https://epg.laobaitv.net"
-
 #EXTINF:-1 tvg-id="fenghuangzhongwen" tvg-name="凤凰中文台" tvg-logo="https://logo.laobaitv.net/凤凰中文台" group-title="港澳台",凤凰中文台
 https://live.laobaitv.net/proxy/phoenix/zhongwen
 
