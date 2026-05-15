@@ -1,14 +1,14 @@
 #EXTINF:-1 tvg-id="fenghuangzhongwen" tvg-name="凤凰中文台" tvg-logo="https://logo.laobaitv.net/凤凰中文台" group-title="港澳台",凤凰中文台
-https://live.laobaitv.net/proxy/phoenix/zhongwen
+https://cdn6.163189.xyz/163189/fhzw
 
 #EXTINF:-1 tvg-id="fenghuangzixun" tvg-name="凤凰资讯台" tvg-logo="https://logo.laobaitv.net/凤凰资讯台" group-title="港澳台",凤凰资讯台
-https://live.laobaitv.net/proxy/phoenix/zixun
+https://cdn6.163189.xyz/163189/fhzx
 
 #EXTINF:-1 tvg-id="fenghuangxianggang" tvg-name="凤凰香港台" tvg-logo="https://logo.laobaitv.net/凤凰香港台" group-title="港澳台",凤凰香港台
-https://live.laobaitv.net/proxy/phoenix/xianggang
+https://cdn6.163189.xyz/163189/fhhk
 
 #EXTINF:-1 tvg-id="tvbfeicuitai" tvg-name="TVB 翡翠台" tvg-logo="https://logo.laobaitv.net/TVB翡翠台" group-title="港澳台",TVB 翡翠台
-http://o11.163189.xyz/stream/tvb/fct4k/
+https://o11.163189.xyz/stream/tvb/fct4k/
 
 #EXTINF:-1 tvg-id="tvbmingzhutai" tvg-name="TVB 明珠台" tvg-logo="https://logo.laobaitv.net/TVB明珠台" group-title="港澳台",TVB 明珠台
 https://php.jdshipin.com/TVOD/iptv.php?id=mzt
@@ -16,14 +16,20 @@ https://php.jdshipin.com/TVOD/iptv.php?id=mzt
 #EXTINF:-1 tvg-id="tvbhudongxinwentai" tvg-name="TVB 无线新闻台" tvg-logo="https://logo.laobaitv.net/TVB无线新闻台" group-title="港澳台",TVB 无线新闻台
 https://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
 
+#EXTINF:-1 tvg-id="TVB1" tvg-name="TVB 1" tvg-logo="https://logo.laobaitv.net/TVB1" group-title="港澳台",TVB 1
+https://cdn6.163189.xyz/163189/tvb1
+
+#EXTINF:-1 tvg-id="TVBJ1" tvg-name="TVB J1" tvg-logo="https://logo.laobaitv.net/TVBJ1" group-title="港澳台",TVB J1
+https://cdn6.163189.xyz/163189/j1
+
 #EXTINF:-1 tvg-id="tvbplus" tvg-name="TVB Plus" tvg-logo="https://logo.laobaitv.net/TVBPlus" group-title="港澳台",TVB Plus
-http://o11.163189.xyz/stream/tvb/tvbp/
+https://o11.163189.xyz/stream/tvb/tvbp/
 
 #EXTINF:-1 tvg-id="" tvg-name="TVB千禧經典台" tvg-logo="https://logo.laobaitv.net/TVB千禧經典台" group-title="港澳台",TVB千禧經典台
-https://smt2.1678520.xyz/smt3.2.1.php?id=Tvbclassic
+https://o11.163189.xyz/stream/live/tvbc/
 
 #EXTINF:-1 tvg-id="" tvg-name="TVB娛樂新聞台" tvg-logo="https://logo.laobaitv.net/TVB娛樂新聞台" group-title="港澳台",TVB娛樂新聞台
-https://smt2.1678520.xyz/smt3.2.1.php?id=Tvbentertainment
+https://cdn6.163189.xyz/163189/ylxw
 
 #EXTINF:-1 tvg-id="viutv" tvg-name="ViuTV" tvg-logo="https://logo.laobaitv.net/ViuTV" group-title="港澳台",ViuTV
 https://php.jdshipin.com/TVOD/iptv.php?id=viutv
@@ -75,6 +81,18 @@ https://live.laobaitv.net/douyu/12400977
 
 #EXTINF:-1 tvg-id="" tvg-name="RunningMan" tvg-logo="https://logo.laobaitv.net/RunningMan" group-title="影视",RunningMan
 https://live.laobaitv.net/douyu/131977
+
+#EXTINF:-1 tvg-id="amc电影台" tvg-name="AMC电影台" tvg-logo="https://logo.laobaitv.net/AMC电影台" group-title="影视",AMC电影台
+https://cdn12.178.indevs.in/163189/0bcf9bb8c452e56a
+
+#EXTINF:-1 tvg-id="CinemaWorld" tvg-name="CinemaWorld" tvg-logo="https://logo.laobaitv.net/CinemaWorld" group-title="影视",CinemaWorld
+https://cdn12.178.indevs.in/163189/6086cfe7a9756110
+
+#EXTINF:-1 tvg-id="mycinemaeurope" tvg-name="My Cinema Europe" tvg-logo="https://logo.laobaitv.net/MyCinemaEurope" group-title="影视",My Cinema Europe
+https://cdn12.178.indevs.in/163189/5bda99f1c049edef
+
+#EXTINF:-1 tvg-id="经典电影台" tvg-name="经典电影台" tvg-logo="https://logo.laobaitv.net/经典电影台" group-title="影视",经典电影台
+https://cdn12.178.indevs.in/163189/61b8ea35ffce4630
 
 #EXTINF:-1 tvg-id="hbo" tvg-name="HBO" tvg-logo="https://logo.laobaitv.net/HBO" group-title="影视",HBO
 https://bee.laobaitv.net/play?id=HBO
