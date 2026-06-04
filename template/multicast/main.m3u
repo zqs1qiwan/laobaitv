@@ -38,22 +38,6 @@ http://192.168.2.1:4022/rtp/template.address
 http://192.168.2.1:4022/rtp/template.address
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV-4K 超高清" tvg-logo="https://logo.laobaitv.net/CCTV-4K 超高清" group-title="央视频道",CCTV-4K 超高清
 http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV-4 欧洲" tvg-logo="https://logo.laobaitv.net/CCTV-4 欧洲" group-title="央视频道",CCTV-4 欧洲
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV-4 美洲" tvg-logo="https://logo.laobaitv.net/CCTV-4 美洲" group-title="央视频道",CCTV-4 美洲
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="cgtnyingyu" tvg-name="CGTN" tvg-logo="https://logo.laobaitv.net/CGTN" group-title="央视频道",CGTN
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="cgtnjilu" tvg-name="CGTN 纪录" tvg-logo="https://logo.laobaitv.net/CGTN 纪录" group-title="央视频道",CGTN 纪录
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="cgtnxiyu" tvg-name="CGTN 西语" tvg-logo="https://logo.laobaitv.net/CGTN 西语" group-title="央视频道",CGTN 西语
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="cgtnfayu" tvg-name="CGTN 法语" tvg-logo="https://logo.laobaitv.net/CGTN 法语" group-title="央视频道",CGTN 法语
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="cgtnalayu" tvg-name="CGTN 阿语" tvg-logo="https://logo.laobaitv.net/CGTN 阿语" group-title="央视频道",CGTN 阿语
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="cgtneyu" tvg-name="CGTN 俄语" tvg-logo="https://logo.laobaitv.net/CGTN 俄语" group-title="央视频道",CGTN 俄语
-http://192.168.2.1:4022/rtp/template.address
 ######央视频道end######
 ######卫视频道######
 #EXTINF:-1 tvg-id="beijingweishi" tvg-name="北京卫视4K" tvg-logo="https://logo.laobaitv.net/北京卫视4K" group-title="卫视频道",北京卫视4K
@@ -342,6 +326,22 @@ https://cloudflare.tv/hls/live.m3u8
 ######互联网直播频道end######
 
 ######其他频道######
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV-4 欧洲" tvg-logo="https://logo.laobaitv.net/CCTV-4 欧洲" group-title="央视频道",CCTV-4 欧洲
+http://192.168.2.1:4022/rtp/template.address
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV-4 美洲" tvg-logo="https://logo.laobaitv.net/CCTV-4 美洲" group-title="央视频道",CCTV-4 美洲
+http://192.168.2.1:4022/rtp/template.address
+#EXTINF:-1 tvg-id="cgtnyingyu" tvg-name="CGTN" tvg-logo="https://logo.laobaitv.net/CGTN" group-title="央视频道",CGTN
+http://192.168.2.1:4022/rtp/template.address
+#EXTINF:-1 tvg-id="cgtnjilu" tvg-name="CGTN 纪录" tvg-logo="https://logo.laobaitv.net/CGTN 纪录" group-title="央视频道",CGTN 纪录
+http://192.168.2.1:4022/rtp/template.address
+#EXTINF:-1 tvg-id="cgtnxiyu" tvg-name="CGTN 西语" tvg-logo="https://logo.laobaitv.net/CGTN 西语" group-title="央视频道",CGTN 西语
+http://192.168.2.1:4022/rtp/template.address
+#EXTINF:-1 tvg-id="cgtnfayu" tvg-name="CGTN 法语" tvg-logo="https://logo.laobaitv.net/CGTN 法语" group-title="央视频道",CGTN 法语
+http://192.168.2.1:4022/rtp/template.address
+#EXTINF:-1 tvg-id="cgtnalayu" tvg-name="CGTN 阿语" tvg-logo="https://logo.laobaitv.net/CGTN 阿语" group-title="央视频道",CGTN 阿语
+http://192.168.2.1:4022/rtp/template.address
+#EXTINF:-1 tvg-id="cgtneyu" tvg-name="CGTN 俄语" tvg-logo="https://logo.laobaitv.net/CGTN 俄语" group-title="央视频道",CGTN 俄语
+http://192.168.2.1:4022/rtp/template.address
 #EXTINF:-1 tvg-id="chcyingmidianying" tvg-name="CHC影迷电影" tvg-logo="https://logo.laobaitv.net/CHC影迷电影" group-title="影视",CHC 影迷电影
 http://192.168.2.1:4022/rtp/template.address
 #EXTINF:-1 tvg-id="chcdongzuodianying" tvg-name="CHC动作电影" tvg-logo="https://logo.laobaitv.net/CHC动作电影" group-title="影视",CHC 动作电影
