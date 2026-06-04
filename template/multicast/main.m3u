@@ -114,46 +114,7 @@ http://192.168.2.1:4022/rtp/template.address
 http://192.168.2.1:4022/rtp/template.address
 ######卫视频道end######
 ######本地频道######
-#EXTINF:-1 tvg-id="beijingxinwen" tvg-name="北京新闻" tvg-logo="https://logo.laobaitv.net/北京新闻" group-title="北京频道",北京新闻
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="beijingwenyi" tvg-name="北京文艺" tvg-logo="https://logo.laobaitv.net/北京文艺" group-title="北京频道",北京文艺
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="beijingyingshi" tvg-name="北京影视" tvg-logo="https://logo.laobaitv.net/北京影视" group-title="北京频道",北京影视
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="beijingtiyuxiuxian" tvg-name="北京体育休闲" tvg-logo="https://logo.laobaitv.net/北京体育休闲" group-title="北京频道",北京体育休闲
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="beijingjishikejiao" tvg-name="北京纪实科教" tvg-logo="https://logo.laobaitv.net/北京纪实科教" group-title="北京频道",北京纪实科教
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="beijingcaijing" tvg-name="北京财经" tvg-logo="https://logo.laobaitv.net/北京财经" group-title="北京频道",北京财经
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="beijingshenghuo" tvg-name="北京生活" tvg-logo="https://logo.laobaitv.net/北京生活" group-title="北京频道",北京生活
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="kakushaoer" tvg-name="卡酷少儿" tvg-logo="https://logo.laobaitv.net/卡酷少儿" group-title="北京频道",卡酷少儿
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="北京IPTV" tvg-name="北京IPTV" tvg-logo="https://logo.laobaitv.net/北京IPTV" group-title="北京频道",北京IPTV
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="beijingguoji" tvg-name="北京国际" tvg-logo="https://logo.laobaitv.net/北京国际" group-title="北京频道",北京国际
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="beijingtaoyule" tvg-name="北京淘娱乐" tvg-logo="https://logo.laobaitv.net/北京淘娱乐" group-title="北京频道",北京淘娱乐
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="beijingtaojuchang" tvg-name="北京淘剧场" tvg-logo="https://logo.laobaitv.net/北京淘剧场" group-title="北京频道",北京淘剧场
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="beijingtaodianying" tvg-name="北京淘电影" tvg-logo="https://logo.laobaitv.net/北京淘电影" group-title="北京频道",北京淘电影
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="北京淘BABY" tvg-name="北京淘BABY" tvg-logo="https://logo.laobaitv.net/北京淘BABY" group-title="北京频道",北京淘BABY
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="财富天下" tvg-name="财富天下" tvg-logo="https://logo.laobaitv.net/财富天下" group-title="北京频道",财富天下
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="朝阳电视台" tvg-name="朝阳电视台" tvg-logo="https://logo.laobaitv.net/朝阳电视台" group-title="地方频道",朝阳电视台
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="密云电视台" tvg-name="密云电视台" tvg-logo="https://logo.laobaitv.net/密云电视台" group-title="地方频道",密云电视台
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="房山电视台" tvg-name="房山电视台" tvg-logo="https://logo.laobaitv.net/房山电视台" group-title="地方频道",房山电视台
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="通州融媒" tvg-name="通州融媒" tvg-logo="https://logo.laobaitv.net/通州融媒" group-title="地方频道",通州融媒
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="延庆电视台" tvg-name="延庆电视台" tvg-logo="https://logo.laobaitv.net/延庆电视台" group-title="地方频道",延庆电视台
-http://192.168.2.1:4022/rtp/template.address
+
 ######本地频道end######
 ######互联网直播频道######
 #EXTINF:-1 tvg-id="fenghuangzhongwen" tvg-name="凤凰中文台" tvg-logo="https://logo.laobaitv.net/凤凰中文台" group-title="港澳台",凤凰中文台
@@ -363,6 +324,7 @@ https://live.laobaitv.net/smg/dycj
 #EXTINF:-1 tvg-id="CloudflareTV" tvg-name="CloudflareTV" tvg-logo="https://logo.laobaitv.net/CloudflareTV" group-title="老白TV赞助：免费！请勿相信各类广告",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
 ######互联网直播频道end######
+
 ######其他频道######
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV-4 欧洲" tvg-logo="https://logo.laobaitv.net/CCTV-4 欧洲" group-title="央视频道",CCTV-4 欧洲
 http://192.168.2.1:4022/rtp/template.address
@@ -405,8 +367,6 @@ http://192.168.2.1:4022/rtp/template.address
 #EXTINF:-1 tvg-id="guzhuangjuchang" tvg-name="古装剧场" tvg-logo="https://logo.laobaitv.net/古装剧场" group-title="其他频道",古装剧场
 http://192.168.2.1:4022/rtp/template.address
 #EXTINF:-1 tvg-id="wuxiajuchang" tvg-name="武侠剧场" tvg-logo="https://logo.laobaitv.net/武侠剧场" group-title="其他频道",武侠剧场
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="爱上" tvg-name="爱上" tvg-logo="https://logo.laobaitv.net/爱上" group-title="其他频道",爱上4K
 http://192.168.2.1:4022/rtp/template.address
 #EXTINF:-1 tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://logo.laobaitv.net/睛彩竞技" group-title="睛彩",睛彩竞技
 http://192.168.2.1:4022/rtp/template.address
@@ -459,8 +419,6 @@ http://192.168.2.1:4022/rtp/template.address
 #EXTINF:-1 tvg-id="星影" tvg-name="星影" tvg-logo="https://logo.laobaitv.net/星影" group-title="其他频道",星影
 http://192.168.2.1:4022/rtp/template.address
 #EXTINF:-1 tvg-id="爱生活" tvg-name="爱生活" tvg-logo="https://logo.laobaitv.net/爱生活" group-title="其他频道",爱生活
-http://192.168.2.1:4022/rtp/template.address
-#EXTINF:-1 tvg-id="音乐现场" tvg-name="音乐现场" tvg-logo="https://logo.laobaitv.net/音乐现场" group-title="其他频道",音乐现场
 http://192.168.2.1:4022/rtp/template.address
 #EXTINF:-1 tvg-id="cetv1" tvg-name="中国教育电视台一台" tvg-logo="https://logo.laobaitv.net/cetv1" group-title="其他频道",CETV-1
 http://192.168.2.1:4022/rtp/template.address
