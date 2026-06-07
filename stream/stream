@@ -221,6 +221,13 @@ https://bee.laobaitv.net/play?id=Premier-Sports-1|Referer=https://new-player.poo
 #EXTINF:-1 tvg-id="" tvg-name="Adult Swim" tvg-logo="https://logo.laobaitv.net/AdultSwim" group-title="影视",Adult Swim
 https://live.laobaitv.net/proxy/adultswim
 
+#EXTINF:-1 tvg-id="World of Redbull" tvg-name="World of Redbull" tvg-logo="https://logo.laobaitv.net/redbulltv" group-title="体育",World of Redbull
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 tvg-id="redbullwinter" tvg-name="Redbull TV Winter" tvg-logo="https://logo.laobaitv.net/redbulltv" group-title="体育",Redbull Winter
+https://play.redbull.com/streams/v1/rbtv/Winter/ts/video/1280x720.m3u8
+#EXTINF:-1 tvg-id="redbullactionreel" tvg-name="Redbull TV Action Reel" tvg-logo="https://logo.laobaitv.net/redbulltv" group-title="体育",Redbull Action Reel
+https://play.redbull.com/streams/v1/rbtv/action-reel/ts/video/1280x720.m3u8
+
 #EXTINF:-1 tvg-id="diyicaijing" tvg-name="第一财经" tvg-logo="https://logo.laobaitv.net/第一财经" group-title="财经",第一财经
 https://live.laobaitv.net/smg/dycj
 
