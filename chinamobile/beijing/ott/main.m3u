@@ -86,8 +86,8 @@ https://bee.laobaitv.net/play?id=UK-Great-Movies|Referer=https://new-player.pool
 #EXTINF:-1 tvg-id="shandongtiyu" tvg-name="山东体育休闲频道" tvg-logo="https://logo.laobaitv.net/山东体育休闲频道" group-title="体育",山东体育休闲频道
 https://live.laobaitv.net/qilu/24587
 
-#EXTINF:-1 tvg-id="wuxingtiyu" tvg-name="五星体育" tvg-logo="https://logo.laobaitv.net/五星体育" group-title="体育",五星体育
-https://live.laobaitv.net/smg/wxty
+#EXTINF:-1 tvg-id="wuxingtiyu" tvg-name="五星体育" tvg-logo="https://logo.laobaitv.net/五星体育" http-user-agent="VLC" group-title="体育",五星体育
+https://live.laobaitv.net/smg/wxty|User-Agent=VLC
 
 #EXTINF:-1 tvg-id="nbatv" tvg-name="NBA TV" tvg-logo="https://logo.laobaitv.net/NBATV" http-referer="https://new-player.poolar.cfd/" group-title="体育",NBA TV
 https://bee.laobaitv.net/play?id=NBA-TV|Referer=https://new-player.poolar.cfd/
@@ -173,8 +173,8 @@ https://play.redbull.com/main/v1/rbtv/en_US/cn/personal_computer/http/rrn:conten
 #EXTINF:-1 tvg-id="redbullactionreel" tvg-name="Redbull TV Action Reel" tvg-logo="https://logo.laobaitv.net/redbulltv" group-title="体育",Redbull Action Reel
 https://play.redbull.com/main/v1/rbtv/en_US/cn/personal_computer/http/rrn:content:video-channels:69a66f02-21fd-42a1-be5b-6965541cfe6a.m3u8?device_group=group_5
 
-#EXTINF:-1 tvg-id="diyicaijing" tvg-name="第一财经" tvg-logo="https://logo.laobaitv.net/第一财经" group-title="财经",第一财经
-https://live.laobaitv.net/smg/dycj
+#EXTINF:-1 tvg-id="diyicaijing" tvg-name="第一财经" tvg-logo="https://logo.laobaitv.net/第一财经" http-user-agent="VLC" group-title="财经",第一财经
+https://live.laobaitv.net/smg/dycj|User-Agent=VLC
 
 #EXTINF:-1 tvg-id="CloudflareTV" tvg-name="CloudflareTV" tvg-logo="https://logo.laobaitv.net/CloudflareTV" group-title="老白TV赞助：免费！请勿相信各类广告",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
