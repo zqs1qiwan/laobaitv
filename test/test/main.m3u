@@ -149,35 +149,25 @@ http://nasv4.laobaidajiji.com:4022/rtp/239.3.1.249:8001
 ######卫视频道end######
 ######互联网直播频道######
 #EXTINF:-1 tvg-id="fenghuangzhongwen" tvg-name="凤凰中文台" tvg-logo="https://logo.laobaitv.net/凤凰中文台" group-title="港澳台",凤凰中文台
-https://cdn6.163189.xyz/163189/fhzw
+https://cdn.qd.je/163189/fhzw
 #EXTINF:-1 tvg-id="fenghuangzixun" tvg-name="凤凰资讯台" tvg-logo="https://logo.laobaitv.net/凤凰资讯台" group-title="港澳台",凤凰资讯台
-https://cdn6.163189.xyz/163189/fhzx
+https://cdn.qd.je/163189/fhzx
 #EXTINF:-1 tvg-id="fenghuangxianggang" tvg-name="凤凰香港台" tvg-logo="https://logo.laobaitv.net/凤凰香港台" group-title="港澳台",凤凰香港台
-https://cdn6.163189.xyz/163189/fhhk
+https://cdn.qd.je/163189/fhhk
 #EXTINF:-1 tvg-id="tvbfeicuitai" tvg-name="TVB 翡翠台" tvg-logo="https://logo.laobaitv.net/TVB翡翠台" group-title="港澳台",TVB 翡翠台
 https://o11.163189.xyz/stream/tvb/fct4k/
-#EXTINF:-1 tvg-id="tvbmingzhutai" tvg-name="TVB 明珠台" tvg-logo="https://logo.laobaitv.net/TVB明珠台" group-title="港澳台",TVB 明珠台
-https://php.jdshipin.com/TVOD/iptv.php?id=mzt
 #EXTINF:-1 tvg-id="tvbhudongxinwentai" tvg-name="TVB 无线新闻台" tvg-logo="https://logo.laobaitv.net/TVB无线新闻台" group-title="港澳台",TVB 无线新闻台
-https://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
+https://cdn.qd.je/163189/wxxw
 #EXTINF:-1 tvg-id="TVB1" tvg-name="TVB 1" tvg-logo="https://logo.laobaitv.net/TVB1" group-title="港澳台",TVB 1
-https://cdn6.163189.xyz/163189/tvb1
+https://cdn.qd.je/163189/tvb1
 #EXTINF:-1 tvg-id="TVBJ1" tvg-name="TVB J1" tvg-logo="https://logo.laobaitv.net/TVBJ1" group-title="港澳台",TVB J1
-https://cdn6.163189.xyz/163189/j1
-#EXTINF:-1 tvg-id="tvbplus" tvg-name="TVB Plus" tvg-logo="https://logo.laobaitv.net/TVBPlus" group-title="港澳台",TVB Plus
-https://o11.163189.xyz/stream/tvb/tvbp/
-#EXTINF:-1 tvg-id="" tvg-name="TVB千禧經典台" tvg-logo="https://logo.laobaitv.net/TVB千禧經典台" group-title="港澳台",TVB千禧經典台
-https://o11.163189.xyz/stream/live/tvbc/
-#EXTINF:-1 tvg-id="" tvg-name="TVB娛樂新聞台" tvg-logo="https://logo.laobaitv.net/TVB娛樂新聞台" group-title="港澳台",TVB娛樂新聞台
-https://cdn6.163189.xyz/163189/ylxw
+https://cdn.qd.je/163189/j1
 #EXTINF:-1 tvg-id="viutv" tvg-name="ViuTV" tvg-logo="https://logo.laobaitv.net/ViuTV" group-title="港澳台",ViuTV
-https://php.jdshipin.com/TVOD/iptv.php?id=viutv
+https://cdn.qd.je/163189/viu
 #EXTINF:-1 tvg-id="aoshiaomen" tvg-name="澳视澳门" tvg-logo="https://logo.laobaitv.net/澳视澳门" group-title="港澳台",澳视澳门
-https://php.jdshipin.com/TVOD/iptv.php?id=asam
-#EXTINF:-1 tvg-id="aomenmacau" tvg-name="澳门Macau" tvg-logo="https://logo.laobaitv.net/澳门Macau" group-title="港澳台",澳门Macau
-https://php.jdshipin.com/TVOD/iptv.php?id=as
+https://cdn.qd.je/163189/asam
 #EXTINF:-1 tvg-id="aomentiyu" tvg-name="澳门体育" tvg-logo="https://logo.laobaitv.net/澳门体育" group-title="港澳台",澳门体育
-https://cdn6.163189.xyz/163189/amty
+https://cdn.qd.je/163189/amty
 
 #EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/斗地主" group-title="棋牌",JJ斗地主 - 主频道
 https://live.laobaitv.net/huya/152698
@@ -206,15 +196,6 @@ https://live.laobaitv.net/douyu/131977
 #EXTINF:-1 tvg-id="恶搞之家" tvg-name="恶搞之家" tvg-logo="https://logo.laobaitv.net/恶搞之家" http-referer="https://embedindia.st/" group-title="影视",恶搞之家
 https://live.laobaitv.net/ppv/247-family-guy|Referer=https://embedindia.st/
 
-#EXTINF:-1 tvg-id="amc电影台" tvg-name="AMC电影台" tvg-logo="https://logo.laobaitv.net/AMC电影台" group-title="影视",AMC电影台
-https://cdn12.178.indevs.in/163189/0bcf9bb8c452e56a
-#EXTINF:-1 tvg-id="CinemaWorld" tvg-name="CinemaWorld" tvg-logo="https://logo.laobaitv.net/CinemaWorld" group-title="影视",CinemaWorld
-https://cdn12.178.indevs.in/163189/6086cfe7a9756110
-#EXTINF:-1 tvg-id="mycinemaeurope" tvg-name="My Cinema Europe" tvg-logo="https://logo.laobaitv.net/MyCinemaEurope" group-title="影视",My Cinema Europe
-https://cdn12.178.indevs.in/163189/5bda99f1c049edef
-#EXTINF:-1 tvg-id="经典电影台" tvg-name="经典电影台" tvg-logo="https://logo.laobaitv.net/经典电影台" group-title="影视",经典电影台
-https://cdn12.178.indevs.in/163189/61b8ea35ffce4630
-
 #EXTINF:-1 tvg-id="BBCONE" tvg-name="BBC One" tvg-logo="https://logo.laobaitv.net/bbcone" group-title="海外新闻",BBC One UK
 https://live.laobaitv.net/lovetier/play/BBCONE
 #EXTINF:-1 tvg-id="BBCTWO" tvg-name="BBC Two" tvg-logo="https://logo.laobaitv.net/bbctwo" group-title="海外新闻",BBC Two UK
@@ -234,9 +215,9 @@ https://bee.laobaitv.net/play?id=UK-Great-Movies|Referer=https://new-player.pool
 #EXTINF:-1 tvg-id="shandongtiyu" tvg-name="山东体育休闲频道" tvg-logo="https://logo.laobaitv.net/山东体育休闲频道" group-title="体育",山东体育休闲频道
 https://live.laobaitv.net/qilu/24587
 #EXTINF:-1 tvg-id="guangdongtiyu" tvg-name="广东体育" tvg-logo="https://logo.laobaitv.net/广东体育" group-title="体育",广东体育
-http://r.jdshipin.com/LiYdg
+https://cdn.qd.je/163189/gdty
 #EXTINF:-1 tvg-id="wuxingtiyu" tvg-name="五星体育" tvg-logo="https://logo.laobaitv.net/五星体育" http-user-agent="VLC" group-title="体育",五星体育
-https://cdn15.163189.xyz/163189/wxty
+https://cdn.qd.je/163189/wxty
 #https://live.laobaitv.net/smg/wxty|User-Agent=VLC
 
 #EXTINF:-1 tvg-id="nbatv" tvg-name="NBA TV" tvg-logo="https://logo.laobaitv.net/NBATV" http-referer="https://new-player.poolar.cfd/" group-title="体育",NBA TV
