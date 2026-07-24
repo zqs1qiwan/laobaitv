@@ -520,9 +520,9 @@ http://192.168.2.1:4022/rtp/239.10.0.140:5140?fcc=183.223.164.65:8027
 ######咪视界######
 #EXTINF:-1 tvg-id="yidongtongghi" tvg-name="移动通知" tvg-logo="https://logo.laobaitv.net/移动通知" group-title="咪视界",移动通知
 http://192.168.2.1:4022/rtp/239.11.0.85:5140?fcc=183.223.164.65:8027
-#EXTINF:-1 tvg-id="mishijie4K" tvg-name="咪视界4K" tvg-logo="https://logo.laobaitv.net/咪视界4K" group-title="咪视界",咪视界4K
+#EXTINF:-1 tvg-id="mishijie4K" tvg-name="咪视界4K" tvg-logo="https://logo.laobaitv.net/咪视界" group-title="咪视界",咪视界4K
 http://192.168.2.1:4022/rtp/239.10.0.240:5140?fcc=183.223.164.65:8027
-#EXTINF:-1 tvg-id="mishijiezhibo" tvg-name="咪视界直播" tvg-logo="https://logo.laobaitv.net/咪视界直播" group-title="咪视界",咪视界直播
+#EXTINF:-1 tvg-id="mishijiezhibo" tvg-name="咪视界直播" tvg-logo="https://logo.laobaitv.net/咪视界" group-title="咪视界",咪视界直播
 http://192.168.2.1:4022/rtp/239.10.0.42:5140?fcc=183.223.164.65:8027
 #EXTINF:-1 tvg-id="mishijie1" tvg-name="咪视界1" tvg-logo="https://logo.laobaitv.net/咪视界" group-title="咪视界",咪视界1
 http://192.168.2.1:4022/rtp/239.10.0.17:5140?fcc=183.223.164.65:8027
