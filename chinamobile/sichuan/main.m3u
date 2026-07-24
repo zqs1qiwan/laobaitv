@@ -162,8 +162,168 @@ http://192.168.2.1:4022/rtp/239.10.0.16:5140?fcc=183.223.164.65:8027
 #EXTINF:-1 tvg-id="cdtv8" tvg-name="成都购物" tvg-logo="https://logo.laobaitv.net/成都购物" group-title="成都台",成都购物
 http://192.168.2.1:4022/rtp/239.10.0.33:5140?fcc=183.223.164.65:8027
 ######本地频道end######
-
 ######互联网直播频道######
+#EXTINF:-1 tvg-id="fenghuangzhongwen" tvg-name="凤凰中文台" tvg-logo="https://logo.laobaitv.net/凤凰中文台" group-title="港澳台",凤凰中文台
+https://cdn.qd.je/163189/fhzw
+#EXTINF:-1 tvg-id="fenghuangzixun" tvg-name="凤凰资讯台" tvg-logo="https://logo.laobaitv.net/凤凰资讯台" group-title="港澳台",凤凰资讯台
+https://cdn.qd.je/163189/fhzx
+#EXTINF:-1 tvg-id="fenghuangxianggang" tvg-name="凤凰香港台" tvg-logo="https://logo.laobaitv.net/凤凰香港台" group-title="港澳台",凤凰香港台
+https://cdn.qd.je/163189/fhhk
+#EXTINF:-1 tvg-id="tvbfeicuitai" tvg-name="TVB 翡翠台" tvg-logo="https://logo.laobaitv.net/TVB翡翠台" group-title="港澳台",TVB 翡翠台
+https://o11.163189.xyz/stream/tvb/fct4k/
+#EXTINF:-1 tvg-id="tvbhudongxinwentai" tvg-name="TVB 无线新闻台" tvg-logo="https://logo.laobaitv.net/TVB无线新闻台" group-title="港澳台",TVB 无线新闻台
+https://cdn.qd.je/163189/wxxw
+#EXTINF:-1 tvg-id="TVB1" tvg-name="TVB 1" tvg-logo="https://logo.laobaitv.net/TVB1" group-title="港澳台",TVB 1
+https://cdn.qd.je/163189/tvb1
+#EXTINF:-1 tvg-id="TVBJ1" tvg-name="TVB J1" tvg-logo="https://logo.laobaitv.net/TVBJ1" group-title="港澳台",TVB J1
+https://cdn.qd.je/163189/j1
+#EXTINF:-1 tvg-id="viutv" tvg-name="ViuTV" tvg-logo="https://logo.laobaitv.net/ViuTV" group-title="港澳台",ViuTV
+https://cdn.qd.je/163189/viu
+#EXTINF:-1 tvg-id="aoshiaomen" tvg-name="澳视澳门" tvg-logo="https://logo.laobaitv.net/澳视澳门" group-title="港澳台",澳视澳门
+https://cdn.qd.je/163189/asam
+#EXTINF:-1 tvg-id="aomentiyu" tvg-name="澳门体育" tvg-logo="https://logo.laobaitv.net/澳门体育" group-title="港澳台",澳门体育
+https://cdn.qd.je/163189/amty
+
+#EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/斗地主" group-title="棋牌",JJ斗地主 - 主频道
+https://live.laobaitv.net/huya/152698
+#EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/斗地主" group-title="棋牌",JJ斗地主 - 副频道
+https://live.laobaitv.net/huya/23695493
+#EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/斗地主" group-title="棋牌",JJ斗地主 - 赛事回放
+https://live.laobaitv.net/huya/30814432
+#EXTINF:-1 tvg-id="" tvg-name="斗地主" tvg-logo="https://logo.laobaitv.net/斗地主" group-title="棋牌",出奇智胜斗地主 - 每晚21:50直播
+https://live.laobaitv.net/huya/139168
+#EXTINF:-1 tvg-id="" tvg-name="英雄联盟" tvg-logo="https://logo.laobaitv.net/英雄联盟" group-title="电竞",英雄联盟 赛事
+https://live.laobaitv.net/huya/660000
+#EXTINF:-1 tvg-id="" tvg-name="金铲铲之战" tvg-logo="https://logo.laobaitv.net/金铲铲之战" group-title="电竞",金铲铲之战 赛事
+https://live.laobaitv.net/huya/660579
+#EXTINF:-1 tvg-id="" tvg-name="DOTA2" tvg-logo="https://logo.laobaitv.net/dota2" group-title="电竞",DOTA2 赛事
+https://live.laobaitv.net/huya/825801
+#EXTINF:-1 tvg-id="" tvg-name="周星驰" tvg-logo="https://logo.laobaitv.net/周星驰" group-title="影视",周星驰
+https://live.laobaitv.net/huya/11342412
+#EXTINF:-1 tvg-id="" tvg-name="柯南" tvg-logo="https://logo.laobaitv.net/柯南" group-title="影视",柯南
+https://live.laobaitv.net/huya/30080148
+#EXTINF:-1 tvg-id="" tvg-name="蜡笔小新" tvg-logo="https://logo.laobaitv.net/蜡笔小新" group-title="影视",蜡笔小新
+https://live.laobaitv.net/huya/30362138
+#EXTINF:-1 tvg-id="" tvg-name="爱情公寓" tvg-logo="https://logo.laobaitv.net/爱情公寓" group-title="影视",爱情公寓
+https://live.laobaitv.net/huya/11336726
+#EXTINF:-1 tvg-id="" tvg-name="RunningMan" tvg-logo="https://logo.laobaitv.net/RunningMan" group-title="影视",RunningMan
+https://live.laobaitv.net/douyu/131977
+#EXTINF:-1 tvg-id="恶搞之家" tvg-name="恶搞之家" tvg-logo="https://logo.laobaitv.net/恶搞之家" http-referer="https://embedindia.st/" group-title="影视",恶搞之家
+https://live.laobaitv.net/ppv/247-family-guy|Referer=https://embedindia.st/
+
+#EXTINF:-1 tvg-id="BBCONE" tvg-name="BBC One" tvg-logo="https://logo.laobaitv.net/bbcone" group-title="海外新闻",BBC One UK
+https://live.laobaitv.net/lovetier/play/BBCONE
+#EXTINF:-1 tvg-id="BBCTWO" tvg-name="BBC Two" tvg-logo="https://logo.laobaitv.net/bbctwo" group-title="海外新闻",BBC Two UK
+https://live.laobaitv.net/lovetier/play/BBCTWO
+#EXTINF:-1 tvg-id="BBCThree" tvg-name="BBC Three" tvg-logo="https://logo.laobaitv.net/bbcthree" group-title="海外新闻",BBC Three UK
+https://live.laobaitv.net/lovetier/play/BBCThree
+#EXTINF:-1 tvg-id="BBCNEWS" tvg-name="BBC News" tvg-logo="https://logo.laobaitv.net/bbcnews" group-title="海外新闻",BBC News
+https://live.laobaitv.net/lovetier/play/BBCNEWS
+
+#EXTINF:-1 tvg-id="hbo" tvg-name="HBO" tvg-logo="https://logo.laobaitv.net/HBO" http-referer="https://new-player.poolar.cfd/" group-title="影视",HBO
+https://bee.laobaitv.net/play?id=HBO|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="hbo2" tvg-name="HBO 2" tvg-logo="https://logo.laobaitv.net/HBO2" http-referer="https://new-player.poolar.cfd/" group-title="影视",HBO 2
+https://bee.laobaitv.net/play?id=HBO-2|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="greatmovies" tvg-name="GREAT! movies" tvg-logo="https://logo.laobaitv.net/GREAT!movies" http-referer="https://new-player.poolar.cfd/" group-title="影视",GREAT! movies
+https://bee.laobaitv.net/play?id=UK-Great-Movies|Referer=https://new-player.poolar.cfd/
+
+#EXTINF:-1 tvg-id="shandongtiyu" tvg-name="山东体育休闲频道" tvg-logo="https://logo.laobaitv.net/山东体育休闲频道" group-title="体育",山东体育休闲频道
+https://live.laobaitv.net/qilu/24587
+#EXTINF:-1 tvg-id="guangdongtiyu" tvg-name="广东体育" tvg-logo="https://logo.laobaitv.net/广东体育" group-title="体育",广东体育
+https://cdn.qd.je/163189/gdty
+#EXTINF:-1 tvg-id="wuxingtiyu" tvg-name="五星体育" tvg-logo="https://logo.laobaitv.net/五星体育" http-user-agent="VLC" group-title="体育",五星体育
+https://cdn.qd.je/163189/wxty
+#https://live.laobaitv.net/smg/wxty|User-Agent=VLC
+
+#EXTINF:-1 tvg-id="nbatv" tvg-name="NBA TV" tvg-logo="https://logo.laobaitv.net/NBATV" http-referer="https://new-player.poolar.cfd/" group-title="体育",NBA TV
+https://bee.laobaitv.net/play?id=NBA-TV|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="nfltv" tvg-name="NFL Network" tvg-logo="https://logo.laobaitv.net/NFLNetwork" http-referer="https://new-player.poolar.cfd/" group-title="体育",NFL Network
+https://bee.laobaitv.net/play?id=NFL-Network|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="nfltv" tvg-name="NFL Network" tvg-logo="https://logo.laobaitv.net/NFLNetwork" group-title="体育",NFL Network
+https://live.laobaitv.net/lovetier/play/NFLNETWORK
+#EXTINF:-1 tvg-id="nflredzone" tvg-name="NFL Redzone" tvg-logo="https://logo.laobaitv.net/NFLRedzone" group-title="体育",NFL Redzone
+https://live.laobaitv.net/lovetier/play/NFLREDZONE
+#EXTINF:-1 tvg-id="espn" tvg-name="ESPN" tvg-logo="https://logo.laobaitv.net/ESPN" http-referer="https://new-player.poolar.cfd/" group-title="体育",ESPN
+https://bee.laobaitv.net/play?id=ESPN|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="espn" tvg-name="ESPN" tvg-logo="https://logo.laobaitv.net/ESPN" group-title="体育",ESPN备用
+https://live.laobaitv.net/lovetier/play/ESPN
+#EXTINF:-1 tvg-id="espn2" tvg-name="ESPN 2" tvg-logo="https://logo.laobaitv.net/ESPN2" http-referer="https://new-player.poolar.cfd/" group-title="体育",ESPN 2
+https://bee.laobaitv.net/play?id=ESPN-2|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="espn2" tvg-name="ESPN 2" tvg-logo="https://logo.laobaitv.net/ESPN2" group-title="体育",ESPN 2备用
+https://live.laobaitv.net/lovetier/play/ESPN
+#EXTINF:-1 tvg-id="espnnews" tvg-name="ESPN News" tvg-logo="https://logo.laobaitv.net/ESPNNews" http-referer="https://new-player.poolar.cfd/" group-title="体育",ESPN News
+https://bee.laobaitv.net/play?id=ESPN-News|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="espnnews" tvg-name="ESPN News" tvg-logo="https://logo.laobaitv.net/ESPNNews" group-title="体育",ESPN News备用
+https://live.laobaitv.net/lovetier/play/ESPNNEWS
+#EXTINF:-1 tvg-id="espnu" tvg-name="ESPN U" tvg-logo="https://logo.laobaitv.net/ESPNU" http-referer="https://new-player.poolar.cfd/" group-title="体育",ESPN U
+https://bee.laobaitv.net/play?id=ESPN-U|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="espnu" tvg-name="ESPN U" tvg-logo="https://logo.laobaitv.net/ESPNU" group-title="体育",ESPN U备用
+https://live.laobaitv.net/lovetier/play/ESPNU
+
+#EXTINF:-1 tvg-id="skysportsmainevent" tvg-name="SKY SPORTS MAIN EVENT" tvg-logo="https://logo.laobaitv.net/SKYSPORTSMAINEVENT" http-referer="https://new-player.poolar.cfd/" group-title="体育",SKY SPORTS MAIN EVENT
+https://bee.laobaitv.net/play?id=Sky-Sports-Main-Event|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="skysportspremierleague" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.laobaitv.net/SKYSPORTSPREMIERLEAGUE" http-referer="https://new-player.poolar.cfd/" group-title="体育",SKY SPORTS PREMIER LEAGUE
+https://bee.laobaitv.net/play?id=Sky-Sports-Premier-League|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="skysportsfootball" tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.laobaitv.net/SKYSPORTSFOOTBALL" http-referer="https://new-player.poolar.cfd/" group-title="体育",SKY SPORTS FOOTBALL
+https://bee.laobaitv.net/play?id=Sky-Sports-Football|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="skysportscricket" tvg-name="SKY SPORTS CRICKET" tvg-logo="https://logo.laobaitv.net/SKYSPORTSCRICKET" http-referer="https://new-player.poolar.cfd/" group-title="体育",SKY SPORTS CRICKET
+https://bee.laobaitv.net/play?id=Sky-Sports-Cricket|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="skysportsgolf" tvg-name="SKY SPORTS GOLF" tvg-logo="https://logo.laobaitv.net/SKYSPORTSGOLF" http-referer="https://new-player.poolar.cfd/" group-title="体育",SKY SPORTS GOLF
+https://bee.laobaitv.net/play?id=Sky-Sports-Golf|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="skysportsf1" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.laobaitv.net/SKYSPORTSF1" http-referer="https://new-player.poolar.cfd/" group-title="体育",SKY SPORTS F1
+https://bee.laobaitv.net/play?id=Sky-Sports-F1|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="skysportsarena" tvg-name="SKY SPORTS ARENA" tvg-logo="https://logo.laobaitv.net/SKYSPORTSARENA" http-referer="https://new-player.poolar.cfd/" group-title="体育",SKY SPORTS ARENA
+https://bee.laobaitv.net/play?id=Sky-Sports-Arena|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="skysportsmix" tvg-name="SKY SPORTS MIX" tvg-logo="https://logo.laobaitv.net/SKYSPORTSMIX" http-referer="https://new-player.poolar.cfd/" group-title="体育",SKY SPORTS MIX
+https://bee.laobaitv.net/play?id=Sky-Sports-Mix|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="skysportsnews" tvg-name="SKY SPORTS NEWS" tvg-logo="https://logo.laobaitv.net/SKYSPORTSNEWS" http-referer="https://new-player.poolar.cfd/" group-title="体育",SKY SPORTS NEWS
+https://bee.laobaitv.net/play?id=Sky-Sports-News|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="skysportsaction" tvg-name="SKY SPORTS ACTION" tvg-logo="https://logo.laobaitv.net/SKYSPORTSACTION" http-referer="https://new-player.poolar.cfd/" group-title="体育",SKY SPORTS ACTION
+https://bee.laobaitv.net/play?id=Sky-Sports-Action|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="skysportstennis" tvg-name="SKY SPORTS Tennis" tvg-logo="https://logo.laobaitv.net/SKYSPORTSTennis" http-referer="https://new-player.poolar.cfd/" group-title="体育",SKY SPORTS Tennis
+https://bee.laobaitv.net/play?id=Sky-Sports-Tennis|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="skysportsracing" tvg-name="SKY SPORTS RACING" tvg-logo="https://logo.laobaitv.net/SKYSPORTSRACING" http-referer="https://new-player.poolar.cfd/" group-title="体育",SKY SPORTS RACING
+https://bee.laobaitv.net/play?id=Sky-Sports-Racing|Referer=https://new-player.poolar.cfd/
+
+#EXTINF:-1 tvg-id="TENNISCHANNEL" tvg-name="TENNISCHANNEL" tvg-logo="https://logo.laobaitv.net/TENNISCHANNEL" group-title="体育",TENNIS CHANNEL
+https://live.laobaitv.net/lovetier/play/TENNISCHANNEL
+
+#EXTINF:-1 tvg-id="foxsports1" tvg-name="FOX SPORTS 1" tvg-logo="https://logo.laobaitv.net/FOXSPORTS1" http-referer="https://new-player.poolar.cfd/" group-title="体育",FOX SPORTS 1
+https://bee.laobaitv.net/play?id=Fox-Sports-1|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="foxsports2" tvg-name="FOX SPORTS 2" tvg-logo="https://logo.laobaitv.net/FOXSPORTS2" http-referer="https://new-player.poolar.cfd/" group-title="体育",FOX SPORTS 2
+https://bee.laobaitv.net/play?id=Fox-Sports-2|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="tntsports1" tvg-name="TNT SPORTS 1" tvg-logo="https://logo.laobaitv.net/TNTSPORTS1" http-referer="https://new-player.poolar.cfd/" group-title="体育",TNT SPORTS 1
+https://bee.laobaitv.net/play?id=TNT-Sports-1|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="tntsports2" tvg-name="TNT SPORTS 2" tvg-logo="https://logo.laobaitv.net/TNTSPORTS2" http-referer="https://new-player.poolar.cfd/" group-title="体育",TNT SPORTS 2
+https://bee.laobaitv.net/play?id=TNT-Sports-2|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="tntsports3" tvg-name="TNT SPORTS 3" tvg-logo="https://logo.laobaitv.net/TNTSPORTS3" http-referer="https://new-player.poolar.cfd/" group-title="体育",TNT SPORTS 3
+https://bee.laobaitv.net/play?id=TNT-Sports-3|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="tntsports4" tvg-name="TNT SPORTS 4" tvg-logo="https://logo.laobaitv.net/TNTSPORTS4" http-referer="https://new-player.poolar.cfd/" group-title="体育",TNT SPORTS 4
+https://bee.laobaitv.net/play?id=TNT-Sports-4|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="eurosport1" tvg-name="EUROSPORT 1" tvg-logo="https://logo.laobaitv.net/EUROSPORT1" http-referer="https://new-player.poolar.cfd/" group-title="体育",EUROSPORT 1
+https://bee.laobaitv.net/play?id=Eurosport-1|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="eurosport2" tvg-name="EUROSPORT 2" tvg-logo="https://logo.laobaitv.net/EUROSPORT2" http-referer="https://new-player.poolar.cfd/" group-title="体育",EUROSPORT 2
+https://bee.laobaitv.net/play?id=Eurosport-2|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="beinsports" tvg-name="BEIN SPORTS" tvg-logo="https://logo.laobaitv.net/BEINSPORTS" http-referer="https://new-player.poolar.cfd/" group-title="体育",BEIN SPORTS
+https://bee.laobaitv.net/play?id=Bein-Sports-USA|Referer=https://new-player.poolar.cfd/
+#EXTINF:-1 tvg-id="premiersports1" tvg-name="PREMIER SPORTS 1" tvg-logo="https://logo.laobaitv.net/PREMIERSPORTS1" http-referer="https://new-player.poolar.cfd/" group-title="体育",PREMIER SPORTS 1
+https://bee.laobaitv.net/play?id=Premier-Sports-1|Referer=https://new-player.poolar.cfd/
+
+#EXTINF:-1 tvg-id="" tvg-name="Adult Swim" tvg-logo="https://logo.laobaitv.net/AdultSwim" group-title="影视",Adult Swim
+https://live.laobaitv.net/proxy/adultswim
+
+#EXTINF:-1 tvg-id="redbulltv" tvg-name="World of Redbull" tvg-logo="https://logo.laobaitv.net/redbulltv" group-title="体育",World of Redbull
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 tvg-id="redbullwinter" tvg-name="Redbull TV Winter" tvg-logo="https://logo.laobaitv.net/redbulltv" group-title="体育",Redbull Winter
+https://play.redbull.com/main/v1/rbtv/en_US/cn/personal_computer/http/rrn:content:video-channels:f4aa4fe4-5ce6-4b1c-a60b-abc6f21f16d0.m3u8?device_group=group_5
+#EXTINF:-1 tvg-id="redbullactionreel" tvg-name="Redbull TV Action Reel" tvg-logo="https://logo.laobaitv.net/redbulltv" group-title="体育",Redbull Action Reel
+https://play.redbull.com/main/v1/rbtv/en_US/cn/personal_computer/http/rrn:content:video-channels:69a66f02-21fd-42a1-be5b-6965541cfe6a.m3u8?device_group=group_5
+
+#EXTINF:-1 tvg-id="diyicaijing" tvg-name="第一财经" tvg-logo="https://logo.laobaitv.net/第一财经" http-user-agent="VLC" group-title="财经",第一财经
+https://live.laobaitv.net/smg/dycj|User-Agent=VLC
+
+#EXTINF:-1 tvg-id="CloudflareTV" tvg-name="CloudflareTV" tvg-logo="https://logo.laobaitv.net/CloudflareTV" group-title="老白TV赞助：免费！请勿相信各类广告",Cloudflare TV
+https://cloudflare.tv/hls/live.m3u8
 ######互联网直播频道end######
 
 ######地方频道######
