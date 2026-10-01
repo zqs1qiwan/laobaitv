@@ -324,8 +324,8 @@ https://play.redbull.com/main/v1/rbtv/en_US/cn/personal_computer/http/rrn:conten
 #EXTINF:-1 tvg-id="redbullactionreel" tvg-name="Redbull TV Action Reel" tvg-logo="https://logo.laobaitv.net/redbulltv" group-title="体育",Redbull Action Reel
 https://play.redbull.com/main/v1/rbtv/en_US/cn/personal_computer/http/rrn:content:video-channels:69a66f02-21fd-42a1-be5b-6965541cfe6a.m3u8?device_group=group_5
 
-#EXTINF:-1 tvg-id="diyicaijing" tvg-name="第一财经" tvg-logo="https://logo.laobaitv.net/第一财经" http-user-agent="VLC" group-title="财经",第一财经
-https://live.laobaitv.net/smg/dycj|User-Agent=VLC
+#EXTINF:-1 tvg-id="diyicaijing" tvg-name="第一财经" tvg-logo="https://logo.laobaitv.net/第一财经" group-title="财经",第一财经
+https://live.chinacert.cftest5.cn/cnmg/live/608780988
 
 #EXTINF:-1 tvg-id="CloudflareTV" tvg-name="CloudflareTV" tvg-logo="https://logo.laobaitv.net/CloudflareTV" group-title="老白TV赞助：免费！请勿相信各类广告",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
