@@ -1,5 +1,5 @@
 {
- "spider": "https://gh-proxy.org/https://github.com/zqs1qiwan/laobaitv/blob/main/test/test/tvbox/laobai.jar?v=6;md5;eac23db3eb29aee86e6872e48e8d6989",
+ "spider": "https://gh-proxy.org/https://github.com/zqs1qiwan/laobaitv/blob/main/test/test/tvbox/laobai.jar?v=7;md5;21be9adc1d9046b1cc08b3a740d1c504",
  "wallpaper": "https://xn--spsx60cgim8pd.xxooo.cf/",
  "sites": [
   {
@@ -183,6 +183,19 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "uqGL1bNENExT7/hGxpSE5qU="
+  },
+  {
+   "key": "风云",
+   "name": "☁️风云┃多线",
+   "type": 3,
+   "api": "csp_FyGuard",
+   "ext": {
+    "type": "video",
+    "name": "Fy"
+   },
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1
   },
   {
    "key": "视界",
