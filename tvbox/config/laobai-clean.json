@@ -1,14 +1,30 @@
 {
- "spider": "https://gh-proxy.org/https://github.com/zqs1qiwan/laobaitv/blob/main/tvbox/spider/laobai-clean-16.jar?v=16;md5;082867c1b29db920efd52820e6febd0b",
+ "spider": "https://gh-proxy.org/https://github.com/zqs1qiwan/laobaitv/blob/main/tvbox/spider/laobai-clean-17.jar?v=17;md5;b31293c55660ce7419491a1bf5f0175d",
  "wallpaper": "https://xn--spsx60cgim8pd.xxooo.cf/",
  "sites": [
   {
    "key": "mydrive",
-   "name": "🗂我的云盘┃配置v16",
+   "name": "🗂我的云盘┃配置v17",
    "type": 3,
    "api": "csp_MyDrive",
    "searchable": 0,
    "quickSearch": 0,
+   "filterable": 0,
+   "ext": {
+    "Cloud-drive": "tvfan/Cloud-drive.txt"
+   },
+   "style": {
+    "type": "rect",
+    "ratio": 1.5
+   }
+  },
+  {
+   "key": "wogg",
+   "name": "👽玩偶哥哥┃4K弹幕",
+   "type": 3,
+   "api": "csp_WoGG",
+   "searchable": 1,
+   "quickSearch": 1,
    "filterable": 0,
    "ext": {
     "Cloud-drive": "tvfan/Cloud-drive.txt"
