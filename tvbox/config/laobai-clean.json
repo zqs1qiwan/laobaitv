@@ -1,5 +1,5 @@
 {
- "spider": "https://gh-proxy.org/https://github.com/zqs1qiwan/laobaitv/blob/main/tvbox/spider/laobai-clean.jar?v=3;md5;accd03f1b8ba76d0f3d825f1c6cb39c0",
+ "spider": "https://gh-proxy.org/https://github.com/zqs1qiwan/laobaitv/blob/main/tvbox/spider/laobai-clean.jar?v=4;md5;7a07898897d13784bcc52c0d7c9ca486",
  "wallpaper": "https://xn--spsx60cgim8pd.xxooo.cf/",
  "sites": [
   {
@@ -146,6 +146,18 @@
    "api": "csp_Kanqiu",
    "timeout": 10,
    "searchable": 0,
+   "changeable": 0,
+   "style": {
+    "type": "list"
+   }
+  },
+  {
+   "key": "多多",
+   "name": "🏀多多┃回放",
+   "type": 3,
+   "api": "csp_Doubao",
+   "searchable": 0,
+   "quickSearch": 0,
    "changeable": 0,
    "style": {
     "type": "list"
