@@ -1,5 +1,5 @@
 {
- "spider": "https://gh-proxy.org/https://github.com/zqs1qiwan/laobaitv/blob/main/tvbox/spider/laobai-clean.jar?v=2;md5;ef529f7995f929f778042dcf2ee249a2",
+ "spider": "https://gh-proxy.org/https://github.com/zqs1qiwan/laobaitv/blob/main/tvbox/spider/laobai-clean.jar?v=3;md5;accd03f1b8ba76d0f3d825f1c6cb39c0",
  "wallpaper": "https://xn--spsx60cgim8pd.xxooo.cf/",
  "sites": [
   {
@@ -190,6 +190,38 @@
    "style": {
     "type": "rect",
     "ratio": 3.8
+   }
+  },
+  {
+   "key": "ZPan",
+   "name": "🎈盘搜┃四盘",
+   "type": 3,
+   "api": "csp_S_zps",
+   "searchable": 1,
+   "quickSearch": 0,
+   "changeable": 0,
+   "ext": {
+    "siteUrl": "http://107.173.211.148/"
+   },
+   "indexs": 0,
+   "style": {
+    "type": "list"
+   }
+  },
+  {
+   "key": "JPan",
+   "name": "🦋易搜┃四盘",
+   "type": 3,
+   "api": "csp_S_zps",
+   "searchable": 1,
+   "quickSearch": 0,
+   "changeable": 0,
+   "ext": {
+    "siteUrl": "https://so.252035.xyz/"
+   },
+   "indexs": 0,
+   "style": {
+    "type": "list"
    }
   },
   {
