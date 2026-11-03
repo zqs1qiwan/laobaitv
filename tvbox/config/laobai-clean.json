@@ -1,0 +1,392 @@
+{
+ "spider": "https://gh-proxy.org/https://github.com/zqs1qiwan/laobaitv/blob/main/tvbox/spider/laobai-clean.jar?v=1;md5;6be9c1aebdcc1be38423f8ed3b3a9c36",
+ "wallpaper": "https://xn--spsx60cgim8pd.xxooo.cf/",
+ "sites": [
+  {
+   "key": "风云",
+   "name": "☁️风云┃多线",
+   "type": 3,
+   "api": "csp_fy",
+   "ext": {
+    "type": "video",
+    "name": "Fy"
+   },
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1
+  },
+  {
+   "key": "玩偶",
+   "name": "👽玩偶哥哥┃4K弹幕",
+   "type": 3,
+   "api": "csp_WoGG",
+   "timeout": 30,
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1,
+   "ext": {
+    "Cloud-drive": "tvfan/Cloud-drive.txt"
+   }
+  },
+  {
+   "key": "YGP",
+   "name": "🚀荐影┃预告片",
+   "type": 3,
+   "api": "csp_YGP",
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0
+  },
+  {
+   "key": "MTV1",
+   "name": "🎙️易听┃音乐",
+   "type": 3,
+   "api": "csp_Music",
+   "style": {
+    "type": "rect",
+    "ratio": 1
+   },
+   "playerType": 2,
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0
+  },
+  {
+   "key": "厂长",
+   "name": "📔厂长┃不卡",
+   "type": 3,
+   "api": "csp_NewCz",
+   "timeout": 10,
+   "playerType": 2,
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1
+  },
+  {
+   "key": "立播",
+   "name": "🌟立播┃不卡",
+   "type": 3,
+   "api": "csp_Libvio",
+   "timeout": 10,
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1,
+   "ext": {
+    "Cloud-drive": "tvfan/Cloud-drive.txt",
+    "siteUrl": "https://www.libvio.pw/"
+   }
+  },
+  {
+   "key": "瓜子",
+   "name": "👀瓜子┃不卡",
+   "type": 3,
+   "api": "csp_Appgz",
+   "timeout": 15,
+   "playerType": "2",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1
+  },
+  {
+   "key": "比特",
+   "name": "🍄比特┃不卡",
+   "type": 3,
+   "api": "csp_Bttwoo",
+   "timeout": 10,
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1
+  },
+  {
+   "key": "荐片",
+   "name": "🥝荐片┃多线",
+   "type": 3,
+   "api": "csp_JPJ",
+   "timeout": 10,
+   "playerType": 2,
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 0
+  },
+  {
+   "key": "奥特",
+   "name": "🏝奥特┃多线",
+   "type": 3,
+   "api": "csp_Auete",
+   "timeout": 10,
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1
+  },
+  {
+   "key": "新6V",
+   "name": "🧲新6V┃磁力",
+   "type": 3,
+   "api": "csp_SixV",
+   "timeout": 10,
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 0,
+   "ext": "https://www.xb6v.com/"
+  },
+  {
+   "key": "Dm84",
+   "name": "🚌巴士┃动漫",
+   "type": 3,
+   "api": "csp_Dm84",
+   "timeout": 10,
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1
+  },
+  {
+   "key": "看球",
+   "name": "⚽八八┃看球",
+   "type": 3,
+   "api": "csp_Kanqiu",
+   "timeout": 10,
+   "searchable": 0,
+   "changeable": 0,
+   "style": {
+    "type": "list"
+   }
+  },
+  {
+   "key": "吃瓜",
+   "name": "🏐吃瓜┃看球",
+   "type": 3,
+   "api": "csp_LiveGz",
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "style": {
+    "type": "list"
+   }
+  },
+  {
+   "key": "MTV",
+   "name": "🎶明星┃MV",
+   "type": 3,
+   "api": "csp_Bili",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "ext": {
+    "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
+   }
+  },
+  {
+   "key": "Aid",
+   "name": "🚑急救┃教学",
+   "type": 3,
+   "api": "csp_FirstAid",
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "style": {
+    "type": "rect",
+    "ratio": 3.8
+   }
+  },
+  {
+   "key": "YpanSo",
+   "name": "🐌盘她┃夸父",
+   "type": 3,
+   "api": "csp_YpanSo",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 0,
+   "ext": {
+    "Cloud-drive": "tvfan/Cloud-drive.txt"
+   }
+  },
+  {
+   "key": "BpanSo",
+   "name": "🐞盘他┃嘟嘟",
+   "type": 3,
+   "api": "csp_BpanSo",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 0,
+   "ext": {
+    "Cloud-drive": "tvfan/Cloud-drive.txt"
+   }
+  },
+  {
+   "key": "Bili",
+   "name": "🅱哔哔合集┃弹幕",
+   "type": 3,
+   "api": "csp_Bili",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "searchable": 1,
+   "quickSearch": 0,
+   "changeable": 0,
+   "ext": {
+    "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
+   }
+  },
+  {
+   "key": "Biliych",
+   "name": "🅱哔哔演唱会┃弹幕",
+   "type": 3,
+   "api": "csp_Bili",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "ext": {
+    "json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"
+   }
+  },
+  {
+   "key": "少儿教育",
+   "name": "📚少儿┃教育",
+   "type": 3,
+   "api": "csp_Bili",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "ext": {
+    "json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
+   }
+  },
+  {
+   "key": "小学课堂",
+   "name": "📚小学┃课堂",
+   "type": 3,
+   "api": "csp_Bili",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "ext": {
+    "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
+   }
+  },
+  {
+   "key": "初中课堂",
+   "name": "📚初中┃课堂",
+   "type": 3,
+   "api": "csp_Bili",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "ext": {
+    "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
+   }
+  },
+  {
+   "key": "高中教育",
+   "name": "📚高中┃课堂",
+   "type": 3,
+   "api": "csp_Bili",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "ext": {
+    "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
+   }
+  },
+  {
+   "key": "push_agent",
+   "name": "🛴手机┃推送",
+   "type": 3,
+   "api": "csp_Push",
+   "searchable": 0,
+   "quickSearch": 0,
+   "ext": {
+    "Cloud-drive": "tvfan/Cloud-drive.txt"
+   }
+  }
+ ],
+ "rules": [
+  {
+   "name": "cdn.ryplay",
+   "hosts": [
+    "cdn.ryplay"
+   ],
+   "regex": [
+    "5.480000",
+    "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5.480000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+    "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:5.320000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:3.360000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
+    "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:4.000000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:0.560000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
+    "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+   ]
+  }
+ ],
+ "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
+ "hosts": [
+  "img1.wsyzy.org=fan.cloudflare.182682.xyz",
+  "fiizvfck.top=fan.cloudflare.182682.xyz",
+  "images.67c6c7a.com=fan.cloudflare.182682.xyz"
+ ],
+ "lives": [
+  {
+   "name": "综合直播",
+   "type": 0,
+   "url": "http://193.123.86.190:14888/TV/iptv.php",
+   "ua": "bingcha/1.1 (mianfeifenxiang)",
+   "playerType": 2
+  },
+  {
+   "name": "牛播一",
+   "url": "http://127.0.0.1:9978/proxy?do=cctva",
+   "timeZone": "Asia/Shanghai"
+  },
+  {
+   "name": "Kimentanm",
+   "type": 0,
+   "url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+   "playerType": 2
+  },
+  {
+   "name": "虎牙一起看",
+   "type": 0,
+   "url": "https://sub.ottiptv.cc/huyayqk.m3u",
+   "playerType": 2,
+   "timeout": 10,
+   "ua": "okHttp/Mod-1.5.0.0"
+  },
+  {
+   "name": "斗鱼一起看",
+   "type": 0,
+   "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
+   "playerType": 2,
+   "timeout": 10,
+   "ua": "okHttp/Mod-1.5.0.0"
+  },
+  {
+   "name": "YY轮播",
+   "type": 0,
+   "url": "https://sub.ottiptv.cc/yylunbo.m3u",
+   "playerType": 2,
+   "timeout": 10,
+   "ua": "okHttp/Mod-1.5.0.0"
+  }
+ ]
+}
