@@ -1,5 +1,5 @@
 {
- "spider": "https://gh-proxy.org/https://github.com/zqs1qiwan/laobaitv/blob/main/tvbox/spider/laobai-clean.jar?v=5;md5;ceda93ec14a6f94cb1c5f67a521609ef",
+ "spider": "https://gh-proxy.org/https://github.com/zqs1qiwan/laobaitv/blob/main/tvbox/spider/laobai-clean.jar?v=6;md5;ad6284b087c6489d3f84d5af439788da",
  "wallpaper": "https://xn--spsx60cgim8pd.xxooo.cf/",
  "sites": [
   {
@@ -118,6 +118,17 @@
    "ext": "rfOIzPkSUkANv6AT2prC8en3+TzKx9TnlT8vaY37HhtYfAQe6C5xqrVuJPhQwYV6r3eRdMBGm3Qm6Th+BushR86B6KqJGXDsHazHw7alBG/7zUxkN1tK/NypRxnpBNoeUtpw4jcCGhytI75yO4g4zG6SOPA0RSwhksM0IF2friAkrHCWoW3v+0mdw6sjz4t4XB1Df7yL/R5cfaA/5LQYq3I8OkvMrJMU9Q1P7JXwx7NSF2zTyH/ANVmZ4u5m567DW1KVG7OuQjXPjZiOXTYk0+wjpfBRTf19yIq6q/C76k2Fs80joAMPw0ueDR+QHxtuDcTom2rmHkI1Fonkzi6BotbpUcbSi4PiIgmfdbvVwhG6Z+i4nvt+IYa48l5aLA7PLgDiERpuOs31aHaXlgFswT87XyTb8QaF4CuzKWJuXptwNTjvXAS9KHdxH49Ay+hfBAB2bCvUf4CMoldF2wZUv0mI2qY966erFpOFg+FOc7t88EUH8j8ACXQtHJiKC9RQ+SaLIF0="
   },
   {
+   "key": "剧圈",
+   "name": "🐻剧圈┃多线",
+   "type": 3,
+   "api": "csp_AppSx",
+   "timeout": 10,
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1,
+   "ext": "rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p"
+  },
+  {
    "key": "荐片",
    "name": "🥝荐片┃多线",
    "type": 3,
@@ -148,6 +159,17 @@
    "quickSearch": 1,
    "changeable": 0,
    "ext": "https://www.xb6v.com/"
+  },
+  {
+   "key": "咕咕",
+   "name": "🦉咕咕┃动漫",
+   "type": 3,
+   "api": "csp_AppSx",
+   "timeout": 10,
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1,
+   "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZxc/l0mxkeoroQVYOelMAvX1kuYptSLB36YxEjVawS9p37Cgo"
   },
   {
    "key": "Dm84",
