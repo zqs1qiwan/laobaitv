@@ -1,5 +1,5 @@
 {
- "spider": "https://gh-proxy.org/https://github.com/zqs1qiwan/laobaitv/blob/main/tvbox/spider/laobai-clean.jar?v=1;md5;6be9c1aebdcc1be38423f8ed3b3a9c36",
+ "spider": "https://gh-proxy.org/https://github.com/zqs1qiwan/laobaitv/blob/main/tvbox/spider/laobai-clean.jar?v=2;md5;ef529f7995f929f778042dcf2ee249a2",
  "wallpaper": "https://xn--spsx60cgim8pd.xxooo.cf/",
  "sites": [
   {
@@ -209,6 +209,30 @@
    "name": "🐞盘他┃嘟嘟",
    "type": 3,
    "api": "csp_BpanSo",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 0,
+   "ext": {
+    "Cloud-drive": "tvfan/Cloud-drive.txt"
+   }
+  },
+  {
+   "key": "抠搜",
+   "name": "🌶️抠抠┃搜搜",
+   "type": 3,
+   "api": "csp_KkSs",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 0,
+   "ext": {
+    "Cloud-drive": "tvfan/Cloud-drive.txt"
+   }
+  },
+  {
+   "key": "UC",
+   "name": "🌈优汐┃搜搜",
+   "type": 3,
+   "api": "csp_UuSs",
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 0,
